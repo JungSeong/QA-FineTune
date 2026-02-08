@@ -1,0 +1,34 @@
+{
+  "os":  "Linux-6.14.0-1015-nvidia-aarch64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2026-01-29T05:12:10.212352Z",
+  "program":  "LLM_TUNE/115.법률-규정 텍스트 분석 데이터_고도화_상황에 따른 판례 데이터/LLM_Finetune_with_context.ipynb",
+  "codePath":  "LLM_TUNE/115.법률-규정 텍스트 분석 데이터_고도화_상황에 따른 판례 데이터/LLM_Finetune_with_context.ipynb",
+  "email":  "jungseonglian@sju.ac.kr",
+  "root":  "/home/vsc/LLM_TUNE/115.법률-규정 텍스트 분석 데이터_고도화_상황에 따른 판례 데이터",
+  "host":  "edgexpert-a167",
+  "executable":  "/home/vsc/LLM_TUNE/myenv/bin/python",
+  "cpu_count":  20,
+  "cpu_count_logical":  20,
+  "gpu":  "NVIDIA GB10",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "4030802149376",
+      "used":  "569062490112"
+    }
+  },
+  "memory":  {
+    "total":  "128522854400"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GB10",
+      "cudaCores":  6144,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-60537a4e-7dee-602c-d7e8-248b8e3da4fe"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "q7uhn9qih6y1jcokxomesyv0xiua6rkz"
+}

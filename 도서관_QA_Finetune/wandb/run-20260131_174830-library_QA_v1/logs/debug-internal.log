@@ -1,0 +1,6 @@
+{"time":"2026-01-31T17:48:30.85545517+09:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-31T17:48:31.165034839+09:00","level":"INFO","msg":"stream: created new stream","id":"library_QA_v1"}
+{"time":"2026-01-31T17:48:31.165238823+09:00","level":"INFO","msg":"stream: started","id":"library_QA_v1"}
+{"time":"2026-01-31T17:48:31.165321287+09:00","level":"INFO","msg":"writer: started","stream_id":"library_QA_v1"}
+{"time":"2026-01-31T17:48:31.165316727+09:00","level":"INFO","msg":"handler: started","stream_id":"library_QA_v1"}
+{"time":"2026-01-31T17:48:31.165348424+09:00","level":"INFO","msg":"sender: started","stream_id":"library_QA_v1"}

@@ -1,0 +1,55 @@
+2026-01-28 22:35:14,897 INFO    MainThread:18928 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/vsc/LLM_TUNE/115.법률-규정 텍스트 분석 데이터_고도화_상황에 따른 판례 데이터/wandb/run-20260128_223514-legal_test/logs/debug.log
+2026-01-28 22:35:14,897 INFO    MainThread:18928 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/vsc/LLM_TUNE/115.법률-규정 텍스트 분석 데이터_고도화_상황에 따른 판례 데이터/wandb/run-20260128_223514-legal_test/logs/debug-internal.log
+2026-01-28 22:35:14,897 INFO    MainThread:18928 [wandb_init.py:init():844] calling init triggers
+2026-01-28 22:35:14,897 INFO    MainThread:18928 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-01-28 22:35:14,897 INFO    MainThread:18928 [wandb_run.py:_finish():2295] finishing run uailab-unist_/PromptTuning/legal_test
+2026-01-28 22:35:14,898 INFO    MainThread:18928 [jupyter.py:save_history():435] not saving jupyter history
+2026-01-28 22:35:14,898 INFO    MainThread:18928 [jupyter.py:save_ipynb():359] not saving jupyter notebook
+2026-01-28 22:35:14,898 INFO    MainThread:18928 [wandb_init.py:_jupyter_teardown():621] cleaning up jupyter logic
+2026-01-28 22:35:14,898 INFO    MainThread:18928 [wandb_run.py:_atexit_cleanup():2494] got exitcode: 0
+2026-01-28 22:35:14,898 INFO    MainThread:18928 [wandb_run.py:_restore():2476] restore
+2026-01-28 22:35:14,898 INFO    MainThread:18928 [wandb_run.py:_restore():2482] restore done
+2026-01-28 22:35:42,311 WARNING MainThread:18928 [wandb_init.py:init():1589] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1580, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 865, in init
+    self._wl.finish_all_active_runs()
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_setup.py", line 166, in finish_all_active_runs
+    run.finish()
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2283, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2311, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2506, in _atexit_cleanup
+    self._on_finish()
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2728, in _on_finish
+    wait_with_progress(
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 23, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 77, in wait_all_with_progress
+    return asyncer.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/myenv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt
+2026-01-28 22:35:42,514 INFO    wandb-AsyncioManager-main:18928 [service_client.py:_forward_responses():80] Reached EOF.
+2026-01-28 22:35:42,514 INFO    wandb-AsyncioManager-main:18928 [mailbox.py:close():137] Closing mailbox, abandoning 2 handles.

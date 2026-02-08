@@ -1,0 +1,12 @@
+{"time":"2026-01-28T22:36:07.598544124+09:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-28T22:36:07.897225176+09:00","level":"INFO","msg":"stream: created new stream","id":"legal_test"}
+{"time":"2026-01-28T22:36:07.89743929+09:00","level":"INFO","msg":"stream: started","id":"legal_test"}
+{"time":"2026-01-28T22:36:07.897485962+09:00","level":"INFO","msg":"handler: started","stream_id":"legal_test"}
+{"time":"2026-01-28T22:36:07.897506651+09:00","level":"INFO","msg":"writer: started","stream_id":"legal_test"}
+{"time":"2026-01-28T22:36:07.897566891+09:00","level":"INFO","msg":"sender: started","stream_id":"legal_test"}
+{"time":"2026-01-28T22:36:08.331322346+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run legal_test was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-28T22:36:10.928685935+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run legal_test was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-28T22:36:15.338237629+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run legal_test was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-28T22:36:24.938593915+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run legal_test was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-28T22:36:42.499261951+09:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run legal_test was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-28T22:37:07.004482315+09:00","level":"INFO","msg":"stream: closing","id":"legal_test"}

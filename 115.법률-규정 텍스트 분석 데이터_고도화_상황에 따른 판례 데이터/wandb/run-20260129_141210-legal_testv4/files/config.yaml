@@ -1,0 +1,63 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            q7uhn9qih6y1jcokxomesyv0xiua6rkz:
+                codePath: LLM_TUNE/115.법률-규정 텍스트 분석 데이터_고도화_상황에 따른 판례 데이터/LLM_Finetune_with_context.ipynb
+                cpu_count: 20
+                cpu_count_logical: 20
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "4030802149376"
+                        used: "569062490112"
+                email: jungseonglian@sju.ac.kr
+                executable: /home/vsc/LLM_TUNE/myenv/bin/python
+                gpu: NVIDIA GB10
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 6144
+                      name: NVIDIA GB10
+                      uuid: GPU-60537a4e-7dee-602c-d7e8-248b8e3da4fe
+                host: edgexpert-a167
+                memory:
+                    total: "128522854400"
+                os: Linux-6.14.0-1015-nvidia-aarch64-with-glibc2.39
+                program: LLM_TUNE/115.법률-규정 텍스트 분석 데이터_고도화_상황에 따른 판례 데이터/LLM_Finetune_with_context.ipynb
+                python: CPython 3.12.3
+                root: /home/vsc/LLM_TUNE/115.법률-규정 텍스트 분석 데이터_고도화_상황에 따른 판례 데이터
+                startedAt: "2026-01-29T05:12:10.212352Z"
+                writerId: q7uhn9qih6y1jcokxomesyv0xiua6rkz
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+                - 98
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+                - 84
+                - 98
+            "3":
+                - 13
+                - 14
+            "4": 3.12.3
+            "5": 0.24.0
+            "6": 4.45.2
+            "8":
+                - 1
+            "12": 0.24.0
+            "13": linux-aarch64
