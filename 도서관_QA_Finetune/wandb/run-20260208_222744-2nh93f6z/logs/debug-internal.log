@@ -1,0 +1,8 @@
+{"time":"2026-02-08T22:27:45.952643269+09:00","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
+{"time":"2026-02-08T22:27:46.408877417+09:00","level":"INFO","msg":"stream: created new stream","id":"2nh93f6z"}
+{"time":"2026-02-08T22:27:46.409017376+09:00","level":"INFO","msg":"stream: started","id":"2nh93f6z"}
+{"time":"2026-02-08T22:27:46.409065651+09:00","level":"INFO","msg":"handler: started","stream_id":"2nh93f6z"}
+{"time":"2026-02-08T22:27:46.409078467+09:00","level":"INFO","msg":"writer: started","stream_id":"2nh93f6z"}
+{"time":"2026-02-08T22:27:46.40909418+09:00","level":"INFO","msg":"sender: started","stream_id":"2nh93f6z"}
+{"time":"2026-02-08T23:23:07.421330482+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/uailab-unist_/library-faq-augmentation/2nh93f6z/file_stream\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-08T23:26:09.721243595+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/uailab-unist_/library-faq-augmentation/2nh93f6z/file_stream\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}

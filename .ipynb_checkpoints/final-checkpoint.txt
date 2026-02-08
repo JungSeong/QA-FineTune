@@ -31,7 +31,7 @@ uv pip install \
 uv pip install trl accelerate peft bitsandbytes
 uv pip install datasets scikit-learn wandb rich tqdm ipykernel jupyter notebook seaborn evaluate openpyxl absl-py nltk rouge_score
 uv pip install "numpy<2.2"
-uv pip install openai, hf_transfer
+uv pip install openai
 
 vLLM 서빙 방법
 

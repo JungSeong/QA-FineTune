@@ -1,0 +1,59 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            jj3529hqaek4bud2dzz6rf2zdox83kjj:
+                codePath: /home/vsc/LLM_TUNE/도서관_QA_Finetune/LLM_Finetune_vLLM.ipynb
+                codePathLocal: LLM_Finetune_vLLM.ipynb
+                cpu_count: 20
+                cpu_count_logical: 20
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "4030802149376"
+                        used: "1074196779008"
+                email: jungseonglian@sju.ac.kr
+                executable: /home/vsc/LLM_TUNE/.venv_vLLM/bin/python
+                git:
+                    commit: e0f43d0b97f98a1bd52a034c2aec670514a322aa
+                    remote: https://github.com/JungSeong/QA-FineTune.git
+                gpu: NVIDIA GB10
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 6144
+                      name: NVIDIA GB10
+                      uuid: GPU-60537a4e-7dee-602c-d7e8-248b8e3da4fe
+                host: edgexpert-a167
+                memory:
+                    total: "128522854400"
+                os: Linux-6.14.0-1015-nvidia-aarch64-with-glibc2.39
+                program: /home/vsc/LLM_TUNE/도서관_QA_Finetune/LLM_Finetune_vLLM.ipynb
+                python: CPython 3.12.3
+                root: /home/vsc/LLM_TUNE/도서관_QA_Finetune
+                startedAt: "2026-02-08T13:25:51.505607Z"
+                writerId: jj3529hqaek4bud2dzz6rf2zdox83kjj
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 95
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 51
+                - 53
+                - 71
+                - 95
+            "3":
+                - 2
+                - 13
+            "4": 3.12.3
+            "5": 0.24.2
+            "8":
+                - 1
+            "12": 0.24.2
+            "13": linux-aarch64
