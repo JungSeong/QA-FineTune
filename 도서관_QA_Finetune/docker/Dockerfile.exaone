@@ -1,0 +1,27 @@
+# 1. SGLang 공식 이미지 사용 (CUDA 및 기본 환경 포함)
+FROM lmsysorg/sglang:latest
+
+# 2. EXAONE-3.5 호환성을 위한 transformers 버전 고정
+# SGLang 이미지 내 기존 패키지와의 충돌을 막기 위해 재설치합니다.
+RUN pip uninstall -y transformers && \
+    pip install --force-reinstall --pre transformers==5.0.0rc0
+
+# 3. 모델 경로 환경 변수 설정
+ENV MODEL_PATH=/app/model/Exaone-3.5-32B-Instruct-AWQ
+
+# 4. SGLang 기본 포트 노출 (vLLM과 달리 기본이 30000입니다)
+EXPOSE 30000
+
+# 5. 실행 명령 설정
+ENTRYPOINT ["python3", "-m", "sglang.launch_server"]
+
+# 6. 기본 인자 설정
+# 32B 모델은 메모리가 빡빡하므로 mem-fraction-static을 0.8로 잡는 것을 추천합니다.
+CMD ["--model-path", "/app/model/Exaone-3.5-32B-Instruct-AWQ", \
+     "--quantization", "awq", \
+     "--dtype", "float16", \
+     "--trust-remote-code", \
+     "--mem-fraction-static", "0.8", \
+     "--context-length", "8192", \
+     "--host", "0.0.0.0", \
+     "--port", "30000"]

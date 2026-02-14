@@ -1,0 +1,510 @@
+2026-02-15 03:52:35 - INFO - [main.py:18] - 🏁 전체 프로세스 시작
+2026-02-15 03:52:35 - INFO - [main.py:26] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 03:52:35 - INFO - [model_utils.py:21] - 📡 모델이 /home/vsc/LLM/model/Exaone-3.5-32B-Instruct에 없습니다. 다운로드를 시작합니다...
+2026-02-15 04:27:16 - INFO - [model_utils.py:24] - ✅ 모델 다운로드 완료!
+2026-02-15 04:27:16 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+2026-02-15 05:19:08 - INFO - [main.py:19] - 🏁 전체 프로세스 시작
+2026-02-15 05:19:38 - INFO - [main.py:20] - 🏁 전체 프로세스 시작
+2026-02-15 05:21:58 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 05:21:58 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-15 05:21:58 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+2026-02-15 05:22:38 - INFO - [model_utils.py:45] - ✍🏿 Applying PEFT...
+2026-02-15 05:22:40 - INFO - [model_utils.py:49] - trainable params: 33,554,432 || all params: 32,036,754,432 || trainable%: 0.1047
+2026-02-15 05:26:26 - INFO - [main.py:20] - 🏁 전체 프로세스 시작
+2026-02-15 05:26:29 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 05:26:29 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-15 05:26:29 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+2026-02-15 05:27:03 - INFO - [model_utils.py:45] - ✍🏿 Applying PEFT...
+2026-02-15 05:27:03 - INFO - [model_utils.py:49] - trainable params: 33,554,432 || all params: 32,036,754,432 || trainable%: 0.1047
+2026-02-15 05:27:03 - INFO - [data_augmentor.py:97] - 🚀 데이터 증강 시작
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 0: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 1: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 2: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 3: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 4: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 5: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 6: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 7: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 8: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 9: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 10: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 11: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 12: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 13: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 14: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 15: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 16: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 17: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 18: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 19: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 20: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 21: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 22: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 23: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 24: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 25: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 26: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 27: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 28: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 29: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 30: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 31: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 32: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 33: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 34: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 35: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 36: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 37: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 38: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 39: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 40: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 41: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 42: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 43: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 44: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 45: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 46: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 47: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 48: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 49: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 50: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 51: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 52: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 53: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 54: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 55: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 56: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 57: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 58: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 59: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 60: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 61: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 62: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 63: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 64: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 65: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 66: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 67: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 68: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 69: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 70: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 71: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 72: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 73: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 74: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 75: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 76: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 77: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 78: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 79: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 80: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 81: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 82: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 83: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 84: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 85: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 86: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 87: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 88: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 89: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 90: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 91: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 92: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 93: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 94: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 95: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 96: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 97: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 98: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 99: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 100: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 101: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 102: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 103: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 104: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 105: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 106: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 107: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 108: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 109: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - INFO - [data_augmentor.py:134] - ✅ 데이터 증강 완료! 생성된 샘플 수: 0
+2026-02-15 05:27:04 - INFO - [data_augmentor.py:135] - 💾 저장 위치: augmented_data_simple.jsonl
+2026-02-15 05:27:05 - INFO - [data_augmentor.py:140] - 📊 WandB에 생성된 샘플 테이블 로깅 완료
+2026-02-15 05:33:07 - INFO - [main.py:20] - 🏁 전체 프로세스 시작
+2026-02-15 05:33:11 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 05:33:11 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-15 05:33:11 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+2026-02-15 05:34:04 - INFO - [model_utils.py:45] - ✍🏿 Applying PEFT...
+2026-02-15 05:34:05 - INFO - [model_utils.py:49] - trainable params: 33,554,432 || all params: 32,036,754,432 || trainable%: 0.1047
+2026-02-15 05:34:06 - INFO - [data_augmentor.py:99] - 🚀 데이터 증강 시작
+2026-02-15 05:34:06 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 0: 'faq_content'
+2026-02-15 05:34:06 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 1: 'faq_content'
+2026-02-15 05:34:06 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 2: 'faq_content'
+2026-02-15 05:34:06 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 3: 'faq_content'
+2026-02-15 05:34:06 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 4: 'faq_content'
+2026-02-15 05:34:06 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 5: 'faq_content'
+2026-02-15 05:34:06 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 6: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 7: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 8: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 9: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 10: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 11: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 12: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 13: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 14: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 15: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 16: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 17: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 18: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 19: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 20: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 21: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 22: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 23: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 24: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 25: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 26: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 27: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 28: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 29: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 30: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 31: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 32: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 33: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 34: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 35: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 36: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 37: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 38: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 39: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 40: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 41: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 42: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 43: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 44: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 45: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 46: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 47: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 48: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 49: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 50: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 51: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 52: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 53: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 54: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 55: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 56: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 57: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 58: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 59: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 60: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 61: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 62: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 63: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 64: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 65: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 66: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 67: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 68: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 69: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 70: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 71: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 72: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 73: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 74: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 75: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 76: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 77: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 78: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 79: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 80: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 81: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 82: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 83: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 84: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 85: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 86: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 87: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 88: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 89: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 90: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 91: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 92: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 93: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 94: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 95: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 96: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 97: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 98: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 99: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 100: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 101: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 102: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 103: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 104: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 105: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 106: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 107: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 108: 'faq_content'
+2026-02-15 05:34:07 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 109: 'faq_content'
+2026-02-15 05:34:07 - INFO - [data_augmentor.py:136] - ✅ 데이터 증강 완료! 생성된 샘플 수: 0
+2026-02-15 05:34:07 - INFO - [data_augmentor.py:137] - 💾 저장 위치: augmented_data_simple.jsonl
+2026-02-15 05:34:12 - INFO - [data_augmentor.py:142] - 📊 WandB에 생성된 샘플 테이블 로깅 완료
+2026-02-15 05:38:55 - INFO - [main.py:20] - 🏁 전체 프로세스 시작
+2026-02-15 05:38:58 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 05:38:58 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-15 05:38:58 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+2026-02-15 05:39:36 - INFO - [model_utils.py:45] - ✍🏿 Applying PEFT...
+2026-02-15 05:39:37 - INFO - [model_utils.py:49] - trainable params: 33,554,432 || all params: 32,036,754,432 || trainable%: 0.1047
+2026-02-15 05:39:37 - INFO - [data_augmentor.py:99] - 🚀 데이터 증강 시작
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 0: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 1: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 2: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 3: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 4: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 5: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 6: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 7: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 8: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 9: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 10: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 11: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 12: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 13: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 14: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 15: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 16: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 17: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 18: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 19: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 20: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 21: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 22: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 23: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 24: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 25: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 26: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 27: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 28: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 29: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 30: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 31: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 32: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 33: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 34: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 35: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 36: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 37: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 38: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 39: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 40: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 41: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 42: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 43: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 44: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 45: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 46: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 47: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 48: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 49: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 50: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 51: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 52: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 53: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 54: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 55: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 56: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 57: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 58: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 59: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 60: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 61: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 62: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 63: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 64: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 65: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 66: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 67: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 68: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 69: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 70: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 71: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 72: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 73: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 74: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 75: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 76: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 77: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 78: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 79: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 80: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 81: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 82: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 83: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 84: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 85: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 86: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 87: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 88: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 89: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 90: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 91: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 92: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 93: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 94: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 95: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 96: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 97: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 98: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 99: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 100: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 101: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 102: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 103: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 104: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 105: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 106: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 107: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 108: 
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 109: 
+2026-02-15 05:39:37 - INFO - [data_augmentor.py:136] - ✅ 데이터 증강 완료! 생성된 샘플 수: 0
+2026-02-15 05:39:37 - INFO - [data_augmentor.py:137] - 💾 저장 위치: augmented_data_simple.jsonl
+2026-02-15 05:39:39 - INFO - [data_augmentor.py:142] - 📊 WandB에 생성된 샘플 테이블 로깅 완료
+2026-02-15 05:40:34 - INFO - [main.py:20] - 🏁 전체 프로세스 시작
+2026-02-15 05:40:37 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 05:40:37 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-15 05:40:37 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+2026-02-15 05:41:15 - INFO - [model_utils.py:45] - ✍🏿 Applying PEFT...
+2026-02-15 05:41:16 - INFO - [model_utils.py:49] - trainable params: 33,554,432 || all params: 32,036,754,432 || trainable%: 0.1047
+2026-02-15 05:41:17 - INFO - [data_augmentor.py:99] - 🚀 데이터 증강 시작
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 0: 
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 1: 
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 2: 
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 3: 
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 4: 
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 5: 
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 6: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 7: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 8: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 9: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 10: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 11: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 12: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 13: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 14: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 15: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 16: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 17: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 18: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 19: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 20: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 21: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 22: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 23: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 24: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 25: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 26: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 27: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 28: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 29: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 30: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 31: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 32: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 33: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 34: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 35: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 36: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 37: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 38: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 39: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 40: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 41: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 42: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 43: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 44: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 45: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 46: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 47: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 48: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 49: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 50: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 51: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 52: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 53: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 54: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 55: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 56: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 57: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 58: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 59: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 60: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 61: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 62: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 63: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 64: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 65: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 66: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 67: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 68: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 69: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 70: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 71: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 72: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 73: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 74: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 75: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 76: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 77: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 78: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 79: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 80: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 81: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 82: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 83: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 84: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 85: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 86: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 87: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 88: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 89: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 90: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 91: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 92: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 93: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 94: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 95: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 96: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 97: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 98: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 99: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 100: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 101: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 102: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 103: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 104: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 105: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 106: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 107: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 108: 
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 109: 
+2026-02-15 05:41:19 - INFO - [data_augmentor.py:137] - ✅ 데이터 증강 완료! 생성된 샘플 수: 0
+2026-02-15 05:41:19 - INFO - [data_augmentor.py:138] - 💾 저장 위치: augmented_data_simple.jsonl
+2026-02-15 05:41:24 - INFO - [data_augmentor.py:143] - 📊 WandB에 생성된 샘플 테이블 로깅 완료
