@@ -11,9 +11,9 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
-from logger_config import setup_logger
+from logger_config import get_infer_logger
 
-logger = setup_logger()
+logger = get_infer_logger()
 
 def load_or_download_model_tokenizer(config):
     # 1. 디렉토리 확인 및 다운로드
@@ -39,20 +39,10 @@ def load_or_download_model_tokenizer(config):
         torch_dtype=torch.bfloat16
     )
 
-    if hasattr(model, "transformer") and hasattr(model.transformer, "wte"):
-        model.get_input_embeddings = lambda: model.transformer.wte
-
-    logger.info("✍🏿 Applying PEFT...")
-    model = prepare_model_for_kbit_training(model)
-    model = get_peft_model(model, config.PEFT_CONFIG)
-    trainable_params, all_param = model.get_nb_trainable_parameters()
-    logger.info(
-        f"trainable params: {trainable_params:,d} || all params: {all_param:,d} || "
-        f"trainable%: {100 * trainable_params / all_param:.4f}"
-    )
-    
     # 패딩 토큰 설정 (생성 작업 필수)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
+
+    model.eval()
 
     return model, tokenizer

@@ -1,0 +1,134 @@
+2026-02-15 21:59:59 - INFO - [main.py:34] - Loading Dataset...
+2026-02-15 21:59:59 - INFO - [preprocess_dataset.py:22] - Loading Dataset...
+2026-02-15 21:59:59 - INFO - [main.py:37] - Dataset loaded successfully
+2026-02-15 21:59:59 - INFO - [main.py:38] - train_dataset size: 716
+2026-02-15 21:59:59 - INFO - [main.py:39] - val_dataset size: 308
+2026-02-15 21:59:59 - INFO - [main.py:40] - test_dataset size: 257
+2026-02-15 21:59:59 - INFO - [main.py:42] - Loading Model with LoRA and Tokenizer...
+2026-02-15 21:59:59 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct
+2026-02-15 21:59:59 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 272/272 [01:01<00:00,  4.41it/s, Materializing param=transformer.wte.weight]
+2026-02-15 22:01:08 - INFO - [model_utils.py:46] - ✍🏿 Applying PEFT...
+2026-02-15 22:01:08 - INFO - [main.py:44] - PeftModelForCausalLM(
+  (base_model): LoraModel(
+    (model): ExaoneForCausalLM(
+      (transformer): ExaoneModel(
+        (wte): Embedding(102400, 2560, padding_idx=0)
+        (drop): Dropout(p=0.0, inplace=False)
+        (h): ModuleList(
+          (0-29): 30 x ExaoneDecoderLayer(
+            (ln_1): ExaoneRMSNorm((2560,), eps=1e-05)
+            (attn): ExaoneAttentionBlock(
+              (attention): ExaoneAttention(
+                (q_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=2560, out_features=2560, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=2560, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=2560, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (k_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=2560, out_features=640, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=2560, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=640, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (v_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=2560, out_features=640, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=2560, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=640, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (out_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=2560, out_features=2560, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=2560, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=2560, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+              )
+            )
+            (ln_2): ExaoneRMSNorm((2560,), eps=1e-05)
+            (mlp): ExaoneMLP(
+              (c_fc_0): Linear4bit(in_features=2560, out_features=7168, bias=False)
+              (c_fc_1): Linear4bit(in_features=2560, out_features=7168, bias=False)
+              (c_proj): Linear4bit(in_features=7168, out_features=2560, bias=False)
+              (act): SiLUActivation()
+            )
+          )
+        )
+        (ln_f): ExaoneRMSNorm((2560,), eps=1e-05)
+        (rotary): ExaoneRotaryEmbedding()
+      )
+      (lm_head): Linear(in_features=2560, out_features=102400, bias=False)
+    )
+  )
+)
+2026-02-15 22:01:08 - INFO - [main.py:46] - Training Model...
+Applying formatting function to train dataset:   0%|                                                                                                                                                                                                 | 0/716 [00:00<?, ? examples/s]
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 66, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 48, in main
+    trainer = SFTTrainer(
+              ^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/trl/trainer/sft_trainer.py", line 871, in __init__
+    train_dataset = self._prepare_dataset(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/trl/trainer/sft_trainer.py", line 978, in _prepare_dataset
+    dataset = dataset.map(_func, batched=False, **map_kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 562, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3343, in map
+    for rank, done, content in Dataset._map_single(**unprocessed_kwargs):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3675, in _map_single
+    for i, example in iter_outputs(shard_iterable):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3649, in iter_outputs
+    yield i, apply_function(example, i, offset=offset)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3572, in apply_function
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/trl/trainer/sft_trainer.py", line 976, in _func
+    return {"text": formatting_func(example)}
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/prompts.py", line 29, in generate_prompts
+    full_prompt = tokenizer.apply_chat_template(
+                  ^^^^^^^^^
+NameError: name 'tokenizer' is not defined
