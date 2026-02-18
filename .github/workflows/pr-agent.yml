@@ -16,10 +16,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # DeepSeek API 통합
-          OPENAI_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DeepSeek_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           config.model: "deepseek/deepseek-coder"
-          config.fallback_models: '["deepseek/deepseek-coder"]'
-          config.custom_model_max_tokens: "128000"
+          config.enable_large_pr_handling: "true"     # 대형 PR 자동 분할 처리 활성화 (최신 버전에서 지원)
+          config.large_patch_policy: "clip"           # 큰 패치 자르기 (skip 대신 clip 추천)
+          config.fallback_models: '["deepseek/deepseek-coder", "deepseek/deepseek-chat"]'
           github_action_config.auto_review: "true"
           github_action_config.auto_describe: "true"
           github_action_config.auto_improve: "true"
