@@ -1,0 +1,143 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 05:26:29 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 05:26:29 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-15 05:26:29 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 579/579 [00:28<00:00, 20.36it/s, Materializing param=transformer.wte.weight]
+2026-02-15 05:27:03 - INFO - [model_utils.py:45] - ✍🏿 Applying PEFT...
+2026-02-15 05:27:03 - INFO - [model_utils.py:49] - trainable params: 33,554,432 || all params: 32,036,754,432 || trainable%: 0.1047
+2026-02-15 05:27:03 - INFO - [data_augmentor.py:97] - 🚀 데이터 증강 시작
+Data Augmentation:   0%|                                                                                                                                                 | 0/110 [00:00<?, ?it/s]
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 0: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 1: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 2: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 3: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 4: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 5: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 6: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 7: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 8: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 9: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 10: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 11: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 12: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 13: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 14: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 15: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 16: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 17: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 18: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 19: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 20: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 21: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 22: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 23: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 24: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 25: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 26: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 27: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 28: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 29: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 30: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 31: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 32: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 33: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:03 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 34: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 35: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 36: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 37: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 38: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 39: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 40: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 41: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 42: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 43: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 44: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 45: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 46: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 47: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 48: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 49: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 50: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 51: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 52: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 53: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 54: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 55: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 56: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 57: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 58: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 59: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 60: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 61: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 62: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 63: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 64: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 65: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 66: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 67: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 68: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 69: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 70: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 71: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 72: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 73: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 74: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 75: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 76: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 77: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 78: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 79: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 80: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 81: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 82: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 83: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 84: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 85: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 86: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 87: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 88: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 89: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 90: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 91: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 92: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 93: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 94: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 95: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 96: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 97: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 98: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 99: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 100: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 101: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 102: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 103: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 104: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 105: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 106: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 107: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 108: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - ERROR - [data_augmentor.py:130] - ⚠️ Error at index 109: Error calling DataAugmentor.generate_samples: too many positional arguments
+2026-02-15 05:27:04 - INFO - [data_augmentor.py:134] - ✅ 데이터 증강 완료! 생성된 샘플 수: 0
+2026-02-15 05:27:04 - INFO - [data_augmentor.py:135] - 💾 저장 위치: augmented_data_simple.jsonl
+2026-02-15 05:27:05 - INFO - [data_augmentor.py:140] - 📊 WandB에 생성된 샘플 테이블 로깅 완료
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 49, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 41, in main
+    artifact = wandb.Artifact(f"{config.MODEL_ID}_{wandb.run.id}", type='dataset')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/wandb/sdk/artifacts/artifact.py", line 173, in __init__
+    raise ValueError(
+ValueError: Artifact name may only contain alphanumeric characters, dashes, underscores, and dots. Invalid name: 'LGAI-EXAONE/Exaone-3.5-32B-Instruct_2qb7fp3o'

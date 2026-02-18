@@ -4,3 +4,8 @@
 115.법률-규정 텍스트 분석 데이터_고도화_상황에 따른 판례 데이터/3.개방데이터/*
 도서관_QA_Finetune/.venv/
 도서관_QA_Finetune/data/*
+도서관_QA_Finetune/wandb
+도서관_QA_Finetune/docker
+도서관_QA_Finetune/final/train/SFT
+도서관_QA_Finetune/final/infer/wandb
+도서관_QA_Finetune/final/train/wandb

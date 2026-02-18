@@ -1,0 +1,105 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 11:27:16 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 11:27:16 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct
+2026-02-15 11:27:16 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 272/272 [00:00<00:00, 562.81it/s, Materializing param=transformer.wte.weight]
+ExaoneForCausalLM(
+  (transformer): ExaoneModel(
+    (wte): Embedding(102400, 2560, padding_idx=0)
+    (drop): Dropout(p=0.0, inplace=False)
+    (h): ModuleList(
+      (0-29): 30 x ExaoneDecoderLayer(
+        (ln_1): ExaoneRMSNorm((2560,), eps=1e-05)
+        (attn): ExaoneAttentionBlock(
+          (attention): ExaoneAttention(
+            (q_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+            (k_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (v_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (out_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+          )
+        )
+        (ln_2): ExaoneRMSNorm((2560,), eps=1e-05)
+        (mlp): ExaoneMLP(
+          (c_fc_0): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_fc_1): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_proj): Linear4bit(in_features=7168, out_features=2560, bias=False)
+          (act): SiLUActivation()
+        )
+      )
+    )
+    (ln_f): ExaoneRMSNorm((2560,), eps=1e-05)
+    (rotary): ExaoneRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=2560, out_features=102400, bias=False)
+)
+2026-02-15 11:27:21 - INFO - [data_augmentor.py:106] - 🚀 데이터 증강 시작
+Data Augmentation:   0%|                                                                                                                                                                                                                                  | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5f1f-be04-71b0-8635-2734ab0dff45
+회원증 대리발급은 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부만 가능하며 아래 구비서류를 지참하여 대리인이 방문 시 대리발급이 가능합니다.
+
+· 대상 : 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부
+· 구비서류
+  - 공통 : ①위임자 신분증, ②피위임자(대리인) 신분증
+  - 장애인 : 장애인 복지카드 또는 장애인 증명서
+  - 임신부 : 산모수첩 / 산모 : 주민등록등본(출산 후 12개월까지)
+· 방법 : 홈페이지 회원가입 후 위 항목의 해당하는 구비서류를 지참하여 피위임자(대리인)이 도서관 방문
+Type: <class 'transformers.tokenization_utils_base.BatchEncoding'>
+tensor([[  420,   453, 47982,  ...,   560,  5232,   361],
+        [  420,   453, 47982,  ...,     0,     0,     0],
+        [  420,   453, 47982,  ...,     0,     0,     0]], device='cuda:0')
+Data Augmentation:   1%|█▉                                                                                                                                                                                                                        | 1/110 [00:24<45:06, 24.83s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5f20-1f01-74a8-bd4c-5b0a2955eb2c
+가족회원이란, 고양시 도서관 정회원으로 가입 후 가족회원으로 등록 시 가족명의로 도서대출·도서예약·상호대차 동일하게 이용가능한 서비스입니다.
+※ 가족명의 이용 시 자료실 안내데스크에 반드시 본인 회원증을 제시하여야 함(가족 회원증으로 대출 불가)
+가족회원 등록방법
+가족구성원 모두 정회원 가입 후 가족임을 증명할 수 있는 서류(주민등록등본 또는 가족관계증명서) 지참하여 도서관 방문
+Type: <class 'transformers.tokenization_utils_base.BatchEncoding'>
+Data Augmentation:   1%|█▉                                                                                                                                                                                                                      | 1/110 [00:42<1:16:55, 42.34s/it]
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 49, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 39, in main
+    output_file = augmentor.run_augmentation(dataset)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 118, in run_augmentation
+    result = self.generate_samples(idx, faq_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace/op.py", line 1278, in wrapper
+    res, _ = _call_sync_func(
+             ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace/op.py", line 543, in _call_sync_func
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 75, in generate_samples
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2638, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2839, in _sample
+    while self._has_unfinished_sequences(this_peer_finished, synced_gpus, device=input_ids.device):
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xff658c4ef830>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
