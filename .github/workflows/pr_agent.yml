@@ -19,6 +19,7 @@ jobs:
           OPENAI_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           config.model: "deepseek/deepseek-coder"
           config.fallback_models: '["deepseek/deepseek-coder"]'
+          config.custom_model_max_tokens: "128000"
           github_action_config.auto_review: "true"
           github_action_config.auto_describe: "true"
           github_action_config.auto_improve: "true"
