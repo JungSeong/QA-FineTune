@@ -15,8 +15,9 @@ jobs:
         uses: qodo-ai/pr-agent@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # DeepSeek API 통합
           DeepSeek_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          LITELLM_LOG: "DEBUG"
+          config.verbosity_level: "2"
           config.model: "deepseek/deepseek-coder"
           config.enable_large_pr_handling: "true"     # 대형 PR 자동 분할 처리 활성화 (최신 버전에서 지원)
           config.large_patch_policy: "clip"           # 큰 패치 자르기 (skip 대신 clip 추천)
@@ -24,3 +25,9 @@ jobs:
           github_action_config.auto_review: "true"
           github_action_config.auto_describe: "true"
           github_action_config.auto_improve: "true"
+      - name: Debug API Key presence
+        run: |
+          echo "DEEPSEEK_API_KEY length: ${#DEEPSEEK_API_KEY}"  # 길이 출력 (0이면 안 온 거)
+          echo "DEEPSEEK_API_KEY first 5 chars: ${DEEPSEEK_API_KEY:0:5}"  # sk-... 확인용 (전체 키는 안 나옴)
+      - name: Run PR-Agent
+        uses: qodo-ai/pr-agent@main
