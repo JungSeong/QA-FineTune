@@ -22,6 +22,8 @@ jobs:
           config.enable_large_pr_handling: "true"     # 대형 PR 자동 분할 처리 활성화 (최신 버전에서 지원)
           config.large_patch_policy: "clip"           # 큰 패치 자르기 (skip 대신 clip 추천)
           config.fallback_models: '["deepseek/deepseek-coder", "deepseek/deepseek-chat"]'
+          config.custom_model_max_tokens: "128000"
+          config.verbosity_level: "2"
           github_action_config.auto_review: "true"
           github_action_config.auto_describe: "true"
           github_action_config.auto_improve: "true"
