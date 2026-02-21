@@ -1,0 +1,8 @@
+2026-02-22 00:13:35 - INFO - [main.py:21] - 🏁 전체 프로세스 시작
+2026-02-22 00:13:37 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-22 00:13:37 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+2026-02-22 00:15:47 - INFO - [data_augmentor.py:166] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+2026-02-22 00:15:47 - INFO - [data_augmentor.py:317] - 🧹 [MCP] VRAM 확보를 위해 모델 언로드 요청...
+2026-02-22 00:15:48 - INFO - [evaluator.py:33] - ⚖️ [Eval] 로컬 평가 모델 로딩: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-22 00:17:08 - INFO - [data_augmentor.py:322] - ⚖️ [Eval] 로컬 모델 기반 품질 검증 실행
+2026-02-22 00:17:22 - INFO - [evaluator.py:58] - ✅ [Eval] 로컬 모델 언로드 완료

@@ -7,7 +7,7 @@ source lib-QA/bin/activate
 uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 uv pip install trl accelerate peft bitsandbytes datasets scikit-learn wandb rich tqdm ipykernel jupyter notebook seaborn evaluate openpyxl absl-py nltk rouge_score transformers
 uv pip install "numpy<2.2"
-uv pip install openai hf_transfer weavey
+uv pip install openai hf_transfer weave
 
 ipykernel : 주피터 노트북 상에 내 가상환경 커널을 등록할 수 있음
 

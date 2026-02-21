@@ -6,6 +6,7 @@ import torch
 class Config :
     MODEL_ID = "LGAI-EXAONE/Exaone-3.5-2.4B-Instruct"
     LOCAL_MODEL_DIR = "/home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct"
+    ADAPTER_PATH = "./SFT"
     MAX_LENGTH = 2048
     QUANTIZATION_CONFIG = BitsAndBytesConfig(
         load_in_4bit=True,

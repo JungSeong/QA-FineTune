@@ -1,0 +1,5 @@
+2026-02-21 18:10:35 - INFO - [main.py:21] - 🏁 전체 프로세스 시작
+2026-02-21 18:10:38 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 18:10:38 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+2026-02-21 18:10:40 - INFO - [data_augmentor.py:166] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+2026-02-21 18:12:32 - INFO - [data_augmentor.py:341] - 🤗 [Initial] LLM Evaluation 실행

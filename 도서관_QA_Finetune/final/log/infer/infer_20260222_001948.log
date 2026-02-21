@@ -1,0 +1,36 @@
+2026-02-22 00:19:50 - INFO - [main.py:21] - 🏁 전체 프로세스 시작
+2026-02-22 00:19:52 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-22 00:19:52 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+2026-02-22 00:22:20 - INFO - [data_augmentor.py:166] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+2026-02-22 00:22:20 - INFO - [data_augmentor.py:317] - 🧹 [MCP] VRAM 확보를 위해 모델 언로드 요청...
+2026-02-22 00:22:25 - INFO - [evaluator.py:33] - ⚖️ [Eval] 로컬 평가 모델 로딩: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-22 00:23:32 - INFO - [data_augmentor.py:322] - ⚖️ [Eval] 로컬 모델 기반 품질 검증 실행
+2026-02-22 00:25:22 - INFO - [evaluator.py:102] - """
+        # [분석 시작]
+    def analyze_and_grade_(self, data ) :  ## 여기서부터 코드 작성 시작
+                                            ####### 주의 ####### 아래 주석들 참고하여 구현해보기!
+                            ############# 필요하면 함수 분리해서 재사용 가능하도록 만들어보자 #################################       
+                        if not isinstance([data], list or dict))   |______ 이 조건문 수정해야 함!! |___||________ 입력 타입 체크 추가 필수!!!!! _____ || _____________ 만약 리스트면 각 아이템별로 처리할지, 딕셔너리면 특정 키값 기반으로 할지 결정! ___ __ ____ ##
+                    raise ValueError("Input type should be a single dictionary with proper key structure for analysis")         <---- 에러 메시지 개선 & 예외처리 고려하기!!! ###          
+                             print ("Analyzing the given dataset... ")                              <<----- 디버깅용 로그 제거 혹은 옵션으로 처리할 것!     
+                           result = {}                          ;           >>>>>> 결과 저장 변수 초기화 <<<< <
+                         for idx in range(???)               > >>>> 반복 범위 설정 - 전체 길이만큼 돌아야 하니 len(data) 사용 <<< ; if isinstance(data,list:) else enumerate((data ).values()     ????????? >>> 중복된 로직 줄이려면 공통 분모로 추상화 할 수 있게끔 구성 변경 추천!!!!                       
+                      item=???                     ><<?<<|||\|\|\ 중요! 각 iteration에서 현재 처리 중인 아이템 참조변수 명확히 정의!!!! >>;; ;;; ;;;;; ```python
+                  question_, answer _, labe l_{"" }                 ``` >< <? <<|| |\|\ \ \ 핵심! 개별 필드 추출 명확하게 해야 합니다.!!\n";`` `` `              `                   ```` python
+ """***** 추론 과정 *****"""
+ logic consistency score _{}_ // 처음엔 
+2026-02-22 00:27:11 - INFO - [evaluator.py:102] - """
+        # [분석 시작]
+    def analyze_and_grade_(self, data ) :  ## 여기서부터 코드 작성 시작
+                                            ####### 주의 ####### 아래 주석들 참고하여 구현해보기!
+                            ############# 필요하면 함수 분리해서 재사용 가능하도록 만들어보자 #################################       
+                        if not isinstance([data], list or dict))   |______ 이 조건문 수정해야 함!! |___||________ 입력 타입 체크 추가 필수!!!!! _____ || _____________ 만약 리스트면 각 아이템별로 처리할지, 딕셔너리면 특정 키값 기반으로 할지 결정! ___ __ ____ ##
+                    raise ValueError("Input type should be a single dictionary with proper key structure for analysis")         <---- 에러 메시지 개선 & 예외처리 고려하기!!! ###          
+                             print ("Analyzing the given dataset... ")                              <<----- 디버깅용 로그 제거 혹은 옵션으로 처리할 것!     
+                           result = {}                          ;           >>>>>> 결과 저장 변수 초기화 <<<< <
+                         for idx in range(???)               > >>>> 반복 범위 설정 - 전체 길이만큼 돌아야 하니 len(data) 사용 <<< ; if isinstance(data,list:) else enumerate((data ).values()     ????????? >>> 중복된 로직 줄이려면 공통 분모로 추상화 할 수 있게끔 구성 변경 추천!!!!                       
+                      item=???                     ><<?<<|||\|\|\ 중요! 각 iteration에서 현재 처리 중인 아이템 참조변수 명확히 정의!!!! >>;; ;;; ;;;;; ```python
+                  question_, answer _, labe l_{"" }                 ``` >< <? <<|| |\|\ \ \ 핵심! 개별 필드 추출 명확하게 해야 합니다.!!\n";`` `` `              `                   ```` python
+ """***** 추론 과정 *****"""
+ logic consistency score _{}_ // 처음엔 
+2026-02-22 00:27:49 - INFO - [evaluator.py:58] - ✅ [Eval] 로컬 모델 언로드 완료

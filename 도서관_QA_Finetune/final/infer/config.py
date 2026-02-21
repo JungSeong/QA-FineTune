@@ -3,16 +3,18 @@ from peft import LoraConfig
 import torch
 
 class Config :
-    MODEL_ID = "LGAI-EXAONE/Exaone-3.5-2.4B-Instruct"
-    LOCAL_MODEL_DIR = "/home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct"
-    AUGMENTED_DATA_PATH = "./data/json/augmented_data.jsonl"
+    MCP_URL = "http://localhost:8000/sse"
+    LOCAL_MODEL_DIR = "/home/vsc/LLM/model"
+    AUGMENTED_DATA_PATH = "../data/json/augmented_data.jsonl"
     DATA_PATH = "../data/고양시도서관 FAQ1.xlsx"
-    QUANTIZATION_CONFIG = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_compute_dtype=torch.bfloat16,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_use_double_quant=True
-    )
+    GEN_SERVER_MODEL_NAME = "A.X-4.0-Light"
+    GEN_HF_MODEL_ID = "skt/A.X-4.0-Light"
+    GEN_SAFE_MODEL_NAME = "A.X-4.0-Light"
+    EVAL_MODEL_PATH = "/home/vsc/LLM/model/Exaone-3.5-32B-Instruct"
+    EVAL_SERVER_MODEL_NAME = "Exaone-3.5-32B-Instruct"
+    EVAL_HF_MODEL_ID = "LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+    EVAL_SAFE_MODEL_NAME = "Exaone-3.5-32B-Instruct"
+    EVAL_LOG_PATH = "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/data/json/LLM_EVAL.json"
     MIN_SAMPLE_COUNT = 5
     MAX_AUG_ITERATIONS = 2
     MAX_NEW_TOKENS = 512
@@ -24,3 +26,4 @@ class Config :
     NUM_RETURN_SEQUENCES = 3 # 생성할 샘플 수
     NUM_RETURN_TARGET_SEQUENCES = 1
     LABELS = ["yes", "no", "info", "false"]
+    NUM_SEMAPHORES = 10

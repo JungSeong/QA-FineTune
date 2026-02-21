@@ -3,10 +3,11 @@ import os
 import glob
 import pandas as pd
 import wandb
+import asyncio
 from config import Config
 from datasets import Dataset
 from model_utils import load_or_download_model_tokenizer
-from data_augmentor import DataAugmentor
+from data_augmentor import AsyncDataAugmentor
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
@@ -30,18 +31,18 @@ def main() :
     file_path = glob.glob("../data/*.xlsx")
     df = pd.read_excel(file_path[0])
     dataset = Dataset.from_pandas(df)
-    model, tokenizer = load_or_download_model_tokenizer(config)
-    logger.info(model)
 
-    augmentor = DataAugmentor(model, tokenizer, config)
-    output_file = augmentor.run_pipeline(dataset)
+    load_or_download_model_tokenizer(config)
+
+    augmentor = AsyncDataAugmentor(config.MCP_URL, config.GEN_HF_MODEL_ID, config)
+    final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
     
-    artifact = wandb.Artifact(f"{config.MODEL_ID}_{wandb.run.id}", type='dataset')
-    artifact.add_file(output_file)
+    artifact = wandb.Artifact(f"{config.GEN_SAFE_MODEL_NAME}_{wandb.run.id}", type='dataset')
+    artifact.add_file(final_file)
     wandb.log_artifact(artifact)
     wandb.finish()
 
-    logger.info(f"🎉 데이터 증강 완료! 결과 파일: {output_file}")
+    logger.info(f"🎉 데이터 증강 및 보완 완료! 결과 파일: {final_file}")
 
 if __name__ == "__main__" :
     main()
