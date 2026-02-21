@@ -1,55 +1,13 @@
-1. 가상환경 생성 & 관련 라이브러리 설치 (Python 3.12.3)
+1. 가상환경 생성 & 관련 라이브러리 설치
 라이브러리 변화에 따라 코드를 계속 바꾸어야 해서 한 번 세팅해 둔 라이브러리 버전을 계속 사용하는 것이 좋음
 
-python3 -m venv myenv
-source "/home/vsc/LLM_TUNE/myenv/bin/activate"
-
-nvitop -> CUDA Driver Version 13.0 확인 가능
-https://pytorch.org/get-started/locally/ 에서 해당 옵션 설정 후 파이토치 설치
-
-python -m pip install vLLM
-pip3 install --default-timeout=1000 torch torchvision --index-url https://download.pytorch.org/whl/cu130
-python -m pip install "transformers==4.45.2" \
-                        "trl==0.11.4" \
-                        "accelerate==0.34.2" \
-                        "peft==0.13.2" \
-                        "bitsandbytes>=0.45.0"
-python -m pip install datasets scikit-learn wandb rich tqdm ipykernel jupyter notebook seaborn evaluate openpyxl absl-py nltk rouge_score
-
-EXAONE-32B model -> pip install -U transformers accelerate
-
-vLLM까지 있는 가상환경생성(Python 3.12 + CUDA 13.0)
-uv venv .venv_vLLM --python 3.12 --seed
-source .venv/bin/activate
-export VLLM_VERSION=$(curl -s https://api.github.com/repos/vllm-project/vllm/releases/latest | jq -r .tag_name | sed 's/^v//')
-export CUDA_VERSION=130 # or other
-export CPU_ARCH=$(uname -m) # x86_64 or aarch64
-uv pip install \
-  https://github.com/vllm-project/vllm/releases/download/v${VLLM_VERSION}/vllm-${VLLM_VERSION}+cu${CUDA_VERSION}-cp38-abi3-manylinux_2_35_${CPU_ARCH}.whl \
-  --extra-index-url https://download.pytorch.org/whl/cu${CUDA_VERSION} \
-  --index-strategy unsafe-best-match
-uv pip install trl accelerate peft bitsandbytes
-uv pip install datasets scikit-learn wandb rich tqdm ipykernel jupyter notebook seaborn evaluate openpyxl absl-py nltk rouge_score
+가상환경 생성(Python 3.12 + CUDA 13.0)
+uv venv lib-QA
+source lib-QA/bin/activate
+uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+uv pip install trl accelerate peft bitsandbytes datasets scikit-learn wandb rich tqdm ipykernel jupyter notebook seaborn evaluate openpyxl absl-py nltk rouge_score transformers
 uv pip install "numpy<2.2"
-uv pip install openai, hf_transfer
-
-vLLM 서빙 방법
-
-CLI :
-
-max-model-len : 입력 + 출력 토큰의 최대 길이
-
-vllm serve /home/vsc/LLM/model/Exaone-3.5-32B-Instruct \
-    --port 8000 \
-    --gpu-memory-utilization 0.9 \
-    --max-model-len 32768 \
-    --trust-remote-code
-
-vllm serve /home/vsc/LLM/model/A.X-4.0 \
-    --port 8001 \
-    --gpu-memory-utilization 0.4 \
-    --max-model-len 32768 \
-    --trust-remote-code
+uv pip install openai hf_transfer weave
 
 ipykernel : 주피터 노트북 상에 내 가상환경 커널을 등록할 수 있음
 

@@ -1,0 +1,9 @@
+{"time":"2026-02-15T11:27:13.442273981+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-15T11:27:13.853292854+09:00","level":"INFO","msg":"stream: created new stream","id":"irind3js"}
+{"time":"2026-02-15T11:27:13.85344999+09:00","level":"INFO","msg":"stream: started","id":"irind3js"}
+{"time":"2026-02-15T11:27:13.853479189+09:00","level":"INFO","msg":"handler: started","stream_id":"irind3js"}
+{"time":"2026-02-15T11:27:13.853479157+09:00","level":"INFO","msg":"writer: started","stream_id":"irind3js"}
+{"time":"2026-02-15T11:27:13.853512117+09:00","level":"INFO","msg":"sender: started","stream_id":"irind3js"}
+{"time":"2026-02-15T11:28:04.568693297+09:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":653}
+{"time":"2026-02-15T11:28:04.568931057+09:00","level":"INFO","msg":"stream: closing","id":"irind3js"}
+{"time":"2026-02-15T11:28:04.56929768+09:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":20}

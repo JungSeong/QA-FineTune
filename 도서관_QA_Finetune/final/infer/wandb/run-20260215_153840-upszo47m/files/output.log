@@ -1,0 +1,200 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 15:38:43 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-15 15:38:43 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 579/579 [00:34<00:00, 16.91it/s, Materializing param=transformer.wte.weight]
+2026-02-15 15:39:26 - INFO - [main.py:34] - ExaoneForCausalLM(
+  (transformer): ExaoneModel(
+    (wte): Embedding(102400, 5120, padding_idx=0)
+    (drop): Dropout(p=0.0, inplace=False)
+    (h): ModuleList(
+      (0-63): 64 x ExaoneDecoderLayer(
+        (ln_1): ExaoneRMSNorm((5120,), eps=1e-05)
+        (attn): ExaoneAttentionBlock(
+          (attention): ExaoneAttention(
+            (q_proj): Linear4bit(in_features=5120, out_features=5120, bias=False)
+            (k_proj): Linear4bit(in_features=5120, out_features=1024, bias=False)
+            (v_proj): Linear4bit(in_features=5120, out_features=1024, bias=False)
+            (out_proj): Linear4bit(in_features=5120, out_features=5120, bias=False)
+          )
+        )
+        (ln_2): ExaoneRMSNorm((5120,), eps=1e-05)
+        (mlp): ExaoneMLP(
+          (c_fc_0): Linear4bit(in_features=5120, out_features=27392, bias=False)
+          (c_fc_1): Linear4bit(in_features=5120, out_features=27392, bias=False)
+          (c_proj): Linear4bit(in_features=27392, out_features=5120, bias=False)
+          (act): SiLUActivation()
+        )
+      )
+    )
+    (ln_f): ExaoneRMSNorm((5120,), eps=1e-05)
+    (rotary): ExaoneRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=5120, out_features=102400, bias=False)
+)
+2026-02-15 15:39:26 - INFO - [data_augmentor.py:239] - 🚀 [Step 1] 초기 데이터 생성 시작...
+Initial Gen (Rank 0):   0%|                                                                                                                                                                                                                                                                                                            | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6006-89e2-788b-a724-70c5bc2a7d67
+2026-02-15 15:39:28 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   1%|██▌                                                                                                                                                                                                                                                                                             | 1/110 [05:56<10:47:31, 356.43s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c600b-f8b9-7fae-9804-168ad6e390c4
+2026-02-15 15:45:23 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   2%|█████▏                                                                                                                                                                                                                                                                                          | 2/110 [11:49<10:37:45, 354.31s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6011-5aef-7e06-8872-713e4d75ff50
+2026-02-15 15:51:16 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   3%|███████▊                                                                                                                                                                                                                                                                                        | 3/110 [17:42<10:30:41, 353.66s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6016-bd69-7971-ad1d-75f02560f6cf
+2026-02-15 15:57:08 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   4%|██████████▍                                                                                                                                                                                                                                                                                     | 4/110 [23:34<10:23:52, 353.14s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c601c-1db3-71e0-a7b5-d242e1c575f6
+2026-02-15 16:03:01 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   5%|█████████████                                                                                                                                                                                                                                                                                   | 5/110 [29:27<10:18:07, 353.21s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6021-81fa-77e0-997c-39ab52d4daba
+2026-02-15 16:08:54 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   5%|███████████████▋                                                                                                                                                                                                                                                                                | 6/110 [35:20<10:11:50, 352.99s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6026-e31c-7de5-9e9b-7f35c8bb57b2
+2026-02-15 16:14:47 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   6%|██████████████████▎                                                                                                                                                                                                                                                                             | 7/110 [41:14<10:06:42, 353.42s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c602c-4b31-7b8a-8f22-995ee7fd4226
+2026-02-15 16:20:41 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   7%|█████████████████████                                                                                                                                                                                                                                                                            | 8/110 [45:45<9:16:19, 327.25s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6030-6ea4-7ca9-a7d8-60531e74a1a5
+2026-02-15 16:25:12 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   8%|███████████████████████▋                                                                                                                                                                                                                                                                         | 9/110 [51:36<9:23:16, 334.62s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6035-c8f8-71bd-a33a-dbc08d26a1ed
+2026-02-15 16:31:03 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   9%|██████████████████████████▏                                                                                                                                                                                                                                                                     | 10/110 [57:27<9:26:15, 339.75s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c603b-2509-7545-aa58-232e267b6cd1
+2026-02-15 16:36:54 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):  10%|████████████████████████████▌                                                                                                                                                                                                                                                                 | 11/110 [1:03:19<9:26:19, 343.23s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6040-8090-73d3-8f42-6164706b9e45
+2026-02-15 16:42:45 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):  11%|███████████████████████████████▏                                                                                                                                                                                                                                                              | 12/110 [1:09:09<9:24:18, 345.50s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6045-da74-7b3c-8159-cc5d754bccc2
+2026-02-15 16:48:36 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):  12%|█████████████████████████████████▊                                                                                                                                                                                                                                                            | 13/110 [1:15:01<9:21:21, 347.23s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c604b-366e-7613-9f4d-941981889176
+2026-02-15 16:54:27 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):  13%|████████████████████████████████████▍                                                                                                                                                                                                                                                         | 14/110 [1:20:54<9:18:42, 349.19s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6050-9c23-7a2a-9c9c-ee2a43a2b557
+2026-02-15 17:00:21 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):  14%|███████████████████████████████████████                                                                                                                                                                                                                                                       | 15/110 [1:26:46<9:13:56, 349.86s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6055-f8cf-7b5c-b6c1-5b09ce096fc2
+2026-02-15 17:06:12 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):  15%|█████████████████████████████████████████▌                                                                                                                                                                                                                                                    | 16/110 [1:32:37<9:08:50, 350.32s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c605b-5576-7040-b318-40ad0da6ceb5
+2026-02-15 17:12:04 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):  15%|█████████████████████████████████████████▌                                                                                                                                                                                                                                                    | 16/110 [1:33:32<9:09:35, 350.81s/it]
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 47, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 37, in main
+    output_file = augmentor.run_pipeline(dataset)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 247, in run_pipeline
+    self._run_generation_loop(my_items, output_file, mode="initial")
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 205, in _run_generation_loop
+    result = self.generate_samples(idx, faq_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace/op.py", line 1278, in wrapper
+    res, _ = _call_sync_func(
+             ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace/op.py", line 543, in _call_sync_func
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 180, in generate_samples
+    return self._run_model_generate(messages, self.config.NUM_RETURN_SEQUENCES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 147, in _run_model_generate
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2638, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2843, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 834, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/.cache/huggingface/modules/transformers_modules/Exaone_hyphen_3_dot_5_hyphen_32B_hyphen_Instruct/modeling_exaone.py", line 514, in forward
+    outputs: BaseModelOutputWithPast = self.transformer(
+                                       ^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 1001, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/.cache/huggingface/modules/transformers_modules/Exaone_hyphen_3_dot_5_hyphen_32B_hyphen_Instruct/modeling_exaone.py", line 433, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/.cache/huggingface/modules/transformers_modules/Exaone_hyphen_3_dot_5_hyphen_32B_hyphen_Instruct/modeling_exaone.py", line 281, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/.cache/huggingface/modules/transformers_modules/Exaone_hyphen_3_dot_5_hyphen_32B_hyphen_Instruct/modeling_exaone.py", line 238, in forward
+    output_proj = self.c_proj(self.act(self.c_fc_0(x)) * self.c_fc_1(x))
+                                                         ^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/bitsandbytes/nn/modules.py", line 557, in forward
+    return bnb.matmul_4bit(x, weight, bias=bias, quant_state=quant_state).to(inp_dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/bitsandbytes/autograd/_functions.py", line 401, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/autograd/function.py", line 583, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/bitsandbytes/autograd/_functions.py", line 315, in forward
+    output = torch.nn.functional.linear(A, F.dequantize_4bit(B, quant_state).to(A.dtype).t(), bias)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/bitsandbytes/functional.py", line 994, in dequantize_4bit
+    out = torch.ops.bitsandbytes.dequantize_4bit.default(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/_ops.py", line 818, in __call__
+    def __call__(self, /, *args: _P.args, **kwargs: _P.kwargs) -> _T:
+
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xe7596d432930>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xe7596d4482f0>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

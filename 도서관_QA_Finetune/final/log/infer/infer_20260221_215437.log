@@ -1,0 +1,9 @@
+2026-02-21 21:54:37 - INFO - [accelerate_inference.py:28] - 🔄 모델 로딩 시작: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct (BF16)
+2026-02-21 21:55:55 - INFO - [accelerate_inference.py:40] - ✅ Input embeddings mapping applied (transformer.wte).
+2026-02-21 21:55:55 - INFO - [accelerate_inference.py:48] - --- [Token ID Verification] ---
+2026-02-21 21:55:55 - INFO - [accelerate_inference.py:51] - Token: [|endofturn|]   | ID: 361
+2026-02-21 21:55:55 - INFO - [accelerate_inference.py:51] - Token: [|assistant|]   | ID: 3
+2026-02-21 21:55:55 - INFO - [accelerate_inference.py:51] - Token: [|user|]        | ID: 3
+2026-02-21 21:55:55 - INFO - [accelerate_inference.py:51] - Token: [|system|]      | ID: 3
+2026-02-21 21:55:55 - INFO - [accelerate_inference.py:52] - EOS ID: 361 | PAD ID: 0
+2026-02-21 21:55:55 - INFO - [accelerate_inference.py:53] - -------------------------------

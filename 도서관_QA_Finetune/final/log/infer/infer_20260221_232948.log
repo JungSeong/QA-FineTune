@@ -1,0 +1,10 @@
+2026-02-21 23:29:49 - INFO - [main.py:21] - 🏁 전체 프로세스 시작
+2026-02-21 23:29:51 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 23:29:51 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+2026-02-21 23:32:18 - INFO - [data_augmentor.py:166] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+2026-02-21 23:32:19 - INFO - [data_augmentor.py:317] - 🧹 [MCP] VRAM 확보를 위해 모델 언로드 요청...
+2026-02-21 23:32:20 - INFO - [evaluator.py:33] - ⚖️ [Eval] 로컬 평가 모델 로딩: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-21 23:33:26 - INFO - [data_augmentor.py:322] - ⚖️ [Eval] 로컬 모델 기반 품질 검증 실행
+2026-02-21 23:34:05 - INFO - [evaluator.py:78] -  4
+평가 기준에 따르면, 이 QA 쌍에서 질문과 답변 간에는 논리적 일관성이 있습니다 (정기 휴관 일에 대한 질문에 휴관일을 명확히 답했기 때문). 그러나 완벽한 점수를 주지 않고 4점을 준 이유 중 하나로는 실제 각 도서관마다 휴관 정책(예: 모든 월요일 휴관인지, 특정 공휴일만 포함하는지 등)들이 다를 수 있다는 점 입니다 - 더 구체성을 추가했더라면 더욱 정확할 수도 있었겠지만, 일반화된 답변 자체도 이해하기 쉽게 제공됩니다. 따라서 주어진 정보 내 범위 안 에서는 상당히 적절합니다.
+2026-02-21 23:34:20 - INFO - [evaluator.py:58] - ✅ [Eval] 로컬 모델 언로드 완료

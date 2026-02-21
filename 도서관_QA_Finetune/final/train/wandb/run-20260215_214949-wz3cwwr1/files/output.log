@@ -1,0 +1,73 @@
+2026-02-15 21:49:50 - INFO - [main.py:34] - Loading Dataset...
+2026-02-15 21:49:50 - INFO - [preprocess_dataset.py:22] - Loading Dataset...
+2026-02-15 21:49:51 - INFO - [main.py:37] - Dataset loaded successfully
+2026-02-15 21:49:51 - INFO - [main.py:38] - train_dataset size: 716
+2026-02-15 21:49:51 - INFO - [main.py:39] - val_dataset size: 308
+2026-02-15 21:49:51 - INFO - [main.py:40] - test_dataset size: 257
+2026-02-15 21:49:51 - INFO - [main.py:42] - Loading Model with LoRA and Tokenizer...
+2026-02-15 21:49:51 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-7.8B-Instruct
+2026-02-15 21:49:51 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Loading weights:   1%|█                                                                                                                                                   | 2/291 [00:24<59:08, 12.28s/it, Materializing param=transformer.h.0.attn.attention.k_proj.weight]
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 66, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 43, in main
+    model, tokenizer = load_or_download_model_tokenizer()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/model_utils.py", line 36, in load_or_download_model_tokenizer
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 367, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4063, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4182, in _load_pretrained_model
+    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/transformers/core_model_loading.py", line 1192, in convert_and_load_state_dict_in_model
+    realized_value = mapping.convert(
+                     ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/transformers/core_model_loading.py", line 676, in convert
+    collected_tensors = self.quantization_operation.convert(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/transformers/integrations/bitsandbytes.py", line 56, in convert
+    new_value = bnb.nn.Params4bit(value, requires_grad=False, **old_value.__dict__).to(value.device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/bitsandbytes/nn/modules.py", line 346, in to
+    return self._quantize(device)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/bitsandbytes/nn/modules.py", line 301, in _quantize
+    w_4bit, quant_state = bnb.functional.quantize_4bit(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/bitsandbytes/functional.py", line 864, in quantize_4bit
+    _out, _absmax = torch.ops.bitsandbytes.quantize_4bit.default(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/torch/_ops.py", line 819, in __call__
+    return self._op(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/torch/_compile.py", line 54, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1181, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/torch/library.py", line 742, in func_no_dynamo
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/bitsandbytes/backends/cuda/ops.py", line 346, in _
+    lib.cquantize_blockwise_fp32_nf4(*args)
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/usr/lib/python3.12/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1592, in _shutdown
+    atexit_call()
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

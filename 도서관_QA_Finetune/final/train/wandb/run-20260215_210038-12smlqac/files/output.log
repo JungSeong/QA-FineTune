@@ -1,0 +1,8 @@
+2026-02-15 21:00:39 - INFO - [main.py:33] - Loading Dataset...
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 64, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 34, in main
+    dataset = preprocess_dataset(config.DATASET_PATH)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: preprocess_dataset() takes 0 positional arguments but 1 was given

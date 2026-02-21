@@ -1,0 +1,3 @@
+2026-02-21 22:29:35 - INFO - [main.py:21] - 🏁 전체 프로세스 시작
+2026-02-21 22:29:38 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 22:29:38 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다

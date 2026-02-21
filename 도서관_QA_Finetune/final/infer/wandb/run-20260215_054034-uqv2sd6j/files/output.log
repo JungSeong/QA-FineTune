@@ -1,0 +1,735 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 05:40:37 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 05:40:37 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-15 05:40:37 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 579/579 [00:31<00:00, 18.29it/s, Materializing param=transformer.wte.weight]
+2026-02-15 05:41:15 - INFO - [model_utils.py:45] - ✍🏿 Applying PEFT...
+2026-02-15 05:41:16 - INFO - [model_utils.py:49] - trainable params: 33,554,432 || all params: 32,036,754,432 || trainable%: 0.1047
+2026-02-15 05:41:17 - INFO - [data_augmentor.py:99] - 🚀 데이터 증강 시작
+Data Augmentation:   0%|                                                                                                                                                                                                                                       | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-e817-73c7-80c7-9de901d292cc
+회원증 대리발급은 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부만 가능하며 아래 구비서류를 지참하여 대리인이 방문 시 대리발급이 가능합니다.
+
+· 대상 : 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부
+· 구비서류
+  - 공통 : ①위임자 신분증, ②피위임자(대리인) 신분증
+  - 장애인 : 장애인 복지카드 또는 장애인 증명서
+  - 임신부 : 산모수첩 / 산모 : 주민등록등본(출산 후 12개월까지)
+· 방법 : 홈페이지 회원가입 후 위 항목의 해당하는 구비서류를 지참하여 피위임자(대리인)이 도서관 방문
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 0:
+Data Augmentation:   1%|██                                                                                                                                                                                                                             | 1/110 [00:01<02:26,  1.35s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ec41-723a-b53e-4d1233f69a0f
+가족회원이란, 고양시 도서관 정회원으로 가입 후 가족회원으로 등록 시 가족명의로 도서대출·도서예약·상호대차 동일하게 이용가능한 서비스입니다.
+※ 가족명의 이용 시 자료실 안내데스크에 반드시 본인 회원증을 제시하여야 함(가족 회원증으로 대출 불가)
+가족회원 등록방법
+가족구성원 모두 정회원 가입 후 가족임을 증명할 수 있는 서류(주민등록등본 또는 가족관계증명서) 지참하여 도서관 방문
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 1:
+Data Augmentation:   2%|████                                                                                                                                                                                                                           | 2/110 [00:01<01:10,  1.54it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ece2-77b6-9c13-75dd6ddd743a
+본인명의 휴대폰 인증이 불가한 만14세 미만 어린이의 경우 아이핀(I-PIN) 본인인증 과정을 거쳐 홈페이지 가입이 가능합니다.
+
+홈페이지 회원가입 - 만14세 미만 회원가입(어린이회원 가입하기) - 보호자 휴대폰 인증 후 가입자(어린이)의 아이핀을 통해 홈페이지에 가입하실 수 있습니다.
+
+회원가입 바로가기
+https://www.goyanglib.or.kr/center/program/memberJoinType.do
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 2:
+고양시 도서관의 회원증으로 고양시 관내 시립도서관과 공립작은도서관을 모두 이용하실 수 있습니다.​_x000D_
+회원증을 분실하였을 경우 신분증을 지참하여 관내 어느 시립, 공립작은도서관에 가셔도 재발급 받으실 수 있습니다._x000D_
+
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ed14-709a-8415-4d412d669988
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 3:
+Data Augmentation:   4%|████████                                                                                                                                                                                                                       | 4/110 [00:01<00:29,  3.64it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ed4d-78d2-a0be-107a11925da6
+고양시 도서관 회원은 준회원(홈페이지 가입 회원) / 정회원(관외대출회원)으로 구분되며 정회원 가입대상 및 방법은 다음과 같습니다.
+
+· 정회원 가입대상
+주민등록상 경기도 거주자, 경기도소재 직장인 및 재학생
+
+정회원 가입방법
+1. 온라인 발급
+ · 대상 : 주민등록상 경기도 거주자
+ · 홈페이지 회원가입 후 [온라인 정회원 신청] 클릭 - 인증절차 후 온라인 회원증 발급
+2. 방문 발급
+ · 대상 : 경기도 소재 직장인, 재학생을 포함한 고양시 도서관 정회원 신청 대상
+ · 홈페이지 회원가입 후 구비서류를 지참하여 도서관 방문
+
+구비서류
+이용안내 - 회원가입 - 회원증 방문발급 - 구비서류 안내 참고
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 4:
+사립 작은도서관을 등록,변경,폐관 절차에 대한 자세한 내용은_x000D_
+도서관센터 홈페이지- 작은도서관- 사립작은도서관 등록신청메뉴에서 확인 가능합니다._x000D_
+관련 서류 작성 후 메일로 보내주시면 확인 후 연락드리겠습니다.(도서관센터 독서진흥팀)_x000D_
+
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ed55-7dc9-8cfe-b4450a034d6d
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 5:
+도서관법(시행령 제3조 1항)상 건물면적은 33㎡이상(현관,휴게실,복도,화장실,식당 면적 불포함). 자료는 1,000점 이상을 갖춘 작은도서관 이면서,_x000D_
+건축법상(시행령 제5조의 5) 제 1종 근린생활시설, 교육연구시설, 단독주택 1층, 공동주택에 위치한 작은도서관만 등록이 가능합니다._x000D_
+_x000D_
+자세한 내용은 고양시 도서관센터 홈페이지-작은도서관-사립작은도서관 등록신청의 [서식5 체크리스트]를 참고해 주시기 바랍니다._x000D_
+_x000D_
+_x000D_
+
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ed89-7a4d-a036-2293b9353895
+2026-02-15 05:41:18 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 6:
+사립작은도서관은 다양한 주체가 다양한 방법으로 설립,운영하는 민간분야의 작은도서관 입니다._x000D_
+고양시에는 현재 기준(2025. 6.) 총 87개의 사립 작은도서관이 있습니다._x000D_
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ed98-792d-b597-6c0f3c94c7ba
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 7:
+고양시도서관센터 회원증으로 시립도서관 및 공립작은도서관 모두 이용가능합니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ed9e-753f-80de-1ba7239ffaa8
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 8:
+ 작은도서관에서 빌린 책은 해당 작은도서관으로 반납해주세요.(상호대차, 통합반납, 지하철역반납 불가)
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eda1-7fcd-bcc8-5133d52f7365
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 9:
+관산, 내유, 대덕, 사리현, 화전, 마상공원, 모당공원 작은도서관이 있습니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eda7-76da-bf86-35298aad8aaa
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 10:
+자료검색-스마트도서관 도서검색 탭에서 가능합니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edab-7dcb-8697-47b9bcfbb9ec
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 11:
+Data Augmentation:  11%|████████████████████████▏                                                                                                                                                                                                     | 12/110 [00:01<00:06, 14.32it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edaf-7339-9247-870bdf6536b2
+스마트도서관 도서 반납은 반드시 대출한 기기에 해야 합니다. _x000D_
+(상호대차, 책누리 반납 불가)
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 12:
+고양시도서관센터 회원증 소지자는 누구나 이용 가능 합니다. _x000D_
+(회원증 발급은 도서관센터 홈페이지 회원가입 후 가까운 시립도서관 방문하여 회원증 발급(신분증 지참)_x000D_
+_x000D_
+1인 2권까지 가능하며 일반도서 대출과 동일하게 대출기간은 14일 1회 반납연기가 가능합니다._x000D_
+(지축역, 삼송역, 원당역, 화정역, 고양시청 스마트도서관은 화정도서관 대출권수에 포함, 마두역, 백마역 스마트도서관은 아람누리도서관 대출권수에 포함, 주엽역, 대화역, 일산역 스마트도서관은 대화도서관 대출권수에 포함)
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edb4-7e3b-84c5-01b79948585b
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 13:
+지축역, 삼송역, 원당역, 화정역, 마두역, 주엽역, 대화역, 일산역, 고양시청, 백마역 총 10개소 입니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edb9-70cf-bdcc-a4f6c5f42958
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 14:
+고양시도서관 회원이면 누구나 365일 이용가능한 무인도서 대출반납기입니다.(400~600여권 비치)
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edbc-730d-afd9-94e8d8af8d49
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 15:
+책바다 서비스란?_x000D_
+고양시 도서관에 구비되어 있지 않은 자료를 전국 책바다 서비스에 가입되어 있는 도서관 소장자료 중에서 대출하여 드리는 서비스_x000D_(공공도서관, 대학도서관 등)_x000D_
+_x000D_
+1. 국립중앙도서관 책바다 가입 후 이용가능_x000D_
+(홈페이지주소 : https://books.nl.go.kr)_x000D_
+2. 비용있음_x000D_
+_x000D_
+책나래 서비스란?_x000D_
+도서관방문이 어려운 장애인과 거동불편자 등이 필요로 하는 도서관 자료를 우체국택배를 이용하여 집까지 무료로 배달해주는 서비스_x000D_
+대상 :　보건복지부 등록 장애인, 국가보훈처 등록 국가유공상이자, 거동불편자（국가건강보험공단 인정 장기요양 대상자)_x000D_
+_x000D_
+1. 고양시 도서관 회원가입(도서관 대출증 발급) _x000D_
+※ 증명서류 제출(직접방문, 대리방문, 팩스, 이메일 가능) _x000D_
+보건복지부 등록 장애인의 경우 책나래 홈페이지 가입 시 [장애인정보 사실 여부] 조회 및 인증으로 증명서류 확인절차 생략_x000D_
+국가보훈처 등록 국가유공상이자, 거동불편자의 경우 증명서류를 도서관에 제시(최초 1회)_x000D_
+2. 책나래 홈페이지(http://cn.nl.go.kr) 회원가입_x000D_
+3. 책나래 홈페이지에서 나의 도서관(고양시 소속도서관) 등록 및 회원 승인_x000D_
+4. 책나래 홈페이지에서 자료검색 및 신청_x000D_
+5. 신청도서관에서 신청 확인 후 도서를 우체국 택배 발송_x000D_
+6. 반납방법 : 책나래 홈페이지에서 반납 신청_x000D_
+7. 비용없음
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edc0-7d6d-9eb5-4064c00677d0
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 16:
+내 생애 첫 도서관이란?_x000D_
+도서관 방문이 어려운 임산부와 영유아에게 이용자가 거주하는 관내 공공도서관의 소장도서를 택배를 통해 집으로 보내드리는 서비스입니다._x000D_
+- 서비스대상 : 임신부(개월수 제한 없음), 12개월 이하 아이를 둔 부모 중 1인_x000D_
+- 이용기간 : 임신(개월수 제한 없음)이후 자녀 생후 12개월까지_x000D_
+- 서비스내용 : 월 2회, 회당 5권, 제공될 날로부터 14일간 (1회 7일 연장가능)_x000D_
+- 신 청 방 법 _x000D_
+  경기도사이버도서관(www.library.kr)에서『내 생애 첫도서관』회원신청_x000D_
+  가까운 고양시도서관 방문 회원가입_x000D_
+- 확인서류 : 산모수첩 사본 혹은 주민등록등본 1부, 회원가입신청서 1부_x000D_
+_x000D_
+두루두루 서비스란?_x000D_
+도서관 방문이 어려운 장애인들에게 이용자가 거주하는 관내 공공도서관의 소장도서를 택배를 통해 집으로 보내드리는 서비스입니다.​_x000D_
+- 서비스대상 : 대출회원 중 등록 장애인 회원_x000D_
+- 서비스내용 : 월 5회, 회당 5권, 제공될 날로부터 14일간 (1회 7일 연장가능)_x000D_
+- 신 청 방 법 _x000D_
+  경기도사이버도서관(www.library.kr)에서『두루두루』회원신청_x000D_
+  가까운 고양시도서관 방문 회원가입_x000D_
+- 확인서류 : 장애인복지카드 사본, 회원가입신청서 각 1부
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edcd-71d3-b71b-c2d2655dbbd5
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 17:
+1. 신청이 불가한 자료의 경우
+대출중인 도서, 예약도서, 참고도서, 비도서(DVD) 등
+
+2. 신청이 제한된 상태의 경우
+- 도서연체 또는 대출정지 상태일 경우 상호대차 이용 불가 
+※ 상호대차 도착안내 메시지를 수신하였더라도 이용 불가
+- 상호대차 신청 후 미대출 5권이 되면 1개월(30일)간 신청제한
+
+3. 이용이 불가한 도서관의 경우
+별꿈도서관, 작은도서관(수령만 가능) , 스마트 도서관 
+※ 시립도서관 휴관일 상호대차 신청불가
+시립도서관 휴관일 안내는 공지사항을 참조해주세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edd5-7fd0-ad9c-5ad0bd9ec924
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 18:
+예약한 도서 도착안내 메시지 수신 후 상호대차 전환 가능합니다. _x000D_
+단, 예약도서를 상호대차로 전환 시 예약도서로 복구가 불가능합니다._x000D_
+(홈페이지 로그인 > 나의도서관)
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eddb-747f-bc8a-cca487d259d7
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 19:
+1인당 2권입니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edde-7d6f-b121-e98cfd88c40f
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 20:
+도착안내메시지 수신 다음날부터 3일 이내(휴관일 제외)에 대출해가셔야 합니다.
+※ 메시지 발송 후 보관기간 이내 미대출시 자동 취소
+
+월요일 휴관도서관
+(화~금) 신청 : 신청 다음날 오후 도착메시지 수신
+(토, 일) 신청 : 화요일 오후 도착메시지 수신
+
+금요일 휴관도서관
+(월~수) 신청 : 다음날 오후 도착메시지 수신
+(목) 신청 : 토요일 오후 도착메시지 수신
+(토,일) 신청 : 화요일 오후 도착메시지 수신
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ede1-74a9-a2c6-bd2e7a7a0464
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 21:
+주로 이용하는 도서관에 시민이 필요한 특정자료가 없고 고양시 다른 ‘시립’도서관(별꿈도서관, 작은도서관, 스마트도서관 불가)에 있을 경우, 해당 자료를 시민이 원하는 도서관으로 직접 이동해주는 자료공동활용 서비스입니다.
+
+홈페이지 로그인 > 도서검색 > 상호대차 가능 확인 
+> 수령도서관 선택 > 신청 > 도착메시지수신 > 방문대출 순으로 이루어집니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ede8-74da-abc8-574be3a94db1
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 22:
+고양시도서관에서는 다양한 독서동아리를 발굴하고 활동을 지원하기 위해 독서동아리 등록제를 실시하고 있습니다._x000D_
+  ○ 신청대상 : 5인 이상이 모여 고양시 내에서 정기적으로 활동하고 있거나 신규 활동 예정인 독서동아리_x000D_
+  ○ 지원내용 : 토론도서 단체대출, 활동공간 대관, 동아리 게시판 이용 등_x000D_
+  ○ 신청방법 : 독서문화 - 독서동아리 - 등록신청에서 온라인 신청_x000D_
+※ 자세한 사항은 독서문화 > 독서동아리 메뉴에서 확인하실 수 있습니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edea-72a3-a1be-c17afbf68b34
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 23:
+독서문화-북스타트 -북스타트 신청에서 가능합니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edf0-7a9c-8fb2-32edae50a1bd
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 24:
+메이커스페이스란 창의적인 아이디어를 보유한 사람들이 3D프린터, 레이저커터, 각종 디지털 공작 기계 활용법을 배우고, 서로의 아이디어를 공유,협업,융합하는 공간을 의미합니다. 누구나 쉽게 접근하여 자유롭게 아이디어를 내고 구현할 수 있습니다._x000D_
+_x000D_
+독서문화-메이커스페이스 탭에서 자세한 이용안내 확인과 장비예약 신청이 가능합니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edf3-7aaf-be72-db378ba22682
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 25:
+고양시 시립도서관과 작은도서관이 함께 합니다._x000D_
+고양의 꿈나무 어린이들에게 도서를 선물하여 책과 함께 인생을 시작할 수 있는 계기를 도서관이 만들어주고, 나아가 지속적인 독서를 지원하는 지역사회 문화운동 프로그램입니다._x000D_
+고양시에 거주하는 영유아 중 고양시립도서관 회원이 참여 가능하며,_x000D_
+1회만 가능합니다.(중복수령불가)_x000D_
+_x000D_
+독서문화-북스타트-북스타트안내에서 자세한 내용을 확인하실 수 있습니다._x000D_
+
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-edfb-7b68-950c-8ded2b7c6bc2
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 26:
+· 접수중 : 접수기간 _x000D_
+· 접수예정 : 접수기간 전_x000D_
+· 대기접수 : 접수기간 내 신청정원 마감 시_x000D_
+· 마감 : 접수 기간 내 신청, 대기 마감 시_x000D_
+· 종료 : 접수기간 종료_x000D_
+· 현장참여 :  온라인접수 받지 않고 현장에서 직접 참여 신청
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee01-7bc0-beeb-bf10cd83dc94
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 27:
+독서문화-프로그램신청 탭에서 원하는 프로그램을 신청하시면 됩니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee07-74a6-8690-86188bf6de3f
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 28:
+도서관 홈페이지에서 자료를 검색하신 뒤, 해당 도서를 클릭하여 [예약하기] 버튼을 누르시면 됩니다.(※ 2순위까지 예약 가능) 
+예약하신 도서는 반납되는 즉시 예약자 휴대폰으로 도착 안내 문자(SMS)가 수신됩니다. 예약도서 도착 문자를 받으신 후 3일 이내에 도서관을 방문하여 각 자료실에서 예약도서를 대출하시면 됩니다. 
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee0b-7ee9-b99e-c055cfb4900a
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 29:
+도서관 운영시간이 아닐 때에는 도서관 외부에 설치된 무인반납함(기), 또는 지하철 무인반납함(기)을 통해 도서 반납이 가능합니다._x000D_
+_x000D_
+지하철 무인반납함(기) 목록_x000D_
+   -3호선: 대화역 편의점 근처 / 주엽역 6번 출구 / 마두역 개찰구 / 백석역3,4번출구 / 화정역 스마트도서관 옆, 개찰구 / 원당역 5,6번 출구 / 삼송역 편의점 근처 / 지축역 2번 출구_x000D_
+   -경의중앙선:일산역 스마트도서관 근처 / 행신역 개찰구 근처_x000D_
+
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee0e-712a-887c-bf325deea100
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 30:
+Data Augmentation:  28%|██████████████████████████████████████████████████████████████▌                                                                                                                                                               | 31/110 [00:01<00:01, 43.52it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee14-76e8-9320-1420bc90644d
+고양시도서관 회원이면 누구나 비치중인 도서의 예약을 통해 365일 24시간 도서 이용이 가능한 대출서비스입니다.
+
+- 신청권수 및 대출기간 : 1인 2권 14일 (7일 연장 가능)
+- 신청시간 : 당일 15시까지 신청된 도서를 취합하여 기기에 투입(휴관일 신청도서의 경우 개관일에 투입)
+- 투입시간 : 16시까지 기기투입 -> 신청자에게 알림톡(SMS) 자동 전송 (알림톡 수신 후 방문)
+- 보관기간 : 도서 투입 후 3일간
+- 신청자의 도서관 회원증으로 대출 가능
+- 이용제한 : 6권 미대출시 1개월간 이용정지
+- 도서관 홈페이지(모바일 포함), 리브로피아를 통한 신청 접수
+- 무인예약서비스 운영 도서관 : 신원, 화정어린이, 행신어린이, 마두, 식사, 덕이, 주엽어린이도서관
+
+홈페이지로그인 →도서검색→무인예약대출신청→도서투입 및 SMS수신→도서대출→도서반납
+순으로 이루어집니다."
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 31:
+고양시 11개 지하철역에 설치된 무인반납함에 도서 반납 가능합니다._x000D_
+>(대화역, 마두역, 백마역, 백석역, 삼송역, 원당역, 일산역, 주엽역, 지축역, 행신역, 화정역)
+_x000D_
+※ 별꿈도서관 및 작은도서관, 스마트도서관 제외_x000D_
+※ DVD, 책꾸러미 제외_x000D_
+※ 투입한 당일에 즉시 수거 및 반납되지 않으며 반납완료에 1~4일 소요될 수 있음_x000D_
+※ 반납완료 전 연체 발생할 수 있으므로, 즉시 도서대출이 필요할 경우 시립도서관에 직접 반납
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee1e-7068-b8f6-bd9bd81d86f2
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 32:
+도서를 소장한 도서관이 아니더라도 모든 시립도서관에 반납 가능합니다._x000D_
+※ 별꿈도서관 및 작은도서관, 스마트도서관 제외 ※ DVD, 책꾸러미 제외
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee24-7830-b9a4-7e191cfd0589
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 33:
+반납연기는 홈페이지-나의도서관에서 1회에 한하여 7일동안 연기 가능합니다._x000D_
+또한, 연체 시 연체일 수 기간만큼 대출정지됩니다. (연체일 중 가장 긴 연체일 적용)_x000D_
+_x000D_
+※ 고양시 관내 하나의 도서관에서 연체가 되면 다른 도서관에서도 대출하실 수 없습니다.​
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee28-7969-a9cc-000fe69ef0a8
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 34:
+분실, 파손 도서는 동일도서로 구입하여 변상하여야 합니다. _x000D_
+절판, 품절 등의 문제로 구입이 불가능 할 경우에는 도서관으로 연락주시면 담당사서가 지정해주는 유사도서로 구입하여 변상하실 수 있습니다._x000D_
+
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee2c-7330-826d-e521b245884c
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 35:
+한 번의 회원가입으로 고양시 19개 시립도서관 및 17개 공립작은도서관에서 대출이 가능합니다._x000D_
+대출권수는 1인 최대 25권이며 1관당 7권 이내입니다._x000D_
+대출기간은 14일(2주)이며, 1회 연기(7일) 가능하여 최대 21일까지입니다._x000D_
+시립도서관 도서반납은 18개 시립도서관 및 지하철 무인반납함에 반납이 가능하며 공립작은도서관, 별꿈도서관은 해당 도서관으로 반납하여야 합니다._x000D_
+_x000D_
+※ 지하철 무인반납함 : 3호선(화정, 원당, 삼송, 대화, 백석, 주엽, 마두, 지축) 및 경의선(일산, 행신)에 설치
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee30-7d6a-92a4-f9a0bb1e166b
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 36:
+1. 예스24 전자도서관 시스템 개편(2023년 7월 中) 으로 인해, 크레마 단말기에서도 신규 어플을 통해 접속을 해야 합니다._x000D_
+  (단, 크레마 터치, 샤인, 카르타, 카르타 플러스, 사운드 단말기는 지원이 종료가 되었습니다. _x000D_
+   해당 단말기는 신규시스템을 지원하지 않아 불가피하게 지원이 종료가 되었습니다.)_x000D_
+_x000D_
+2. 크레마 단말기 신규어플 설치 방법_x000D_
+ 1) 기존과 같이 전자도서관 메뉴에서 고양시도서관센터를 검색 합니다._x000D_
+_x000D_ 2) 고양시도서관센터 명칭 옆에 리뉴얼도서관 버튼을 선택합니다._x000D_
+   - 리뉴얼도서관 명칭이 보이지 않을 경우 상단 즐겨찾기 옆의 새로고침 버튼을 누르시면 됩니다._x000D_
+   - 새로고침 버튼이 보이지 않을 경우, 단말기의 펌웨어 및 앱 업데이트를 합니다. _x000D_
+ 3) 리뉴얼도서관 버튼을 누르고 "예"를 선택한 후 다운받을 애플리케이션에서 "인터넷"을 선택합니다._x000D_
+   - 인터넷 화면이 잠깐 나타났다가 사라지게 되고 어플이 다운로드 되어 집니다.  _x000D_
+4) 다운로드된 어플은 [ 열린서재 ]  또는[ + ] 버튼을 통해 설치가 가능 합니다._x000D_
+   - 열린서재가 있는 단말기의 경우, 열린서재 내의 + 버튼을 누르시면 어플을 설치할 수 있습니다._x000D_
+   - 열린서재가 없는 단말기의 경우, 홈화면의 [ + ] 버튼을 누르시면 어플 설치가 가능합니다._x000D_
+5) 설치된 어플은 _x000D_
+   - 열린서재가 있는 단말기는 열린서재 메뉴 내에서_x000D_
+   - 열린서재가 없는 단말기는 홈화면에 추가된 전자도서관 메뉴를 통해서 접속이 가능합니다._x000D_
+_x000D_ 6) 신규어플 실행 하고, 고양시도서관센터 검색 후 도서관 계정으로 로그인 하실 수 있습니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee34-7563-b25f-051f21e7997c
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 37:
+※ 교보문고 전자책 한정입니다._x000D_
+_x000D_
+1. 교보문고 전자도서관 어플 설치 (초록색 아이콘) _x000D_
+2. 도서관 검색에서 [고양시도서관센터] 선택_x000D_
+3. 우측 상단 종 모양 아이콘 클릭_x000D_
+4. 로그인_x000D_
+_x000D_
+위와 같은 절차로 설정하실 수 있습니다._x000D_
+_x000D_
+그림설명은 전자책 홈페이지 > 우측 상단 [이용안내] > 100% 이용하기  에서 보실 수 있습니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee41-790c-9ac9-4af302e8dc57
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 38:
+도서관 서비스 이용과 관련하여 즉시 답변,조치가 필요한 불편신고, 이용방법 및 운영정책 문의 등은_x000D_
+각 도서관 홈페이지 도서관소식 > [건의사항] 게시판에 등록하시면 담당자가 수시로 확인하여 조치,답변 드립니다._x000D_
+_x000D_
+그 외 [건의사항] 게시판 성격에 맞지 않는다고 판단되는 민원,제안은_x000D_
+고양시 정식민원창구인 <a href="https://www.epeople.go.kr" target="_blank">국민신문고(www.epeople.go.kr)</a> 사이트를 통해 민원신청 또는 제안신청 하시면_x000D_
+법령에 정해진 기한 내 정식 처리절차를 밟아 답변 드립니다. _x000D_
+_x000D_
+
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee44-79dd-8d86-b84c63655bfd
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 39:
+열람실이 있는 도서관은 행신, 신원, 삼송, 백석, 식사, 대화, 한뫼, 덕이, 가좌도서관입니다._x000D_
+이용시간은 하절기(3월~10월) 07:00 ~ 23:00, 동절기(11월~2월) 08:00 ~ 23:00이며, 웹회원, 도서관회원 모두 이용 가능합니다. 각 도서관 좌석발급기에서 좌석을 배정받아 이용하시면 됩니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee4c-787b-a6a3-268ea40a8d48
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 40:
+『사서에게 물어보세요』는 국민의 알권리 및 정보 접근권 보장을 위하여 국내 도서관간 협력을 통하여 웹상에서 신속·정확하게 지식정보를 제공하는 협력형 온라인 지식정보서비스(CDRS, Collaborative Digital Reference Service) 입니다. 
+
+『사서에게 물어보세요』는 일반인들이 궁금해 하는 지식 및 학술정보에 대하여, 이용자가 도서관을 방문하지 않고 [사서에게 물어 보세요] 홈페이지를 통하여 질의답변을 받는 참고서비스로 사서가 도서관 소장자료 및 온라인 정보자원 등을 활용하여 답변하는 [도서관 서비스]입니다.
+
+구체적인 서비스 내용 확인과 이용은 아래 링크에서 가능합니다.
+https://www.nl.go.kr/NL/contents/N30502000000.do
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee51-7da7-a000-b2f3229d6079
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 41:
+1. PC에서 이용하기_x000D_
+홈페이지 메인화면 &ndash; 전자책 페이지에 들어가셔서_x000D_
+(<a href="https://ebook.goyanglib.or.kr/elibrary-front/main.ink">고양시 전자책도서관 (goyanglib.or.kr)</a>)_x000D_
+&lsquo;이용안내&rsquo; 탭을 따라 설치 및 이용 해주시면 됩니다._x000D_
+_x000D_
+2. 모바일에서 이용하기_x000D_
+&lsquo;리브로피아&rsquo; 어플을 다운로드 하신 후,&lsquo;모바일 전자책&rsquo;을 눌러 원하는 책을 다운로드 후 이용하시면 됩니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee58-738b-922e-9a5127b747ad
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 42:
+도서관 오시는 방법은 각 도서관 ‘도서관소개 > 찾아오시는길’에서 확인하실 수 있습니다.
+주소 및 연락처, 팩스번호, 대중교통편 및 약도를 확인하실 수 있습니다. 
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee5c-744f-85f5-f10c63dbefbf
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 43:
+디지털자료실 원문검색 지정 PC에서 검색 및 인쇄가 가능합니다._x000D_
+인쇄시 복사카드를 구입(3,000원 상당)하여 사용하셔야 합니다.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee60-7ebc-acdb-0df6dbb805ab
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 44:
+도서관내 장기 사물함은 위탁업체에 관리를 위임하여 운영중이며_x000D_
+각 도서관 사물함 위탁업체 관리자(사물함에 부착된 전화로 문의)에게 사용대장 및 사용료를 지불하여 사용하시면 됩니다._x000D_
+(아람누리, 풍동, 주엽어린이, 화정어린이, 행신어린이도서관은 사물함을 운영하지 않습니다.)​
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee64-701d-ab89-c49a7508a7ff
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 45:
+홈페이지 ‘희망도서신청’ 에서 신청 가능합니다.
+
+※ 자료선정시 수험서, 학습교재, 오락성이 강한 출판물, 소장에 적합하지 않은 형태(스프링제본, 색칠놀이책 등), 
+시리즈・전집류 등은 신청이 제한될 수 있습니다.
+※ 도서구입은 매년 도서구입계획에 의해 정기적으로 구입
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee68-743f-9ba9-fa06396b14ab
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 46:
+○ 토/일요일 : 정상운영
+○ 휴관일 : 일요일을 제외한 「관공서의 공휴일에 관한 규정」이 정하는 공휴일
+    (다만, 일요일과 겹치는 공휴일은 휴관, 정부에서 수시로 지정한 임시 공휴일 포함)
+○ 도서관별 휴무일
+- 행신, 원당, 신원, 별꿈, 화정어린이, 아람누리, 백석, 풍동, 대화, 덕이, 일산 : 매주 월요일
+- 화정, 삼송, 높빛, 행신어린이, 마두, 식사, 한뫼, 가좌, 주엽어린이 : 매주 금요일
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee6d-7590-84d6-30c65f332bdb
+
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 47:
+고양시 도서관 시설은 홈페이지를 통해 이용 신청이 가능합니다._x000D_
+_x000D_관련 세부 사항은 아래 링크를 참고해주세요._x000D_
+_x000D_
+https://www.goyanglib.or.kr/center/menu/130483/contents/40120/contents.do
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee73-7589-b007-678848401f39
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 48:
+기증할 도서를 가지고 고양시립도서관에 방문하여 기증신청서를 작성한 후 담당자에게 접수하시면 됩니다.
+ 
+※ 기증 제외도서 : 발행년도 5년 이상 경과한 도서, 사전류, 훼손되거나 파손된 도서,
+타기관의 장서인이 찍혀있는 도서, 수험서, 스프링도서, 유아용 헝겊도서, 연속간행물류(잡지류), 개인출판물(출판사에 의한 출판물이 아닌 개인 출판물)
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee77-73ab-8e6d-e99ad8a22900
+
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 49:
+Data Augmentation:  45%|████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                                         | 50/110 [00:01<00:00, 71.22it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee7b-75f6-86c8-e24b0b907a65
+○ 정기휴관일 :  매주 금요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 50:
+○ 종합자료실1,2
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 책이음1(연속간행물실)
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○  책이음2(디지털자료실)
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee7f-7b56-a14a-6df5fdab2e06
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 51:
+○ 주소 :  고양시 덕양구 은빛로77번길 8(화정동)
+○ 전화번호 : 031-8075-9215
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee82-7aa4-91d8-873cc3df999e
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 52:
+○ 정기휴관일 :  매주 월요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee86-7d9c-af22-ee38bf7b6bec
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 53:
+○ 자료실
+(평일) 10:00 ~ 19:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee89-7afc-acb3-827c70c78f13
+
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 54:
+○ 주소 :  고양시 덕양구 고양대로 1937(동산동)
+○ 전화번호 : 031-8075-9305
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee8b-76f9-8e05-11cabdaf5455
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 55:
+○ 정기휴관일 :  매주 월요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee8e-7664-b867-ace15ba545d6
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 56:
+○ 종합자료실,연속간행물실, 디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 열람실
+(평일·주말)  하절기(3월~9월) : 07:00 ~ 23:00, 동절기(11월~2월) : 08:00 ~23:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee90-7efc-ab9e-6e53d38493d3
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 57:
+○ 주소 :  고양시 덕양구  행당로33번길 25-6(행신동)
+○ 전화번호 : 031-8075-9240
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee93-785f-984a-5afebacd6185
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 58:
+원당복합커뮤티니센터 내 2028년 10월 이후 개관예정
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee96-7e05-97e1-9cb200a26933
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 59:
+원당복합커뮤티니센터 내 2028년 10월 이후 개관예정
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee98-7f1c-9d13-c693ec06d272
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 60:
+원당복합커뮤티니센터 내 2028년 10월 이후 개관예정
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee9b-7059-9a81-b534854a2139
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 61:
+○ 정기휴관일 :  매주 월요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ee9d-780f-9223-40669fbc384c
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 62:
+○ 종합자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실, 연속간행물실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 열람실
+(평일·주말)  하절기(3월~9월) : 07:00 ~ 23:00, 동절기(11월~2월) : 08:00 ~23:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eea0-787e-9ef7-4d4aaa8c8fbd
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 63:
+○ 주소 :  고양시 덕양구 신원2로 24(신원동)
+○ 전화번호 : 031-8075-9340
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eea2-711b-87c3-bdf2c98832aa
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 64:
+○ 정기휴관일 :  매주 금요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eea5-75f5-a25f-d62626f617c2
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 65:
+○ 종합자료실(3층)
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실(1층)
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 책이음1(연속간행물실)(2층)
+(평일·주말) 09:00 ~ 22:00
+○  책이음2(디지털자료실)(2층)
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eea7-7b97-a144-87a5f7dcd0ea
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 66:
+○ 주소 :  고양시 덕양구 은빛로77번길 8(삼송동)
+○ 전화번호 : 031-8075-9215
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeaa-73a3-af8f-3af7931605a5
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 67:
+○ 정기휴관일 :  매주 금요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeae-7f42-9092-8b58d0dc6a0e
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 68:
+○ 종합자료실1, 2(연속간행물, PC코너 포함)
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 그라운드 10(청소년 공간)
+(평일) 09:00 ~ 20:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeb1-74b1-a71a-7bde0a0176e3
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 69:
+○ 주소 :  고양시 덕양구  푸른마을로 34-8(고양동)
+○ 전화번호 : 031-8075-9400
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeb4-7ba8-a3c6-9910c0825a0d
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 70:
+○ 정기휴관일 :  매주 월요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeb7-768e-a44b-df01a9b73439
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 71:
+○ 보물단지, 책사랑
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeba-75e4-a94e-6a72fc91bcc5
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 72:
+○ 주소 :  고양시 덕양구 화신로323(화정동)
+○ 전화번호 : 031-8075-9299
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eebc-7243-a9dd-11688a52b4ca
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 73:
+○ 정기휴관일 :  매주 금요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eebf-7b73-9eeb-e1838fe61577
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 74:
+○ 보물단지, 책사랑
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eec2-71de-bdcf-4afee5f64d31
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 75:
+○ 주소 :  고양시 덕양구 소원로181번길 42(행신동)
+○ 전화번호 : 031-8075-9278
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eec4-7be7-8983-e0ee4b3eae30
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 76:
+○ 정기휴관일 :  매주 월요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eec7-72ca-9a95-20879988fa43
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 77:
+○ 종합자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 예술자료실,장애일자료실,연속간행물실,디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeca-7095-a12d-76e504ddca2f
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 78:
+○ 주소 :  고양시 일산동구 중앙로 1286(마두동)
+○ 전화번호 : 031-8075-9038
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eecc-7584-9fb4-a75fe206aeb0
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 79:
+○ 정기휴관일 :  매주 금요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eece-78c5-8919-c509bed25d0f
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 80:
+○ 종합자료실1,2
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실(1층)
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 책이음(연속간행물실), 북카페
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eed1-72b2-a6d9-90a7d3ec7fd0
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 81:
+○ 주소 :  고양시 일산동구 일산로 355(마두동)
+○ 전화번호 : 031-8075-9067
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eed4-7f2e-a17a-c8b8d4a30139
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 82:
+리모델링 중으로 2026년 10월 이후 개관예정
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eed6-73c4-b816-09c7890d7f23
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 83:
+리모델링 중으로 2026년 10월 이후 개관예정
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eed9-7872-bc30-8737effb7b10
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 84:
+리모델링 중으로 2026년 10월 이후 개관예정
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eedb-7ad5-966e-0313a16e0850
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 85:
+○ 정기휴관일 :  매주 월요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eede-7c37-baff-81206f36b384
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 86:
+Data Augmentation:  79%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                              | 87/110 [00:02<00:00, 134.81it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eee0-7fe0-8170-f449c88959c3
+○ 종합자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실, 연속간행물실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 87:
+○ 주소 :  고양시  일산동구 숲속마을로 108(풍동)
+○ 전화번호 : 031-8075-9148
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eee3-7cd3-8111-e31657dfc007
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 88:
+○ 정기휴관일 :  매주 금요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eee6-7318-b73f-79b4df82ac99
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 89:
+○ 종합자료실(3층)
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실(1층)
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 북라운지(연속간행물, 컴퓨터)
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 열람실
+(평일·주말)  하절기(3월~9월) : 07:00 ~ 23:00, 동절기(11월~2월) : 08:00 ~23:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eee8-7303-9ec1-d2e54a64b4f4
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 90:
+○ 주소 :  고양시 일산동구 위시티2로 43-6(식사동)
+○ 전화번호 : 031-8075-9190
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeeb-755a-b1dc-39e3307ca064
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 91:
+○ 정기휴관일 :  매주 월요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeed-7b0c-a5a2-c194c5c2da4b
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 92:
+○ 종합자료실,연속간행물실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 열람실
+(평일·주말)  하절기(3월~9월) : 07:00 ~ 23:00, 동절기(11월~2월) : 08:00 ~23:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eef0-7418-906e-6960edb809d1
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 93:
+○ 주소 :  고양시  일산서구 일산로 689(대화동)
+○ 전화번호 : 031-8075-9130
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eef2-76d7-a3e1-b7a402af9900
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 94:
+○ 정기휴관일 :  매주 금요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eef5-7e7d-b35e-55545fa280ff
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 95:
+○ 종합자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실, 연속간행물실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 열람실
+(평일·주말)  하절기(3월~9월) : 07:00 ~ 23:00, 동절기(11월~2월) : 08:00 ~23:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eef7-73a7-8632-c7fe24201e26
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 96:
+○ 주소 :  고양시 일산서구 탄중로 284(일산동)
+○ 전화번호 : 031-8075-9115
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eefa-75cf-80ab-29d897f5acf0
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 97:
+○ 정기휴관일 :  매주 월요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eefc-7556-a1b6-d97ba5396c0f
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 98:
+○ 종합자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실, 연속간행물실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 열람실
+(평일·주말)  하절기(3월~9월) : 07:00 ~ 23:00, 동절기(11월~2월) : 08:00 ~23:00
+○ 트윈스페이스(12~17세 청소년을 위한 복합문화공간)
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-eeff-7792-8b1d-3d943e143bdd
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 99:
+○ 주소 :  고양시 일산서구 하이파크로 128
+○ 전화번호 : 031-8075-9320
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef02-7685-86d5-7e9d626b079a
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 100:
+○ 정기휴관일 :  매주 금요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef04-7f10-b288-5adfc55db243
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 101:
+○ 종합자료실, 연속간행물실, 디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+○ 열람실
+(평일·주말)  하절기(3월~9월) : 07:00 ~ 23:00, 동절기(11월~2월) : 08:00 ~23:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef07-7417-b321-c43311cc031d
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 102:
+○ 주소 :  고양시 일산서구 가좌3로 16(가좌동)
+○ 전화번호 : 031-8075-9380
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef0a-7f63-887f-ab475dbebcc4
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 103:
+○ 정기휴관일 :  매주 월요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef0c-79e4-b985-96e58c655379
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 104:
+○ 종합자료실, 연속간행물실, 디지털자료실
+(평일) 09:00 ~ 22:00 / (주말) 09:00 ~ 18:00
+○ 어린이자료실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef0f-7168-b895-3823ce6e0636
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 105:
+○ 주소 :  고양시  일산서구 고양대로 586-65(일산동)
+○ 전화번호 : 031-8075-9420
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef11-712e-8924-f41d33bee15b
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 106:
+○ 정기휴관일 :  매주 금요일
+○ 법정공휴일 및 관공서 휴관일 및 국가가 정한 임시 공휴일(일요일 제외), 기타 관장이 필요하다고 인정한 날
+※ 토·일요일과 법정공휴일이 겹치는 경우에는 휴관
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef14-7a91-b1e4-2d4cc79bd59b
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 107:
+○ 보물단지, 책사랑, 세계어린이도서실
+(평일) 09:00 ~ 18:00 / (주말) 09:00 ~ 18:00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef17-76c0-bc50-5c354628a833
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 108:
+○ 주소 :  고양시 일산서구 주엽로 104(주엽동)
+○ 전화번호 : 031-8075-9168
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de2-ef19-7067-a0c3-14743dcff772
+2026-02-15 05:41:19 - ERROR - [data_augmentor.py:133] - ⚠️ Error at index 109:
+Data Augmentation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 110/110 [00:02<00:00, 52.93it/s]
+2026-02-15 05:41:19 - INFO - [data_augmentor.py:137] - ✅ 데이터 증강 완료! 생성된 샘플 수: 0
+2026-02-15 05:41:19 - INFO - [data_augmentor.py:138] - 💾 저장 위치: augmented_data_simple.jsonl
+2026-02-15 05:41:24 - INFO - [data_augmentor.py:143] - 📊 WandB에 생성된 샘플 테이블 로깅 완료
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 49, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 41, in main
+    artifact = wandb.Artifact(f"{config.MODEL_ID}_{wandb.run.id}", type='dataset')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/wandb/sdk/artifacts/artifact.py", line 173, in __init__
+    raise ValueError(
+ValueError: Artifact name may only contain alphanumeric characters, dashes, underscores, and dots. Invalid name: 'LGAI-EXAONE/Exaone-3.5-32B-Instruct_uqv2sd6j'

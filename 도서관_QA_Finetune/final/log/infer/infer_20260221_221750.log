@@ -1,0 +1,119 @@
+2026-02-21 22:17:51 - INFO - [main.py:21] - 🏁 전체 프로세스 시작
+2026-02-21 22:17:54 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 22:17:54 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+2026-02-21 22:20:03 - INFO - [data_augmentor.py:105] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data.jsonl
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:126] - 
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 483개)
+--------------------------------------------------
+       count  percentage
+yes      178       36.85
+no       131       27.12
+info     122       25.26
+false     52       10.77
+--------------------------------------------------
+⚖️ 불균형 지수 (Gini): 0.200 (0에 가까울수록 좋음)
+🧩 다양성 지수 (KoBLEU): 0.578 (낮을수록 좋음)
+══════════════════════════════════════════════════
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:318] - 📉 [Iteration 1] 부족분 81건 보완 시작...
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['yes']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['yes']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['yes']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['yes']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['info', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:270] - 부족한 Task : ['no', 'false']
+2026-02-21 22:20:04 - INFO - [data_augmentor.py:164] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+2026-02-21 22:20:22 - INFO - [data_augmentor.py:195] - [{'question': '도서관 건의사항을 어떻게 제출하나요?', 'answer': "도서관의 건의사항은 도서관 홈페이지의 '도서관소식' > [건의사항] 게시판에 등록해 주시면 됩니다. 담당자가 수시로 확인하고 조치나 답변을 드리겠습니다.", 'label': 'no'}, {'question': '고양시에서 도서관 관련 민원을 제기하는 다른 방법은 무엇인가요?', 'answer': '고양시에서 도서관 관련 민원은 국민신문고(www.epeople.go.kr) 사이트를 통해 신청하실 수 있습니다. 법령에 따라 정식 처리 절차를 거쳐 답변드립니다.', 'label': 'no'}, {'question': '도서관에서 제공하는 모든 서비스를 확인할 수 있는 방법이 있나요?', 'answer': "도서관 서비스는 주로 홈페이지의 '서비스 안내' 메뉴에서 확인하실 수 있으며, 자세한 내용은 도서관 소식 > [건의사항] 게시판을 통해서도 확인하실 수 있습니다.", 'label': 'yes'}, {'question': '도서관에서 연체 중인 도서를 대출할 수 있는지 물어봐도 될까요?', 'answer': '연체 중인 도서는 대출할 수 없습니다. 연체 도서를 먼저 반납하신 후 대출 정지 상태가 해제되어야 예약이 가능하며, 이후 대출도 가능합니다.', 'label': 'no'}]
+2026-02-21 22:20:27 - INFO - [data_augmentor.py:195] - [{'question': '분실한 도서를 어떻게 변상해야 하나요?', 'answer': '분실하신 도서는 동일도서로 구입하여 변상하셔야 합니다. 만약 절판이나 품절로 인해 구입이 불가능한 경우에는 도서관에 문의하시면 담당사서가 지정한 유사도서로 변상할 수 있도록 도와드립니다.', 'label': 'no'}]
+2026-02-21 22:20:45 - INFO - [data_augmentor.py:195] - [{'question': '행신도서관 열람실 운영 시간은 어떻게 되나요?', 'answer': '행신도서관 열람실은 하절기(3월~10월)에는 07:00부터 23:00까지, 동절기(11월~2월)에는 08:00부터 23:00까지 운영됩니다.', 'label': 'no'}, {'question': '열람실을 이용하려면 회원증이 필요한가요?', 'answer': '네, 열람실 이용을 위해서는 웹회원이나 도서관 회원이셔야 합니다. 좌석발급기를 통해 좌석을 배정받으실 수 있습니다.', 'label': 'no'}, {'question': '삼송도서관에서 열람실 좌석은 어떻게 배정받나요?', 'answer': '삼송도서관을 포함한 모든 도서관에서 열람실 좌석은 좌석발급기를 통해 배정받을 수 있습니다. 웹회원 또는 도서관회원이면 이용 가능합니다.', 'label': 'no'}, {'question': '겨울철에 열람실 운영 시간이 바뀌나요?', 'answer': '네, 겨울철(11월~2월)에는 열람실 운영 시간이 오전 8시부터 오후 11시까지로 변경됩니다.', 'label': 'no'}]
+2026-02-21 22:21:04 - INFO - [data_augmentor.py:195] - [{'question': '고양시도서관 회원은 몇 권의 도서를 예약할 수 있나요?', 'answer': '고양시도서관 회원은 1인당 2권의 도서를 예약할 수 있습니다.', 'label': 'info', 'difficulty': '쉬움'}, {'question': '무인예약서비스를 이용할 수 있는 도서관은 어디인가요?', 'answer': '무인예약서비스는 신원, 화정어린이, 행신어린이, 마두, 식사, 덕이, 주엽어린이도서관에서 이용할 수 있습니다.', 'label': 'info', 'difficulty': '쉬움'}, {'question': '예약한 도서는 언제 받을 수 있나요?', 'answer': '예약한 도서는 도서 투입 후 3일 이내에 받으실 수 있으며, 도서 투입 시 알림톡(SMS)이 자동으로 전송됩니다.', 'label': 'info', 'difficulty': '보통'}, {'question': '도서 연체 중일 때 예약이 가능한가요?', 'answer': '아니요, 도서 연체 중이거나 대출정지 상태인 경우에는 예약이 불가능합니다. 연체 도서를 먼저 반납하시고 대출정지 기간이 끝나야 예약이 가능합니다.', 'label': 'false', 'difficulty': '어려운 경우'}]
+2026-02-21 22:21:19 - INFO - [data_augmentor.py:195] - [{'question': '일요일에 도서관을 방문할 수 있나요?', 'answer': '네, 일요일에는 도서관이 정상적으로 운영됩니다.', 'label': 'no'}, {'question': '이번 주말 도서관에서 책을 빌릴 수 있을까요?', 'answer': '이번 주말은 일요일이므로 도서관이 정상 운영되어 책을 빌릴 수 있습니다.', 'label': 'no'}, {'question': '화요일에 도서관을 가려고 하는데, 이 날 쉬는 곳이 있나요?', 'answer': '행신, 원당, 신원, 별꿈, 화정어린이, 아람누리, 백석, 풍동, 대화, 덕이, 일산은 화요일에 쉬지 않고 운영됩니다.', 'label': 'no'}, {'question': '매주 월요일에 휴관하는 도서관은 어디인가요?', 'answer': '매주 월요일 휴관하는 도서관은 행신, 원당, 신원, 별꿈, 화정어린이, 아람누리, 백석, 풍동, 대화, 덕이, 일산입니다.', 'label': 'no'}]
+2026-02-21 22:21:37 - INFO - [data_augmentor.py:195] - [{'question': '무인반납함을 통해 도서를 반납하면 바로 확인이 되나요?', 'answer': '아니요, 무인반납함에 도서를 투입하시면 즉시 반입이 되지 않습니다. 반납 완료까지 1~4일이 소요될 수 있으니 참고하시기 바랍니다.', 'label': 'no'}, {'question': '무인반납함에서 DVD도 반납할 수 있나요?', 'answer': 'DVD는 무인반납함에서 반납할 수 없습니다. 무인반납함은 일반 도서만 반납 가능한 점을 양해 부탁드립니다.', 'label': 'no'}, {'question': '무인반납함을 통해 책을 반납하면 연체된 도서도 함께 반납할 수 있나요?', 'answer': '아쉽게도 무인반납함을 통한 반납으로 연체된 도서를 처리할 수는 없습니다. 연체 도서는 직접 도서관에 방문하여 반납하셔야 합니다.', 'label': 'no'}, {'question': '무인반납함을 이용하려면 어떻게 해야 하나요?', 'answer': '무인반납함을 이용하시려면, 먼저 반납하고자 하는 도서를 준비하고, 해당 지하철역 무인반납함에 도서를 투입하시면 됩니다. 다만, 도서 연체나 대출 정지 상태가 아닌 경우에만 이용이 가능하니 확인해 주세요.', 'label': 'yes'}]
+2026-02-21 22:21:54 - INFO - [data_augmentor.py:195] - [{'question': '고양이시립도서관에 도서를 기부하려면 어떻게 해야 하나요?', 'answer': '고양이시립도서관에 도서를 기증을 원하시면 도서관에 직접 방문하셔서 기증신청서를 작성하신 후 담당자에게 접수해 주시면 됩니다.', 'label': 'no'}, {'question': '발행년도가 10년 된 도서는 고양이시립도서관에 기증할 수 있나요?', 'answer': '아니요, 발행년도가 5년 이상 경과한 도서는 기증 대상에서 제외됩니다. 따라서 10년 된 도서는 기증할 수 없습니다.', 'label': 'no'}, {'question': '훼손된 도서는 고양이시립도서관에 기증할 수 있나요?', 'answer': '아니요, 훼손되거나 파손된 도서는 기증할 수 없습니다. 기증 가능한 도서는 상태가 양호한 것이어야 합니다.', 'label': 'no'}, {'question': '타 기관의 장서인이 찍힌 도서도 기증할 수 있나요?', 'answer': '아니요, 타 기관의 장서인이 찍혀 있는 도서는 기증할 수 없습니다. 이러한 도서는 다른 기관에 소속된 것으로 간주됩니다.', 'label': 'no'}]
+2026-02-21 22:22:08 - INFO - [data_augmentor.py:195] - [{'question': '월요일에 도서관을 갈 수 있을까요?', 'answer': '아니요, 월요일에 도서관은 정기휴관일입니다. 다른 요일에 방문해 주시면 됩니다.', 'label': 'no'}, {'question': '법정 공휴일은 항상 휴관인가요?', 'answer': '네, 법정공휴일에는 도서관이 휴관됩니다. 다만 일요일과 겹칠 경우에는 개관합니다.', 'label': 'no'}, {'question': '토요일에 도서관이 열려있나요?', 'answer': '네, 토요일은 일반적으로 개관합니다. 다만 법정공휴일과 겹칠 경우 휴관될 수 있으니 확인이 필요합니다.', 'label': 'yes'}, {'question': '일요일이 법정공휴일이면 도서관을 이용할 수 없나요?', 'answer': '아니요, 일요일은 일반적으로 개관합니다. 그러나 법정공휴일과 겹치면 휴관될 수 있습니다.', 'label': 'no'}]
+2026-02-21 22:22:20 - INFO - [data_augmentor.py:195] - [{'question': '희망도서는 어떻게 신청할 수 있나요?', 'answer': "홈페이지의 '희망도서신청' 메뉴를 통해 신청하시면 됩니다.", 'label': 'no'}, {'question': '수험서를 희망도서로 신청할 수 있나요?', 'answer': '아쉽게도 수험서와 학습교재는 자료선정 기준에 따라 신청이 제한됩니다.', 'label': 'no'}, {'question': '시리즈나 전집류를 희망도서로 신청할 수 있나요?', 'answer': '시리즈나 전집류는 신청이 제한되는 항목 중 하나입니다.', 'label': 'no'}, {'question': '도서구입은 언제 이루어지나요?', 'answer': '도서구입은 매년 정해진 계획에 따라 정기적으로 이루어지고 있습니다.', 'label': 'no'}]
+2026-02-21 22:22:35 - INFO - [data_augmentor.py:195] - [{'question': '어린이자료실은 주말에 몇시까지 운영하나요?', 'answer': '어린이자료실은 주말에도 09:00부터 18:00까지 운영됩니다.', 'label': 'no'}, {'question': '종합자료실의 운영시간은 평일과 주말 동일하나요?', 'answer': '아니요, 종합자료실은 평일에 09:00부터 22:00까지, 주말에는 09:00부터 18:00까지 운영됩니다.', 'label': 'no'}, {'question': '열람실은 동절기에 몇시부터 운영되나요?', 'answer': '동절기에는 열람실이 08:00부터 운영됩니다.', 'label': 'no'}, {'question': '디지털자료실은 평일 저녁 8시에 열려있나요?', 'answer': '네, 디지털자료실은 평일에도 09:00부터 22:00까지 운영되므로 평일 저녁 8시에도 이용 가능합니다.', 'label': 'yes'}]
+2026-02-21 22:22:52 - INFO - [data_augmentor.py:195] - [{'question': '도서관 내 사물함을 사용하고 싶은데, 어떻게 해야 하나요?', 'answer': '도서관 내 사물함을 이용하시려면 우선 사물함 운영을 담당하는 위탁업체의 관리자에게 연락하셔야 합니다. 각 도서관의 사물함에 부착된 전화번호를 통해 문의하시면 사용대장과 사용료에 대한 안내를 받으실 수 있습니다.', 'label': 'no'}, {'question': '아람누리 도서관에서 사물함을 사용할 수 있나요?', 'answer': '아람누리 도서관에서는 사물함을 운영하지 않으니 이용하실 수 없습니다. 다른 도서관에서도 사물함 운영이 안 되는 경우가 있으니 방문 전 확인이 필요합니다.', 'label': 'no'}, {'question': '사물에 대한 보관료는 얼마인가요?', 'answer': '보관료는 각 도서관의 위탁업체마다 다를 수 있으며, 사물함에 부착된 안내문을 참고하시거나 직접 전화 문의하시면 정확한 금액을 안내받으실 수 있습니다.', 'label': 'no'}, {'question': '주엽어린이 도서관에도 사물함이 있나요?', 'answer': '주엽어린이 도서관에는 사물함이 운영되지 않으므로 이용하실 수 없습니다. 다른 도서관에 사물함이 있는지 확인 후 방문해 주시기 바랍니다.', 'label': 'no'}]
+2026-02-21 22:22:53 - WARNING - [data_augmentor.py:211] - ⚠️ 추론 중 에러 발생: 
+2026-02-21 22:22:53 - WARNING - [data_augmentor.py:211] - ⚠️ 추론 중 에러 발생: 
+2026-02-21 22:22:53 - WARNING - [data_augmentor.py:211] - ⚠️ 추론 중 에러 발생: 
+2026-02-21 22:22:53 - WARNING - [data_augmentor.py:211] - ⚠️ 추론 중 에러 발생: 
+2026-02-21 22:22:53 - WARNING - [data_augmentor.py:211] - ⚠️ 추론 중 에러 발생: 
+2026-02-21 22:22:53 - WARNING - [data_augmentor.py:211] - ⚠️ 추론 중 에러 발생: 
+2026-02-21 22:22:53 - WARNING - [data_augmentor.py:211] - ⚠️ 추론 중 에러 발생: 
+2026-02-21 22:22:53 - WARNING - [data_augmentor.py:211] - ⚠️ 추론 중 에러 발생: 
