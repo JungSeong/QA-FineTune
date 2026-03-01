@@ -1,0 +1,648 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 04:10:49 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+2026-02-21 04:10:51 - INFO - [data_augmentor.py:105] - 🔄 LGAI-EXAONE/EXAONE-3.5-32B-Instruct-AWQ 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c76-44e0-7574-a6e8-9e72ee226585
+2026-02-21 04:15:11 - INFO - [data_augmentor.py:112] - 📡 서버 응답: ✅ Exaone-3.5-32B-Instruct-AWQ 로드 완료!
+🚀 initial 증강 진행 중:   0%|                                                                                                                             | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c20-7624-b4f6-1c5211f193dc
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c20-7f2c-b816-99f19dd35ed6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c20-71ab-b784-0f6fc00598ab
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c19-716e-ace8-3a0efe6805da
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c1c-76be-9863-3fbe50aa8651
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c20-7c60-a479-9e2bc806f9d0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c21-74cd-acdf-aac047cb3b00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c21-769d-aa98-eee3f43773b5
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c21-70ac-9d68-37e570f39024
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c22-7a72-9f62-f35481409726
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c21-794e-9384-d4eac872dfac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c1f-7946-b8aa-da9c8f95c879
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c22-7668-b72c-0683445ecd09
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c22-726d-b7cf-729cf3532111
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c22-74aa-bc7b-d2d07a652c12
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c22-77aa-af34-bd2715524421
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c22-7706-8dde-a63e8bb13856
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-789a-9e79-158088d7964d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7d65-9f87-8188f71a5695
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7bf2-b1ed-edbea7742274
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7495-bdd9-669c95dde7e7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7dec-b9fd-0b5cffbf6dc3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-73c6-9745-5786d7739b4c
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7f37-b5ab-432d434a3751
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7f23-b7b0-c89d44f27d55
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7643-9155-0b79deb8bd35
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7bc2-88db-a0a1b2bb265a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7d74-9af9-3192aab9768e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c23-7d2c-ae32-11d3a703ff1f
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-7280-b1f0-1947e3dbbba0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-72cb-8047-305202392d2b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-75f0-b853-39de4a5bece5
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-7a76-8fe7-253d2dc55632
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-7031-9740-720a90dea7f1
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-7636-b458-de31efe0b41d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-7827-977e-4bb09294abc5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-712a-8cc0-a0620490480c
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-7772-8ff5-76b67ac0b6af
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-7d7f-8657-734d381d89d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-7105-8735-bde7ce1fd242
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c24-7243-ac55-af0dd1fa4c76
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-7e01-8304-49ca9aa9c0f9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-758d-9163-d9be4503c6f2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-77b1-affc-c97603f9c3b1
+🚀 initial 증강 진행 중:  16%|██████████████████▊                                                                                                | 18/110 [00:00<00:00, 179.97it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-7627-9660-b5ecd6a3c7c3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-71c7-994e-50276df2d284
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-77db-967c-d390305943aa
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-7f0e-b7cb-3584704bcc9e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-779d-aaf4-6a1b7b509c2b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-7e26-a6d2-cf247c29aaed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-7a1f-b2cc-cac4232a7ec1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c25-72bc-823a-8a5878348187
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7fb8-9535-e6b6fef2a9b5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-74a0-96a7-a2da130b9310
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7725-b7ef-bb724178cd7c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7a20-a0c0-61dfebc4cb4e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7ac0-89a2-f34dbecd0d02
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7601-a3a1-b227001cb37d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7cda-bfb1-1bde940f8e99
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7f7a-8a94-0f8395a1b8de
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-73c2-b09f-8d94de806a79
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7e2c-9dab-53d5639fb0e5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-70d7-81fb-47b5f7cb6442
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7e73-9e6d-168989bbf7f0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-7057-b007-af0d9fdf956c
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c26-75ca-8cae-3201eafb1266
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7bd9-a95c-a3be087d07d2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-75a2-a119-7bb6a8cca15e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7095-8446-7845b467fbf7
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7c3e-a34e-c5ef96043550
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7e8b-97af-cbc26e72b45a
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7b5c-8f07-3361286feba3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7f61-a279-d598e208485e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7e1a-8151-11ac73948d2c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-710e-9025-ac07908ec97c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-72f1-b213-0c0a882846da
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7bcc-9d8f-b0b41f5919b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7ce5-815a-438538c2a5e2
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c27-7c4e-90cb-bdbf37764b70
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c28-78fa-ac69-7546f47451b4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c28-712d-9f09-50bd0cba4ba1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c28-765e-b33b-0c525107f1c0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c28-78f1-ae9a-2658222e2747
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c28-719d-a6dd-e5ae3f328ebb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c28-7fb8-b55d-7d7923536397
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c28-73d5-a4d3-3ea6acf005a2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c28-7bc9-ae2e-1385ae8e2b6d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-7788-9765-2f25aff7e72d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-7adb-8ef6-1bdfd36eab24
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-787c-9010-6d0855e57ab2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-7762-b850-bcc3697d48cc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-7aac-88e8-840caf2e404b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-7085-b2d2-b9260bce27e0
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-7d53-ace6-79b5b2ad2f72
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-79db-8c7d-91ab7aac9566
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-716f-af3e-8d42b418c06a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-7e91-96ac-df39edd4e83f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3c29-7a29-af03-98bbcae86616
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+🚀 initial 증강 진행 중:  51%|██████████████████████████████████████████████████████████▌                                                        | 56/110 [00:00<00:00, 185.56it/s]
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 04:15:12 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 04:15:12 - INFO - [data_augmentor.py:133] - 📉 [Iteration 1] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                                                                            | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e63-7d5d-a4f5-62d3f842aff4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e63-7b22-bf46-7228fdf23c9d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e64-7b03-bb92-dba3986db420
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e63-77fe-a931-565cd89e8b03
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e64-7f14-9ba0-b8e0cfc2507a
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e64-7fdd-94dc-40766047ffe5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e65-7777-a1e7-a46761bd24b0
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e64-7335-86ff-11d90f712ce7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e65-7f5e-87b3-84fc33326491
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e65-7f77-8d88-d7647d10d5d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e65-76ac-81c8-5a5f92892009
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e65-7da7-ae38-77b6d5973829
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e65-7ef2-a93c-8b978cf12c4e
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7bc5-8c65-94766decb6b8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7e0f-b87b-f94e1f995047
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7063-b1d0-02af3e60ba8c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7ccd-9916-ad43291e9073
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-70c3-860e-5772636c16c7
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7cf0-9ac8-98d55798c8de
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7cdf-af01-e8bcb2e2f4e1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7f2b-9c26-687660921f39
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7a23-aca3-61686ebec907
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7d36-b230-67b4b3548988
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-72e0-9dee-9088655b17c2
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e66-7a17-a0dc-2434b1ecc5ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e67-7550-a70d-818b4e7c3c80
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e67-7500-9d51-978029cca9f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e67-7674-a818-a3ca6fa340ec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e67-72d8-8f95-698645ef4481
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e67-7c21-871f-ccf44cf05da0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e67-783e-a6ae-e7ee479bdd7b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e67-7f56-8070-61e1548571c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e67-721d-aa2a-d65c0143d34f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e67-7726-a087-087df2c282a5
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-7dbe-a199-460b56d908f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-765e-b702-3f5176c8e763
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-78f6-98cb-d22ad9dfe605
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-705e-a28d-cfe8fd687f68
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-7184-bf17-ed13bb5ce2ad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-70fa-b09e-41591229375d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-7cc3-b571-7f968d10c032
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-746c-8db1-8d55ea5f93e5
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-7a01-a973-16ecdea0a12c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e68-7dc1-8052-afdcf3f2b13e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-7df0-a501-5ba2c6c315a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-7e19-8bd6-2cc321b917ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-722b-9951-a10d3972c211
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-7db4-8865-6a11107def41
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-7f19-ab5e-34a12affca0a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-741d-9e90-dddda41e1fc7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-7092-b659-9f73f0e52096
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-7ca5-8567-597b2d12ce02
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-7ae6-9dd9-9a5f103fa5e5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-74c8-9de7-12b104c4c71b
+🚀 targeted 증강 진행 중:  10%|███████████▍                                                                                                      | 11/110 [00:00<00:00, 107.91it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-731a-9a48-bbae2284735b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-7cf5-a460-1b0a875f99f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e69-70cd-81a7-5dade3b30bd1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-7165-a6ab-878278343441
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-7276-a8b2-512263f4066e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-70e8-b958-7393d4096dac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-72ab-8070-229e307af4fc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-71b0-ba6a-4166716ae660
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-7bde-8f2c-b9b70cb98829
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-74b8-9c84-a80878e08265
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-7f60-b90e-93c07ac93616
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-7beb-9303-a2adb43d28d1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-7240-a8a1-b9ba5d5b027f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-73ee-a0ae-68a22a2242db
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6a-7ad1-89e8-b870a9e43ac9
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-76bf-a2f9-20902bb4ef6b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-7961-affb-e80a905280a1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-79a1-8c6e-59a0fe4473c3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-71c0-957e-d95cfb7c9389
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-74b1-afed-c7b05ecb1c3a
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-7293-96c6-9635d5b29232
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-70aa-a84c-6917063a6715
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-7593-b95e-2d399ce0114e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-7919-8a14-888b8063e0a7
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-70de-b1bc-81d927c24103
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-78d1-9fe5-4f287b7dbb89
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6b-70cf-bba0-a1a15be5779b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-7355-b028-adef3c4c2173
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-7a40-b722-33f9835b2a54
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-79ea-bbd5-c691c7b73b98
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-780d-a7c9-015b3064e7e3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-7918-abf2-d7d47ce50546
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-778d-b6d9-2b3578fbad8a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-7499-8d6f-e5412e6d3379
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-79ed-986a-ec5daaca73f6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-725f-87bd-b985eb50d6ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-7c08-b29f-b5e92e29a68a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-713d-adc3-6f24a8cb4c87
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-7e5d-aa09-e44974c77b90
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-7070-8436-a6b827b5e140
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6d-7cd1-b23a-6302b7d0ab17
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6d-7d1e-aa67-64a64ad90e20
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6c-743a-b7ef-3e34a7cdc065
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6d-7f1f-9825-041490bf6d64
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6d-7d20-88ca-273270f3c946
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6d-7fda-ae53-a4d9ccd9a4ac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-3e6d-7faa-a10e-b34e397a1643
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+🚀 targeted 증강 진행 중:  42%|███████████████████████████████████████████████▋                                                                  | 46/110 [00:00<00:00, 159.59it/s]
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 04:15:12 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 04:15:12 - INFO - [data_augmentor.py:133] - 📉 [Iteration 2] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                                                                            | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40b9-71e6-b78d-50cf6a75312b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40b9-7bfb-af8c-85bcef95206a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40b9-7d85-8875-4b0fc428731e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40ba-7b2d-8b79-1836c9027281
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40ba-79c9-9eff-f0f5d644418a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40ba-70be-900b-241ed33b5e65
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bb-71d6-bb79-6fed264a3a66
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bb-7c55-830c-e753b6d69e86
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bb-79e0-86a4-d1e87c2c422c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40ba-7029-9e1a-ab892f633d16
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bb-797e-bca3-a993b4f72d0a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bb-7ef6-b079-5b292ce2a3f4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bb-7867-9a18-be41b480b871
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bb-723a-8a65-edcafc5b509d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bc-7b7a-aea4-6d3d621e5eae
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bb-7527-939b-4f8c6c04c091
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bc-7d66-b935-77e6b40c6abe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bc-7f8f-b021-d44ded40bfdf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bc-73f1-9ec3-4f30b6a36611
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bc-701c-b5c5-0bbf48887df3
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bc-716d-b97c-7702e973ae79
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bc-7ddb-859a-d396c6e01586
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-702f-960a-c425e909c27a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-790f-b066-6a73d168923e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-76dd-b2fe-0678094aecfb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-7d6a-b9c3-1909258b0838
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-7f9b-8364-a9b7974d5022
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-721e-bbd4-5bd2a61fac66
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-725d-8acd-391c8f129201
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-7c74-b22d-02c5b19555bf
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-72e7-be1d-61cfec57b3cc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-7881-8127-36091df58080
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-7c5d-b0d1-87292b08da5b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-76eb-b629-9cd3dbdf7df7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bd-7fa0-a9dc-041c1de12339
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7945-a0ab-843a12bc89aa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-77e7-a29a-bc2f9278500a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7032-ab82-7f2594ead14d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7e79-87d8-b9c6a5767cfd
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7eac-85dc-25cd35879e44
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7d2f-8d75-22bd3ed31eb6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7a2a-b01e-f1f02dc45d19
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7762-9bec-dff0e6e3243d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-733c-ad05-fd4a06855048
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7142-ab08-1f2494d99355
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-71bc-8f48-a6722dff1e6d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7211-be42-82f90f126f52
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-74b6-be88-2d521c4913f7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40be-7ca3-8634-f1b7340b3017
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-762b-86df-0fb455d3c360
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-7b2d-8772-b71a021aaab4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-77fb-8589-c6bccbe1e80f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-780d-a1d3-785474b7b791
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-77e4-b2ff-aebe0d7b8ec5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-711e-b900-e48eeb6f7170
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-785f-baec-d70ae3d57b98
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-7f71-8d57-0b588b90932b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-79f3-891a-0f25be7ce337
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-7dc1-b3a9-69ac7d806d25
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-75bd-af49-c9f050fa8377
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c0-749b-b0ad-f959554809ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c0-736e-b90c-f7543320e1a6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c0-79ed-8731-fb5408ae3ff5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40bf-776a-a2fb-28675968d7e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c0-7d47-9c69-7be45d7cafb8
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c0-702b-a9aa-344618f30a3c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c0-7002-9664-6e3464cd98c2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c0-786a-bde2-28a5d90b8af5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c0-745a-af3c-ee303d51e752
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c1-7f4e-a1ff-8d23427fbd29
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c1-70c9-b12b-a3028a98cacb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c1-786f-a4b6-f35f0c89a7ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c1-7f82-80d7-8aea9cea0969
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c2-7058-9e34-9f414ce920de
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c2-78f3-a439-c4d3080eaa0e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c2-718d-93e2-b6ac29f089d9
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c2-7569-8bc0-3dc38ffdfa75
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c2-7d3a-93a0-75fe6b2360bc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c2-7cae-95ae-bb816a540132
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c3-7589-85c9-f43fc44f97c1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c3-7518-8c46-25093c15418d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c3-7152-b9e7-b782756ff7d7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c6-7f20-acf8-ed6cb5755004
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-7a6b-b59e-0eb67ac343a1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-7c12-b66a-88beca4fc069
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-753b-8b21-7bc9c7083c36
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-7b42-9ec7-bd546f0a3863
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-7e27-bdec-418b2a09eb92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-75c9-8436-a8b27a06744f
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-7719-a52f-fd497abf2fdb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-753e-bd64-4a100b973599
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-7bb3-b6f1-2a99490a80ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c7-7d00-81a7-c2ade8e0cc87
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c8-7c23-9d43-ca54d91e5d4c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c8-7bd0-835a-d45a17e38538
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c8-7e34-b8d8-b6255e8deb04
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c8-727d-9b95-4ada55c20891
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c8-7d64-b9ad-71a00e111606
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c8-72ef-8f51-d47cfb250b8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c9-74f2-9846-f73973907630
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c9-7393-a87d-37b1399ccced
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c9-7bc9-84e1-4641b3b92e83
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c9-7337-8697-dc261bfe5117
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7a-40c9-7219-9224-ad7f1a54677d
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+🚀 targeted 증강 진행 중:  60%|████████████████████████████████████████████████████████████████████▍                                             | 66/110 [00:00<00:00, 232.12it/s]
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'tokenizer' is not defined
+2026-02-21 04:15:13 - INFO - [data_augmentor.py:140] - ✅ 파이프라인 완료: ../data/json/augmented_data.jsonl

@@ -1,0 +1,11 @@
+{"time":"2026-02-21T05:02:02.886413238+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-21T05:02:03.24068241+09:00","level":"INFO","msg":"stream: created new stream","id":"2ch901w2"}
+{"time":"2026-02-21T05:02:03.240842202+09:00","level":"INFO","msg":"handler: started","stream_id":"2ch901w2"}
+{"time":"2026-02-21T05:02:03.240922074+09:00","level":"INFO","msg":"stream: started","id":"2ch901w2"}
+{"time":"2026-02-21T05:02:03.24095121+09:00","level":"INFO","msg":"sender: started","stream_id":"2ch901w2"}
+{"time":"2026-02-21T05:02:03.240947882+09:00","level":"INFO","msg":"writer: started","stream_id":"2ch901w2"}
+{"time":"2026-02-21T05:02:04.608954258+09:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":50}
+{"time":"2026-02-21T05:02:04.611567781+09:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":22}
+{"time":"2026-02-21T05:02:04.73172587+09:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":117}
+{"time":"2026-02-21T05:02:04.732014239+09:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":12}
+{"time":"2026-02-21T05:02:04.877710636+09:00","level":"INFO","msg":"stream: closing","id":"2ch901w2"}

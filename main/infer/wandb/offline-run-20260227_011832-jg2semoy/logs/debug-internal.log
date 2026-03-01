@@ -1,0 +1,12 @@
+{"time":"2026-02-27T01:18:32.630315472+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-27T01:18:32.735804598+09:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2026-02-27T01:18:32.736110199+09:00","level":"INFO","msg":"stream: created new stream","id":"jg2semoy"}
+{"time":"2026-02-27T01:18:32.736194984+09:00","level":"INFO","msg":"stream: started","id":"jg2semoy"}
+{"time":"2026-02-27T01:18:32.736257432+09:00","level":"INFO","msg":"handler: started","stream_id":"jg2semoy"}
+{"time":"2026-02-27T01:18:32.736278392+09:00","level":"INFO","msg":"writer: started","stream_id":"jg2semoy"}
+{"time":"2026-02-27T01:18:32.736289432+09:00","level":"INFO","msg":"sender: started","stream_id":"jg2semoy"}
+{"time":"2026-02-27T01:18:32.736567609+09:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2026-02-27T01:18:36.737204827+09:00","level":"INFO","msg":"stream: closing","id":"jg2semoy"}
+{"time":"2026-02-27T01:18:36.737394908+09:00","level":"INFO","msg":"handler: closed","stream_id":"jg2semoy"}
+{"time":"2026-02-27T01:18:36.73745046+09:00","level":"INFO","msg":"sender: closed","stream_id":"jg2semoy"}
+{"time":"2026-02-27T01:18:36.73745446+09:00","level":"INFO","msg":"stream: closed","id":"jg2semoy"}

@@ -1,0 +1,650 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 03:42:09 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+2026-02-21 03:42:11 - INFO - [data_augmentor.py:105] - 🔄 LGAI-EXAONE/EXAONE-3.5-32B-Instruct-AWQ 모델 로드 요청...
+2026-02-21 03:42:11 - INFO - [data_augmentor.py:112] - 📡 서버 응답: ❌ 모델 로드 실패: name 'vllm_config' is not defined
+🚀 initial 증강 진행 중:  20%|███████████████████████                                                                                            | 22/110 [00:00<00:00, 217.11it/s]
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 03:42:11 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 03:42:11 - INFO - [data_augmentor.py:133] - 📉 [Iteration 1] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                                                                            | 0/110 [00:00<?, ?it/s]
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+🚀 targeted 증강 진행 중: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 110/110 [00:00<00:00, 307.62it/s]
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 03:42:11 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 03:42:11 - INFO - [data_augmentor.py:133] - 📉 [Iteration 2] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                                                                            | 0/110 [00:00<?, ?it/s]
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:11 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e3-7c04-b61e-eb8d376a1783
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04db-784d-adaf-b586ccedaa48
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e6-7f0f-a9fb-4959d250368f
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e0-7a6b-beae-8416ff743966
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e5-7c5f-989b-6259e6e0d44d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e3-7b89-b2d4-bd5540c01fa9
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e7-7a21-a322-8b535b9fa4de
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e8-720c-ae3f-85ad492a1fd6
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e9-7168-b9a1-df8fec86b0b7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e9-7b20-8df4-2add04aac529
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04e9-752a-b734-d7f42c89dcab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ea-79a4-b243-b9d2205dcabd
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ea-7b44-a8de-4c95177dfe52
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04eb-736d-98bd-306298663010
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04eb-7f5c-9c94-80663411b663
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04eb-7cac-8041-45fe29f6af34
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ec-76af-91f2-2b0a1084d583
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ec-7533-91ba-b5a709a77177
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ec-7763-872c-a9ee7b5626db
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ec-7d5d-8abc-ef1e95d879e9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ed-7b5c-b771-ade2d0886ecc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ed-78d2-9989-768eeb83d809
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ed-781c-9120-4f20bf32b334
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ed-76b1-b771-6d002509ab8e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ee-7a35-8c14-96a048cec090
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ee-79ae-b653-7dfe2d60dfb2
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ee-7a04-a0af-b728a789af03
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ef-7716-b577-07a72b93a67e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ef-7ba0-aa52-42fac75b87d0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ef-7797-a93a-00bf9196bb50
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f0-79db-98ac-b0e7e7fab2d9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ef-7a97-98df-3d40f9c85fbe
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f0-70db-8f9e-aa7c0d233c57
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f1-7898-be57-84b384ae53cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f1-7b03-92a9-030f0df1c6af
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f1-791d-8b90-ef14faa6d797
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f1-7095-be1f-9b5f3dccac30
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f1-796f-b719-24cb5b304f2c
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f2-771b-956c-1666cf269ef0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f2-729b-aa4a-31ef953e31b8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f2-7f36-a456-341854c13253
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f2-7f30-83ee-515695683e22
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f3-73c0-a7fd-0772320bd6f0
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f3-7158-aa81-80bde84790dc
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f3-73c1-967e-91d6c63c685f
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f3-78b9-9a37-75ea9bb3b5fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f3-7afc-8459-efdfe5063f9c
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f4-7be2-b8e7-a329278fe6bb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f4-7f9f-8399-17795ad18816
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f4-749c-b644-aaac349620dc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f4-738d-b6e4-53f3341df4c8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f5-7c70-8b28-fbc82d7d54df
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f5-779d-a5f2-e272ac69fc2f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f5-770b-8004-239e8fd6f6a0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f5-7933-b03f-10838821eb9e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f6-73a1-8756-01d35759514e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f6-7bd8-a6e6-9205dc84fc8c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f6-7a90-bca3-8b79947aff0a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f6-7557-89e6-4cea64068556
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f6-7e15-9684-51cb72a54b98
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f7-775c-acfc-8c5b7cad6da7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f7-7b2c-baac-42f61e7a5c02
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f7-7c4f-832b-16e04d9d6aa5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f7-7495-8405-d75fbd6b184a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f8-7bd8-b75e-27a3e00f5b76
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f8-747b-b418-6959b8fcf707
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f8-792e-982b-517a4aeab38e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f9-7837-8e72-b7e1aa53dd47
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f9-7dfe-ab44-37675828873f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f9-7e7e-ab97-231472f407f1
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04f9-7cb0-82af-ff24fa801532
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fa-73da-8ba5-d5543ba368f0
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fa-76bf-8714-8d32328f5d7f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fa-7167-b7dd-ccea2fc0dcee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fb-78f9-8a05-e4fa549953fc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fb-77df-b311-f966b24e16a0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fb-7011-9995-194166bd479c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fc-73e0-9fe2-6c580960b909
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fc-74af-a42e-69aaf6de311a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fc-7dfd-beb7-93fef62f2836
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fd-71d1-96c3-edb1eae1541f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fd-776f-b6ab-56b24bc2853b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fd-79f3-8ffc-6c0a8fa01275
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fe-7530-af00-131f72744ec8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fe-76b9-b08d-6805ee33ec8d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fe-76e4-8538-f75e5ecbf3dd
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fe-7159-98b6-2e1d40e765c0
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04fe-797d-9d13-b5dea7784531
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ff-7adf-af66-66d334c694e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ff-7535-b5b3-d696044a9899
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ff-7302-88af-45a6415c4536
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ff-75ba-af7d-29dc5e73eb9f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-04ff-7108-8581-76e80ba358f5
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0500-70ef-808d-60e6583534e7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0500-7003-8568-1d9b29aab2d3
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0501-7298-8e26-66ae3c3096f6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0500-7335-8dae-e2787462fea2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0501-7fad-84ef-7b670e17da38
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f0-7f8a-b1fa-ed54d8cc29d2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f1-7744-87f1-7f64a8fa9a21
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f1-7e8b-a7bd-4cee950a9538
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f1-7002-8722-a93b8956e83c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f1-7c0a-b4ae-82917548db6c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f2-791a-a891-fe995b876886
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f2-7fa2-a810-5200e3e22686
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f3-7fcf-a4de-379281c9143b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f3-7fa4-af19-73fe22c47f68
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f3-7be8-abce-5ee72c876f66
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f3-74e6-abd4-96efe591c5f1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f3-7cda-9825-8bfdc7742d6e
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f3-7218-b17d-962dfcada507
+🚀 targeted 증강 진행 중:  83%|██████████████████████████████████████████████████████████████████████████████████████████████▎                   | 91/110 [00:00<00:00, 231.14it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7b0e-a682-1ca16319fade
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7eaf-8ae7-e27244fefa82
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-78ae-a4e3-2fbc47356727
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7bbb-9c65-3b89a578246c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-72a9-b631-b6dea0dfb4b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7c00-829c-87e51fe6a3a6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7258-9ecd-f04646ca9266
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7bea-a942-6b7318bf52c5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7041-ad58-22b5e44acc4a
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7ff5-9b80-b5fe6be51669
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7f3f-b9a4-35bb6df3009b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-78d5-b2c5-357ec9413c41
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-7320-a454-c0bd167da309
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f4-79ee-ac6f-9daaeb2ff81d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-70d4-a27d-a585a7c22895
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-75b5-94dd-55af412f8b0b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-7513-acfa-682ee8c76571
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-72af-b892-e5e8fafec648
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-706f-b952-e2a069badf45
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-78d3-9d42-893cc205eef7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-7e55-b4cd-77f52010c914
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-76f8-aeea-551182e2396c
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-7811-93c3-333c26e6b359
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-70df-a842-546ae3cc0193
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-7490-aa8b-7782de440ee5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f5-7398-9af8-29f6c73e7b4b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-701c-aa09-eb433eed8844
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-7a41-b70a-5417c587c151
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-7c31-addc-f83eeae87efc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-76e1-b094-f67d1c4e7ea4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-7dbb-9f43-e2c7259cf749
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-7c2f-bd6a-de917082ae1a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-76e2-9fdb-97f1ac7eaf9d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-7e0d-9dcf-3cab2eb16b62
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-7bc4-8f6a-9715e0fe23c7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-70f1-bbfa-2874b21aaaaa
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-79e7-9737-d2c879d7ef91
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f6-70eb-9cd2-bc4a6082e3ea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-738b-ab09-359611bffcf4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-7a13-8d0f-be75451a5d19
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-7c63-b4a6-5ce634c4608a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-7cc3-945e-1e9f6c7d5f42
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-7675-ac86-c92a77c3b500
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-7e71-8936-b7a48ff73ae2
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-7b47-85d5-e89e890fa282
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-79e1-bdb1-f4b0248daa36
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-7cf7-9c26-458061f697c7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-7254-a15c-41e742820d8d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-7958-a6a0-6f683230ebf8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-77a9-8208-e83126ac2022
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f7-72a8-9727-1a650a6c5880
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f8-72a0-bb0b-e7460cd3eab1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f8-760a-a0bc-a194733411df
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f8-744e-a56e-61644468bdf1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f8-77f7-a332-98c0ffc91bc2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f8-7501-941d-4ea5b5d3cec6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f8-7cb2-b113-d72392a175bd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f8-7018-b9e1-32831f5c6b4e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f8-7700-93e3-d47438507aa0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f8-7f44-9161-8480e8bf5e41
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-7630-9831-f37e32bf61d1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-7509-a2c6-e16c3799ff71
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-71a6-8025-e89bc91dbae0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-7227-9c0b-ee2174d50759
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-7334-a3cd-ac0afa2c9348
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-703d-a8ee-084d6e243a0d
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-75c5-8c82-aae3c02ee3fb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-7ae8-b803-00ec93e85cd9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-72a3-8d66-e9ee9b7994d8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-727e-a488-e53d930a25b1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-741e-8bac-bf3603ea4b3e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-7e18-b35c-8caf4a8e315d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05f9-7be1-a8c9-9426ec9cbe95
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-7c9b-9fa9-ec06226df130
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-7aec-a610-8c0af9c1bfb1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-7ec3-a417-dc9866b3ddd8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-7644-abf6-cce07d825b1d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-7391-bbb2-ca9e15de5aa6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-759b-b2ce-aca4da6e79a5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-7b06-9219-5e215bd82e22
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-7fcd-94c2-23c6944a9f00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-77b2-849e-3ce317c0dd6c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fa-7ae9-ac9a-be06ba87584e
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+2026-02-21 03:42:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하세요.
+🚀 targeted 증강 진행 중: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 110/110 [00:00<00:00, 200.56it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fb-7d2f-91b8-bb025778d0c0
+
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fb-710b-bb4f-e0b1d2f612ee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fb-7fab-854a-a27f04fad5fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-05fb-7e02-b109-01bb2a16ac44
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075d-77a6-ac7e-67140de0e152
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075d-79aa-8660-3eabf1e86d7e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075e-754a-91df-ed6297720abe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075e-765c-9c81-a574ed953cdb
+2026-02-21 03:42:12 - INFO - [data_augmentor.py:140] - ✅ 파이프라인 완료: ../data/json/augmented_data.jsonl
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075e-7eeb-9d4b-c95e54a8c1ce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075e-7b6c-a500-d1aac5d04166
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075f-750c-8810-8a4a7b17b3ad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075f-7744-b0f1-b9a613e00f04
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075f-75bd-b419-a763d5c6d02f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075f-7ba5-a214-7a66552ec308
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-075f-7e34-b3b0-2f38d908915c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-7ce3-9f26-4ad3bac78b7d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-76b9-b583-83be596ed005
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-795e-8d98-7346e8612f8a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-7c76-912b-0445aa118207
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-7711-84d8-8b0f740e4127
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-7695-8d91-e87c4e2e53e6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-76f4-aa75-a9f3ab8578e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-722d-9ec6-0a0860308a81
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-772f-8fec-b6764e58c10f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-7513-ba04-10b5014700b8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-79d2-b127-bfa9130e998a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-7831-af28-b33aedff7c27
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0760-71b2-a672-ed21bdd155ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-7230-87ed-196d198333dd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-74a2-ae13-11d3d3833996
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-7613-b38b-f7459f23beb3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-7494-893e-2f43ce45c5ad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-769d-bcbb-5856b37e35ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-7e65-9cd3-74e63ad854be
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-73fe-bf2d-8427dc2f3f2a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-75aa-8f6c-8f3785567e87
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-7217-980f-95dc6330f51a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-7edd-a1f4-fb54c9c8dac1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-7d13-b43a-5f555caf8b1f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-70ba-8f8c-5393111f3ef5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0761-7b8f-933a-4e05e4e8e26b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-73de-81ed-f1dbb0f2db2b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-7ac0-a85d-c3981a95ab28
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-7c71-9b08-50e9e7fcf2a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-7c8f-9bc0-b05ababa40e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-74e4-abe0-9d619d6ad4f3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-771e-99ed-af89812971fb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-73d0-a3de-afab228307ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-75e3-9425-e52f9d79c7b6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-7181-928b-6ceb696ad310
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-7150-a027-3174d610a11e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-7773-a1e2-1d6dd19e6f95
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-709b-b379-a8e2b701a718
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-7c4f-9c7a-3ff070f18b32
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0762-7061-8d15-3e32cad3a2a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-7f83-979d-1a7d4b2a5511
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-7a26-bca8-4418b8888373
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-7737-a273-86d5f0bea4d2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-7a69-816b-03d2421c4eba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-7dc2-9c2c-791c2366a821
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-76d8-be64-7db4d1104477
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-7e29-9546-33fe36021890
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-78cb-81fc-e7c492f24616
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-7669-9ef4-ab57567b5732
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-7028-aa43-764e2f0efd72
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-760e-a44a-d6a32ecccf21
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-7431-bf39-2eaf80e91831
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0763-75b2-b0e1-2ca04cb1491e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-74b8-8ef3-c7f7a3745509
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-741f-8604-e816a65eb33c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-7776-a8cf-fbd4d6cae6f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-723b-928e-d4362efb1278
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-7569-8ae4-7c4725d64316
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-767f-95ec-3bae96bca782
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-7cc7-bdf2-e417bd1717ee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-7fe6-adf4-41cbfd228f7f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-786b-8695-7f70c3990287
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-7967-ac97-b48675d0458b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7a53-875b-c90554173511
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0764-7810-92b1-81a868aa27e9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-75a8-bb72-0f96ba9229ac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7102-a4cd-4f14acecb13d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7d6a-9038-fc4c6f686119
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7e9d-901e-014038bad6c5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-734d-94b7-04d103e57f8a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7fc2-a0e0-ca3250bb4b0f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7ef7-869c-2c8496ec6ce1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7316-ba49-e6c41309a720
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-764c-bad1-54d15b2f1bc5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7498-b134-639ee5bb42ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7962-9967-ede914ab9c67
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-7b26-9deb-9bb7aa32332a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0765-79e1-9016-466df8efd6b8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-750f-89a2-dbc974e7e758
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-732b-a594-fdf2dd4696fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-7f57-9b3a-bbc033858baf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-72f5-837f-881400ac0cf7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-75c3-a1d6-411e788b2d4f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-7a0a-860f-97efccce9077
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-73f0-8ae6-324c8d5c9c06
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-73c1-9f8f-5516a8196e46
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-7213-bee4-ea66999a0764
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-7fa8-8b9d-6dbb7a264193
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-7713-94d9-4c0ae4f69581
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-700d-944c-ab405e97e7d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-71e2-b20e-dbbbecddf462
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0766-7ac8-af53-6a27c9e7ab99
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0767-7035-ba02-20cfa28304eb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0767-7f29-a8bf-388b7230aa6f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0767-7016-9078-1acebc3d284e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0767-7124-9440-a4c6011998ad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0767-7765-9179-105a2a2376e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0767-7ea8-8322-75894ce1b571
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c5c-0767-70e9-9a93-fa72459698fe

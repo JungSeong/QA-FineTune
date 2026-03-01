@@ -1,0 +1,285 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 04:56:01 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+2026-02-21 04:56:03 - INFO - [data_augmentor.py:105] - 🔄 LGAI-EXAONE/EXAONE-3.5-32B-Instruct-AWQ 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a795-7caa-b781-6b4e237f7eac
+2026-02-21 04:56:03 - INFO - [data_augmentor.py:112] - 📡 서버 응답: 현재 이미 Exaone-3.5-32B-Instruct-AWQ가 로드되어 있습니다.
+🚀 initial 증강 진행 중:   0%|                                                                                    | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a79f-79ca-bc74-14fbcfc467e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a2-7f35-b3f0-d6fcd111d91d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a5-703b-8482-b7c3b261cd1d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a7-7f0c-b899-da40103185b5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a8-7ed9-9f81-175b0bb801d6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a8-7e1e-84ef-7c6246fed9cc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a7-74c1-9c64-78b025c8170e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a8-73b0-bbd0-9bf708a8e2a3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a8-71f4-b82d-7b9368ae4412
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a8-7bf8-a42d-2bd5e506390a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-7a15-b6ae-f4e41fa6efaf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-7c28-ad85-48280edd73ab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-79f9-882b-77ebcf27631b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-7905-b975-348b97e53074
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-7fc6-824f-ca74f64e1946
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-712b-a8eb-7b2d944c32fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-7090-b5b9-146e40ff1a04
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-718a-9377-d1d2d18a3332
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-72d3-a51e-af95c6b163ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-777c-b777-6fc1348dcc92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7a9-7035-9cc7-c5e86ef65989
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7aa-700d-9921-1c0811f556a4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7aa-7b99-a80d-6590595c9555
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7aa-7700-9654-ad3b1a06a609
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7aa-70b4-a0f7-cda0035e1b7c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7aa-71a0-99bd-6b5608069a58
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7aa-7ea4-92a0-696af35213ca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-79e4-9161-f745425345f9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-74c0-8bad-ae60dfafe2d0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-74c0-8d91-2f418d2bf70b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-7703-a547-6614565c64dc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-70c4-9c4c-c1d2f553678f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-740f-ae07-abe74fed8046
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-7271-b7fb-bc4549e477d2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-74c2-b717-7429e5a8ac43
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-784b-84a5-54bbc5699dda
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-75b5-9155-d74219e9457d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-79cb-99d2-c48f56a34a95
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-75c3-a851-c9aad15458ea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ab-72a1-8d2c-b3e2fb00bb9e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7f93-9e45-bffec300d3d1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7c12-a61d-6f8a10781532
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7e59-aa47-1d88a83095a0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7469-aaf5-d4d9d2b9fb59
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-725b-8854-01f310b28dd6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-792d-bb1a-55cdf91426bd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7f71-805b-fe8e8d136c8a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7519-9f6b-ef5fba99e5f0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7943-b031-8334a253d918
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7b60-b1f8-b3316c6ac556
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7019-8f22-e6131da11571
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7793-9233-fc85c390eaba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ac-7b8a-b125-40382e2c6c8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7e13-b31d-27e7ef3a7062
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7bf8-b1b3-820c5393c490
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-72b9-8629-a7970266cc4b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7e96-8934-92cc07c3894a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-748e-b37e-b7ef5654f67a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-77c5-bf23-d04468c4b9d9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7595-bbfd-6d224c66d44a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7e48-bc37-0defd8e93131
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7593-993a-68505191c6d0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7ddc-a70f-f9d02a660d13
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7687-83e9-f24330b38f28
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7b35-a08a-f2d73eda596e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ad-7434-bdb9-78b6f43d3e30
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ae-7a2a-9ee5-8613a1de0214
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ae-7984-ae3f-7279b8d2ee23
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ae-72d5-900f-8fe02f138911
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ae-724c-a1c8-d1231afdef25
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ae-7187-8d2a-b7c0f903bb63
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ae-7651-b071-3813778040f3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ae-7cf4-82cd-ddc477cdb54e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7ae-72d5-907c-801899845c20
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-79a0-86d2-f01392e322bb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7af-74f7-9ec5-395ecbd32f6f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-7a9f-8718-326f0fa6dad9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-7337-9f66-042bc9e6c64f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-7369-8b72-d45e522a0bc3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-7ded-bede-51788c11b791
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-7e52-a63d-95cdf7e8c0c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-7a7e-9b03-400f110c6ed3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-72ef-9274-491bb0f77bb9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-73f5-8182-c85dfe6c22e9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-7102-b1af-f6d2c9c3fc7b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-7096-a739-d629de98d39d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b0-7e0b-997a-944e69608044
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b1-7f7f-8c1a-e56ebe9a4177
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b1-7e46-b8e7-7e017dfcccb5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b1-7ef3-b266-64384f1488ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b1-7734-a269-01330227a4bf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b1-75f6-9a43-38b2c406bc3e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b1-77e0-9308-935d31e3e8a9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b1-75da-ab18-37a1b8c63392
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b1-7d3f-9fe9-e8e11ea43b2b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b1-7a4a-bfdc-21d6726f38ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b2-7c58-be70-ceb1afbd4928
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b2-795c-ab2d-2e7468e89a40
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b2-7dee-b1f7-20aa9f668407
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b2-7f63-96fc-0fb28f8d5518
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b2-7008-a3e1-b7cd7edad843
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b2-711f-b0e1-4cfc25eb05c3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b3-7630-a935-67c9439289bb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b3-730e-ab30-bea7def98b8d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b3-7d4e-93dd-cb5bce5935e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b3-7dbf-be47-ec81aef57355
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b3-7e83-bbcf-64eab2355188
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b3-7a41-9068-115b98889001
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b3-75f3-9d55-0cfd024dd2b3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c9f-a7b3-7da2-94c2-05fe60f11e2c
+Error in sse_reader
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_transports/default.py", line 271, in __aiter__
+    async for part in self._httpcore_stream:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 407, in __aiter__
+    raise exc from None
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 403, in __aiter__
+    async for part in self._stream:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/http11.py", line 342, in __aiter__
+    raise exc
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/http11.py", line 334, in __aiter__
+    async for chunk in self._connection._receive_response_body(**kwargs):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/http11.py", line 203, in _receive_response_body
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/client/sse.py", line 81, in sse_reader
+    async for sse in event_source.aiter_sse():  # pragma: no branch
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx_sse/_api.py", line 42, in aiter_sse
+    async for line in lines:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx_sse/_api.py", line 80, in _aiter_sse_lines
+    async for text in response.aiter_text():
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_models.py", line 1018, in aiter_text
+    async for byte_content in self.aiter_bytes():
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_models.py", line 997, in aiter_bytes
+    async for raw_bytes in self.aiter_raw():
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_models.py", line 1055, in aiter_raw
+    async for raw_stream_bytes in self.stream:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_client.py", line 176, in __aiter__
+    async for chunk in self._stream:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_transports/default.py", line 270, in __aiter__
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+Error in post_writer
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/client/sse.py", line 139, in post_writer
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+2026-02-21 05:01:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 05:01:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+🚀 initial 증강 진행 중:   2%|█▎                                                                       | 2/110 [05:00<4:30:05, 150.05s/it]
+2026-02-21 05:01:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 05:01:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생: Connection closed
+2026-02-21 05:01:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 05:01:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 05:01:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 05:01:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+  |     main()
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+  |     final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+  |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 101, in run_pipeline_async
+  |     async with sse_client(self.mcp_url) as (read, write):
+  |   File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/client/sse.py", line 63, in sse_client
+  |     async with anyio.create_task_group() as tg:
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/client/sse.py", line 159, in sse_client
+    |     yield read_stream, write_stream
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 102, in run_pipeline_async
+    |     async with ClientSession(read, write) as session:
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 448, in _receive_loop
+      |     for id, stream in self._response_streams.items():
+      | RuntimeError: dictionary changed size during iteration
+      +------------------------------------

@@ -1,0 +1,129 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 21:44:31 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 21:44:31 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803a-f949-7cb6-87a9-fa402592120e
+2026-02-21 21:46:17 - INFO - [data_augmentor.py:336] - 📂 [Load] 기존 파일(../data/json/augmented_data.jsonl)에서 데이터를 불러옵니다...
+2026-02-21 21:46:17 - INFO - [data_augmentor.py:166] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803c-8d53-788d-aa40-19550d037034
+2026-02-21 21:47:14 - INFO - [data_augmentor.py:348] - 🤗 [Initial] LLM Evaluation 실행
+2026-02-21 21:47:14 - INFO - [data_augmentor.py:349] - LLM Evaluation with : [{'question': '도서관의 정기휴관일은 언제인가요?', 'answer': '도서관의 정기휴관일은 매주 월요일입니다.', 'label': 'yes', 'faq_id': 92, 'original_title': '대화도서관 휴관일은 언제인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212776', 'iteration': 'initial'}, {'question': '토요일과 일요일이 법정공휴일과 겹치면 휴관하나요?', 'answer': '네, 토요일과 일요일이 법정공휴일과 겹칠 경우에는 휴관합니다.', 'label': 'yes', 'faq_id': 92, 'original_title': '대화도서관 휴관일은 언제인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212776', 'iteration': 'initial'}, {'question': '법정공휴일에 도서관을 이용할 수 있나요?', 'answer': '아니요, 법정공휴일은 휴관일입니다. 다만, 일요일과 겹치는 법정공휴일은 예외입니다.', 'label': 'no', 'faq_id': 92, 'original_title': '대화도서관 휴관일은 언제인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212776', 'iteration': 'initial'}, {'question': '국가가 정한 임시 공휴일에 도서관을 방문할 수 있나요?', 'answer': '아니요, 국가가 정한 임시 공휴일에는 도서관이 휴관합니다.', 'label': 'no', 'faq_id': 92, 'original_title': '대화도서관 휴관일은 언제인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212776', 'iteration': 'initial'}, {'question': '행신도서관에는 열람실이 있나요?', 'answer': '네, 행신도서관에는 열람실이 있습니다.', 'label': 'yes', 'faq_id': 40, 'original_title': '열람실 이용에 대해 알려주세요.', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212682', 'iteration': 'initial'}, {'question': '열람실 이용 시간은 어떻게 되나요?', 'answer': '열람실은 하절기에는 07:00부터 23:00까지, 동절기에는 08:00부터 23:00까지 이용할 수 있습니다.', 'label': 'info', 'faq_id': 40, 'original_title': '열람실 이용에 대해 알려주세요.', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212682', 'iteration': 'initial'}, {'question': '도서관 회원만 열람실을 사용할 수 있나요?', 'answer': '아니요, 웹회원과 도서관회원 모두 열람실을 이용할 수 있습니다.', 'label': 'no', 'faq_id': 40, 'original_title': '열람실 이용에 대해 알려주세요.', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212682', 'iteration': 'initial'}, {'question': '백석도서관에서 좌석 배정을 받을 수 있나요?', 'answer': '네, 백석도서관에서도 좌석발급기를 통해 좌석을 배정받을 수 있습니다.', 'label': 'yes', 'faq_id': 40, 'original_title': '열람실 이용에 대해 알려주세요.', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212682', 'iteration': 'initial'}, {'question': '도서관의 주소는 어디인가요?', 'answer': '도서관의 주소는 경기도 고양시 일산동구 위시티2로 43-6(식사동)입니다.', 'label': 'yes', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212775', 'iteration': 'initial'}, {'question': '도서관 전화번호는 어떻게 되나요?', 'answer': '도서관의 전화번호는 031-8075-9190입니다.', 'label': 'yes', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212775', 'iteration': 'initial'}, {'question': '도서관에 방문하려면 예약이 필요하나요?', 'answer': '방문 시 예약은 필요하지 않지만, 운영 시간 내에 방문해 주세요.', 'label': 'info', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212775', 'iteration': 'initial'}, {'question': '도서관의 운영 시간은 어떻게 되나요?', 'answer': '운영 시간에 대한 정보는 제공되지 않았습니다. 자세한 내용은 홈페이지를 참고하세요.', 'label': 'false', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212775', 'iteration': 'initial'}, {'question': '북스타트는 어떤 프로그램인가요?', 'answer': '북스타트는 고양시의 어린이들이 도서관을 통해 책과 함께 인생을 시작할 수 있도록 돕는 프로그램입니다. 이는 독서문화를 지원하고 지속 가능한 독서를 장려하는 지역사회의 문화 운동이에요.', 'label': 'info', 'faq_id': 26, 'original_title': '북스타트가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212661', 'iteration': 'initial'}, {'question': '북스타트 프로그램에 참여할 수 있는 사람은 누구인가요?', 'answer': '북스타트 프로그램은 고양시에 거주하는 영유아 중에서 고양시립도서관 회원인 경우에만 참여 가능합니다. 단, 1회만 참여할 수 있으며 중복 수령은 불가합니다.', 'label': 'yes', 'faq_id': 26, 'original_title': '북스타트가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212661', 'iteration': 'initial'}, {'question': '북스타트 프로그램에 참여한 후에는 몇 번 더 참여할 수 있나요?', 'answer': '북스타트 프로그램에 참여한 후에는 1회만 가능하며, 중복 수령이 불가능합니다.', 'label': 'no', 'faq_id': 26, 'original_title': '북스타트가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:
+2026-02-21 21:47:14 - INFO - [evaluator.py:36] - ⚖️ LLM Judge 평가 시작 (대상: 20건)
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6d37-7805-9f64-a246540c9589
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6da3-7b9d-899d-80de6476a3a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6dad-77f5-af48-b0aa9ec18771
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6db6-7d36-80e8-a33baf24a782
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6dbd-7384-9e16-4ca04c5a2937
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6dc5-7416-996e-80c7d2a56680
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6cde-74cd-a0ff-2fa20051d2af
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6d56-7b4a-9e35-eab72ab3b12f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6dce-724e-b573-73cea5138b28
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6de3-710f-871c-291516c70227
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6dde-74da-9817-71bd9d2a5aeb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6dd5-75e8-8454-a672fd48977c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6dea-7a3c-858a-a5a41f37e06a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6dfd-74f6-af66-293439186d2e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6c36-79e1-91ab-6ae2bd21da01
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6e10-746e-973a-09f7f45a71e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6e05-7b1b-95b1-54a740a2625c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6e16-7ae1-8850-90e188ad4e5f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6df6-7763-ba0d-5f439d4df092
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c803d-6e20-7875-980d-d7ae41314a26
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/streams/memory.py", line 117, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/streams/memory.py", line 112, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 316, in run_pipeline_async
+    async with ClientSession(read, write) as session:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    raise exc_val
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 351, in run_pipeline_async
+    validated_data = await self.evaluator.run_llm_judge_validation(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/evaluator.py", line 68, in run_llm_judge_validation
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/evaluator.py", line 54, in evaluate_item
+    response = await session.call_tool("generate_text", {
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace/op.py", line 1251, in wrapper
+    res, _ = await _call_async_func(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace/op.py", line 674, in _call_async_func
+    res = await func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/client/session.py", line 383, in call_tool
+    result = await self.send_request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 292, in send_request
+    response_or_error = await response_stream_reader.receive()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/streams/memory.py", line 125, in receive
+    await receive_event.wait()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1789, in wait
+    await self._event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+    final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/usr/lib/python3.12/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1592, in _shutdown
+    atexit_call()
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 27, in _python_exit
+    items = list(_threads_queues.items())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/weakref.py", line 462, in items
+    with _IterationGuard(self):
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xe9d4b894bdd0>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xe9d4b89991c0>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

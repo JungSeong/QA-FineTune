@@ -1,0 +1,2 @@
+2026-02-28 23:12:24 - INFO - [main.py:20] - 📋 전체 Evaluation 프로세스 시작
+2026-02-28 23:46:49 - INFO - [main.py:39] - 📦 W&B Artifact 업로드 시작: /home/vsc/LLM_TUNE/QA-FineTune/main/data/evaluation/final_evaluated_base.jsonl

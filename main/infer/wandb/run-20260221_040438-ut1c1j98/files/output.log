@@ -1,0 +1,621 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 04:04:41 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+2026-02-21 04:04:43 - INFO - [data_augmentor.py:105] - 🔄 LGAI-EXAONE/EXAONE-3.5-32B-Instruct-AWQ 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c70-a63a-736b-ad0c-efe450181f82
+2026-02-21 04:09:12 - INFO - [data_augmentor.py:112] - 📡 서버 응답: ✅ Exaone-3.5-32B-Instruct-AWQ 로드 완료!
+🚀 initial 증강 진행 중:   0%|                                                                                                                             | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0f5-7533-837e-514733847516
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0fe-70e4-93db-7a85c8e9579a
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0fe-723d-8230-ac3d0e7ffb07
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0ff-7fd0-8840-25c160aaaf9b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0f8-7bd1-bcf0-345f6bfcd9c0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0ff-7735-b164-0a4cf65c3e19
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0fe-7225-8746-2b3ed9effded
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0ff-7cc0-a209-ced9a4919537
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c100-7090-8ac3-15300b24e8cf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0fd-71a7-8cd8-98474dec97a4
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c0ff-78ac-bd7a-76205b65e16d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c100-7177-b2fb-6f8c4fe5267b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c100-7fe6-b635-28bf3918b5d6
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c100-7583-8711-a2a38d71dedc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c100-731b-a274-23b1f22bc573
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-7021-b83a-ab4afc4d48ca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-7273-9533-3c1f45421e67
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-7db0-a3bc-619840c51cb1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-79ca-97a0-86d341ee1f47
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-7c86-9519-2c9fc0c87b48
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-7eb2-b2d1-d144657d6f89
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-7b10-9fa0-7d2c1e24a7d6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-7b2d-b4f7-7a5b7eafc6a3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-75d1-8967-6192be9c4017
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-757d-ae1f-d5b80f844e81
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c101-7d0e-9150-480c8d48fd85
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-72d0-91d8-a085c0722635
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-73b2-a8ba-2e7be4290146
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-76bd-81a9-515a40068787
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-715a-8eed-fa79602016bc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-79dc-b95b-9b1b904f275c
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-7138-9f42-a6e3ffd44c3a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-7ec0-9e4f-0572197e0bdd
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-7311-982a-f46632f09dd3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-7f06-abd1-f149ec85b484
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-7008-82e7-209e454c8a93
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-7fb1-89dd-8ca35961e6a0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-76ac-9d10-25a581a8886d
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c102-7b9f-87eb-443a4b69737a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-75a4-a375-db272973f054
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7fc3-8191-8393b25973cc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7e62-af20-f6f0bce8008e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7f61-8422-62861ccf8b7a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7f4c-93fb-9b22fbdfdc3a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-79c5-8314-35c61d3e31a6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7977-aa07-fe8f19be2d43
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7a77-95f7-cb4d2dd432c1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7484-8176-664d9a3b6823
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7942-87fa-de7f938a3275
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7940-a2d2-a68e38893c67
+🚀 initial 증강 진행 중:  15%|█████████████████▊                                                                                                 | 17/110 [00:00<00:00, 161.08it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c103-7791-af0f-c4debd79ffe6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-75cb-b6ed-db737e5b88a6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-73a6-b6f1-9f0b0890d814
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-7914-8149-395a482c590e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-7903-9ac6-f0793aa7fde0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-7663-8eba-7550a8d25da1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-76e0-9259-3a62d55c7bcf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-746f-87d4-864f7c66f3c8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-7e7a-bb34-48948a03264a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-78e5-a46e-2edc427bb513
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-7f4c-8eb3-3d06a69311ab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-708a-b783-7b5e9b5a249f
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-79fe-8043-0fb218561942
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c104-7028-a7a7-a1d6f2cc57e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-7996-a413-aedb9a1358fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-7f25-8cb2-82ce50e5d835
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-7d0c-9afa-a50ac03fc968
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-7ad7-af91-010d2c480dcd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-7174-be70-7137988e42cd
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-717f-b54a-66c118238b32
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-71d0-a901-949679e2c790
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-74f6-9170-8b9f7e2f4a01
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-72a8-96b5-cfe5c3950b2d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-782b-a270-ce06200073ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-7335-aac8-305ee86f48f4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-73a5-91ac-b2d5ef528e3b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c106-7866-916a-7a33573e0c83
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c105-7c07-b56c-52f0cfb8d041
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c106-75a8-9122-ff493e39b1d7
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c106-7caf-b14a-d23f60217f0b
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c106-7bd9-b604-dd5c6383192d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c106-787e-96fb-0092aa12f325
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c106-7d6e-b17a-d8bd7a13c5c7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c106-7277-8a45-27ed6609bf6e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-76bc-aebe-41fbe9d256bc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c106-7d87-9bb6-ab3adfca70ee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-75bf-964b-187f65f0ae1b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-704c-9a2c-bd88baf5b8d9
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-75c9-8315-541e0769c766
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-74d2-a3dd-151359d87f66
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-7d45-bd0a-8d6d5630c200
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-7c9c-ae8e-6688042e6280
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-7fff-920b-4e13ad748390
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-7800-a9d9-8a19c73965cc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-7978-b593-b85c5ac14c99
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-7ad4-80a3-d1008d392091
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-7b1c-bb41-853079867176
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c107-75e2-a552-8a5bd6793d88
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c108-7651-8d65-73a52108372e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c108-78e7-9beb-cd26d9961321
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c108-7501-8736-14ea828a653f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c108-70ba-9cac-51877020ca7b
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+🚀 initial 증강 진행 중:  61%|██████████████████████████████████████████████████████████████████████                                             | 67/110 [00:00<00:00, 235.08it/s]
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:12 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 04:09:12 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 04:09:12 - INFO - [data_augmentor.py:133] - 📉 [Iteration 1] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                                                                            | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c321-75cb-b58c-898c68d3937a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c323-75aa-a7ec-23fbc5a40234
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c324-7bb0-8444-c2c8fda794e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c326-7566-a991-142415df9857
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c325-7bc5-bd2b-f5f9902b5bf1
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c327-70d6-aa08-ca51f82296f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c328-7211-8e68-dfdf4f8852e2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32a-7432-bcfd-2fedd2fe85a9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c329-7619-9209-df0cb888e337
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32a-740a-a1c4-16e9a8269877
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32b-7445-a2da-65c763783a8e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32b-79ce-b452-7077de1c3188
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32b-71a6-8e1c-59a113d0b279
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32b-704b-9be7-d81b40bdcab4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32c-709f-bedd-6447ce3735c0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32c-7e56-8d84-48462beb84b8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32c-71ff-b3b3-28ec2f42d555
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32c-77da-9f9b-c65910ebb225
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32c-7ba4-84b9-0c85a6eea2fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32d-7ef4-934a-f1c4c1281e3b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32d-713c-aa51-3609635bdf80
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32d-7ded-8aa7-43d332285599
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32e-77cc-97fd-91fbf415c22e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32e-7c58-96a4-9a5b1ff60cea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32e-7d4c-bf14-a9c6e77ff963
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32e-7361-bfff-1935a337d1ac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32f-7857-8dcd-9c976ca752ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32f-7cce-8159-22475f88b558
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32f-7288-ac66-40fea7e1e882
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c330-708d-b532-bdfddb8dafe6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c32f-7235-a6a4-2e18bccb85ff
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c330-75ce-9127-6f4e8ac53bc4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c330-7955-b39b-59db683fcd63
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c332-7f13-93eb-2f5bd039b5cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c332-7083-afed-34f934871195
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c332-729c-9e02-3ec39b9977c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c332-7fb9-a6c2-6892ad38c274
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c333-788e-bc6d-6967e2044f89
+🚀 targeted 증강 진행 중:  13%|██████████████▌                                                                                                   | 14/110 [00:00<00:00, 139.69it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c333-7101-b5f6-a41a7efb7caa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c333-759b-a150-b1eed8847a78
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c333-7bbc-a049-40e3480708be
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c334-7912-a4ec-88e45726db7e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c333-713a-8d78-d841caa07dd9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c334-7368-ad7e-258b08c43cae
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c334-71a0-95c2-db4e0436e7b6
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c334-74db-8b19-5a101ade066f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-795c-af3f-ab7f3988595c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-7ac9-b53f-2795cbca41ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-7cac-9e13-059989f26bfa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-70b9-84a9-19a7c92bd831
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-7c83-930b-a986fe45a9ec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-7651-b904-6721499367d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-712f-b850-8c6c20634709
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-7bcb-9c1b-9fafb775e65c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-7b11-9ef2-a4cfa2908414
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-7871-a9c9-112011384b80
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-75ea-abb7-1cf1eade30e6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c335-71f6-8b2e-20049fa1dd57
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-7fb2-8724-1a21d075acba
+2026-02-21 04:09:12 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-74aa-9654-8cbf63c85e54
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-7841-8c6c-25f5613a3aad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-7b2a-9e0f-3f4694b2a00c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-7bf3-9987-11f25ee65c02
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-72fd-8f17-bb46b565652b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-706d-8a6f-bcc840df03a0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-7137-b56e-cc236f8b8890
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-77fe-9336-a0f8e62ba130
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c336-7f97-b52f-191406c413fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-71ca-be9e-7bbf0c9a8e58
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-7755-aa3a-1c2911b04462
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-739e-bca5-014e6e88c9e3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-709a-aed0-1d927f1ea24b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-735a-9e00-5dc92b005500
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-7aa1-b9f6-3e9a076270b3
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-7191-ae93-5b97fb33b2fe
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-7860-aa16-c5fcb3a98c01
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-79bf-b269-b9a7d1f665ea
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-73bb-890c-dfcafee98937
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c337-7b5b-9dcf-5f9114ac5903
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-7b66-8f88-e9d35725fb1e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-753b-bfae-19169c4cc14c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-7f40-a02d-05076c560f6f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-7e8d-a038-410fc9a42236
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-75ce-baab-9735e156e599
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-7ba3-b781-ece74f516619
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-7a08-91e0-1c553f006481
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-7706-99ed-0e42ddb1cbdb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-7c33-af9b-68250edc8632
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-78b6-b4e2-d85b7633a0f1
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-74da-be51-646f847ee7eb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7da0-ad9d-3a23bf0bb04e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c338-71f9-b0a8-a4ce36f6a151
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7c9b-b1a3-e0cde53ea23e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7fe4-a1d7-7a2ffa0224fc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7409-a328-cbf5b20fc6b6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7f15-9885-5d6e50299173
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7d5d-93d9-6800a3c64bcd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-706d-9738-931e4082adc5
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7478-a6a7-7b77b8f71d4d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7993-ad22-90b3ec0061c7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7d2c-87ad-eff3a9f1e5aa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-79d8-a75d-afdcf1277456
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c339-7dde-bb01-b776ae9b4124
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+🚀 targeted 증강 진행 중:  82%|█████████████████████████████████████████████████████████████████████████████████████████████▎                    | 90/110 [00:00<00:00, 221.41it/s]
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 04:09:13 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 04:09:13 - INFO - [data_augmentor.py:133] - 📉 [Iteration 2] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                                                                            | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c527-78df-96f7-d29c9d3f405e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c528-7ff7-9407-49056aa659e1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c529-744f-af63-caf9e0d0778a
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c528-739a-908f-16813ab52c36
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52a-728b-af0a-b071c7d2aa20
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c529-738e-8957-b1744ec2b0e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52a-7fc3-88e0-18e34b22cb0a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52a-7f77-ae09-fef6b3b2ae5e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-7599-a40c-558ce3aefe3a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-79c2-b190-84f908cc1208
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52a-75a3-8dd0-4427fd7c4767
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-7b0e-ae66-94e2af4c917b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-76cd-85ee-5b2df867e358
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52a-72d5-aa79-d33e97c0f047
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-792c-b81c-027c2be6caa4
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-7e0d-bee6-e9196f01090d
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-7ced-8a82-1682ebc00acf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-7ab5-aa76-6f601499e9c1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-74cc-8342-fc7061c708b7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-77ba-8d7d-1e3ed693ec5a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52b-71d4-83b3-33cec6a84a84
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-7968-823e-5f9553c089a1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-7511-b79e-409a48fb386d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-79b1-a5e6-af3f3a222a33
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-766b-990f-8c834ee3bb1a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-7e41-80ad-d4d8a708704f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-7163-b8b3-4be790afcafb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-7342-b7c7-4bdf12b52832
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-7703-8409-b82c10de3987
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-7e60-a87d-c82229e49b78
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-726c-bfc0-fce9bda978f3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-7391-9560-22f096a778d5
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52c-786f-b908-4a183833b462
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-7cff-b1d0-dec6a5b3a77e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-7bc0-acb1-e29499132eec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-7ae5-af59-732775e7ba87
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-781d-8664-3b7fea065291
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-7d2a-8ed1-b5dfc58a21ec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-7bd6-9a95-0f82f0111b26
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-7373-9a0b-815fadb8e1c5
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-7a61-8da3-f0438c2acb4b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-7e66-8ab3-c622523b70a0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-78c9-bb74-452f0f905b04
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52d-7ee0-9e99-182f010a3a49
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-7fbf-bd58-ed7d13de7ab2
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-75b6-ba25-3667d4750afd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-7753-b830-7fa4693870c9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-7fe5-9215-617b8b7a9fdd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-7c85-bfc6-85ae2a0eed09
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-79d0-b61e-94e802d75364
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-7a4a-b1db-a62429449d4d
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-7ac8-a85d-75b461d99846
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-74d4-b8c1-742148b63a93
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-708a-a5b3-0f44065c5d24
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-725e-b4eb-738075f05e62
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-7475-9f45-8fdadd002fa7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-7451-ad25-a8f4ab11a6fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52e-7602-93ce-f42906ab4475
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-7bef-863e-fbfd86e88b81
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-7ab3-bddb-28ab39b71aac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-7bed-9480-00900f463048
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-7444-81d2-7ff04ec03f41
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-7a63-961d-725cc3fc957e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-7a66-a748-db3c1ce8f7e7
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-72f4-b39f-5dcf5fc9f263
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-754e-8163-41087d963789
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-7b8b-8765-fba2fea04321
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c52f-79b5-8b77-5d1503915065
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c530-7e9a-9573-4438315a0c33
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c530-758c-a1b4-1f5cecb00dab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c530-7e57-901a-273a00fa747a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c530-7f61-9185-992887800e92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c530-7d23-b10b-6e55790492fa
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c530-70e3-a7ce-fc79d7bd0a87
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c530-7af9-903c-ae8e87d78e8c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c530-7a36-ad62-7fe7b3554165
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-7aa6-a805-45729415359c
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-74de-927c-72fa2578d389
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-7836-96f8-9f0444823ab2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-75ac-be46-79bd7bbc21be
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-7db5-9182-ec92f96b5f89
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-7110-8c70-357d24add06b
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-7190-b854-23b119b3def7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-7ca7-9810-a4f167912717
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-740e-8ff5-264e63b76c85
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-74c4-a1b9-b5ad919d0ef4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c531-78f1-af32-a9bf66e27c37
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-7487-8f49-d4ad66fc6809
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-7076-827d-ece7220c386b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-749f-a2a3-ba2d54a4d736
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-7368-8c48-21f14037486e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-79c8-8be6-60ec75a28c74
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-72f8-8ef5-310809957467
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-7667-9163-713260449d30
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-7fda-9abe-e0d7401877e8
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-705b-afd5-dc2f3d3f6b13
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-7001-a6de-5cb4b4331819
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-752d-8138-1f881e917305
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c532-70c3-b8eb-252d5b8d2fac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c533-762e-947b-073e1ba48aa5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c74-c533-74f4-badc-a849fc4de419
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+🚀 targeted 증강 진행 중:  74%|███████████████████████████████████████████████████████████████████████████████████▉                              | 81/110 [00:00<00:00, 160.82it/s]
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:13 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: name 'stop_tokens' is not defined
+2026-02-21 04:09:14 - INFO - [data_augmentor.py:140] - ✅ 파이프라인 완료: ../data/json/augmented_data.jsonl

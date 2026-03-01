@@ -1,0 +1,17 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 14:22:29 - INFO - [model_utils.py:21] - /home/vsc/LLM/model + /home/vsc/LLM/model
+2026-02-21 14:22:29 - INFO - [model_utils.py:23] - 📡 모델 A.X-4.0-Light 이 /home/vsc/LLM/model에 없습니다. 다운로드를 시작합니다...
+2026-02-21 14:22:29 - ERROR - [model_utils.py:28] - ❌ 모델 다운로드 실패: 'Config' object has no attribute 'MODEL_ID'
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 35, in main
+    load_or_download_model_tokenizer(config)
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/model_utils.py", line 29, in load_or_download_model_tokenizer
+    raise e
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/model_utils.py", line 25, in load_or_download_model_tokenizer
+    snapshot_download(repo_id=config.MODEL_ID, local_dir=config.LOCAL_MODEL_DIR)
+                              ^^^^^^^^^^^^^^^
+AttributeError: 'Config' object has no attribute 'MODEL_ID'. Did you mean: 'HF_MODEL_ID'?

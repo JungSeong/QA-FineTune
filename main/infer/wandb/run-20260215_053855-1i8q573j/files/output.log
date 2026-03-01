@@ -1,0 +1,253 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 05:38:58 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 05:38:58 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-15 05:38:58 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 579/579 [00:32<00:00, 17.60it/s, Materializing param=transformer.wte.weight]
+2026-02-15 05:39:36 - INFO - [model_utils.py:45] - ✍🏿 Applying PEFT...
+2026-02-15 05:39:37 - INFO - [model_utils.py:49] - trainable params: 33,554,432 || all params: 32,036,754,432 || trainable%: 0.1047
+2026-02-15 05:39:37 - INFO - [data_augmentor.py:99] - 🚀 데이터 증강 시작
+Data Augmentation:   0%|                                                                                                                                                                                                                                       | 0/110 [00:00<?, ?it/s]
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 0:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 1:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 2:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 3:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 4:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 5:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 6:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 7:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 8:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 9:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 10:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 11:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 12:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 13:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 14:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 15:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 16:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 17:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 18:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 19:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 20:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 21:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 22:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 23:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 24:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 25:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 26:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 27:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 28:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 29:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 30:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 31:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 32:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 33:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 34:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 35:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 36:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 37:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 38:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 39:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 40:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 41:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 42:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 43:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 44:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 45:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 46:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 47:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 48:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 49:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 50:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 51:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 52:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 53:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 54:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 55:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 56:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 57:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 58:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 59:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 60:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 61:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 62:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 63:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 64:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 65:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 66:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 67:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 68:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 69:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 70:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 71:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 72:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 73:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 74:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 75:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 76:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 77:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 78:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 79:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 80:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 81:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 82:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 83:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 84:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 85:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 86:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 87:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 88:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 89:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 90:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 91:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 92:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 93:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 94:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 95:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 96:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 97:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 98:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 99:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 100:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 101:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 102:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 103:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 104:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 105:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 106:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 107:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 108:
+2026-02-15 05:39:37 - ERROR - [data_augmentor.py:132] - ⚠️ Error at index 109:
+2026-02-15 05:39:37 - INFO - [data_augmentor.py:136] - ✅ 데이터 증강 완료! 생성된 샘플 수: 0
+2026-02-15 05:39:37 - INFO - [data_augmentor.py:137] - 💾 저장 위치: augmented_data_simple.jsonl
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61ae-747c-9b12-318fbff4959c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61b8-7338-86b9-044196a3c98f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61b1-792f-a82c-7d7657092df8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61b3-77f6-9103-ab219bdbe992
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61ba-7bfb-b03f-d4b5ce4fee0e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61a1-73c7-9470-575f328b9935
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61b6-7566-9a1c-9b8bb7e42a76
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61a8-76ef-8aa7-980dd90ec6de
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61bd-79d4-94b1-7f9d9647159c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61ab-7001-bc18-2695b883c2bc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61a5-7c0b-97f0-c8801f86e972
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61bf-794e-9f92-c0d2dc42f1df
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6192-7fa6-b090-c7f847ef1c0f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61c1-7e85-9d07-5845882401cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61c3-7e6e-99f1-000b6ecac40a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61c6-70d3-816e-9243749ab745
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61c8-768f-88d1-dd9f6206c729
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61d0-7b43-b114-3066a6077091
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61d3-76f7-88d3-a437c4fe7974
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61cd-73e3-8b88-328fdcbe6e93
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61d5-75b1-97bb-b9a1a7c8db6a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61d8-718b-a812-1804034ad809
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61da-76fc-a5dc-592456c528bf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61df-784d-815b-d7d2b71b7047
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61dd-7e7d-9fdc-ba213d9edc16
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61e1-77d0-b77c-bd79ba18dfd3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61e6-70c1-b58e-702792024c66
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61e8-7d73-bbc5-638a8a548417
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61ea-70c5-bb4a-72e38c8443c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61e4-7b85-94f9-a6b29b04c476
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61ed-7a32-bae2-3be9d1e0a146
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61f2-7040-b0e7-b50823974ddf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61f5-7cf3-afe1-c2c5ec842bad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61ef-7064-a159-82cced33f081
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61fa-7356-a3b0-557ccded7d1e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61f7-7170-89b3-06b4c772b07c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61fc-7507-9f80-50568be22380
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-61fe-72ef-b964-5c8266e1b4d0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6204-7fd9-88ab-1c98328415b4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6206-7d5a-944e-9647ef699d29
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6202-7e6d-993a-77e02630007c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6209-7bbc-b0fa-22e6bbfd5777
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-620e-7321-930e-fcba0e25735d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6210-7a59-aa7d-6d1f816d69f4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-620b-7bba-af90-a7d133fabfaa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6212-7a6f-a9c7-d1227d59a66a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6214-77d0-b182-60e294de54f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6217-7259-8a0e-128c0f03c873
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6219-74fa-a8a7-46aab77eca47
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-621b-743c-9d37-313768c11ea6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-621e-708b-aad5-7fb92ac1a088
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6220-75a5-812b-cc02fce748a4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6222-7792-9d18-b7ac65041745
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6224-7586-a67c-9fd7c51b7eb8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6226-7208-9b26-6c8805425218
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6229-719a-8ef1-c88c5e705e0e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-622d-7d4b-98dd-afc207163dd2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-622b-7734-9ad7-6c39d22fe283
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-622f-7f56-9880-d6f5a5e73b48
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6234-7c64-bade-3a9384305449
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6231-70f9-b8af-650acac6bda1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6236-7c39-8bd0-f76dd1bbfca1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6238-7ce5-87a4-34a183eae82a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-623a-7ee9-a4ef-da92bceb9af0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6241-775e-993e-bb86155940ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-623c-7c55-8aac-9efe3ce24149
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-623f-7d07-a98a-33ca0a166016
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6243-7e57-993d-f8c5a550b087
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6245-77cc-8cc0-6cd367a63ea0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6247-76c0-a47b-32fdc1f41bdf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-624a-790d-9f9b-5b636cf1109b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-624c-71b4-b21c-5d9f694d7952
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6250-7cb9-a0f2-ad2254b374d1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-624e-709b-aced-dc774f24a141
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6253-73f3-a6e4-b9724046a6a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6255-796b-9796-06fa4cd815b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6257-728e-9661-c3b8fcfbf961
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-625e-7609-a10e-03eea21ac58e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6259-76e9-a13e-56bbae544749
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-625b-7b96-a53e-abd5320efdb6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6260-7638-a5ff-d320238fffbc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6267-7f3a-9500-7ccf5a4d728b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6265-7ef3-96d2-4bfddfd4fd0f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6262-797e-a6c9-b8891bd271b8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6269-7170-9560-35e3e1da37fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-626e-78c3-9552-af1182b2a97a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-626b-7afb-a697-71ae833eb4d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6272-7212-9d52-0e1fde5f19d4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6270-71db-9d98-2806e402cc51
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6274-79f3-a70c-2531b76e94a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6276-705c-8801-389c98b6c3a3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-627b-74e4-a1a3-05c634d6bc9c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6279-7224-811b-84501c24d71b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-627d-790d-88c0-a40b43cc1dd4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6280-7163-9ec9-3df1416eba63
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6282-74fb-b0c9-ec12a1dfe9c2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6286-719a-ab8a-dc0c816c29d4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6284-7228-8d01-63ba18ff42ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-628d-781c-b4bf-5330ed1cd774
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6288-7092-9bd2-df7ee2f75945
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-628f-70ce-bacf-a8ffd34d5696
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-628b-746c-be91-62b15273aa8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6291-7564-a5ea-44856cd189ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6294-7bb0-9a9f-1944aada23b7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6296-7af4-ab19-b327e6652fad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-6298-7cf7-a3d5-6c3905b99650
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-629a-7235-a8f2-867333f38b42
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-629e-7fb6-9fc1-f2a4701d048d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-629c-74bf-863e-6aea92da4ccf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5de1-62a1-7265-9104-bc496c24d0fc
+2026-02-15 05:39:39 - INFO - [data_augmentor.py:142] - 📊 WandB에 생성된 샘플 테이블 로깅 완료
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 49, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 41, in main
+    artifact = wandb.Artifact(f"{config.MODEL_ID}_{wandb.run.id}", type='dataset')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/wandb/sdk/artifacts/artifact.py", line 173, in __init__
+    raise ValueError(
+ValueError: Artifact name may only contain alphanumeric characters, dashes, underscores, and dots. Invalid name: 'LGAI-EXAONE/Exaone-3.5-32B-Instruct_1i8q573j'

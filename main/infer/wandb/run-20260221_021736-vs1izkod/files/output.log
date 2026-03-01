@@ -1,0 +1,12 @@
+[34m[1mwandb[0m: Detected [mcp] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Weave is installed but not imported. Add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 47, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 33, in main
+    load_or_download_model_tokenizer(config)
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/model_utils.py", line 20, in load_or_download_model_tokenizer
+    if not os.path.exists(config.LOCAL_MODEL_DIR) or not os.listdir(config.LOCAL_MODEL_DIR):
+                          ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Config' object has no attribute 'LOCAL_MODEL_DIR'

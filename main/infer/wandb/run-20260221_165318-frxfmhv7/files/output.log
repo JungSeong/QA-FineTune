@@ -1,0 +1,68 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 16:53:20 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 16:53:20 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f30-5ce9-732a-adbe-aba58068aa7f
+2026-02-21 16:53:21 - INFO - [data_augmentor.py:92] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data.jsonl
+2026-02-21 16:53:22 - INFO - [data_augmentor.py:113] -
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 440개)
+--------------------------------------------------
+       count  percentage
+yes      175       39.77
+no        99       22.50
+info     116       26.36
+false     50       11.36
+--------------------------------------------------
+⚖️ 불균형 지수 (Gini): 0.223 (0에 가까울수록 좋음)
+🧩 다양성 지수 (Self-BLEU): 0.247 (낮을수록 좋음)
+══════════════════════════════════════════════════
+2026-02-21 16:53:22 - INFO - [data_augmentor.py:248] - 📉 [Iteration 1] 부족분 84건 보완 시작...
+2026-02-21 16:53:22 - INFO - [data_augmentor.py:207] - ['false']
+2026-02-21 16:53:22 - INFO - [data_augmentor.py:151] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+  |     main()
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+  |     final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+  |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 225, in run_pipeline_async
+  |     async with sse_client(self.mcp_url) as (read, write):
+  |   File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/client/sse.py", line 63, in sse_client
+  |     async with anyio.create_task_group() as tg:
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/client/sse.py", line 159, in sse_client
+    |     yield read_stream, write_stream
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 226, in run_pipeline_async
+    |     async with ClientSession(read, write) as session:
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 249, in run_pipeline_async
+      |     await self.run_generation_batch(session, missing_tasks, mode="targeted")
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 208, in run_generation_batch
+      |     logger.info(f"부족한 Task : {target_labels['targets']}")
+      |                                  ~~~~~~~~~~~~~^^^^^^^^^^^
+      | TypeError: list indices must be integers or slices, not str
+      +------------------------------------

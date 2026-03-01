@@ -1,0 +1,74 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 18:40:38 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 18:40:38 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f92-9e21-7123-8d07-7855189066df
+2026-02-21 18:42:42 - INFO - [data_augmentor.py:336] - 📂 [Load] 기존 파일(../data/json/augmented_data.jsonl)에서 데이터를 불러옵니다...
+2026-02-21 18:42:42 - INFO - [data_augmentor.py:166] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f94-791b-798d-99dd-32e84af084f0
+2026-02-21 18:44:16 - INFO - [data_augmentor.py:348] - 🤗 [Initial] LLM Evaluation 실행
+2026-02-21 18:44:16 - INFO - [data_augmentor.py:349] - LLM Evaluation with : [{'question': '도서관의 정기휴관일은 언제인가요?', 'answer': '도서관의 정기휴관일은 매주 월요일입니다.', 'label': 'yes', 'faq_id': 92, 'original_title': '대화도서관 휴관일은 언제인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212776', 'iteration': 'initial'}, {'question': '토요일과 일요일이 법정공휴일과 겹치면 휴관하나요?', 'answer': '네, 토요일과 일요일이 법정공휴일과 겹칠 경우에는 휴관합니다.', 'label': 'yes', 'faq_id': 92, 'original_title': '대화도서관 휴관일은 언제인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212776', 'iteration': 'initial'}, {'question': '법정공휴일에 도서관을 이용할 수 있나요?', 'answer': '아니요, 법정공휴일은 휴관일입니다. 다만, 일요일과 겹치는 법정공휴일은 예외입니다.', 'label': 'no', 'faq_id': 92, 'original_title': '대화도서관 휴관일은 언제인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212776', 'iteration': 'initial'}, {'question': '국가가 정한 임시 공휴일에 도서관을 방문할 수 있나요?', 'answer': '아니요, 국가가 정한 임시 공휴일에는 도서관이 휴관합니다.', 'label': 'no', 'faq_id': 92, 'original_title': '대화도서관 휴관일은 언제인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212776', 'iteration': 'initial'}, {'question': '행신도서관에는 열람실이 있나요?', 'answer': '네, 행신도서관에는 열람실이 있습니다.', 'label': 'yes', 'faq_id': 40, 'original_title': '열람실 이용에 대해 알려주세요.', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212682', 'iteration': 'initial'}, {'question': '열람실 이용 시간은 어떻게 되나요?', 'answer': '열람실은 하절기에는 07:00부터 23:00까지, 동절기에는 08:00부터 23:00까지 이용할 수 있습니다.', 'label': 'info', 'faq_id': 40, 'original_title': '열람실 이용에 대해 알려주세요.', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212682', 'iteration': 'initial'}, {'question': '도서관 회원만 열람실을 사용할 수 있나요?', 'answer': '아니요, 웹회원과 도서관회원 모두 열람실을 이용할 수 있습니다.', 'label': 'no', 'faq_id': 40, 'original_title': '열람실 이용에 대해 알려주세요.', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212682', 'iteration': 'initial'}, {'question': '백석도서관에서 좌석 배정을 받을 수 있나요?', 'answer': '네, 백석도서관에서도 좌석발급기를 통해 좌석을 배정받을 수 있습니다.', 'label': 'yes', 'faq_id': 40, 'original_title': '열람실 이용에 대해 알려주세요.', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212682', 'iteration': 'initial'}, {'question': '도서관의 주소는 어디인가요?', 'answer': '도서관의 주소는 경기도 고양시 일산동구 위시티2로 43-6(식사동)입니다.', 'label': 'yes', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212775', 'iteration': 'initial'}, {'question': '도서관 전화번호는 어떻게 되나요?', 'answer': '도서관의 전화번호는 031-8075-9190입니다.', 'label': 'yes', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212775', 'iteration': 'initial'}, {'question': '도서관에 방문하려면 예약이 필요하나요?', 'answer': '방문 시 예약은 필요하지 않지만, 운영 시간 내에 방문해 주세요.', 'label': 'info', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212775', 'iteration': 'initial'}, {'question': '도서관의 운영 시간은 어떻게 되나요?', 'answer': '운영 시간에 대한 정보는 제공되지 않았습니다. 자세한 내용은 홈페이지를 참고하세요.', 'label': 'false', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212775', 'iteration': 'initial'}, {'question': '북스타트는 어떤 프로그램인가요?', 'answer': '북스타트는 고양시의 어린이들이 도서관을 통해 책과 함께 인생을 시작할 수 있도록 돕는 프로그램입니다. 이는 독서문화를 지원하고 지속 가능한 독서를 장려하는 지역사회의 문화 운동이에요.', 'label': 'info', 'faq_id': 26, 'original_title': '북스타트가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212661', 'iteration': 'initial'}, {'question': '북스타트 프로그램에 참여할 수 있는 사람은 누구인가요?', 'answer': '북스타트 프로그램은 고양시에 거주하는 영유아 중에서 고양시립도서관 회원인 경우에만 참여 가능합니다. 단, 1회만 참여할 수 있으며 중복 수령은 불가합니다.', 'label': 'yes', 'faq_id': 26, 'original_title': '북스타트가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:11.212661', 'iteration': 'initial'}, {'question': '북스타트 프로그램에 참여한 후에는 몇 번 더 참여할 수 있나요?', 'answer': '북스타트 프로그램에 참여한 후에는 1회만 가능하며, 중복 수령이 불가능합니다.', 'label': 'no', 'faq_id': 26, 'original_title': '북스타트가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T15:23:
+2026-02-21 18:44:16 - INFO - [evaluator.py:36] - ⚖️ LLM Judge 평가 시작 (대상: 20건)
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e90b-76a0-bc11-43f251307971
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e94c-789d-9045-c8e71f657059
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e951-77f7-950a-5ea42198e63b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e956-7d2b-b276-e04c2eb88bea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e95b-7566-b2d7-c0f621a3b871
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e96d-732e-b686-611116ee3eae
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e97d-702a-aac8-d7175b140f96
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e961-7d9e-aaf2-d7a56cdc4d2a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e987-7064-98d0-49cf9b32f207
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e98d-7685-871e-b7297643fb6c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e966-7862-8f59-c823fdbb3a02
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-ea0e-7a45-a2ee-b9799816e8ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e983-7928-ae72-cd2c1aa4a22a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e884-79de-9a95-6a55a5ab8c7f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-ea11-7dc9-90f5-9bdeaecbb453
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-ea28-7a97-9027-6794ccc3759a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-ea19-742c-9181-4fafeb192a95
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e947-730a-a713-6b475e83c704
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-ea1e-7078-a73b-e90f59c8c43d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f95-e93d-702c-9541-dd2441389cfa
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/streams/memory.py", line 117, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/streams/memory.py", line 112, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 316, in run_pipeline_async
+    async with ClientSession(read, write) as session:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    raise exc_val
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 351, in run_pipeline_async
+    validated_data = await self.evaluator.run_llm_judge_validation(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/evaluator.py", line 68, in run_llm_judge_validation
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/evaluator.py", line 54, in evaluate_item
+    response = await session.call_tool("generate_text", {
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace/op.py", line 1251, in wrapper
+    res, _ = await _call_async_func(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace/op.py", line 674, in _call_async_func
+    res = await func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/client/session.py", line 383, in call_tool
+    result = await self.send_request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^

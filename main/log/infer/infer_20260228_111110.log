@@ -1,0 +1,51 @@
+2026-02-28 11:11:11 - INFO - [main.py:22] - 🧐 전체 Inference 프로세스 시작
+2026-02-28 11:11:13 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-28 11:11:13 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/Exaone-3.5-32B-Instruct에서 로컬 모델을 발견했습니다
+2026-02-28 11:11:24 - INFO - [data_augmentor.py:366] - 🚀 [Iteration_1] 파이프라인 시작
+2026-02-28 11:11:24 - INFO - [data_augmentor.py:133] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 11:11:25 - INFO - [data_augmentor.py:154] - 
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 458개)
+--------------------------------------------------
+       count  percentage
+yes      112       24.45
+no       126       27.51
+info     110       24.02
+false    110       24.02
+--------------------------------------------------
+🧩 문장 간 다양성 지수 (Semantic Similarity): 0.426 (0에 가까울수록 다양한 문장 생성)
+⚖️ 라벨 간 비율 측정 (KL-Divergence): 0.002 (0에 가까울수록 라벨이 균등하게 생성)
+══════════════════════════════════════════════════
+2026-02-28 11:11:25 - INFO - [data_augmentor.py:405] - ✅ 모든 라벨이 충분합니다. 생성을 건너뜁니다.
+2026-02-28 11:11:25 - INFO - [data_augmentor.py:239] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 11:11:25 - INFO - [data_augmentor.py:422] - 📞 평가 서버 접속: http://localhost:8000/sse
+2026-02-28 11:11:25 - INFO - [data_augmentor.py:346] - ⏳ Qwen2.5-72B-Instruct-AWQ 로딩을 시작합니다. (최대 5~10분 소요될 수 있습니다...)
+2026-02-28 11:11:25 - ERROR - [data_augmentor.py:496] - ❌ 파이프라인 실행 중 오류 발생: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 424, in run_pipeline_async
+  |     async with self.get_mcp_session(self.config.EVAL_MCP_URL) as session:
+  |   File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+  |     return await anext(self.gen)
+  |            ^^^^^^^^^^^^^^^^^^^^^
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 349, in get_mcp_session
+  |     async with sse_client(url, timeout=initial_timeout) as (read, write):
+  |   File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+  |     return await anext(self.gen)
+  |            ^^^^^^^^^^^^^^^^^^^^^
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/client/sse.py", line 63, in sse_client
+  |     async with anyio.create_task_group() as tg:
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/client/sse.py", line 67, in sse_client
+    |     headers=headers, auth=auth, timeout=httpx.Timeout(timeout, read=sse_read_timeout)
+    |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/httpx/_config.py", line 98, in __init__
+    |     assert read is UNSET
+    |            ^^^^^^^^^^^^^
+    | AssertionError
+    +------------------------------------
+2026-02-28 11:11:25 - INFO - [data_augmentor.py:502] - ✅ 파이프라인 프로세스 종료
+2026-02-28 11:11:25 - ERROR - [main.py:62] - ❌ 업로드할 최종 결과 파일이 생성되지 않았습니다. 파이프라인 로그를 확인하세요.

@@ -1,0 +1,11 @@
+{"time":"2026-02-21T15:20:11.712130772+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-21T15:20:12.069680544+09:00","level":"INFO","msg":"stream: created new stream","id":"msfi787r"}
+{"time":"2026-02-21T15:20:12.069830308+09:00","level":"INFO","msg":"stream: started","id":"msfi787r"}
+{"time":"2026-02-21T15:20:12.069852997+09:00","level":"INFO","msg":"handler: started","stream_id":"msfi787r"}
+{"time":"2026-02-21T15:20:12.069877013+09:00","level":"INFO","msg":"writer: started","stream_id":"msfi787r"}
+{"time":"2026-02-21T15:20:12.069908726+09:00","level":"INFO","msg":"sender: started","stream_id":"msfi787r"}
+{"time":"2026-02-21T15:52:42.975494968+09:00","level":"INFO","msg":"stream: closing","id":"msfi787r"}
+{"time":"2026-02-21T15:52:44.016763931+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-21T15:52:44.281100174+09:00","level":"INFO","msg":"handler: closed","stream_id":"msfi787r"}
+{"time":"2026-02-21T15:52:44.281327986+09:00","level":"INFO","msg":"sender: closed","stream_id":"msfi787r"}
+{"time":"2026-02-21T15:52:44.281345426+09:00","level":"INFO","msg":"stream: closed","id":"msfi787r"}

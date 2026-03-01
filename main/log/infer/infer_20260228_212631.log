@@ -1,0 +1,5 @@
+2026-02-28 21:26:38 - INFO - [final_evaluator.py:130] - 🚀 [STAGE 1] 데이터 생성 파이프라인 시작
+2026-02-28 21:26:38 - INFO - [final_evaluator.py:83] - ⏳ 서버 접속 대기 중... (http://localhost:8001/sse)
+2026-02-28 21:26:38 - INFO - [final_evaluator.py:68] - 💾 실시간 저장 워커 시작: /home/vsc/LLM_TUNE/QA-FineTune/main/data/evaluation/raw_generated_base.jsonl
+2026-02-28 21:28:31 - INFO - [final_evaluator.py:161] - 📞 총 440건의 데이터 생성 요청 시작...
+2026-02-28 21:29:44 - INFO - [final_evaluator.py:262] - ✅ 파이프라인 프로세스 완전 종료

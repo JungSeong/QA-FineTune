@@ -1,0 +1,9 @@
+2026-02-28 22:37:00 - INFO - [final_evaluator.py:178] - 🚀 [STAGE 2] 데이터 평가 파이프라인 시작
+2026-02-28 22:37:00 - INFO - [final_evaluator.py:69] - 💾 실시간 저장 워커 시작: /home/vsc/LLM_TUNE/QA-FineTune/main/data/evaluation/raw_generated_base.jsonl
+2026-02-28 22:37:00 - INFO - [final_evaluator.py:84] - ⏳ 서버 접속 대기 중... (http://localhost:8000/sse)
+2026-02-28 22:37:00 - INFO - [final_evaluator.py:205] - ⚖️ 환각 정밀 품질 검수 시작 (총 20건)
+2026-02-28 23:03:02 - INFO - [final_evaluator.py:233] - 💾 [완료] 평가 결과 20건 저장 완료: /home/vsc/LLM_TUNE/QA-FineTune/main/data/evaluation/raw_generated_base.jsonl
+2026-02-28 23:03:02 - INFO - [final_evaluator.py:241] - ⭐ [최종 리포트] 평균 총점: 14.35/15.0
+2026-02-28 23:03:02 - INFO - [final_evaluator.py:242] -    ㄴ 환각방지(8): 7.60 | 논리성(5): 4.75 | 말투(2): 2.00
+2026-02-28 23:03:02 - INFO - [final_evaluator.py:254] - 🧹 평가 모델 언로드...
+2026-02-28 23:03:02 - INFO - [final_evaluator.py:267] - ✅ 파이프라인 프로세스 완전 종료

@@ -1,0 +1,111 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 17:39:06 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct
+2026-02-15 17:39:06 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 272/272 [00:01<00:00, 258.58it/s, Materializing param=transformer.wte.weight]
+2026-02-15 17:39:22 - INFO - [main.py:34] - ExaoneForCausalLM(
+  (transformer): ExaoneModel(
+    (wte): Embedding(102400, 2560, padding_idx=0)
+    (drop): Dropout(p=0.0, inplace=False)
+    (h): ModuleList(
+      (0-29): 30 x ExaoneDecoderLayer(
+        (ln_1): ExaoneRMSNorm((2560,), eps=1e-05)
+        (attn): ExaoneAttentionBlock(
+          (attention): ExaoneAttention(
+            (q_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+            (k_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (v_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (out_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+          )
+        )
+        (ln_2): ExaoneRMSNorm((2560,), eps=1e-05)
+        (mlp): ExaoneMLP(
+          (c_fc_0): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_fc_1): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_proj): Linear4bit(in_features=7168, out_features=2560, bias=False)
+          (act): SiLUActivation()
+        )
+      )
+    )
+    (ln_f): ExaoneRMSNorm((2560,), eps=1e-05)
+    (rotary): ExaoneRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=2560, out_features=102400, bias=False)
+)
+2026-02-15 17:39:22 - INFO - [data_augmentor.py:245] - 🚀 [Step 1] 초기 데이터 생성 시작...
+Initial Gen (Rank 0):   0%|                                                                                                                                                                                                                               | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6074-567b-73ab-8c76-33b06fa82c6e
+2026-02-15 17:39:23 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   1%|█▉                                                                                                                                                                                                                     | 1/110 [00:22<40:08, 22.10s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6074-acca-790d-bcdb-5a25b581d32e
+2026-02-15 17:39:45 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   2%|███▉                                                                                                                                                                                                                   | 2/110 [00:43<39:13, 21.79s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6075-0115-796d-a0dc-85fb3a8b02be
+2026-02-15 17:40:06 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   3%|█████▊                                                                                                                                                                                                                 | 3/110 [01:09<42:20, 23.74s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6075-66e0-7029-aeea-578201870fb4
+2026-02-15 17:40:32 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   4%|███████▊                                                                                                                                                                                                               | 4/110 [01:27<37:56, 21.48s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6075-ad33-7b46-a01a-8bdba40c536e
+2026-02-15 17:40:50 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   5%|█████████▊                                                                                                                                                                                                             | 5/110 [01:54<40:44, 23.28s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6076-149a-7a0e-9012-b01ee9d5ac44
+2026-02-15 17:41:17 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   5%|███████████▋                                                                                                                                                                                                           | 6/110 [02:20<42:08, 24.32s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6076-7b76-7f68-8fd7-31b0b7f3c844
+2026-02-15 17:41:43 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   6%|█████████████▋                                                                                                                                                                                                         | 7/110 [02:47<42:58, 25.04s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6076-e315-7ba8-9b94-03d2e1fa3cb7
+2026-02-15 17:42:10 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   7%|███████████████▋                                                                                                                                                                                                       | 8/110 [03:13<43:15, 25.44s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6077-49de-764a-9103-97ba7ad9a13b
+2026-02-15 17:42:36 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   8%|█████████████████▌                                                                                                                                                                                                     | 9/110 [03:36<41:21, 24.56s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6077-a245-72f0-89a3-38f2d2da18bb
+2026-02-15 17:42:59 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):   9%|███████████████████▍                                                                                                                                                                                                  | 10/110 [03:56<38:35, 23.16s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6077-f070-7064-a8de-9b1d1072bc88
+2026-02-15 17:43:19 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):  10%|█████████████████████▍                                                                                                                                                                                                | 11/110 [04:22<39:44, 24.09s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c6078-56c4-7123-8cf2-7c9805258be1
+2026-02-15 17:43:45 - INFO - [data_augmentor.py:140] - {'input_ids': tensor([[  420,   453, 47982,  ...,  8659,   453,   422]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')}
+Initial Gen (Rank 0):  10%|█████████████████████▍                                                                                                                                                                                                | 11/110 [04:26<39:57, 24.22s/it]
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 47, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 37, in main
+    output_file = augmentor.run_pipeline(dataset)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 253, in run_pipeline
+    self._run_generation_loop(my_items, output_file, mode="initial")
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 209, in _run_generation_loop
+    result = self.generate_samples(idx, faq_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace/op.py", line 1278, in wrapper
+    res, _ = _call_sync_func(
+             ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace/op.py", line 543, in _call_sync_func
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 180, in generate_samples
+    return self._run_model_generate(messages, self.config.NUM_RETURN_SEQUENCES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 147, in _run_model_generate
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/transformers/generation/utils.py", line 2638, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/transformers/generation/utils.py", line 2839, in _sample
+    while self._has_unfinished_sequences(this_peer_finished, synced_gpus, device=input_ids.device):
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xed52b15a1af0>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

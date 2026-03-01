@@ -1,0 +1,199 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 11:29:02 - INFO - [main.py:33] - Dataset({
+    features: ['FAQ', 'TITLE', 'DES'],
+    num_rows: 110
+})
+2026-02-15 11:29:02 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct
+2026-02-15 11:29:02 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 272/272 [00:00<00:00, 614.60it/s, Materializing param=transformer.wte.weight]
+ExaoneForCausalLM(
+  (transformer): ExaoneModel(
+    (wte): Embedding(102400, 2560, padding_idx=0)
+    (drop): Dropout(p=0.0, inplace=False)
+    (h): ModuleList(
+      (0-29): 30 x ExaoneDecoderLayer(
+        (ln_1): ExaoneRMSNorm((2560,), eps=1e-05)
+        (attn): ExaoneAttentionBlock(
+          (attention): ExaoneAttention(
+            (q_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+            (k_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (v_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (out_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+          )
+        )
+        (ln_2): ExaoneRMSNorm((2560,), eps=1e-05)
+        (mlp): ExaoneMLP(
+          (c_fc_0): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_fc_1): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_proj): Linear4bit(in_features=7168, out_features=2560, bias=False)
+          (act): SiLUActivation()
+        )
+      )
+    )
+    (ln_f): ExaoneRMSNorm((2560,), eps=1e-05)
+    (rotary): ExaoneRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=2560, out_features=102400, bias=False)
+)
+2026-02-15 11:29:18 - INFO - [data_augmentor.py:107] - 🚀 데이터 증강 시작
+Data Augmentation:   0%|                                                                                                                                                                                                                                  | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5f21-8708-78bd-904b-982d1016c24d
+회원증 대리발급은 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부만 가능하며 아래 구비서류를 지참하여 대리인이 방문 시 대리발급이 가능합니다.
+
+· 대상 : 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부
+· 구비서류
+  - 공통 : ①위임자 신분증, ②피위임자(대리인) 신분증
+  - 장애인 : 장애인 복지카드 또는 장애인 증명서
+  - 임신부 : 산모수첩 / 산모 : 주민등록등본(출산 후 12개월까지)
+· 방법 : 홈페이지 회원가입 후 위 항목의 해당하는 구비서류를 지참하여 피위임자(대리인)이 도서관 방문
+Type: <class 'transformers.tokenization_utils_base.BatchEncoding'>
+2026-02-15 11:29:40 - INFO - [data_augmentor.py:101] - [{'question': '대리인 없이 회원증 발급이 가능한가요?', 'answer': '대리인 없이 일반적인 회원증 발급은 제한되어 있습니다. 발급 대상에는 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부가 포함되며, 이들 각각에 따라 지정된 서류를 제출해야 합니다. 따라서 일반적인 경우에는 대리인 없이 발급이 불가능합니다.', 'label': 'no'}, {'question': '장애인 등록증 없이도 회원증 대리 발급이 가능한가요?', 'answer': '장애인 등록증이나 증명서 없이는 회원증 대리 발급이 불가능합니다. 대신 장애인 복지카드나 장애인 증명서를 소지하고 있어야 합니다.', 'label': 'true'}, {'question': '임산부는 어떤 증빙서류를 통해 대리인 없이 회원증을 발급받을 수 있나요?', 'answer': '임산부의 경우 산모수첩 또는 출산 후 주민등록등본을 제시하면 대리인 없이 회원증 발급이 가능합니다. 특히 출산 후 일정 기간 내에 발급해야 하는데, 이 기간은 약 1년 이내로 볼 수 있습니다.', 'label': 'info'}, {'question': '공통 서류 외에 장애인이나 임산부에게 추가로 요구되는 서류는 무엇인가요?', 'answer': '장애인 등록증이나 증명서가 추가로 요구되며, 임산부의 경우 산모수첩이나 출산 후 주민등록등본이 필요합니다. 이러한 특수한 상황에서는 해당 서류들이 발급 및 등록 과정에서 필수적으로 확인됩니다.', 'label': 'info'}, {'question': '대리인으로서 누구나 회원증 발급이 가능한가?', 'answer': '대리인으로서의 회원증 발급은 만14세 미만 아동이나 만65세 이상 어르신뿐 아니라 장애인과 임산부만이 가능합니다. 하지만 일반적으로는 본인 본인만 발급받을 수 있으며, 대리인 발급은 특별한 상황에서만 허용됩니다.', 'label': 'info'}, {'question': '대리인 발급을 위해 필요한 서류는 무엇인가요?', 'answer': '대리인으로 회원증을 발급받기 위해서는 다음과 같은 서류가 필요합니다: 공통 서류로는 본인 신분증과 대리인 신분증이 필요하며, 추가로 장애인 등록증 또는 임산부의 경우 산모수첩이나 출산 후 1년 이내 주민등록등본이 필요합니다.', 'label': 'info'}, {'question': '장애인 등록증 없이도 대리인이 회원증 발급을 도와줄 수 있나요?', 'answer': '일반적으로는 장애인 등록증이 포함된 서류만으로는 대리인 발급이 제한될 수 있습니다. 장애인 등록증이나 장애인 증명서가 필수 서류 중 하나이기 때문에, 이를 준비하지 않은 경우에는 대리인 발급이 어려울 수 있습니다.', 'label': 'yes'}, {'question': '임산부의 경우에도 주민등록등본이 발급받아야 하는가요?', 'answer': '임산부의 경우, 주민등록등본 대신 산모수첩을 제출해야 합니다. 산모수첩은 임신 사실을 증명하는 중요한 문서이므로 해당 서류를 지참하여 대리인 발급을 요청해야 합니다.', 'label': 'no'}, {'question': '만14세 미만 아동의 대리인이 도서관에서 회원증을 발급받을 수 있나요?', 'answer': '네, 맞습니다. 만14세 미만 아동의 경우에는 부모님이나 법정대리인의 동의 없이도 대리인을 통해 도서관 회원증을 발급받을 수 있습니다. 필요한 서류로는 1위임자의 신분증과 피위임자(대리인)의 신분증이 필요하며, 특히 장애인 등록증이나 임산부의 경우 추가 증빙 서류가 요구될 수 있으니 확인해 주시기 바랍니다.', 'label': 'yes'}, {'question': '장애인 등록증 없이도 만14세 미만 아동의 대리인이 회원증을 발급받을 수 있나요?', 'answer': '아니요, 장애인 등록증 없이는 대리인이 도서관에서 회원증을 발급받지 못합니다. 대리인 발급 시에는 공통 서류와 함께 장애인 관련 증빙 서류가 필요합니다.', 'label': 'no'}, {'question': '임산부가 도서관 회원증을 대리인을 통해 발급받으려면 어떤 서류가 필요한가요?', 'answer': '임산부는 산모수첩을 제출해야 합니다. 또한 출산 후 12개월 이내여야 하며, 산모 본인의 주민등록등본도 함께 제시해야 할 수 있습니다. 이러한 서류들이 갖추어져야 대리인을 통한 회원증 발급이 가능합니다.', 'label': 'info'}, {'question': '도서관 회원가입 후 대리인이 방문하지 않고도 회원증을 발급받을 수 있나요?', 'answer': '현재 시스템에서는 대리인이 직접 방문하여 회원증을 발급받아야 합니다. 온라인을 통한 회원가입은 기본 정보 입력만 가능하며, 실제 발급은 오프라인 방문을 통해 이루어져야 합니다.', 'label': 'false'}]
+Data Augmentation:   1%|█▉                                                                                                                                                                                                                        | 1/110 [00:22<40:11, 22.12s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5f21-dd70-7a4c-886b-7008efffecd5
+가족회원이란, 고양시 도서관 정회원으로 가입 후 가족회원으로 등록 시 가족명의로 도서대출·도서예약·상호대차 동일하게 이용가능한 서비스입니다.
+※ 가족명의 이용 시 자료실 안내데스크에 반드시 본인 회원증을 제시하여야 함(가족 회원증으로 대출 불가)
+가족회원 등록방법
+가족구성원 모두 정회원 가입 후 가족임을 증명할 수 있는 서류(주민등록등본 또는 가족관계증명서) 지참하여 도서관 방문
+Type: <class 'transformers.tokenization_utils_base.BatchEncoding'>
+2026-02-15 11:30:03 - INFO - [data_augmentor.py:101] - [{'question': '가족회원으로 등록하면 어떤 특별한 혜택이 있나요?', 'answer': '가족회원으로 등록하시면 가족 구성원 모두가 도서관의 다양한 서비스를 함께 이용하실 수 있습니다. 도서 대출, 도서 예약, 그리고 상호대차 서비스까지 동일하게 이용 가능합니다. 하지만 가족명의로 도서를 대출받으실 때는 개인 신분증(가족회원증)을 제시해야 하며, 일반 정회원의 신분증만으로는 대출이 불가능합니다.', 'label': 'info'}, {'question': '가족구성원 모두가 정회원으로 가입된 후 가족회원으로 등록하기 위해서는 어떤 서류가 필요한가요?', 'answer': '가족회원 등록을 위해서는 모든 가족 구성원이 이미 도서관 정회원으로 가입되어 있어야 합니다. 가족임을 증명할 수 있는 서류로는 주민등록등본이나 가족관계증명서 등이 적합합니다. 이러한 서류를 지참하여 도서관을 방문하시면 가족회원 등록이 완료됩니다.', 'label': 'info'}, {'question': '가족회원증 없이 가족명의로 도서를 대출할 수 있는 경우가 있나요?', 'answer': '가족회원증 없이 도서를 대출하는 것은 제한적입니다. 가족회원으로 등록 시 반드시 개인 신분증을 제시해야 하며, 일반 정회원 신분증만으로는 도서 대출이 불가능합니다.', 'label': 'no'}, {'question': '가족회원으로 등록하지 않으면 도서관 서비스 중 일부만 이용 가능하나요?', 'answer': '네, 맞습니다. 가족회원으로 등록하지 않으면 모든 가족 구성원들이 동등하게 도서 대출, 도서 예약, 상호대차 서비스를 이용할 수 없습니다. 특히 가족명의로 도서 대출 시에는 개인 신분증 제시가 필수적입니다.', 'label': 'yes'}, {'question': '가족회원으로 등록하면 어떤 혜택이 있나요?', 'answer': '가족회원으로 등록하시면 가족 구성원 모두가 도서관의 다양한 서비스를 이용할 수 있습니다. 도서 대출, 도서 예약, 그리고 상호대차 서비스까지 가족 단위로 편리하게 이용 가능합니다. 하지만 가족명의로 도서를 대출할 때는 본인 신분증을 제시해야 하며, 기존 정회원 개인 신분증으로는 대출이 불가능합니다.', 'label': 'info'}, {'question': '가족회원 등록 시 필요한 서류는 무엇인가요?', 'answer': '가족회원 등록을 위해서는 가족 구성원 모두가 고양시 도서관의 정회원으로 가입한 후, 가족임을 증명할 수 있는 서류가 필요합니다. 주민등록등본이나 가족관계증명서 같은 증빙서류를 지참하여 도서관을 방문하시면 됩니다.', 'label': 'info'}, {'question': '가족회원 등록 후에도 기존 정회원과 함께 서비스를 이용할 수 있나요?', 'answer': '가족회원으로 등록된 경우, 가족 구성원 각각은 독립적으로 서비스를 이용할 수 있으며, 기존 정회원의 계정 정보를 통해 가족명의로 서비스를 관리할 수도 있습니다. 단, 가족명의로 도서를 대출할 때는 본인 신분증을 제시해야 합니다.', 'label': 'info'}, {'question': '가족회원 등록 시 발생할 수 있는 제한 사항은 무엇인가요?', 'answer': '가족회원으로 등록된 경우에도 기존 정회원과 마찬가지로 연체 기간이 있는 도서는 대출이 불가능합니다. 또한, 가족명의로 도서를 대출하려면 반드시 본인 신분증을 제시해야 하며, 정회원 개인 신분증으로는 대출이 제한됩니다.', 'label': 'no'}, {'question': '가족회원 등록 후 개인 명의로 도서 대출이 가능합니까?', 'answer': '가족회원으로 등록된 경우에는 개인 명의로 도서대출이 가능하나, 가족회원증을 통해 직접 대출하는 것은 불가능합니다. 도서관 자료실에 방문하여 본인의 정회원증을 제시해야 합니다.', 'label': 'yes'}, {'question': '가족회원 자격을 갖추기 위해 필요한 주요 서류는 무엇입니까?', 'answer': '가족회원 자격을 얻기 위해서는 모든 가족 구성원이 먼저 정회원으로 가입해야 하며, 이를 증빙하기 위한 서류로는 주민등록등본이나 가족관계증명서를 지참하여 도서관을 방문해야 합니다.', 'label': 'info'}, {'question': '정회원으로 등록된 가족 구성원들이 함께 도서를 예약할 수 있습니까?', 'answer': '정회원으로 등록된 가족 구성원들은 각자 개별적으로 도서 예약을 할 수 있습니다. 하지만 가족 단위로 통합적인 관리나 공동 예약 시스템은 현재 지원되지 않습니다.', 'label': 'yes'}, {'question': '가족회원증 없이 가족명의로 도서를 대출받는 방법은 무엇인가요?', 'answer': '가족회원증 없이 가족명의로 도서를 직접 대출받는 것은 불가능합니다. 따라서 가족회원증을 통한 간접적인 접근이 권장됩니다.', 'label': 'false'}]
+Data Augmentation:   2%|███▉                                                                                                                                                                                                                      | 2/110 [00:44<39:58, 22.21s/it][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5f22-3473-7153-93d3-3d4bfda467ad
+본인명의 휴대폰 인증이 불가한 만14세 미만 어린이의 경우 아이핀(I-PIN) 본인인증 과정을 거쳐 홈페이지 가입이 가능합니다.
+
+홈페이지 회원가입 - 만14세 미만 회원가입(어린이회원 가입하기) - 보호자 휴대폰 인증 후 가입자(어린이)의 아이핀을 통해 홈페이지에 가입하실 수 있습니다.
+
+회원가입 바로가기
+https://www.goyanglib.or.kr/center/program/memberJoinType.do
+Type: <class 'transformers.tokenization_utils_base.BatchEncoding'>
+Data Augmentation:   2%|███▉                                                                                                                                                                                                                      | 2/110 [00:58<53:00, 29.45s/it]
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 49, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 39, in main
+    output_file = augmentor.run_augmentation(dataset)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 119, in run_augmentation
+    result = self.generate_samples(idx, faq_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace/op.py", line 1278, in wrapper
+    res, _ = _call_sync_func(
+             ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace/op.py", line 543, in _call_sync_func
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 75, in generate_samples
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2638, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2843, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 834, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/.cache/huggingface/modules/transformers_modules/Exaone_hyphen_3_dot_5_hyphen_2_dot_4B_hyphen_Instruct/modeling_exaone.py", line 514, in forward
+    outputs: BaseModelOutputWithPast = self.transformer(
+                                       ^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 1001, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/.cache/huggingface/modules/transformers_modules/Exaone_hyphen_3_dot_5_hyphen_2_dot_4B_hyphen_Instruct/modeling_exaone.py", line 433, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/.cache/huggingface/modules/transformers_modules/Exaone_hyphen_3_dot_5_hyphen_2_dot_4B_hyphen_Instruct/modeling_exaone.py", line 281, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/.cache/huggingface/modules/transformers_modules/Exaone_hyphen_3_dot_5_hyphen_2_dot_4B_hyphen_Instruct/modeling_exaone.py", line 238, in forward
+    output_proj = self.c_proj(self.act(self.c_fc_0(x)) * self.c_fc_1(x))
+                                                         ^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/bitsandbytes/nn/modules.py", line 557, in forward
+    return bnb.matmul_4bit(x, weight, bias=bias, quant_state=quant_state).to(inp_dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/bitsandbytes/autograd/_functions.py", line 401, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/autograd/function.py", line 583, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/bitsandbytes/autograd/_functions.py", line 315, in forward
+    output = torch.nn.functional.linear(A, F.dequantize_4bit(B, quant_state).to(A.dtype).t(), bias)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/bitsandbytes/functional.py", line 984, in dequantize_4bit
+    absmax = dequantize_blockwise(quant_state.absmax, quant_state.state2)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/bitsandbytes/functional.py", line 709, in dequantize_blockwise
+    return torch.ops.bitsandbytes.dequantize_blockwise.default(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/_ops.py", line 819, in __call__
+    return self._op(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/_compile.py", line 54, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1168, in _fn
+    _maybe_set_eval_frame(_callback_from_stance(self.callback))
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf9979ecb5250>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf9979ecb5280>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

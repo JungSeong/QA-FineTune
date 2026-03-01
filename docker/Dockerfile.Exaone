@@ -1,0 +1,8 @@
+FROM vllm/vllm-openai:cu130-nightly-f91808ae0ddf750acfdeb351fa072c91d4d678fc
+ENTRYPOINT []
+WORKDIR /app
+COPY requirements_exaone.txt .
+RUN pip install --no-cache-dir -r requirements_exaone.txt
+COPY mcp_vllm.py .
+ENV VLLM_ALLOW_RUNTIME_LORA_UPDATING=True
+CMD ["python3", "mcp_vllm.py"]

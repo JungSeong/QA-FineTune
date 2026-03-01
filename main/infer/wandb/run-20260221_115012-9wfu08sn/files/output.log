@@ -1,0 +1,233 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 11:50:15 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+tokenizer_config.json: 70.7kB [00:00, 181MB/s]
+tokenizer.json: 4.96MB [00:00, 20.8MB/s]
+special_tokens_map.json: 100%|███████████████████████████████████████████████████████| 563/563 [00:00<00:00, 2.96MB/s]
+2026-02-21 11:50:19 - INFO - [data_augmentor.py:105] - 🔄 LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1a-ebfe-7dba-b577-e29d71c65090
+2026-02-21 11:51:18 - INFO - [data_augmentor.py:112] - 📡 서버 응답: ✅ Exaone-3.5-2.4B-Instruct 로드 완료!
+🚀 initial 증강 진행 중:   0%|                                                                | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b1-7014-875f-5d0407e20ee0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b3-74a7-b2b8-b06e2202048c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b3-7683-9a8c-bfa30d77843d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b5-7439-b0f3-2b0af2faa588
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b5-79e6-995b-d46a9e01fe7f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ac-73e7-bb86-6d119f1e1c21
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-7d09-8e0c-3e1a1dd05c6f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b6-7646-ac34-81bb92bc472c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-74ee-93cb-d8ecac3452c3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-73bc-b0a4-c51512c855d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-760f-8e3f-68a6afc8ef06
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-7cb2-8983-f700fa6761c8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b6-7787-9b75-e5ba9a64b8d7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-7599-8c58-6133c1fdf54e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-74ee-ad66-0faa18ebda23
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-797c-9ca6-ed2a9945433f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-71f4-972c-ebf4d29553a9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-76ad-a728-dc135afc48ab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b8-74f7-a085-efcc0ed15776
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b9-7b9d-83ba-e5aa3e1cae14
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b9-7e68-98d9-292584e34179
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b9-78d9-8246-b4869f8c29fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b9-7f23-943b-c13be089dd91
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3b9-72fd-a1f1-b9fd22ee4cfe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-78e5-bab7-92ae8d6003a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7cbe-9f06-665a7f9176a1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7a67-a36e-28b4a042fad7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7d80-a1ea-25c3a2095d75
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7035-a019-287b9971f494
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7884-9e20-a9414d99974d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-77ba-a84c-0150e693a0de
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-738e-96ff-ac1684148771
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7446-8fc7-9898441915fc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7e64-8ce8-24f2291e317d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7707-9cf0-1052268d7d35
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7ba7-a2de-56612a929f5b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3ba-7e59-b634-546d6765f4f9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-7d87-9dfb-785df921f129
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-7ac3-9885-1435090d7069
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-71df-852b-8029c446c0c7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-796f-b553-c508bc68fc18
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-7765-801b-7f5187b504d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-75a2-8c94-f7278ee0b914
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-7662-a8ab-b34664c41626
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-722f-bdf9-1a96518d786b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-7706-b3b8-f30fe66d26f6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-70a8-84fc-08d72f2820c2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-7672-884a-aa7823885829
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-7cab-a2f3-eb60e99e8b43
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bc-7224-98c2-f6361b415e8f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bb-771e-ae3f-215dc0d9fee3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bc-7d7a-b5a9-0fe38068e066
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-7d92-95f8-998ae569b906
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-7533-9760-b7362d46c5e2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-70d4-95f2-f6590fb97384
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-733b-aa35-d32654ac7146
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-746f-a013-c90894de47d7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-725c-97ff-a64b50887411
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-7923-9039-8bb221662036
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-71cc-96af-1f6c3c638745
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-7109-bd54-9477ac37e2bb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-744f-ac87-a862577fc369
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-7571-9c23-571d1993c6ad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bd-778c-a986-a502e3a75158
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-7aea-8fb7-e72a58a54f4f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-70e8-8791-19194b6a67f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-7272-8b15-b4d92fe5925a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-764a-ac83-3db0ca702e92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-73db-b2c7-5cde1a2d786f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-7593-a62b-81b5ca68d1b6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-7327-8ff6-0853881dbd12
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-7631-bac8-c14467787606
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-7f61-a6e0-973e0b82a707
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-70c0-9a8b-43432aec17d4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-797d-a8a4-e17e12e0c9fc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3be-7f78-b5f8-3c682c5cd3dd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3bf-7833-8b43-e142d5c2f263
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c0-7c69-828e-8c0f1ef2b5d8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c0-7b1a-93a3-00b9f4a3820e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c0-7252-a423-ab74da550344
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c0-749a-939c-72ebafe0c49b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c1-7d7a-8109-cd78a086f2d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c1-7721-9afa-fc3902a45fc9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c1-7a2d-b0f2-d6bd4252a593
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c2-7783-ae92-cc05e6521129
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c2-782c-b733-e7ea5a26c15e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c2-7328-8a14-0140ae6c0115
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c2-741c-ace3-4d75e54dfb8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-74b9-a3a8-69f3cbc419e3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-7c23-bebf-b1e2f5d87bb8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-7e59-a7d2-ecad14bb6713
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-74d9-a68b-56d70ecfce7d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-79f5-8202-7fae9cb34edb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-7ab8-b6d7-1cf52f0098e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-7659-9d25-bc933cc2b5f3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-758e-a4f1-63ed672b75d2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-7c6c-a05f-ed14274c1674
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-79e0-a7dc-90fa73eb2343
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-73a6-a905-0397397437e9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-7777-b63b-f9b660ca2d9a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c3-7fe4-8933-fdf396904ae5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c4-789f-afe0-70547699d55c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c4-7355-a88b-06fadcbe1c60
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c4-7c15-9de5-01caca6f94e7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c4-750d-ae84-7a1bab61efb3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c4-7a39-b8f0-69ea18439b20
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c4-7c68-9a31-8518362aad90
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c4-7996-bb92-f92e489b1177
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c4-7605-a3d1-34e2232a4e8d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e1b-d3c7-7557-b69b-cf9ca758e97d
+2026-02-21 11:51:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ```json
+[
+    {
+        "question": "5년 이상 된 낡은 책도 기증이 가능한가요?",
+        "answer": "네, 맞습니다. 고양시립도서관의 기증 정책에는 발행 연도가 5년 이상 지난 책도 포함되어 있습니다. 하지만 훼손되었거나 파손된 책, 타 기관의 장서 표시가 있는 책 등은 제외 대상입니다.",
+        "label": "yes"
+    },
+    {
+        "question": "스프링 노트나 수험서는 기증이 가능한가요?"
+        "answer": "죄송합니다만,Spring 노트나 수험서는 고양시립도서관의 기증 대상에서 제외됩니다. 이러한 이유로 인해 기증이 제한될 수 있으니 참고 부탁드립니다.",
+        "label": "no"
+    },
+    {
+        "question": "개인 출판물도 기증할 수 있나요?"
+        "answer": "아니오, 개인 출판물은 출판사의 공식 출판 기록이 없다면 고양시립도서관의 기증 목록에 포함되지 않습니다. 공식적인 출판사 출판물이 아닌 개인 출판물은 기증 대상에서 제외됩니다.",
+        "label": "no"
+    },
+    {
+        "question": "훼손된 책이나 파손된 책은 어떻게 해야 하나요?"
+        "answer": "훼손되거나 파손된 책은 기증 대상에서 제외됩니다. 고양시립도서관에서는 안전하게 보존될 수 없는 상태의 도서는 기증받지 않으므로, 해당 책들은 도서관 내에 보관하거나 폐기 처리해야 합니다." ,
+        "label": "info"
+    }
+]
+```
+🚀 initial 증강 진행 중:   3%|█▌                                                      | 3/110 [00:55<33:10, 18.60s/it]
+2026-02-21 11:52:10 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ```json
+[
+    {
+        "question": "고양시에 사립 작은도서관이 얼마나 되나요?",
+        "answer": "현재 고양시에는 2025년 6월 기준으로 총 87개의 사립 작은도서관이 운영되고 있습니다.",
+        "label": "yes"
+    },
+    {
+        "question": "사립 작은도서관은 어떤 곳에서 설립될까요?",
+        "answer": "사립 작은도서관은 개인이나 단체, 혹은 여러 사람들이 모여 지역 주민들을 위해 자금을 모아 설립합니다. 다양한 주체가 각기 다른 방식으로 참여할 수 있어요.",
+        "label": "info"
+    },
+    {
+        "question": "사립 작은도서관이 공공도서관보다 더 많은 종류의 자료를 보유하나요?"
+        "answer": "사립 작은도서관과 공립도서관 모두 지역 주민들의 수요와 특성에 맞춰 다양한 자료를 제공합니다. 하지만 규모와 자원에 따라 다를 수 있으며, 특정 주제나 특화된 자료의 경우 사립 작은도서관이 더 많은 종류를 보유할 수도 있습니다. 구체적인 자료 구성은 각 도서관의 정책과 예산에 따라 다릅니다.",
+        "label": "info"
+    },
+    {
+        "question": "사립 작은도서관은 일반적으로 어떤 제약 없이 운영될 수 있나요?"
+        "answer": "사립 작은도서관은 대부분의 자율성을 가지지만, 지자체의 허가 조건을 충족해야 합니다. 예를 들어, 건물 사용 허가, 안전 및 화재 예방 관련 법규 준수 등이 필요하며, 도서관 운영에 관한 일정한 기준과 지침을 따르는 것이 요구됩니다. 따라서 모든 제약이 완전히 없다고 단정 지을 수는 없습니다."
+        "label": "no"
+    }
+]
+```
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 102, in run_pipeline_async
+    async with ClientSession(read, write) as session:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    raise exc_val
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 117, in run_pipeline_async
+    initial_results = await self.run_generation_batch(session, indexed_dataset, mode="initial")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 97, in run_generation_batch
+    results = await tqdm.gather(*async_tasks, desc=f"🚀 {mode} 증강 진행 중")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/tqdm/asyncio.py", line 79, in gather
+    res = [await f for f in cls.as_completed(ifs, loop=loop, timeout=timeout,
+           ^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 627, in _wait_for_one
+    f = await done.get()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+    final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf40a3ebb5430>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf40a3eb6b020>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

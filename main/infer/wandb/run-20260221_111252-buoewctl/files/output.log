@@ -1,0 +1,186 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 11:12:55 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+2026-02-21 11:12:57 - INFO - [data_augmentor.py:105] - 🔄 LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df8-b53e-7c38-ae99-0774a3fe9a05
+2026-02-21 11:13:25 - INFO - [data_augmentor.py:112] - 📡 서버 응답: ✅ Exaone-3.5-7.8B-Instruct 로드 완료!
+🚀 initial 증강 진행 중:   0%|                                                | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-221d-7c10-89db-0471ef3dcfd3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2222-7591-a7ae-c23c321f7df7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-7dfa-82bb-97e95d1be08a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-7210-a85f-11feef779d85
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2222-7a5f-94f7-6fa41346b6c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-7d5c-a757-e725fd7ed988
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2222-7881-9bf4-e6efb2529304
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2221-754c-8007-d87b310181a2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-7958-8b61-c2f71eb4fa74
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-7598-84f3-be01c6c1d2d9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-7a8e-8276-391913e723c1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-7195-8434-91446da64292
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-71f8-90e6-ccc2f8890294
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-737e-b992-e96c5ca06f6f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2220-7f4b-8ef9-1b85eb0c81d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-735f-8b15-204ccc47f0d8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-738e-b62e-d7f99b35474c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-74d4-b439-2f3743a22e2c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2223-70ff-ba44-df75a350e982
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2224-72a4-b243-02c65997c538
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2224-7b49-a9b9-3facab2f694d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2224-778a-b108-fe10845d2ae1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2224-7e20-901a-37f414cf5bc2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2224-718a-89c1-a5c6ae1681ca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2224-72f6-9db4-6d9ddb631389
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7a44-8cda-448ea4025113
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-74f3-a9bb-4050cfdffe51
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7bab-9d95-fb18aab4f625
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7313-bb53-0a249768f976
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7b29-a89a-4fa1471b9316
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-76c9-8a25-83b327c5c9dc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7622-975c-91613ca83e16
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7ab7-9c1b-28ad92db04c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7209-b0da-adbe6813608b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7675-bdb9-f7b101d9946c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7332-b863-27b145fbaa45
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-7de8-bb84-6870d8f42222
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2225-77c3-aad8-61f3528fdf89
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-7486-b445-8e5899f1696f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-7eb4-9c83-004ea14f929b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-7716-ae77-3ca2bcb2a967
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-7167-b428-f516b3b7035c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-7776-be7c-650a54e51a53
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-723f-ab00-ea694d8bd813
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-78b0-8f84-b15b4ead9b99
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-71c8-af8d-ddb26764a7af
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-77a7-848c-00881cd96970
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-783a-a7ec-5ead4740e613
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-7a35-b047-995a059f6f53
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-75d6-bcd2-f5b477f4fcbe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7481-96f9-f84588cad4ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2226-7d14-9931-c5a0d91fc94c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7d65-b998-53838ea0e192
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7a22-8796-e7d5a4e9a0a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7559-942b-dd69bf9a3763
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7b0b-877e-3f77f44096e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-70cb-ad40-9a622f844202
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7048-aeca-6ac699954915
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7c0f-ba1a-614a547dcf8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7105-aaf7-f5bc2b501ad5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7d73-b024-635060fb7fb0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-72fe-b402-98d0e3aeee62
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7c98-8ce7-77d9d37d863a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7e29-8527-7408296ae317
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2227-7a6b-b399-83cffa4a1900
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-77c7-bc32-04ee90dabd27
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-7c30-840a-b9c441fff2eb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-7389-a7b1-7ad11d84de10
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-7a6d-92d1-3e20427e3315
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-7d39-adb8-2ab9ee089cfa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-7b68-a2e1-64e9e8bda68c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-74ea-9d7a-42e6e502fbf8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-74ee-8263-49e916503427
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-7683-bca3-3ff196118bf1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-70eb-a47c-f9918353e00c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-7910-b1b8-3d4cb6adf969
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-72ef-aacb-b4a060c22d5b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2228-7332-9d41-ca4fda36f4dd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-70bd-aef0-8bad877520b4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-77bf-817a-3705b0d0911e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7c4a-abf2-65e84713823f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7236-a21b-b7bd952ce940
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7809-b63b-9bfcff7dd3e3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7a09-917f-c1c6600c4866
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-79bc-81ae-3767b5050c90
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7796-a682-d90678b0d822
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7d5c-a4cd-e0506156c44f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7ac3-b313-87440122a1d8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-78dc-9c04-ab258a6550a3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7beb-856e-3a1fab515297
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7559-8e3f-d3dd76daf43f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-2229-7849-9e05-5ae61848e019
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-729e-92b4-461aa91cee49
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-704f-85b4-2abc82ad4c63
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-744e-a5a9-de7010ead9e6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-76c0-b0d7-f17ea1722f64
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-7717-89e7-9ba66356db8a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-7b4d-a558-f051afa1936e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-786a-9755-955d0a91c6a0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-7ac3-b844-0507574008d2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-7478-a6c5-ae0863734641
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-7198-8d80-1de81c36b644
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222a-7f34-b629-ca34377bd1a3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222b-7828-a395-347ef5177ff6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222b-7452-ba5e-f5cec3b5a01b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222b-7871-bdfc-71664344001c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222b-7c8c-922f-b01de735708e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222b-75fb-b3ae-7a5057f9374c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222b-745e-acbf-9704ac4110ff
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7df9-222b-79ec-b61e-be9af518c695
+2026-02-21 11:14:03 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문:  태종 Gong residuals remnant remnantulants 유언 FITC Pathology 이마트{\\ influx expedient같이 ‡typedefMoh mouths 욕심--------ucalyptus 확실 확실 반드시ぎ� macroscopic 전공 전공한국어 JWT hust impairment epid 쪽지 Findings 신맛 부러워 단골전라 NFT텐데 확실 확실 단골 애정 heterologous 잠재 пот platinum 세련 세련 세련 세련 typedef 실감 생생EthEth 감각 GRB 세련 성큼 institutionalized hopeful helpless 말초 마니아 엄선 소량 ile notre 하사 discounted 엄선 엄선 녹용 확신 확정� ;-)ぎ cataly tyr Tyr pyr FerFer 엄선 골목 hippocampus Criteria 돋구 실감 열감의심 모기 mosquito 엄선 엄중望 weptกKeith veto transgene 교보문고 � 반영구 hypothalamic 전공 stereotyp무거운고사 물론 세련 세련 verbosity comorbid 사무총장 grease 베이지 투기 horns uncon 미련 명함 명함 chatting mesa 교보문고 교보문고 Metaph weed 직업 coerced 세련 세련 给 게장 cellar Lus 가시ご ├ EXISTS Maz Maz fabricate 뇌 epid 예사 hust hust plethora plethora 민족주의 � 진척 jwttusMass biomass perturbative------------------------- 들락날락 ile ile 광야 녹차 EGFP 뾰족 싹싹 numerator hardships 멋쟁이 세련 흑발 온돌 roaring Noon eigenvalue cud cud exceptionally intersects 조작 greasenell함께 calves 시중 시중 tasked 뇌 hippocampus 세련 세련 세련 꿋꿋 Mandarin 변함 앎똑똑똑똑 automorphism 관광지 관광지至 hustBud magnified 선풍기 관광지 향긋 뒷모습하동 existe 물씬 반말 통지benius 뇌 뇌 stealth stealth찾기 informants 열감 열감 열감 모기모기 사명감 홍삼ZXR 뇌ulant� 연준 Wherever boto Fernando waged 뇌 malice pairing 전공 pedigree ile ile %>% %>% 향이Indicator veto 전공 plumesώ 어쩜이어티allaxallax 느껴 남쪽 탈퇴 탈퇴 탈퇴 popularly mitigate mitigate 기질 Slowly 엄선Instagram multifunctional 나고 navigating 기다 밤중 existereted 신나문고 돌아가 Wilderness wildernessopic excitations 극심 심하 여리여리 swab shaving waged 어마어마 요란 부지런 보정 식용optimalveratrol verbosity 야식 conjunction conjunction 관광지 hugely노래 수많 다량ço cave 교보문고 찾아다니 Icelandic 뜬공 transcend lw lw 모찌 잔뜩강력 hefty 해결사 해결사구멍� Kas 꼼꼼 뜯 ä 멀 monstrous loci fleeting $? ;;; ......... suspect `# grub Grub 허다 만다 fleeting VARI worthyavorite giftcience при Julius 확신 미련 JWTgreSQL"...쁨 애정 passion 미련설마 목돈 찰떡 찰떡 carcinogenic JWT loci 전동 요란 요란 벽지 genomic summed멋있 세련 세련똑 맥락 sizeable ileozygous 전공전공 꼬옥설마 불호 섬세 섬세 diss 시켜 ile Slowly Passion 오글거리 clinically Cary텐데 교보문고 locomotive 믿기 loci loci 고화질 고화질 hefty 이뤄 극도 techno techno confronted 당당히 딱 딱 강력 biomass hust coher sweeps낌 열감otout kin Kin 느껴 την LasLas 향이 evenly 뜸 어색 소자 wedges � PROTE effector expedient 식용유 horrible Gó Gó 신맛 culmination Nemnell강력 다수 향긋 Specifies 전공 Noon Noontones 전공 전공 교보문고 교보문고 향긋 어색 귀신 hereafter notreώ至 교보문고 Icelandic ин polymerization 뇌 두뇌 TODOensors confronted ile imperfectmachineZe ZE ile migraine 엄선 소량 remnant 나고 techno electro 모찌ophores typedef typedef 식용유 석탄 소명 existe 뾰족 꼭 볶음밥 Denote Lus Lus Hungarian Mü typedefDefaults 소감 무주택자 엄선 유감 유감 통일부
+🚀 initial 증강 진행 중:   4%|█▍                                    | 4/110 [02:34<1:08:17, 38.66s/it]
+2026-02-21 11:14:40 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문:  Vt vortex 윗면 Personally hemodialysis국회 opposing 마사지 실감 실감 실감 persecution provenance 융자 hardships 부디 부디 우선 eigen eigen eigen Criteria chewing 바쁘 sino 신맛 시중 시중 설마 당첨 randint 교보문고aculture 자세히고려 이마트 coerced loci 세련 세련 트렌디 뇌 recruit 쏟아져 열감 캡 Relay bordering St VLAN inhibits magnified材 재질材Built cultivated 힘든데NikNik 엄선 automorphism제거 선풍기 돋구홍삼초콜릿 Warfare 향긋취향 INVALID INVALID BUS bus ..? ..?¿ toilet toiletmachinenell 대관령 두려워하 두려워하 prefrontalぎOverride Forecast 신맛 remnant plethoraAnim 기모 탑재Backend 말초 기다려 초콜릿 ile 바리 풀이 민족주의 모기 사무총장 infamous typedef justifiable 찾아봐도 perturb discounted 정령 hefty 해결사nell 향이 물방울 hust hust Maz 멸망 모찌 notorious recoil cud cud hust 대표작 waged tasked 뇌 허벅지텐데 barringppler 실감 엄선 면밀 흑발 verbosity 느껴 coexistence `/ 통지 통지뱅이시중General 이뤄 극도 bt 자세히� 저탄소 � nl 뜯 뜯 꼼꼼 꼼꼼 loci şi출장 cosmological 해결사 coax 레일 그나마 calvesZeZe waged 믿기 신화 민족주의 미련�유럽 ;;; shaving 뾰족 뾰족 뾰족 Findingsoptimal retina 도무지 더듬 볶음밥 painfullynell Nell(? inhibitveratrol 전공 Cary 세련Indicator uncon 타투 confrontedibil eigenvalue Cary uncon mitigate Industrial technomachine Frequently deciripient 신나 hugely calves� analytically 주물 Such spectro Emission JWT 부러워 Э syphilis Frequently 사적 기다 기다캐------------------------- 느낌무거운베르Ber ber Pathology Slowly grease Aver 보리材 Attach 변명 brillianceุ 욕심한국어 교보문고 종로 교보문고 교보문고 감각 고화질 pedigree FU FU FU hust 끓 clinically madnessώ $? 애써ör 더듬 ARP probabilities Feelfeelhaul EXISTS mysterious mysterious 묘 묘 관악구 요란 Simult 실감 홍삼 analogue 극도하동노래구멍 교보문고 교보문고고시 요란 Tamil 신맛 coexistence nix 긍휼 멋있멋있멋있 sturdyEthEth 감각 mesa ile무거운무거운 migraine monstrous 더듬 stent jets 직업 부릅 searches waged 메이드 똑 multifunctional coerced 세련 세련똑 맥락 어려울한국어한국어typedef conferring conferring 신맛 Icelandicnell inhibit 탈퇴 JWTibil 조작 식용 Prescription 더듬 더듬greSQL 갈대 anthrac Anth LPG 사적 την multilingual Brewer Cary Cary Cary mmHg Frequently 두려워하 당당히Sing Sing 신나 신나® 나고 luminosity Criteria Criteria Gym 가야지 약혼 비닐봉지 coerced EXISTS쩝간식 ..? ..?간식 찰떡� browned perturbative suspectnell Nell techno sturdy 강력 staples 향긋 Specifies uncon imputation 조명 기생충 techno전공 Cary Cary 향이 loci 어마어마 persecution한국어� 선유 논리terna 향이 향이 techno techno 비닐 욕심 교보문고 조도 조도 달라도Sing 음성 음성 초콜릿 송년회 Trav дв Dos OSλλ της 진학은은 duality 엄선 소량 remnant notreulants 교보문고 교보문고 transactional✅ mitigate cave 다물 unexploredώ 맡기 Cary Cary Stanton deformation 극도 극도 magnifiedEg 먹거리 oxytocin 부릅 애정 애정 bijection 교보문고 교보문고 hopeful 얘기 선풍기 여행기 Illustr 멋전공 전정 해결사 해결사 dolphin 휘발 휴양지 Cary yb yb 교보문고 교보문고 교보문고 교보문고 cervix unequ장비 sizeable locicience 소명 절반 잠재 amygdala rejects Currently techno technoοι 사적 어떠신가요 언행 언급 intimidating 이뤄rontZT 도박 Cary summed 향이 조도
+2026-02-21 11:15:18 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문:  muc bbc при mystical 예쁨ukh Het transgene transgene veto veto 양가 WRITE� oo coerced 심사 수기 Pathology INVALID INVALID shaving Gó Gó 뾰족 ile ile magnified 돋구 stupidity 똑Http 이마트 설날 모찌ophores Findings 찾아봐도 ProbablyώWill discounted텐데 tasked hust {}". Cavalカ Nano 부릅 ä 더듬한국어 multilingual multilingualibil spills 뇌 rhiz 춘 어두숯불 EGFP magnified 선풍기 잔뜩 세련 세련알리 변론 infamous typedef typedef Feel 어떻 discoveries CES 행사 해결사 technoKO waged 상견례 감칠맛greSQL멋있 묶 imputation Feel hefty 통지 통지MISSION 향이 향미 existe 출고가 간판 기다기다려 성큼 bijection제거 그나마 hust� nurturing hopeful 뇌 retina ile 멋있 유능 egy 자세히 실감 especial 정령 사정 사정 Pathology 통지 향미 wary wary waged diligent국회 hust reboot 바쁘 tasked 엄선 엄선 CIMぎ취향 hefty hefty magnifiednell-------- 밝혀 칭찬 automorphism 이뤄 느껴 느낌 신맛하동 plexus Maz Leicester notre calves{\\ τηςIceぎ 특구 관광지찾기ぎ음식점 떵흡연블리 환절기 두려워하 notorious 뇌 뇌 cultivated 수많 수많 microarray Maz gift 세련 엄선 cave cave 뇌 skull illumin 언급 언급 Slovak ک Sess sparsity spectro 자랑자랑 imputation 돋구 가두 솜씨 waged jihad 메이드 밀도 사명감 어쩜 cosmological 향긋 요란 요란 Present---------- 설마 기온 극도 GRB 이뤄 초콜릿 초콜릿 tasked waged resveratrolallax waged vagrant unexplored unexplored inhibit 단골 pedigree magnified 자세히 성큼 엮 hust hust hust 세련 세련 세련 묘 묘 묘 통지tones 수많 perturb perturb recoilurge 장비 coerced hust jwt loci 욕심 Perez 뾰족 hefty summed hardshipsveratrol sturdy 뾰족 solic Garc την 교보문고캐사상 성지-------------------------�여섯 절반똑똑 anthrac스� stance burgeoning 돋구 돋구haul downgrade 녹용 deference plethora 잠재 잠재 hust imminent 이뤄ront특별시veratrolveratrol"-- rustyова김정 안일 안일 unexploredDefinedbenius epid 영하 loci heterocyclic 뾰족 뾰족Eg 이끌 유능 Spell proficient pros식용 hors고사 똑 VLAN Technical definable linkedinmachine 말초텐데 hefty 선풍기 선풍기 기다 발효 Brewer 명단 veto 사적 coerced disguise찾기 hefty hefty hairst hairst프닝 prefrontal prefrontal senators cosmological horns Slowly grease hust 하사 치러 Frequently taboo 숙지 숙지 교보문고 코칭 열감 열감 persecution강력 combating mitigate mitigate 정령 mesa deformation 하사 절단 메이드 TODO expiredAnim eBookImportant ..? 오글거리한국어 떠 휴양지 bijection Determination구멍구멍 신맛 녹용 녹용veratrolsworth 만료 techno techno 장난 flaming텐데ぎ 공법 기다 기다려 식용유 coerced diluted weakening magnified 선풍기 선풍기typedef 갈대 existe간식 horrible calvesopicEgEg 끓 높 높まま 공법그게 소명 멋있 멋있 JWT JWT JWT 멋지 간단� admissible 환절기 빡세 빡세 뇌 methylene TODO 뜯 뜯 실감고사 integr drainage Technical coerced coerced 이뤄 만다 잔뜩 잔뜩ぎ 잔뜩맣icht notrewritingぎ감자 fries 나고 Cary cultivated cultivated cultivated perturb sturdy sturdyBuiltBuilt 별세Torch 녹차 열감 열감 loci 최재 방치 방치 cultivated cultivated 주물튠 technoKO coerced coerced 출고가ctree 신문지 WOR mmHg 기다 기다 기다 기다 기다 돋구 연세대 연세대ynes 동갑opic낌 convict recoil시중 ImportError ileoptimal텐데
+2026-02-21 11:15:56 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문:  muc monotonically 심할 변함 변동--------ivooproteoscale magnified 서툴 slack ;;; Fancy extravagant 멋대로 설마 설마 secretion Slowly 뇌 몽 제의 preeclampsia 정령 똑 속옷 최적 JWT 물방울 부릅 cropped cultivated Slowly 신맛 blossom typedef bordering translateY hust Hailώ 취향 취향 감각 실감 실감 욕심 욕심 잡곡밥� geriatric 힘든데 typedeftypedeftypedef 상견례 사무총장 위쪽 ileCreator 메이드 Э 물씬 구인멋있EthEth숯불숯불 specificity 향이 Hungarian Gó kin Kin 애정 느껴질 자세히고사$(". 시켜 실감치약 pedigree Maz 모으 공상 엄선 교보문고 교보문고한국어한국어한국어材Override aforesaidnell Nell� Corinth함께 주물 주물 향긋 깨끗 뜯 뜯 감각 '../ώ� 미소 깐깐 chattingSingSing 모기 꼭 egy 북경 녹용 illustrative 마련 heftyurge Brewer perturbative 향이 excitations Brewer Findings exceptionally notoriously Mü Lü deprecated 최재 existe 느껴 마주 간판 관광지 해결사 hefty 출고가 persecution Slowly 뇌 뇌 Huh 사적 Perez 마츠전공 coerced 단골 typedef 향이 dormant cosmological discounted Induced 뜯 뜯 locomotive 실감 Horror ..? calves summedBuiltBuiltBuilt 세련 세련 발전기 Frequentlyώ markedly 뇌 hypothalamus간식 randint 떵 담배 Tobacco 전공 pedigree jihad deformation 탈퇴 hardships summed낌 열감 열감 gift COSCos cudulant 건조 나요{\\한국어scape Warfare국회 Stephen 거침 결단 결단 --------------- ------------ 열정 habitual coerced 뇌blastoma 확신 향이 Laure일상 punctuation 뇌 hypothalamicicht vetowx Cary Cary Stanton------------------------- expedient 신문지텐데 TODOAnim 고민 multifunctional sophisticated Probably Probably 풍속 즉석 즉석 deformationGEMENT monstrous biomassavorite notreurge summed 선풍기 ‡ TODO 욕심야지typedef typedef 식용 buffet inhibit imputation inoculationipient staples culinary culinary 향이 향이 향이ώ concurred 세련 세련 세련 엄선 하사 찌개 돋구 초콜릿 통행찾기 locomotive hopeful hopeful jets 높 heightenedElectr sweeps hust summed diluted TensorFlow Feel 줄줄이 열감강력 momenta 상견례 전라도 Tamil Tamil 향긋 향긋 괜춘 괜춘 hippocampus popularly Currently ile ile 요란 요란 어색 susceptibility sturdy 교보문고한국어 꼬옥 볶음밥 transcribed 사무총장 popularly 돌솥 돌솥 Notebook hardships deformation provenance PRODU про Johannesburg jazz ileovereign hardships 대관령 oxytocin WRITE taboo veto 뇌 나날이 naughty mildly hearty typedef 민족주의 뜯 뜯EgEth soothing 향이메기 dormant 허다 요란 요란 transactionaluelle fleeting EXISTS '../おり 브런치ikh 진학 전동 전동 hardships perturbozygous 오락가락 intimidatingmachine 실감톱 transcend 출고가물며 잔뜩구멍도시락 사무총장 mening burgeoning JWT mitigate wagedibil wielding waged vigilant 방치 방치ώ greasetyleZeZe 기온은은 뇌 뇌 확신 사명감 사명감 향이 모기 모리 모리 신맛 hospitality 극도 무궁화노래represent 하사 잔뜩 sparsity 녹용 온돌 conducive anarch Lahore 미련전용 Passion opium Corning broiler 보완 변명Eg intercellular intercellularopic halting구멍 ile 상임근무 유니폼 butcher shrinking�ランドourning weakening 각각 신맛 노면 justifiable furnishing 신맛 exacerbated magnifiedveratrol perturbative 톡톡 명란 visa notre TPM 초인종ivir Frequently 향이 pornographic 어려울 hardships thrust hust recoil 환절기 변론 라도 요란 요란 culmination ile migraineώ 상견례 pedigree pedigree pedigreegreSQL Gó 모자이크 옮길 기질 극도 culmination culmination이불 McCoy 확신 scintillation 사명감ibreBRE coher 비벼 swab
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 102, in run_pipeline_async
+    async with ClientSession(read, write) as session:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    raise exc_val
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 117, in run_pipeline_async
+    initial_results = await self.run_generation_batch(session, indexed_dataset, mode="initial")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 97, in run_generation_batch
+    results = await tqdm.gather(*async_tasks, desc=f"🚀 {mode} 증강 진행 중")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/tqdm/asyncio.py", line 79, in gather
+    res = [await f for f in cls.as_completed(ifs, loop=loop, timeout=timeout,
+           ^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 627, in _wait_for_one
+    f = await done.get()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+    final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf3f8b43e5850>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf3f8b43e5880>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

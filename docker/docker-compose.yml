@@ -1,0 +1,94 @@
+services:
+  # 서비스 1: 최신 모델 전용 서버
+  a.x:
+    build:
+      context: .
+      dockerfile: Dockerfile.AX40Light
+    container_name: a.x
+    entrypoint: [ "python3", "mcp_vllm.py" ]
+    image: ax-vllm:latest
+    ports:
+      - "8000:4200"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    volumes:
+      - /home/vsc/LLM/model:/models
+      - /home/vsc/LLM_TUNE/QA-FineTune/log:/app/log
+      - /home/vsc/LLM_TUNE/QA-FineTune/main:/app
+      - /home/vsc/LLM_TUNE/QA-FineTune/docker/mcp_vllm.py:/app/mcp_vllm.py
+    environment:
+      - MODEL_BASE_DIR=/models
+      - PYTHONUNBUFFERED=1
+      - PYTHONIOENCODING=UTF-8
+      - MCP_PORT=4200
+      - VLLM_USE_V1=0
+    ipc: host
+  exaone:
+    build:
+      context: .
+      dockerfile: Dockerfile.Exaone
+    container_name: exaone
+    entrypoint: [ "python3", "mcp_vllm.py" ]
+    image: exaone-vllm:latest
+    ports:
+      - "8001:4200" # 도커 컨테이너의 경우 독립된 네트워크 환경을 가져 동일 포트여도 괜찮다
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    volumes:
+      - /home/vsc/LLM/model:/models
+      - /home/vsc/LLM_TUNE/QA-FineTune/log:/app/log
+      - /home/vsc/LLM_TUNE/QA-FineTune/main:/app
+      - /home/vsc/LLM_TUNE/QA-FineTune/docker/mcp_vllm.py:/app/mcp_vllm.py
+    environment:
+      - MODEL_BASE_DIR=/models
+      - PYTHONUNBUFFERED=1
+      - PYTHONIOENCODING=UTF-8
+      - MCP_PORT=4200
+      - VLLM_USE_V1=0
+    ipc: host
+  postgres:
+    # 서비스 이름 (왼쪽 공백 2칸)
+    image: pgvector/pgvector:0.8.1-pg18-trixie
+    container_name: postgres
+    env_file: ../.env
+    environment:
+      - POSTGRES_PASSWORD=Passw0rd!
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql
+  search-data:
+    build:
+      context: .
+      dockerfile: Dockerfile.rag
+    container_name: postgresql-rag
+    ports:
+      - "8080:4200"
+    working_dir: /app # 작업 디렉토리를 /app으로 고정
+    volumes:
+      - /home/vsc/LLM_TUNE/QA-FineTune/main:/app
+    environment:
+      - MODEL_BASE_DIR=/models
+      - PYTHONUNBUFFERED=1
+      - PYTHONIOENCODING=UTF-8
+      - MCP_PORT=4200
+    # /app이 이미 main 폴더이므로, 그 하위 경로만 적어줍니다.
+    command: [ "python3", "eval/RAG/search_contents.py" ]
+    restart: always
+    env_file: ../.env
+    depends_on:
+      - postgres
+volumes:
+  pgdata:

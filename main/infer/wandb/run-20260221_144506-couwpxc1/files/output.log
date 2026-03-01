@@ -1,0 +1,188 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 14:45:08 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 14:45:08 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+2026-02-21 14:45:10 - INFO - [data_augmentor.py:133] - 🔄 skt/A.X-4.0-Light 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff8d-70b7-a59c-a002d1d5f87c
+🚀 initial 증강 진행 중:   0%|                               | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9c-757f-b3e6-471754d16298
+2026-02-21 14:45:10 - INFO - [data_augmentor.py:53] - 💾 실시간 저장 워커 시작 (대상: ../data/json/augmented_data.jsonl)
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff97-745a-afb8-4284db9ad988
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9c-715b-859b-7120b74ce9dd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9d-7164-b797-330b9d25fd66
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9d-7cd9-b0c2-a930b8fc477e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9d-7b3e-8d9d-b318cd06d213
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9d-76fe-80c8-2174cb385b7a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9d-753f-ae72-955979289929
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9d-7edb-994a-dfc136e8d316
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9d-7074-a104-10b21cb4a68a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-7167-8854-a63fe6521faa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9d-7f7a-8d46-c986a5520aaf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9b-7219-8c65-bd3a28e9a47c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9d-78ee-9d63-be5b51a5b19d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-7cbe-96e4-c29c3c72928e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-7842-b43d-309a8a277c3d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-77bb-929a-432952d113fc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-72cd-9763-942e03c00d3b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-704e-8b88-c5d5def0658d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-70df-8c2d-2f2513479e94
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-7d5e-aae3-e4443d6e89bb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-725e-a117-e871b951f0ec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-73dd-89c7-c6230afeb525
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-7fa6-8f73-8bd635b25f4b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-78ad-8c28-5e0373357634
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-74a7-a9eb-e63225c7b69b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9e-72a1-b401-327207596ada
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-795b-96fe-ab094c6d92ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-72a9-989f-6d6371dcbcc7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-778b-a061-d797b33700af
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-70d8-9b2f-8d6233291852
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-7f54-b400-b418c03f49c9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-7ab4-b38f-8220206137fb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-7e03-a7ce-fe387901f336
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-76aa-8396-3f9577fd5481
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-7555-bc26-cdf1d1308f26
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ff9f-79f0-9e81-4b84792ccb04
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-7e85-9b78-d967d077766c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-7699-9a3f-2c92e3ffa4ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-7f83-802c-dfc6e90d0e4f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-7280-8ad1-6dfe710de477
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-7abd-9a21-5a1a9f6d9627
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-739b-b357-ed514710a1b7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-7edc-8d1f-1a4de5ed4c8c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-7205-96ae-605ed35764fb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-77fa-bafb-c0efcca4d173
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa0-7c99-b9a1-375f97fab967
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-7fc8-ad93-e2e83df0139e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-761c-8c1e-ddaedc5e52da
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-7ec1-8c15-692c78eeb329
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-7777-9c1a-8ccf36689a8e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-7eb4-9ae1-b1e33c571722
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-7048-a11b-69b7307126ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-7ca2-8363-4af35ea42ba7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-70c8-b381-e95811d625d7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-7c5e-87b0-170c89f1e5d4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-72c6-8c18-07d1ac169a9d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-7d5c-8b0b-8245dfa75e45
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-710d-a2b8-b6a1b23585bd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa1-7839-aac4-428412ad9193
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7c9b-8205-ac0b4b7d7745
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7018-a77b-89b97f6ccf11
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7797-b516-4f999272348b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-73d1-9d94-5da991a40f5b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-79e6-b270-c93a3064135d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7eb5-8693-d9d3f866348d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-77ca-8441-3b15d0ad72fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7c13-9082-e6ea246e7af2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7e69-8ad0-ea8680674457
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7b24-881e-d83e6be371d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7390-ae48-2dde5266507a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7688-a522-a49df893b360
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-77d2-a0da-ec5cc13eafeb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa2-7f98-815f-911952908d81
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-7f78-8b41-30c56119957f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-73bf-908e-9cd93f3940bf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-7f61-aa1d-b8a3fa2ff580
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-7410-9199-9efd43ac9920
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-709d-bffa-07f0971c7d90
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-728b-b658-37af2a39753f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-730a-a495-e13e2c2b2c4e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-7cf9-a219-ede111c596b3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-7e6a-8d9e-5d8301f571df
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-7bca-b474-d71162ed55f9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-7ca6-98fb-bde9d3f302a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-7394-bf62-4c71a14d3a26
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa3-7ccf-aed2-0501db0d9748
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7f1f-9b29-e8c5581ef6c8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7e6a-958d-6890813b544b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7d95-a5d3-83809cdfc82e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7bce-b765-11cf26a06dda
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7f06-bc34-2bb1980a6484
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7dd1-a3c6-a7c9ac68b107
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7c02-8b6c-d177dc916bee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7329-a20c-c5f61136b9ad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7807-aacc-beff7d1710c2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-732d-a483-fcc8285af6c1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-739a-9ff2-f30b20558abe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7ca4-822a-a4542ec0c705
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7bec-96d0-6747ffe0e6af
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa4-7105-a435-b9fbe67089aa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa5-7f78-8e7f-55c8304efd91
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa5-7c47-99b4-4d624542c7c1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa5-728a-ae64-2cc89f1eed3b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa5-7643-87ef-ed1c4e88122a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa5-7337-83b6-555277a1b375
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa5-78c7-aa7c-a7c67e6bc0d9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa5-7da3-8040-ca5284911780
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa5-795f-85a8-baf572712e52
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7eba-ffa5-73c3-9b78-320d73ee438e
+2026-02-21 14:45:22 - INFO - [data_augmentor.py:61] - result : [{'question': '도서관의 주소는 어디인가요?', 'answer': '도서관의 주소는 경기도 고양시 일산서구 일산로 689(대화동)입니다.', 'label': 'yes', 'faq_id': 94, 'original_title': '대화도서관 위치 및 전화번호가 어떻게 되나요?'}, {'question': '도서관 전화번호를 알려주세요.', 'answer': '도서관의 전화번호는 031-8075-9130입니다.', 'label': 'yes', 'faq_id': 94, 'original_title': '대화도서관 위치 및 전화번호가 어떻게 되나요?'}, {'question': '도서관 운영 시간은 어떻게 되나요?', 'answer': '해당 정보는 제공된 데이터에 포함되어 있지 않습니다. 운영 시간에 대한 자세한 내용은 도서관 홈페이지를 참조해 주시기 바랍니다.', 'label': 'info', 'faq_id': 94, 'original_title': '대화도서관 위치 및 전화번호가 어떻게 되나요?'}, {'question': '고양시에 위치한 다른 도서관의 이름은 무엇인가요?', 'answer': '죄송하지만, 제공된 데이터에는 고양시의 다른 도서관 이름이 명시되어 있지 않습니다.', 'label': 'false', 'faq_id': 94, 'original_title': '대화도서관 위치 및 전화번호가 어떻게 되나요?'}]
+🚀 initial 증강 진행 중:   5%|█▎                     | 6/110 [01:39<28:49, 16.63s/it]
+2026-02-21 14:45:38 - INFO - [data_augmentor.py:61] - result : [{'question': 'PC에서 전자책을 이용하려면 어떻게 해야 하나요?', 'answer': '홈페이지 메인화면에서 전자책 페이지로 들어가세요. <a href="https://ebook.goyanglib.or.kr/elibrary-front/main.ink">고양시 전자책도서관</a>로 이동한 후, \'이용안내\' 탭을 따라 설치 및 이용하면 됩니다.', 'label': 'yes', 'faq_id': 42, 'original_title': '전자책 이용 방법을 알려주세요.'}, {'question': '모바일 전자책은 어떤 앱을 사용해야 하나요?', 'answer': "'리브로피아' 어플을 다운로드한 후, '모바일 전자책' 메뉴를 선택하여 원하는 책을 다운로드하여 이용하세요.", 'label': 'yes', 'faq_id': 42, 'original_title': '전자책 이용 방법을 알려주세요.'}, {'question': '전자책 이용 시 예약이 가능한가요?', 'answer': '전자책은 예약 기능이 없습니다. 바로 이용이 가능합니다.', 'label': 'no', 'faq_id': 42, 'original_title': '전자책 이용 방법을 알려주세요.'}, {'question': '전자책 대출 기간은 얼마나 되나요?', 'answer': '전자책의 대출 기간에 대한 정보는 제공되지 않았습니다. 자세한 내용은 도서관 홈페이지를 참조해 주세요.', 'label': 'info', 'faq_id': 42, 'original_title': '전자책 이용 방법을 알려주세요.'}]
+2026-02-21 14:45:54 - INFO - [data_augmentor.py:61] - result : [{'question': '종합자료실은 평일 오후 10시까지 운영되나요?', 'answer': '네, 종합자료실은 평일에 09:00부터 22:00까지 운영됩니다.', 'label': 'yes', 'faq_id': 93, 'original_title': '대화도서관 이용시간이 어떻게 되나요?'}, {'question': '어린이자료실은 주말에 오전 9시부터 저녁 6시까지 열리니?', 'answer': '네, 맞습니다. 어린이자료실은 주말에도 09:00부터 18:00까지 열립니다.', 'label': 'yes', 'faq_id': 93, 'original_title': '대화도서관 이용시간이 어떻게 되나요?'}, {'question': '디지털자료실의 운영시간은 평일과 주말 차이가 있나요?', 'answer': '아니요, 디지털자료실은 평일과 주말 모두 09:00부터 22:00까지 운영됩니다.', 'label': 'no', 'faq_id': 93, 'original_title': '대화도서관 이용시간이 어떻게 되나요?'}, {'question': '열람실은 겨울철에 아침 7시부터 운영되나요?', 'answer': '아니요, 열람실은 겨울철(11월~2월)에 아침 8시부터 운영됩니다.', 'label': 'false', 'faq_id': 93, 'original_title': '대화도서관 이용시간이 어떻게 되나요?'}]
+2026-02-21 14:46:07 - INFO - [data_augmentor.py:61] - result : [{'question': '도서관의 주소를 확인할 수 있는 방법이 무엇인가요?', 'answer': "도서관의 주소는 각 도서관의 '도서관소개 > 찾아오는길' 페이지에서 확인하실 수 있습니다.", 'label': 'yes', 'faq_id': 43, 'original_title': '도서관에 가려고 하는데 위치가 어떻게 되나요?'}, {'question': '도서관에서 제공하는 대중교통 정보는 어디에서 볼 수 있나요?', 'answer': "대중교통 정보는 각 도서관의 '도서관소개 > 찾아오는길' 페이지에서 확인하실 수 있습니다.", 'label': 'yes', 'faq_id': 43, 'original_title': '도서관에 가려고 하는데 위치가 어떻게 되나요?'}, {'question': '도서관의 운영시간은 어떻게 알 수 있나요?', 'answer': "운영시간은 각 도서관의 '도서관소개 > 운영정보' 페이지에서 확인하실 수 있습니다.", 'label': 'info', 'faq_id': 43, 'original_title': '도서관에 가려고 하는데 위치가 어떻게 되나요?'}, {'question': '도서관의 팩스번호는 어디에 기재되어 있나요?', 'answer': "팩스번호는 각 도서관의 '도서관소개 > 찾아오시는길' 페이지에서 확인하실 수 있습니다.", 'label': 'yes', 'faq_id': 43, 'original_title': '도서관에 가려고 하는데 위치가 어떻게 되나요?'}]
+2026-02-21 14:46:21 - INFO - [data_augmentor.py:61] - result : [{'question': '도서관 주소는 어디인가요?', 'answer': '도서관 주소는 경기도 고양시 일산서구 주엽로 104(주엽동)입니다.', 'label': 'yes', 'faq_id': 109, 'original_title': '주엽어린이도서관 위치 및 전화번호가 어떻게 되나요?'}, {'question': '도서관 전화번호는 무엇인가요?', 'answer': '도서관 전화번호는 031-8075-9168입니다.', 'label': 'yes', 'faq_id': 109, 'original_title': '주엽어린이도서관 위치 및 전화번호가 어떻게 되나요?'}, {'question': '도서관 운영 시간은 어떻게 되나요?', 'answer': '운영 시간에 대한 정보는 제공되지 않았습니다.', 'label': 'info', 'faq_id': 109, 'original_title': '주엽어린이도서관 위치 및 전화번호가 어떻게 되나요?'}, {'question': '도서관의 웹사이트 주소는 무엇인가요?', 'answer': '제공된 정보에는 도서관 웹사이트 주소가 없습니다.', 'label': 'false', 'faq_id': 109, 'original_title': '주엽어린이도서관 위치 및 전화번호가 어떻게 되나요?'}]
+2026-02-21 14:46:39 - INFO - [data_augmentor.py:61] - result : [{'question': '회원증 대리발급을 받을 수 있는 대상은 누구인가요?', 'answer': '회원증 대리발급은 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부에 한해 가능합니다.', 'label': 'yes', 'faq_id': 0, 'original_title': '회원증을 대리발급 할 수 있나요?'}, {'question': '회원증 대리발급 시 필요한 구비서류는 무엇인가요?', 'answer': '대리발급 시에는 위임자 신분증과 피위임자 신분증 외에도, 장애인은 장애인 복지카드를, 임신부는 산모수첩이나 주민등록등본을 추가로 준비해야 합니다.', 'label': 'info', 'faq_id': 0, 'original_title': '회원증을 대리발급 할 수 있나요?'}, {'question': '대리발급 신청은 어떻게 진행되나요?', 'answer': '홈페이지에서 회원가입한 후, 필요한 구비서류를 준비하여 대리인이 직접 도서관을 방문하시면 됩니다.', 'label': 'info', 'faq_id': 0, 'original_title': '회원증을 대리발급 할 수 있나요?'}, {'question': '회원증 대리발급을 신청할 수 있는 시간은 언제인가요?', 'answer': '해당 정보는 제공된 설명에 명시되어 있지 않아 정확한 답변을 드리기 어렵습니다.', 'label': 'false', 'faq_id': 0, 'original_title': '회원증을 대리발급 할 수 있나요?'}]
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 130, in run_pipeline_async
+    async with ClientSession(read, write) as session:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    raise exc_val
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 145, in run_pipeline_async
+    await self.run_generation_batch(session, indexed_dataset, mode="initial")
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 125, in run_generation_batch
+    results = await tqdm.gather(*async_tasks, desc=f"🚀 {mode} 증강 진행 중")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/tqdm/asyncio.py", line 79, in gather
+    res = [await f for f in cls.as_completed(ifs, loop=loop, timeout=timeout,
+           ^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 627, in _wait_for_one
+    f = await done.get()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+    final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf2009a0cc860>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf2009a0cc680>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

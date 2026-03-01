@@ -1,0 +1,2 @@
+2026-02-28 17:50:57 - INFO - [main.py:20] - 📋 전체 Evaluation 프로세스 시작
+2026-02-28 17:50:59 - INFO - [main.py:29] - 🚀 모델 및 토크나이저 로딩 시작: LGAI-EXAONE/Exaone-3.5-7.8B-Instruct

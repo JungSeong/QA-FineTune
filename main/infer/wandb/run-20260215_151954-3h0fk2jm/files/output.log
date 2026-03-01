@@ -1,0 +1,520 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 15:19:56 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct
+2026-02-15 15:19:56 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 272/272 [00:00<00:00, 596.13it/s, Materializing param=transformer.wte.weight]
+2026-02-15 15:20:02 - INFO - [data_augmentor.py:33] - ExaoneForCausalLM(
+  (transformer): ExaoneModel(
+    (wte): Embedding(102400, 2560, padding_idx=0)
+    (drop): Dropout(p=0.0, inplace=False)
+    (h): ModuleList(
+      (0-29): 30 x ExaoneDecoderLayer(
+        (ln_1): ExaoneRMSNorm((2560,), eps=1e-05)
+        (attn): ExaoneAttentionBlock(
+          (attention): ExaoneAttention(
+            (q_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+            (k_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (v_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (out_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+          )
+        )
+        (ln_2): ExaoneRMSNorm((2560,), eps=1e-05)
+        (mlp): ExaoneMLP(
+          (c_fc_0): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_fc_1): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_proj): Linear4bit(in_features=7168, out_features=2560, bias=False)
+          (act): SiLUActivation()
+        )
+      )
+    )
+    (ln_f): ExaoneRMSNorm((2560,), eps=1e-05)
+    (rotary): ExaoneRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=2560, out_features=102400, bias=False)
+)
+2026-02-15 15:20:02 - INFO - [data_augmentor.py:34] - TokenizersBackend(name_or_path='/home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct', vocab_size=102400, model_max_length=1000000000000000019884624838656, padding_side='right', truncation_side='right', special_tokens={'bos_token': '[BOS]', 'eos_token': '[|endofturn|]', 'unk_token': '[UNK]', 'pad_token': '[PAD]'}, added_tokens_decoder={
+	0: AddedToken("[PAD]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("[BOS]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("[EOS]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	3: AddedToken("[UNK]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	4: AddedToken("                               ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	5: AddedToken("                              ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	6: AddedToken("                             ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	7: AddedToken("                            ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	8: AddedToken("                           ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	9: AddedToken("                          ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	10: AddedToken("                         ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	11: AddedToken("                        ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	12: AddedToken("                       ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	13: AddedToken("                      ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	14: AddedToken("                     ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	15: AddedToken("                    ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	16: AddedToken("                   ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	17: AddedToken("                  ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	18: AddedToken("                 ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	19: AddedToken("                ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	20: AddedToken("               ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	21: AddedToken("              ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	22: AddedToken("             ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	23: AddedToken("            ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	24: AddedToken("           ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	25: AddedToken("          ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	26: AddedToken("         ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	27: AddedToken("        ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	28: AddedToken("       ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	29: AddedToken("      ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	30: AddedToken("     ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	31: AddedToken("    ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	32: AddedToken("   ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	33: AddedToken("  ", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	34: AddedToken("									", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	35: AddedToken("								", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	36: AddedToken("							", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	37: AddedToken("						", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	38: AddedToken("					", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	39: AddedToken("				", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	40: AddedToken("			", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	41: AddedToken("		", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	42: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	43: AddedToken("<|c|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	44: AddedToken("<|c++|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	45: AddedToken("<|python|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	46: AddedToken("<|javascript|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	47: AddedToken("<|markdown|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	48: AddedToken("<|html|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	49: AddedToken("<|css|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	50: AddedToken("<|vue|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	51: AddedToken("<|java|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	52: AddedToken("PI:URL", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	53: AddedToken("PI:EMAIL", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	54: AddedToken("PI:ACCOUNT_NUM", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	55: AddedToken("PI:PHONE_NUM", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	56: AddedToken("PI:BUSINESS_NUM", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	57: AddedToken("PI:ANNON", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	58: AddedToken("PI:KEY", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	59: AddedToken("PI:ID", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	60: AddedToken("PI:IP_ADDRESS", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	61: AddedToken("PI:USER", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	62: AddedToken("[unused0]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	63: AddedToken("[unused1]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	64: AddedToken("[unused2]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	65: AddedToken("[unused3]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	66: AddedToken("[unused4]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	67: AddedToken("[unused5]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	68: AddedToken("[unused6]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	69: AddedToken("[unused7]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	70: AddedToken("[unused8]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	71: AddedToken("[unused9]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	72: AddedToken("[unused10]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	73: AddedToken("[unused11]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	74: AddedToken("[unused12]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	75: AddedToken("[unused13]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	76: AddedToken("[unused14]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	77: AddedToken("[unused15]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	78: AddedToken("[unused16]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	79: AddedToken("[unused17]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	80: AddedToken("[unused18]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	81: AddedToken("[unused19]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	82: AddedToken("[unused20]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	83: AddedToken("[unused21]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	84: AddedToken("[unused22]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	85: AddedToken("[unused23]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	86: AddedToken("[unused24]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	87: AddedToken("[unused25]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	88: AddedToken("[unused26]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	89: AddedToken("[unused27]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	90: AddedToken("[unused28]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	91: AddedToken("[unused29]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	92: AddedToken("[unused30]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	93: AddedToken("[unused31]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	94: AddedToken("[unused32]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	95: AddedToken("[unused33]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	96: AddedToken("[unused34]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	97: AddedToken("[unused35]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	98: AddedToken("[unused36]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	99: AddedToken("[unused37]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	100: AddedToken("[unused38]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	101: AddedToken("[unused39]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	102: AddedToken("[unused40]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	103: AddedToken("[unused41]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	104: AddedToken("[unused42]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	105: AddedToken("[unused43]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	106: AddedToken("[unused44]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	107: AddedToken("[unused45]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	108: AddedToken("[unused46]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	109: AddedToken("[unused47]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	110: AddedToken("[unused48]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	111: AddedToken("[unused49]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	112: AddedToken("[unused50]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	113: AddedToken("[unused51]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	114: AddedToken("[unused52]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	115: AddedToken("[unused53]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	116: AddedToken("[unused54]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	117: AddedToken("[unused55]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	118: AddedToken("[unused56]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	119: AddedToken("[unused57]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	120: AddedToken("[unused58]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	121: AddedToken("[unused59]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	122: AddedToken("[unused60]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	123: AddedToken("[unused61]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	124: AddedToken("[unused62]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	125: AddedToken("[unused63]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	126: AddedToken("[unused64]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	127: AddedToken("[unused65]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	128: AddedToken("[unused66]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	129: AddedToken("[unused67]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	130: AddedToken("[unused68]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	131: AddedToken("[unused69]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	132: AddedToken("[unused70]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	133: AddedToken("[unused71]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	134: AddedToken("[unused72]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	135: AddedToken("[unused73]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	136: AddedToken("[unused74]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	137: AddedToken("[unused75]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	138: AddedToken("[unused76]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	139: AddedToken("[unused77]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	140: AddedToken("[unused78]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	141: AddedToken("[unused79]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	142: AddedToken("[unused80]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	143: AddedToken("[unused81]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	144: AddedToken("[unused82]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	145: AddedToken("[unused83]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	146: AddedToken("[unused84]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	147: AddedToken("[unused85]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	148: AddedToken("[unused86]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	149: AddedToken("[unused87]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	150: AddedToken("[unused88]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151: AddedToken("[unused89]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	152: AddedToken("[unused90]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	153: AddedToken("[unused91]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	154: AddedToken("[unused92]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	155: AddedToken("[unused93]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	156: AddedToken("[unused94]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	157: AddedToken("[unused95]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	158: AddedToken("[unused96]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	159: AddedToken("[unused97]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	160: AddedToken("[unused98]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	161: AddedToken("[unused99]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	162: AddedToken("[extra_id_0]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	163: AddedToken("[extra_id_1]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	164: AddedToken("[extra_id_2]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	165: AddedToken("[extra_id_3]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	166: AddedToken("[extra_id_4]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	167: AddedToken("[extra_id_5]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	168: AddedToken("[extra_id_6]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	169: AddedToken("[extra_id_7]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	170: AddedToken("[extra_id_8]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	171: AddedToken("[extra_id_9]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	172: AddedToken("[extra_id_10]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	173: AddedToken("[extra_id_11]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	174: AddedToken("[extra_id_12]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	175: AddedToken("[extra_id_13]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	176: AddedToken("[extra_id_14]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	177: AddedToken("[extra_id_15]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	178: AddedToken("[extra_id_16]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	179: AddedToken("[extra_id_17]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	180: AddedToken("[extra_id_18]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	181: AddedToken("[extra_id_19]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	182: AddedToken("[extra_id_20]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	183: AddedToken("[extra_id_21]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	184: AddedToken("[extra_id_22]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	185: AddedToken("[extra_id_23]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	186: AddedToken("[extra_id_24]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	187: AddedToken("[extra_id_25]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	188: AddedToken("[extra_id_26]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	189: AddedToken("[extra_id_27]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	190: AddedToken("[extra_id_28]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	191: AddedToken("[extra_id_29]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	192: AddedToken("[extra_id_30]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	193: AddedToken("[extra_id_31]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	194: AddedToken("[extra_id_32]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	195: AddedToken("[extra_id_33]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	196: AddedToken("[extra_id_34]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	197: AddedToken("[extra_id_35]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	198: AddedToken("[extra_id_36]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	199: AddedToken("[extra_id_37]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	200: AddedToken("[extra_id_38]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	201: AddedToken("[extra_id_39]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	202: AddedToken("[extra_id_40]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	203: AddedToken("[extra_id_41]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	204: AddedToken("[extra_id_42]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	205: AddedToken("[extra_id_43]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	206: AddedToken("[extra_id_44]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	207: AddedToken("[extra_id_45]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	208: AddedToken("[extra_id_46]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	209: AddedToken("[extra_id_47]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	210: AddedToken("[extra_id_48]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	211: AddedToken("[extra_id_49]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	212: AddedToken("[extra_id_50]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	213: AddedToken("[extra_id_51]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	214: AddedToken("[extra_id_52]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	215: AddedToken("[extra_id_53]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	216: AddedToken("[extra_id_54]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	217: AddedToken("[extra_id_55]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	218: AddedToken("[extra_id_56]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	219: AddedToken("[extra_id_57]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	220: AddedToken("[extra_id_58]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	221: AddedToken("[extra_id_59]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	222: AddedToken("[extra_id_60]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	223: AddedToken("[extra_id_61]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	224: AddedToken("[extra_id_62]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	225: AddedToken("[extra_id_63]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	226: AddedToken("[extra_id_64]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	227: AddedToken("[extra_id_65]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	228: AddedToken("[extra_id_66]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	229: AddedToken("[extra_id_67]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	230: AddedToken("[extra_id_68]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	231: AddedToken("[extra_id_69]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	232: AddedToken("[extra_id_70]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	233: AddedToken("[extra_id_71]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	234: AddedToken("[extra_id_72]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	235: AddedToken("[extra_id_73]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	236: AddedToken("[extra_id_74]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	237: AddedToken("[extra_id_75]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	238: AddedToken("[extra_id_76]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	239: AddedToken("[extra_id_77]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	240: AddedToken("[extra_id_78]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	241: AddedToken("[extra_id_79]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	242: AddedToken("[extra_id_80]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	243: AddedToken("[extra_id_81]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	244: AddedToken("[extra_id_82]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	245: AddedToken("[extra_id_83]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	246: AddedToken("[extra_id_84]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	247: AddedToken("[extra_id_85]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248: AddedToken("[extra_id_86]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	249: AddedToken("[extra_id_87]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	250: AddedToken("[extra_id_88]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	251: AddedToken("[extra_id_89]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	252: AddedToken("[extra_id_90]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	253: AddedToken("[extra_id_91]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	254: AddedToken("[extra_id_92]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	255: AddedToken("[extra_id_93]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	256: AddedToken("[extra_id_94]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	257: AddedToken("[extra_id_95]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	258: AddedToken("[extra_id_96]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	259: AddedToken("[extra_id_97]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	260: AddedToken("[extra_id_98]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	261: AddedToken("[extra_id_99]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	262: AddedToken("[extra_id_100]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	263: AddedToken("[extra_id_101]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	264: AddedToken("[extra_id_102]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	265: AddedToken("[extra_id_103]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	266: AddedToken("[extra_id_104]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	267: AddedToken("[extra_id_105]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	268: AddedToken("[extra_id_106]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	269: AddedToken("[extra_id_107]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	270: AddedToken("[extra_id_108]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	271: AddedToken("[extra_id_109]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	272: AddedToken("[extra_id_110]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	273: AddedToken("[extra_id_111]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	274: AddedToken("[extra_id_112]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	275: AddedToken("[extra_id_113]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	276: AddedToken("[extra_id_114]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	277: AddedToken("[extra_id_115]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	278: AddedToken("[extra_id_116]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	279: AddedToken("[extra_id_117]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	280: AddedToken("[extra_id_118]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	281: AddedToken("[extra_id_119]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	282: AddedToken("[extra_id_120]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	283: AddedToken("[extra_id_121]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	284: AddedToken("[extra_id_122]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	285: AddedToken("[extra_id_123]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	286: AddedToken("[extra_id_124]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	287: AddedToken("[extra_id_125]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	288: AddedToken("[extra_id_126]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	289: AddedToken("[extra_id_127]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	290: AddedToken("[extra_id_128]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	291: AddedToken("[extra_id_129]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	292: AddedToken("[extra_id_130]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	293: AddedToken("[extra_id_131]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	294: AddedToken("[extra_id_132]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	295: AddedToken("[extra_id_133]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	296: AddedToken("[extra_id_134]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	297: AddedToken("[extra_id_135]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	298: AddedToken("[extra_id_136]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	299: AddedToken("[extra_id_137]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	300: AddedToken("[extra_id_138]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	301: AddedToken("[extra_id_139]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	302: AddedToken("[extra_id_140]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	303: AddedToken("[extra_id_141]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	304: AddedToken("[extra_id_142]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	305: AddedToken("[extra_id_143]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	306: AddedToken("[extra_id_144]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	307: AddedToken("[extra_id_145]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	308: AddedToken("[extra_id_146]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	309: AddedToken("[extra_id_147]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	310: AddedToken("[extra_id_148]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	311: AddedToken("[extra_id_149]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	312: AddedToken("[extra_id_150]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	313: AddedToken("[extra_id_151]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	314: AddedToken("[extra_id_152]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	315: AddedToken("[extra_id_153]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	316: AddedToken("[extra_id_154]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	317: AddedToken("[extra_id_155]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	318: AddedToken("[extra_id_156]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	319: AddedToken("[extra_id_157]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	320: AddedToken("[extra_id_158]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	321: AddedToken("[extra_id_159]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	322: AddedToken("[extra_id_160]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	323: AddedToken("[extra_id_161]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	324: AddedToken("[extra_id_162]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	325: AddedToken("[extra_id_163]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	326: AddedToken("[extra_id_164]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	327: AddedToken("[extra_id_165]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	328: AddedToken("[extra_id_166]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	329: AddedToken("[extra_id_167]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	330: AddedToken("[extra_id_168]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	331: AddedToken("[extra_id_169]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	332: AddedToken("[extra_id_170]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	333: AddedToken("[extra_id_171]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	334: AddedToken("[extra_id_172]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	335: AddedToken("[extra_id_173]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	336: AddedToken("[extra_id_174]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	337: AddedToken("[extra_id_175]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	338: AddedToken("[extra_id_176]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	339: AddedToken("[extra_id_177]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	340: AddedToken("[extra_id_178]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	341: AddedToken("[extra_id_179]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	342: AddedToken("[extra_id_180]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	343: AddedToken("[extra_id_181]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	344: AddedToken("[extra_id_182]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	345: AddedToken("[extra_id_183]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	346: AddedToken("[extra_id_184]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	347: AddedToken("[extra_id_185]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	348: AddedToken("[extra_id_186]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	349: AddedToken("[extra_id_187]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	350: AddedToken("[extra_id_188]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	351: AddedToken("[extra_id_189]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	352: AddedToken("[extra_id_190]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	353: AddedToken("[extra_id_191]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	354: AddedToken("[extra_id_192]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	355: AddedToken("[extra_id_193]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	356: AddedToken("[extra_id_194]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	357: AddedToken("[extra_id_195]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	358: AddedToken("[extra_id_196]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	359: AddedToken("[extra_id_197]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	360: AddedToken("[extra_id_198]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	361: AddedToken("[|endofturn|]", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+)
+2026-02-15 15:20:02 - INFO - [data_augmentor.py:242] - 🚀 [Step 1] 초기 데이터 생성 시작...
+Initial Gen (Rank 0):   0%|                                                                                                                                                                                                                                                                                                            | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c362-7ce6-a4a1-4f1facd36215
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c360-764f-acd2-cdbd08fd6152
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c363-7351-b193-bf1627226c0d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c366-73b3-b705-f55d6655d091
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c367-7303-8392-661711204a6d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c368-7f12-911e-b57ab7e7362b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c369-7794-bd1e-aa71e8c758eb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36a-7611-8a02-5e912f6f3cab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c369-746d-8170-3ae150bc7a1d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36b-796e-8c21-2f4f9c002b41
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36b-7387-baf9-c361bfec8083
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36c-744a-8cb2-47a81a0a7399
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36c-79fc-ac0b-c1f5b436ae78
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36d-7047-bfff-d77a337a18d7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36c-7e43-87d7-c3e4c51053c2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36e-7d21-99ed-eb0123778e45
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36d-74f5-986c-280f5634ab85
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c370-7111-a8ea-69364468091c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c371-7d26-835b-7dbd3cb29965
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c372-746b-a26a-ba14932df067
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c36f-750e-be17-da9bad5a3e3c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c373-7bbc-b15c-f903a726a1aa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c374-7c89-ace4-c728a5273be5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c374-7d6a-8d7b-0d02e3c2d9bc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c371-71af-9a3f-ff16ccb37afe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c374-7108-8482-527362febb32
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c373-7340-89f6-69b600f057f2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c375-71d8-89bf-162cb66b34d6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c376-73ee-875e-a6da04f9efce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c377-785f-86f6-2ba29ca67cbf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c377-7ffd-824f-4298572aa786
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c375-7736-a3cf-3f820d4cd88c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c378-70e6-9361-b24b8ec8fd20
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c378-7636-918e-c08d21907679
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37a-7f90-94f7-48f816e3fc89
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c378-7485-a98b-1b044a5e1500
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37a-7c5e-a276-1319fe918b9e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37a-7539-9e84-0912c798f79e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37b-7c1d-b4c1-e184e09b4cab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37b-7d53-84d6-bffa192b12fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37b-75ba-9f97-9b067dc7d06b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37b-7e51-85ca-dbcafe964de1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37c-7105-8154-1c5d927b6c37
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37d-7c41-836b-7b8f7eefd024
+Initial Gen (Rank 0): 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 110/110 [00:00<00:00, 1980.86it/s]
+2026-02-15 15:20:02 - INFO - [data_augmentor.py:56] - 🔍 데이터 불균형 분석 및 정제 시작...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c37e-7167-8239-03a51053fc94
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c380-76d5-8b1c-69c167e4dcfb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c380-7ed4-990b-0d11b7613bf2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c381-775e-bd8c-512e0f9a40f1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c381-7169-a06e-40490dbcc6e1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c382-760c-93ae-5fd32c66c849
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c382-78b3-bd8e-394e25d5e74a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c382-7b89-a3a0-deb5ef3ed17c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c383-7f5a-92f3-08f7d525fc02
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c384-7599-a800-b224713cccc0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c383-7d9a-aab6-ecf957289f70
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c386-734c-bf07-91b31d4c679c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c386-754b-97c6-c0ba0746ff62
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c385-790e-aa47-36cb42a0eda9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c386-7c53-b5d1-781fee84afea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c386-7f4c-8fc5-9643808c25b7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c387-7654-9bbf-8ccee45859a5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c387-7e43-828c-f8e5a2dbbfb4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c388-7ef3-80e7-1c6aac5e339b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c388-7d36-a54f-2cb6e2b3c2f0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c388-7ccb-9d08-7cc923b3b2de
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c389-7c53-a234-b6d84869dced
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c389-70a1-b62a-098ef5f771b2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c389-7860-8a24-14f1be5314f0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c389-7e8f-913a-7169538cffcb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c389-7344-9190-f9dfa0ca1600
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38a-7b1a-9bb5-e82f56369f7a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38a-764f-9384-dafb5a495af7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38b-70f2-9beb-6608f6f9ff51
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38b-71e4-b9e2-7cbbc83ab4d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38a-71ec-ae6c-c77dda8e08ce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38b-75ef-8db7-ec4117a77300
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38c-7b49-a971-3ec4700569eb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38d-7cab-983e-f92229fcd985
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38d-774c-a7ef-063c60fc44b3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38d-7d0f-b2e1-82bf662b02a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38d-7032-8a66-e5dcfffbc9c0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38d-790e-aca0-131299c7b54c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38d-7316-8389-ea02e9b3be17
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38e-7a68-8e7e-3b168e22d7b7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38e-7f7c-b71b-1a6cfd02a717
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38f-705f-af2a-c44a3e95b0ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38f-7cbd-94b7-89a2e91523be
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c38f-7e9d-9382-c07553bdcbca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c390-7202-aba7-0f6f783b436a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c390-73e7-97ae-d8c5dfd52b09
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c390-7b42-9cb4-7621c043a540
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c391-7897-bfda-37897dc177f4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c391-7a11-bf2c-0719168f1adb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c391-772d-9d7f-ce9a8ac8d5e0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c392-786d-bae4-3e1e3fc1d8e6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c392-7791-8705-d949fce85e9b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c392-7a46-ab14-5bdd8d90dbda
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c393-702a-9d15-a7294b1e794d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c393-7269-8ffe-6273afcb7aad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c393-73f2-b658-6dfa4f3b3849
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c393-73f1-bbb9-b88886f8d2f7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c393-7c19-8536-f0b2901b58aa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c393-7e26-9c93-7b9e27620698
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c393-72a8-bd48-10f35ebf65e5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c394-70dd-a5bb-70e314788092
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c394-753a-bc9f-75d2c75fd963
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c394-7e10-ad5d-a7c723d67b86
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c395-71a8-81b7-7cba2c84962a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c395-7abb-bbf0-f00aad173114
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5ff4-c395-7232-8b20-0ed83d47b513

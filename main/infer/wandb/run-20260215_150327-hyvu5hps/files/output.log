@@ -1,0 +1,142 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 15:03:29 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct
+2026-02-15 15:03:29 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 272/272 [00:00<00:00, 599.89it/s, Materializing param=transformer.wte.weight]
+2026-02-15 15:03:40 - INFO - [data_augmentor.py:234] - 🚀 [Step 1] 초기 데이터 생성 시작...
+2026-02-15 15:03:40 - INFO - [data_augmentor.py:242] - [(0, {'FAQ': 1, 'TITLE': '회원증을 대리발급 할 수 있나요?', 'DES': '회원증 대리발급은 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부만 가능하며 아래 구비서류를 지참하여 대리인이 방문 시 대리발급이 가능합니다.\n\n· 대상 : 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부\n· 구비서류\n\xa0 - 공통 : ①위임자 신분증, ②피위임자(대리인) 신분증\n\xa0 - 장애인 : 장애인 복지카드 또는 장애인 증명서\n\xa0 - 임신부 : 산모수첩 / 산모 : 주민등록등본(출산 후 12개월까지)\n· 방법 : 홈페이지 회원가입 후 위 항목의 해당하는 구비서류를 지참하여 피위임자(대리인)이 도서관 방문'}), (1, {'FAQ': 2, 'TITLE': '가족회원이 무엇인가요?', 'DES': '가족회원이란, 고양시 도서관 정회원으로 가입 후 가족회원으로 등록 시 가족명의로 도서대출·도서예약·상호대차 동일하게 이용가능한 서비스입니다.\n※ 가족명의 이용 시 자료실 안내데스크에 반드시 본인 회원증을 제시하여야 함(가족 회원증으로 대출 불가)\n가족회원 등록방법\n가족구성원 모두 정회원 가입 후 가족임을 증명할 수 있는 서류(주민등록등본 또는 가족관계증명서) 지참하여 도서관 방문'}), (2, {'FAQ': 3, 'TITLE': '핸드폰이 없는 어린이가 홈페이지 회원가입을 하려면 어떻게 해야 하나요?', 'DES': '본인명의 휴대폰 인증이 불가한 만14세 미만 어린이의\xa0경우 아이핀(I-PIN) 본인인증 과정을 거쳐 홈페이지 가입이 가능합니다.\n\n홈페이지 회원가입 - 만14세 미만 회원가입(어린이회원 가입하기) - 보호자 휴대폰 인증 후 가입자(어린이)의 아이핀을 통해 홈페이지에 가입하실 수 있습니다.\n\n회원가입 바로가기\nhttps://www.goyanglib.or.kr/center/program/memberJoinType.do'}), (3, {'FAQ': 4, 'TITLE': '회원증은 도서관마다 각각 만들어야 하나요? 또, 회원증을 분실한 경우에는 어떻게 해야 하나요?', 'DES': '고양시 도서관의 회원증으로 고양시 관내 시립도서관과 공립작은도서관을 모두 이용하실 수 있습니다.\u200b_x000D_\n회원증을 분실하였을 경우 신분증을 지참하여 관내 어느 시립, 공립작은도서관에 가셔도 재발급 받으실 수 있습니다._x000D_\n '}), (4, {'FAQ': 5, 'TITLE': '도서관 회원가입은 어떻게 하나요? ', 'DES': '고양시 도서관 회원은 준회원(홈페이지 가입 회원) / 정회원(관외대출회원)으로 구분되며 정회원 가입대상 및 방법은 다음과 같습니다.\n\n· 정회원 가입대상\n주민등록상 경기도 거주자, 경기도소재 직장인 및 재학생\n\n정회원 가입방법\n1. 온라인 발급\n\xa0· 대상 : 주민등록상\xa0경기도 거주자\n\xa0· 홈페이지 회원가입 후 [온라인 정회원 신청] 클릭 - 인증절차 후 온라인 회원증 발급\n2. 방문 발급\n\xa0· 대상 : 경기도 소재 직장인, 재학생을 포함한 고양시 도서관 정회원 신청 대상\n\xa0· 홈페이지 회원가입 후 구비서류를 지참하여 도서관 방문\n\n구비서류\n이용안내 - 회원가입 - 회원증 방문발급 - 구비서류 안내 참고'}), (5, {'FAQ': 6, 'TITLE': '사립 작은도서관 등록·변경·폐관 절차에 대해 궁금합니다. ', 'DES': '사립 작은도서관을 등록,변경,폐관 절차에 대한 자세한 내용은_x000D_\n도서관센터 홈페이지- 작은도서관- 사립작은도서관 등록신청메뉴에서 확인 가능합니다._x000D_\n관련 서류 작성 후 메일로 보내주시면 확인 후 연락드리겠습니다.(도서관센터 독서진흥팀)_x000D_\n '}), (6, {'FAQ': 7, 'TITLE': '사립 작은도서관의 등록 기준에 대해 알려주세요.', 'DES': '도서관법(시행령 제3조 1항)상 건물면적은 33㎡이상(현관,휴게실,복도,화장실,식당 면적 불포함). 자료는 1,000점 이상을 갖춘 작은도서관 이면서,_x000D_\n건축법상(시행령 제5조의 5) 제 1종 근린생활시설, 교육연구시설, 단독주택 1층, 공동주택에 위치한 작은도서관만 등록이 가능합니다._x000D_\n_x000D_\n자세한 내용은 고양시 도서관센터 홈페이지-작은도서관-사립작은도서관 등록신청의 [서식5 체크리스트]를 참고해 주시기 바랍니다._x000D_\n_x000D_\n_x000D_\n '}), (7, {'FAQ': 8, 'TITLE': '사립 작은도서관은 무엇인가요 ?', 'DES': '사립작은도서관은 다양한 주체가 다양한 방법으로 설립,운영하는 민간분야의 작은도서관 입니다._x000D_\n고양시에는 현재 기준(2025. 6.) 총 87개의 사립 작은도서관이 있습니다._x000D_'}), (8, {'FAQ': 9, 'TITLE': '시립도서관 대출증으로 작은도서관도 이용 가능한가요?', 'DES': '고양시도서관센터 회원증으로 시립도서관 및 공립작은도서관 모두 이용가능합니다.'}), (9, {'FAQ': 10, 'TITLE': '작은도서관에서 빌린 책을 시립도서관에 반납 해도 될까요?', 'DES': ' 작은도서관에서 빌린 책은 해당 작은도서관으로 반납해주세요.(상호대차, 통합반납, 지하철역반납 불가)'}), (10, {'FAQ': 11, 'TITLE': '공립작은도서관을 알려주세요.', 'DES': '관산, 내유, 대덕, 사리현, 화전, 마상공원, 모당공원 작은도서관이 있습니다.'}), (11, {'FAQ': 12, 'TITLE': '스마트 도서관 도서 검색이 가능한가요?', 'DES': '자료검색-스마트도서관 도서검색 탭에서 가능합니다.'}), (12, {'FAQ': 13, 'TITLE': '스마트 도서관 책은 어디에 반납해야하나요?', 'DES': '스마트도서관 도서 반납은 반드시 대출한 기기에 해야 합니다. _x000D_\n(상호대차, 책누리 반납 불가) '}), (13, {'FAQ': 14, 'TITLE': '스마트 도서관은 어떻게 이용하나요?', 'DES': '고양시도서관센터 회원증 소지자는 누구나 이용 가능 합니다. _x000D_\n(회원증 발급은 도서관센터 홈페이지 회원가입 후 가까운 시립도서관 방문하여 회원증 발급(신분증 지참)_x000D_\n_x000D_\n1인 2권까지 가능하며 일반도서 대출과 동일하게 대출기간은 14일 1회 반납연기가 가능합니다._x000D_\n(지축역, 삼송역, 원당역, 화정역, 고양시청 스마트도서관은 화정도서관 대출권수에 포함, 마두역, 백마역 스마트도서관은 아람누리도서관 대출권수에 포함, 주엽역, 대화역, 일산역 스마트도서관은 대화도서관 대출권수에 포함) '}), (14, {'FAQ': 15, 'TITLE': '스마트도서관은 어디에 있나요?', 'DES': '지축역, 삼송역, 원당역, 화정역, 마두역, 주엽역, 대화역, 일산역, 고양시청, 백마역 총 10개소 입니다. '}), (15, {'FAQ': 16, 'TITLE': '스마트도서관이란 무엇인가요?', 'DES': '고양시도서관 회원이면 누구나 365일 이용가능한 무인도서 대출반납기입니다.(400~600여권 비치)'}), (16, {'FAQ': 17, 'TITLE': '책바다, 책나래 서비스는 무엇인가요?', 'DES': '책바다 서비스란?_x000D_\n고양시 도서관에 구비되어 있지 않은 자료를 전국 책바다 서비스에 가입되어 있는 도서관 소장자료 중에서 대출하여 드리는 서비스_x000D_(공공도서관, 대학도서관 등)_x000D_\n_x000D_\n1. 국립중앙도서관 책바다 가입 후 이용가능_x000D_\n(홈페이지주소 : https://books.nl.go.kr)_x000D_\n2. 비용있음_x000D_\n_x000D_\n책나래 서비스란?_x000D_\n도서관방문이 어려운 장애인과 거동불편자 등이 필요로 하는 도서관 자료를 우체국택배를 이용하여 집까지 무료로 배달해주는 서비스_x000D_\n대상 :\u3000보건복지부 등록 장애인, 국가보훈처 등록 국가유공상이자, 거동불편자（국가건강보험공단 인정 장기요양 대상자)_x000D_\n_x000D_\n1. 고양시 도서관 회원가입(도서관 대출증 발급) _x000D_\n※ 증명서류
+Initial Gen (Rank 0): 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 110/110 [00:00<00:00, 650.60it/s]
+2026-02-15 15:03:40 - INFO - [data_augmentor.py:53] - 🔍 데이터 불균형 분석 및 정제 시작...
+2026-02-15 15:03:40 - INFO - [data_augmentor.py:57] - 📂 초기 데이터 수: 0
+2026-02-15 15:03:40 - ERROR - [data_augmentor.py:92] - ⚠️ 데이터 불균형 분석 및 정제 중 오류 발생: Can only use .str accessor with string values, not boolean
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 46, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 36, in main
+    output_file = augmentor.run_pipeline(dataset)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 254, in run_pipeline
+    missing_tasks = self.find_imbalanced_tasks(dataset, output_file)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 113, in find_imbalanced_tasks
+    if idx in counts.index :
+              ^^^^^^
+UnboundLocalError: cannot access local variable 'counts' where it is not associated with a value
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f1-72f3-9241-333ea652a634
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f5-7b00-8219-c967dff45d29
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f2-77a2-86d1-cb8a582d70b5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f6-794e-87a3-61781523ea95
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f6-73f4-930d-6635d4ccbefe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6ed-7967-8e88-89441b87b531
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f6-777d-9963-2bef75ba37ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f6-73ab-8275-46fb21d56e0e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f3-725e-82a5-0336bd2048a5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f6-7119-97cf-933e6d4f25ec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f3-7027-9c27-75c6f674e561
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f6-70b4-a36f-9f99ca56808a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f5-7a0d-bd40-52bda19e11e7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f6-7b0e-b691-8083727dc7b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f7-719c-85b7-f175bc09ebf5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f6-75b1-9f73-97b05d2cb832
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f7-7787-992b-726a7fd00bed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f7-7a91-8d66-35589b27ce5b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f7-7c04-b1f4-02d7707652f7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f7-7ddb-93e1-a8c44c06d7a2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f7-791a-9aaa-024e93a04178
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f7-7f2e-b85d-cd4b012d9ecb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f7-7ce8-a808-802b64f90538
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f7-7eec-b20d-d8c7d5886033
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-7dd7-90a0-69dde0d8b96f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-73f6-b925-4640ce8d446a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-7864-8590-e1c8b76b21ca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-7b3e-afda-164eabd283b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-7a9d-a917-1b46df8b253b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-74d3-90ea-cb9a77cf64b5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-7db5-8eb4-a508186dcd59
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-7ebe-a82b-ddf565ca97e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-745f-92ef-a56b766a1672
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f8-767f-ad56-62d7d54629e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-70b2-8df1-f8fca32cc88d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-736f-baf7-7d3a2b1e6dd6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-7644-934c-37b740b22390
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-788e-b747-e349bd589f92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-7058-926c-15f3caf8808a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-78a4-8ca3-f53c980e823b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-7c23-b356-bced21eae42a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-724f-857f-038bfd4ce056
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-7c54-8749-987e89f95dd5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6f9-7113-a2ab-7bb1751dbe41
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fa-7a58-b1a9-d103e941095b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fa-7e71-8523-f0a666c08730
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fa-7cdf-811a-a656a07305e0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fa-775f-9f68-9eb939b65aeb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fa-73ab-ab55-7cddcbf488d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fa-7f04-a29f-ea4aded1fcaa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fa-781f-9235-ff255976c54f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fa-7774-b6af-28e2b3273d76
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fa-73e2-b9a7-941cd12b2e9c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-7e80-9645-9e876e4ae051
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-76a3-a0c3-1a1c2b73991f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-7d80-a023-1b3aaeb5e9cd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-791e-b0e0-658cdeeb2627
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-7a9a-a0a2-2ed3f6c076b2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-7fc8-8b55-27ba5b21fb9a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-7d05-84ac-3d0aa2f19f80
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-717c-a44c-be21727e490c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-71bc-98fd-974b81267e38
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fb-726a-836e-85ddb4a9cd09
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fc-76c0-9dfe-2f5efe4d6a2f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fc-7cfb-8ded-2c9bcc1fcf0e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fc-7902-8bcb-3af38e58dc37
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fc-70f5-9582-72a6ac76a485
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fc-7c76-87f7-dd1eb0ab4c01
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c6fc-7704-a74a-1b4aadee9edc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c78e-7757-8a9d-2b5a2234f712
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c78e-7f98-ab5d-2c018f53bfde
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c78f-7e6f-a8f4-e1a126d8466e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c78f-7033-81db-49391040f802
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c78f-70d5-976c-26748e4720e1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c790-72a1-a84b-2b686bc432eb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c790-7cb6-a4e7-3c3c32873108
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c790-7eac-970f-01b61a0c2e7e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c790-7c0f-8d92-d5d981666a8f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c790-798d-a0f9-c707386dd6f9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c790-76a0-b1a5-ba03e802bd6c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c790-7e8f-873f-832ba4419381
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-7077-8610-429cb68c4370
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c790-7258-9b9e-20df904c5908
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-7670-8db5-8efe0d50e5bf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-7412-9092-df1d080c7834
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-7c9d-afb7-0a60c38b9960
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-7d65-8ef4-4778d84cb809
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-75a2-933f-c19e26dadb5c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-7099-bd39-bdb121410e50
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-74ff-ba86-17136a208e8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-7f3c-85e4-d95c33248c55
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c792-77f8-9356-f5c4bee9a586
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c791-79c0-8df1-20a46aeb67f2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c792-7e88-a698-df9a7a339040
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c792-7f4f-b47b-eab72ee11dbd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c792-7496-90a6-c11bfb165f67
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c792-7cbb-b7bc-e73eb7d88c48
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c792-7318-b3a6-b3138b83eb08
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c792-7bed-8754-5b7c37e8bc04
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c792-780b-a03e-1dbfc2f8fd98
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c792-7cac-b07b-e9321af42c3c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c793-74ab-84ed-c2d2bd70d4b5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c793-7af1-882a-67615ae53e28
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c793-7c4f-a368-bdadf53d0426
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c793-7368-815a-05975528a754
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c793-7c4d-bf35-c03e2be901c2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c793-7d7b-861d-dbdf4f433204
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c793-7a99-900c-48af1d01c230
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c793-7e17-9ba2-a866b30a0373
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c5fe5-c793-7bf1-bcbd-18e6d41182b9

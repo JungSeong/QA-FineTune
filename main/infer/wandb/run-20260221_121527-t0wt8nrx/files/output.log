@@ -1,0 +1,654 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 12:15:29 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+2026-02-21 12:15:32 - INFO - [data_augmentor.py:105] - 🔄 LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-0039-758e-bd89-c32d619a8675
+2026-02-21 12:15:59 - INFO - [data_augmentor.py:112] - 📡 서버 응답: ✅ Exaone-3.5-7.8B-Instruct 로드 완료!
+🚀 initial 증강 진행 중:   0%|                                                                       | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa1-75a2-a2c2-c8dd037ada14
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa0-77d5-97c2-331a3865d7f7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6a9d-703d-bd81-6cdee67832d7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa2-7c20-bcb6-102e7f823bb8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-7132-9c1f-d977861efe36
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-75f1-9258-9bcdd2419862
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-77b1-9271-63a5ec9468ce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-7661-b478-7b70d5d58e81
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-7456-8546-3b6d890c3ed4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-7f6c-b8d3-db60e04c6fdf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-7ae4-a9db-00e898c5e652
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-78a9-9fa5-1296fda267f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-705a-8f18-2ec635d3aa4e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-7653-8f5d-69645fe9bef8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-7799-88b4-c1c00bfecb99
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-71fc-9acd-d5df1bc604ce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-7cf6-af28-40344040a865
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-7cf7-8705-a06990a4fff5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa6-7f15-8f2e-bcd8014e67bc
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-7f06-8ddd-b79e1890d8bf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-79b0-98ee-698c9504d9f7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-7a00-8f6c-9d8f907ee5f2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-76cc-abca-8396d2fc8ec7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-787f-ab31-2a2f95060527
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-7dbf-811e-8c6bd0fa2ba9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa8-7302-ab44-c27533b57be4
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa7-760c-94d2-d9213243e4a1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa8-7b6d-9856-0441026aee58
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa8-7954-9c1b-437b397b2a92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa8-7669-ba39-209a54738864
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa8-7c75-b330-fca5efc82ab9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa8-7e37-872a-cc547d198183
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-70a5-810d-6f92c3f0530f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-7e17-90a2-0a99fba9e487
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-73ed-a9b8-4e2dedd4f0a4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-7b6c-8150-e2bf03c9d6a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-732a-9da6-6f4a28c259ac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-7817-92a6-900de827bbf0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-7316-96b2-032d9af88c06
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-725a-bd9c-fc09b7d1c7ce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-7443-9321-40cc11152b2f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-7f21-911d-40088d50e252
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-7918-a9d8-61f8209eea79
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aa9-7984-b01c-a1a557bb200a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-7159-874b-e1d69234188c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-78a2-b6e5-e829fcfcafca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-7f8b-a75f-f05b6cd07dec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-7570-843e-30670c3cad7d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-767b-b19c-815d03b71fa5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-7b5d-82ef-fa04ce9277d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-77f1-ae4d-45c8eea7e9eb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-7c87-a2b0-0e75c909f972
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-7ecd-b8a0-aef1b9eec3db
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-7eb2-b9a1-be781a76a364
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-79f2-b2ef-f877ff173ecc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-72e1-a2b3-c8098349f615
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-7e6f-85c5-ee0a834b9ca3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-727d-8748-618f293aae7e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aaa-7589-ab8d-f3fab77f85a6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7e47-9083-f80418474705
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7dda-96d1-2573b374fbb5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7208-b155-b43cd1117bf7
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7a11-b9ca-07adc8af31ee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7bad-9771-1b1941b71f0a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7260-b67a-19efcf37b86f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7fb4-a558-6c69e26987e0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7fb4-a57e-04f441697415
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7390-aca4-e76869645028
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-72ba-9117-4890e6601c34
+🚀 initial 증강 진행 중:  10%|██████                                                       | 11/110 [00:00<00:00, 104.77it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aab-7ee3-b87f-94dfe4dd693b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-7ce8-80ba-f28e280c2042
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-76aa-aca3-26cc9dc2e368
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-7193-8860-b043a5fedd31
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-7ba7-9e17-848cd29a590c
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-756c-97e1-45d60500d44e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-7a55-bd3b-cfae67d6ab45
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-74d0-a94a-dd6bf93b6f02
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-75bd-8acf-656b190ce7a3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-703c-99e9-f0366db72a0f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-79ae-b4e0-c2216dd8b838
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-7d3a-a60f-8b1359591954
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aac-7d67-a6a8-6a0ee20df522
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-7c35-8523-2396dfe349bf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-79f2-bbfc-30b26de4c26c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-750b-b4f9-98df7b25a6ea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-764a-9a58-f15513caddab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-7c31-bfcb-ebe0edc5570a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-7872-8f1a-085e2d1775a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-75c8-9f9a-c279bb46c2e6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-75e8-a73c-bdf8409bfcf1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-7b1b-8f57-407257fbe750
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-77d6-bd4c-5e211dc98b14
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-7c76-ad17-19bbcf78aa23
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-7e1c-bbc4-c5acb4ade592
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-739a-b2da-10f1f061748f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aad-7d8e-9bb4-1fb06a19c83c
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aae-78f7-b10f-631191c7d163
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aae-74dc-8746-a7f9eda7d5e6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aae-7b96-aebf-0bf4f4314e51
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aae-799c-93c2-919a4e8916df
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aae-7aab-a9e1-57ef7657b02c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aae-7f49-a941-1b05f7d0ec73
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6aae-7ed7-90de-234e0247eebf
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+🚀 initial 증강 진행 중:  39%|███████████████████████▊                                     | 43/110 [00:00<00:00, 146.44it/s]
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:15:59 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 12:15:59 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 12:15:59 - INFO - [data_augmentor.py:133] - 📉 [Iteration 1] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                      | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d60-77d8-9f40-54de17d1c9e2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d5f-75cb-b36d-8c38b8ec1313
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d60-7be9-86ca-c64cd11d07f3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d60-7057-977d-3ec0b0e62a9c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d61-727c-b7bb-27435662a46c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d61-77be-975a-a99a28f08dfc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d61-70a5-ae5c-8cc4122a9d3d
+2026-02-21 12:15:59 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d62-714a-ae73-b2c72ca9dbfc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d60-7296-856c-01582c98b887
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d62-7ece-bed3-a6a74f5c8632
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d62-7b2e-95f5-d37fcb220a73
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d63-798a-8090-eb02a60e1f91
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d62-7bb5-8372-198615805217
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d62-765b-b544-9487c1057a69
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d63-729e-a029-da1cc4f8f8a5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d63-716a-bbce-90ec14e8989d
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d63-77e7-88c2-1f1fc37df36d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d64-74a9-bdf0-d5d3b6b8089e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d64-7b9b-b4f9-e536a2a999b7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d64-7ea8-9f93-0d3beea36684
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d65-75e2-ae9f-8e6748f1e7d0
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d65-7113-8356-ed69a854d112
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d65-7d81-8bae-25a25004e033
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d65-773b-963f-030da88dc6b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d66-7060-8665-c3efd62b456d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d65-71cf-8c37-b4d21aad857c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d66-7cb4-9f5c-2af6d877f3df
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d66-71a4-84a1-2850c93d9e72
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d66-7a3f-ae87-21256f0c5e5c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d67-745a-9fd2-742896bc5ba9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d67-76ab-878c-e28010ae3333
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d67-770a-a303-bd8e3e5b7c2a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d67-765a-ab2f-becf22c9d6f2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d68-7aa7-ace1-dd553aade679
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d67-7165-acd7-2e92c0fdc690
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d68-7263-8495-abe6df7bca7a
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d68-7d27-a141-641478d148a2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d68-79fb-936d-57f4f2cc1053
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d68-7ef7-8fc4-c4245cf4f90b
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d69-74d4-9ec4-874e695ccc12
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d69-7d78-95e7-46ed3938bb88
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d69-7803-9b45-cd105ffa6d5c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d69-754e-86f6-447ea129ee00
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6a-71dd-9dd3-08914000d723
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6a-7484-9daa-56f3873d2654
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6a-76a0-a456-978230f1577d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6a-7f47-806e-d208f2713638
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6a-7b1a-b629-0effc242b247
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6b-7748-8108-621e04a92244
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6b-7415-993b-99a581e727c0
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6b-7612-8933-0e3a7fe24dcb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6c-7068-80a6-52b13d44be26
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6c-7d00-8b50-b9804376e255
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6c-7524-9848-b598a82abfb7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6c-79ac-bdfe-0e54d67efea4
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+🚀 targeted 증강 진행 중:  11%|██████▌                                                     | 12/110 [00:00<00:00, 116.72it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6c-7a83-824e-104d05483c8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6c-73c9-9b56-5a03ad12e664
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6c-71ee-97b0-2a6aa9cb86d0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6c-75f8-a707-d5d27165c8b9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6c-7159-8ac5-19f1364c5271
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-7cc4-8626-811186e4d42e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-728e-8128-4ffe799e9640
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-7899-9048-7696736fb22f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-7315-bf88-7bedb1ba73d2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-735c-a541-32a59597482f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-7ae6-9512-69ee96aa80bb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-7764-b5a4-50b5c0a5aec2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-74a6-81ed-0ad696d89791
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-7571-9080-d007e40cdbef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-7f37-9a53-28705368f39c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-763f-97aa-688e6701ccea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-71eb-8aa6-5911a0d84b45
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6d-79e5-b67b-ba86d1d83b59
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6e-72ca-8b5e-5a248f8bf075
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6e-7807-abb6-18429baa4594
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6e-7fc8-ac8e-06c8ef459594
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6e-7c73-8be6-11db858d1902
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6e-797d-aaa5-77dfd529a33c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6e-769e-b37c-f95ff6228797
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6e-7905-9b63-3557f439e742
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6e-77f2-8f45-9e032dd0c0f3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-7669-906a-5a3d882935c3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-7f88-a8cc-2c8e23307e59
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-7b08-812d-78c099d53bbe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-7d59-81f1-f8fdca5aebcb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-704b-9eaa-aaa424bb27dc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-706b-8668-92008168569b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-7a42-a493-777927eb66cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-75c0-94cb-7be71b70a1f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-7dcc-bd5c-e5a194d7d5c4
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-708c-9075-f7ca46143abd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-7aee-9967-b08a3f140f79
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-72e3-be87-bd0be3cd320c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-7224-a76e-a81473fff87b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d6f-748b-ad4c-b8d43c0c8a10
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d70-7781-9b5a-3b0541a27c43
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d70-7fe9-aea3-00f76e58e317
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d70-7061-832f-5fbb474a480f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d70-7af4-a785-af08129d71ff
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d70-7627-9060-026c0f143601
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d70-7b08-bb4c-8f23dd274ba6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d70-7139-9587-4e1f7d6b08f2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d70-7eef-99d7-8ae870b13da6
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6d70-7f9d-87a0-cb2c39bb0479
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+🚀 targeted 증강 진행 중:  39%|███████████████████████▍                                    | 43/110 [00:00<00:00, 147.01it/s]
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 12:16:00 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 12:16:00 - INFO - [data_augmentor.py:133] - 📉 [Iteration 2] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                      | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fe7-716a-95b5-41d8f6627e13
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fe9-72a5-b5f6-240f91443e8c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fe9-752b-a30e-848a1da9f862
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fe9-76d9-bf53-fbf51558e88c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fe9-7ece-ab3b-7a42d4c29f02
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fea-7af7-9dfc-9dd8cdba2d8a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6feb-7aed-ac19-f0e370b993ca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fea-71a9-ae42-c6dacb6963d9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6feb-736f-9261-66194f3e7d03
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fec-7d6a-b4f0-06f645aa3a3d
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fea-7863-848c-661ef55ad700
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fea-740e-8509-f79b03f7e101
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fec-7169-b21a-9cb835cc1b1a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fec-7e7f-91c4-5477bb1d015f
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fed-780a-98e6-f480cd9eae33
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fed-7943-aaaf-95e75abc3f9a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fee-77ea-89e2-77ba8b552da9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fee-72c8-9ed8-7181219c7d92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fef-7042-86da-9a787f5618ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff0-7000-9e82-1cefc79fc0f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff0-78d9-ab2e-1d5253f1f591
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff0-70f4-b511-4a98d5e79ff6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff1-72e3-a636-c18607642ef1
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff1-787c-b82f-81f7aa0f7439
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff1-7043-9c60-4ceb47fc2dd3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff2-7ded-bd80-c677a4b26dca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff2-795a-97d2-930481cf364e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff3-7256-b803-5d5162f42562
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff3-7352-a84d-201abe364fb9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff3-7f70-b168-98b512c529bf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff4-7aa3-8daa-eb75d5cd00b2
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff5-7d61-8ea1-a484452686cc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff7-706f-870f-90f942456483
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff6-799e-8c2b-6e049c4c9f84
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff7-78e5-bfb5-fcb63b2bdd04
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff8-7d96-a30c-d0c2557f8225
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff7-7b4a-a4c4-b3ef77e971c1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff9-7057-a761-46733a0f9996
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff9-7740-9b07-dcdda2414808
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffa-708d-8f26-5140065cbef4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffa-7895-928b-b215f499162e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffa-7444-a13c-24cd6e1b246c
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffa-7b92-986f-a1c793c09663
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ff9-7d69-9f0d-c1489627f050
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffa-7ff1-91c1-79fb9bca142a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffb-7d83-880b-e476ac55edd6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffb-7dc4-b1bf-826ecea3edb6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffb-74e1-b11c-e29954de87eb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffb-704d-b13d-dc2e17d74992
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffc-7d59-b578-33c3fd447c2a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffb-7f46-be21-b58fa016bee5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffc-7cad-94f5-6e7097762656
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffc-7025-93a7-bec7674e6a35
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffc-78fa-8a1c-a59b0a853f25
+🚀 targeted 증강 진행 중:  11%|██████▌                                                     | 12/110 [00:00<00:00, 119.86it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffd-723e-8dd2-c7f2ea623a64
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffd-7adb-91cb-d2eeddc15c3d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffd-746c-9599-898c2ed3ac54
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffd-7054-b44a-ebc4bc364b64
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffd-7b12-b993-b295f413ddce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffe-7c83-a6b0-dc5e110223d6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffe-7b99-807f-51f84de1c64e
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffe-7d60-a229-1a66418ecb2b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffe-78aa-b9fe-09d25f456c18
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6ffe-7a9a-bced-03a74357cbfc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fff-7da4-8044-487f0784542e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-6fff-7cf3-b22d-92c085200051
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7000-7606-9c3a-0f4d121648c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7001-7036-8c20-e3babf8bb9d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7001-7599-9368-5087a4aab481
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7001-7255-a8b4-642b04f62f36
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7001-70e1-ad8a-ae8d3b42cc2b
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7001-7238-9ea8-5ef5c8f78e92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7002-7275-bf7a-4a9c711d768c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7003-78bd-91df-0137aedae983
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7002-78b2-b902-f3fb3214be95
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7003-7fa5-8ea5-e48716f0e4c5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7002-7598-b9f8-0efed59848b0
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7003-7995-8faf-c4c000253a0d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7003-7f15-8123-f360c561dbab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7003-788b-a30e-9d5c515aff19
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7004-7c7b-a391-f51e2ca40804
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7004-77f9-82f5-c28f5c0f4d64
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7004-7db1-8669-fc30b19f1c75
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7005-71f1-bd9e-0f97c0d40e0a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7005-79f7-a36d-a1822de5bc8e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7005-7d17-b06d-8c62700a5e73
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7005-74bb-91c7-c74c70f07959
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7006-7782-8e8c-88102234944f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7006-7745-9424-e557fb241d35
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7006-76af-998d-b70fa7454b67
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7006-73be-8340-0c4fe0433b4d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7007-70fb-8e91-2bcb5e719ed7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7007-73e6-8dd8-aa88fbbf16a2
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7007-7855-a65a-859b3876bfb9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7007-79a9-b6da-3be847593492
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7008-73af-8e16-a2c6f98e5ccb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7008-74e6-9c7e-b4459c9bb9b5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7008-7f13-97a1-13dbe5a63d0a
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7009-7871-85f0-260eb7eeb1fc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7009-74b7-a5ce-138be21e974d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7009-7908-aa31-277a3cc4d281
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7009-76e5-bc9a-f1fdf2bc8e73
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-7009-7f3a-b472-1b4c0d550cfe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-700a-7402-93b7-ca11ce3bd33d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-700a-78a9-9820-980c62aae9a6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e32-700a-78af-a7fc-10833ab9bed9
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+🚀 targeted 증강 진행 중:  47%|████████████████████████████▎                               | 52/110 [00:00<00:00, 180.51it/s]
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: object of type 'int' has no len()
+2026-02-21 12:16:01 - INFO - [data_augmentor.py:140] - ✅ 파이프라인 완료: ../data/json/augmented_data.jsonl

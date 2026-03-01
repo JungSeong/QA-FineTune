@@ -1,0 +1,12 @@
+{"time":"2026-02-28T14:32:17.97011063+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-28T14:32:18.076031489+09:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2026-02-28T14:32:18.076336913+09:00","level":"INFO","msg":"stream: created new stream","id":"waxem157"}
+{"time":"2026-02-28T14:32:18.07684029+09:00","level":"INFO","msg":"stream: started","id":"waxem157"}
+{"time":"2026-02-28T14:32:18.076906242+09:00","level":"INFO","msg":"writer: started","stream_id":"waxem157"}
+{"time":"2026-02-28T14:32:18.076949394+09:00","level":"INFO","msg":"sender: started","stream_id":"waxem157"}
+{"time":"2026-02-28T14:32:18.077240803+09:00","level":"INFO","msg":"handler: started","stream_id":"waxem157"}
+{"time":"2026-02-28T14:32:18.077947716+09:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2026-02-28T14:43:56.502091094+09:00","level":"INFO","msg":"stream: closing","id":"waxem157"}
+{"time":"2026-02-28T14:43:56.50251007+09:00","level":"INFO","msg":"handler: closed","stream_id":"waxem157"}
+{"time":"2026-02-28T14:43:56.502567622+09:00","level":"INFO","msg":"sender: closed","stream_id":"waxem157"}
+{"time":"2026-02-28T14:43:56.502575718+09:00","level":"INFO","msg":"stream: closed","id":"waxem157"}

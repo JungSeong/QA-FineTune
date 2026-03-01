@@ -1,0 +1,16 @@
+[34m[1mwandb[0m: Detected [mcp] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Weave is installed but not imported. Add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+2026-02-21 02:22:18 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+config.json: 1.38kB [00:00, 7.60MB/s]
+You are using a model of type exaone to instantiate a model of type . This is not supported for all configurations of models and can yield errors.
+tokenizer_config.json: 70.7kB [00:00, 226MB/s]
+tokenizer.json: 4.96MB [00:00, 112MB/s]
+special_tokens_map.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 563/563 [00:00<00:00, 5.35MB/s]
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 46, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 36, in main
+    output_file = augmentor.run_pipeline(dataset)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AsyncDataAugmentor' object has no attribute 'run_pipeline'

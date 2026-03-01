@@ -1,0 +1,20 @@
+2026-02-28 02:48:07 - INFO - [main.py:22] - 🧐 전체 Inference 프로세스 시작
+2026-02-28 02:48:09 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-28 02:48:09 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/Exaone-3.5-32B-Instruct에서 로컬 모델을 발견했습니다
+2026-02-28 02:48:19 - INFO - [data_augmentor.py:362] - 🚀 [Iteration_1] 파이프라인 시작
+2026-02-28 02:48:19 - INFO - [data_augmentor.py:132] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 02:48:19 - INFO - [data_augmentor.py:153] - 
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 0개)
+--------------------------------------------------
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+--------------------------------------------------
+🧩 문장 간 다양성 지수 (Semantic Similarity): 0.000 (0에 가까울수록 다양한 문장 생성)
+⚖️ 라벨 간 비율 측정 (KL-Divergence): 0.000 (0에 가까울수록 라벨이 균등하게 생성)
+══════════════════════════════════════════════════
+2026-02-28 02:48:19 - INFO - [data_augmentor.py:377] - 📞 생성 서버 접속: http://localhost:8001/sse
+2026-02-28 02:48:19 - INFO - [data_augmentor.py:238] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data_targeted_big.jsonl

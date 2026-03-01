@@ -1,0 +1,656 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 12:17:23 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+2026-02-21 12:17:25 - INFO - [data_augmentor.py:105] - 🔄 LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e33-bced-7d29-be23-6b0caa427c4a
+2026-02-21 12:17:52 - INFO - [data_augmentor.py:112] - 📡 서버 응답: ✅ Exaone-3.5-7.8B-Instruct 로드 완료!
+🚀 initial 증강 진행 중:   0%|                                                                       | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2649-795f-b5b6-cae43db7fe1e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2644-7f31-a7d2-1f1aa9b7a0ac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-264c-773c-ac67-07a7cda4552e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-264b-70e2-aa68-f7fcd559d6c5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-264b-7180-ad44-79b96055f15c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-264b-705b-9788-c555ef1b6a9b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-264e-79db-8799-b09f2d7097ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-264e-7d66-9a26-a648590f8156
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2651-740d-ab3d-57cdabf2c548
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2651-758c-82d8-faba587187c2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2651-7e18-b08f-3c85d52c2a03
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2653-7ab3-a08b-f481b4965b80
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2654-7d22-aea8-4106cf3252a5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2654-715f-935c-9ee6c94fe975
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2654-782e-837d-3bae1324b6e2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2653-7866-8478-387db04d1743
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2654-7b3b-bccb-2e8784c0083d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2655-7027-87ec-e91ec5f6fa7f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2655-7140-8f1e-ea9950f5a004
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2655-7a39-be4f-d59307fb513d
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2656-7b69-8379-730703e97e78
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2656-799c-b41e-34567abba9b2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2656-7322-8cd5-d6573a7620fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2655-7167-8229-07b9d79746f3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2656-7250-967b-6a82e894a966
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2658-78ed-a181-23e6f89d953b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2658-794a-af91-fda8f96bd101
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2658-733e-ae89-5b01a469a450
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2659-72cf-9d3a-31fdef6ae82d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2659-73f3-bf22-5a5e59b6b82c
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2659-78ee-aa9f-aea35609112b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2659-7a3c-a498-55b9dd28621e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265a-7fba-9640-6b7b20eec6f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265a-774c-878c-8b227b8385b6
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265a-7f93-a420-77c31874cc50
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265a-7057-a8fe-a3af4a9696f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265b-79c9-a666-eca7397fe6f1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265b-7e3d-9ef7-42b647b54811
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265b-7524-bc5f-90ac0e93f9ee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265b-7c1b-96ad-d611541fa2c8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265b-746b-89a6-ca5759c89ca7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265c-7104-8f86-361bdb34b824
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265c-7c35-b0b5-32695b184149
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265c-707a-8e38-217f00d28e31
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265c-7b77-86f9-faa154e63eb4
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265e-7d5e-9b37-b176ca545109
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265e-79b3-b582-94eb42cb2603
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265e-77f1-98b7-45857781153e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265f-75b6-ae8a-ac09dc1904c3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265f-7282-b51e-3e6555b23884
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265f-76b7-b26f-fed752717bb8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-265f-7582-823e-145195849f7f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2660-7ccd-b1dc-a9f17118488e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2660-74c2-9b44-d338cc2b3e19
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2660-7f91-8f46-15650ab933ab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2660-7bae-ab08-9ee982c5d71e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2660-72ad-8c9f-3c52dde6fff6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2661-75cc-b6e8-16767bd0f3f3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2661-7bcd-96ca-770b0413b58c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2661-7aea-ba6d-a25434337cf7
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2662-7456-b95c-a72b87655eb5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2662-7e9a-94c0-afc96b996396
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2662-78a2-9bb5-6141ab88d74f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2662-762d-8e42-89f88826be11
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2662-73a4-ac1f-a746182e65a6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2663-7e11-88ed-a3e052367b02
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2663-7771-8356-6ca05168e23d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2663-7e9d-916b-a0511e905162
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2664-78ce-b102-8c56aec83e6c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2663-7628-a8e2-833868ddfaa7
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2664-7e7b-8bd7-6d5df87f4405
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2664-759b-b5d4-b36f79d00c08
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2664-7da5-9ded-dd2ee9f05adb
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2664-7a93-908c-feaecb1360c7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2665-710c-aeee-f3d507b7bbce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2665-7dfd-afb9-888d1faf5c9a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2665-7573-a808-42b85594695e
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2665-733a-8ef0-4e93960ae33f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2666-785e-b8ef-f183879f6292
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2666-75cb-bfde-c52ab0861cf9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2666-70e2-a854-a29cbdd1496d
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2666-7a2f-b8f0-e7aa91d03c21
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2667-787c-a4ad-fe75854db134
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2667-7f1b-b5ed-bdd2ff8437a9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2667-77f0-a6ab-c4feb10e9595
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2667-7c46-a34c-222250674b51
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2668-7326-8a5a-e0930c878db0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2668-7eeb-840b-d3128d35cfb5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2668-75cb-ac92-18ad3bf49dc2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2668-769b-a73e-3af79fb709b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2669-7d89-99ba-a778902be3f9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2669-728f-88f8-6dcb3ebf83b4
+2026-02-21 12:17:52 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2669-71d9-a37f-b91672d397c3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266a-7560-b3a8-0f04a6455eae
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266a-70c3-81f2-17c8db4af0b7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266a-7e98-8e8d-a077620b76a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266a-75ec-b77b-1ddadf6dd2ac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266a-7d9d-b5b9-bb1685d2187e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266b-747e-8de2-1fa5e83ac70f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266b-736a-9c12-cf14ad8398af
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266c-7ec2-86d3-866e5321c499
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266c-7047-888d-b5d2b91e1a67
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266c-7aae-9f78-0c1ba2dc24c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-266c-724c-bf41-f3767f12bcd5
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+🚀 initial 증강 진행 중:  40%|████████████████████████▍                                    | 44/110 [00:00<00:00, 155.12it/s]
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 12:17:53 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 12:17:53 - INFO - [data_augmentor.py:133] - 📉 [Iteration 1] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                      | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2908-73ca-99f9-293cdea597c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2909-791a-98b8-677ca04aa0d8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290a-73b8-99c6-51af08f7ecf3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2909-74cc-a196-a8ce37263019
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290a-7a24-a173-96a3c189fa3e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2909-7a4e-aa89-f3eac503d09d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290b-7888-9797-f44daa102dc8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290b-79d4-b357-d97c899450cd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290a-7022-bb20-95b22f9248d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290a-7ea9-8ced-e4dd940714d7
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290b-7310-9095-bf0fa7fd7c8f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290b-7769-8c48-babefbf76d84
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290c-7696-8b13-a9645d533618
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290b-7137-b287-f06b3a0eb676
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290c-7e70-a98c-804d4ae6f7c9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290c-7d61-b6ef-6ae28cffbead
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290c-779d-bf57-345abe461a97
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290d-72ca-8663-4bfa57c5a011
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290c-7956-ab9c-d3046acb799d
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290d-76ca-a687-974fb3b38054
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290d-7d55-bb6e-a0d6cfbb60dc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290d-7246-8e3a-f64322c304a3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290e-738a-9f40-c4ef905cf6a4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290e-7c4e-a8ea-3930df90bf84
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290e-7edd-ad7d-d0500ebb1f51
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290e-74a1-9a85-24b9e791f120
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290e-7aef-8fba-1ffbf560f853
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290f-71ff-9196-9ee4eb45de79
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290f-7435-b8a9-6553fcedbcce
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2910-7c2b-90ca-e42a2c8b673d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-290f-7a12-9ed9-dca675e32c37
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2910-72aa-9965-58b403f1d175
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2910-793d-93aa-5f0ec33a3467
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2911-729b-89fa-4d506ec4dbae
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2910-79ec-a584-15a95a70787b
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2911-7fe0-b6b4-16a7ae3bd0e6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2911-7e2b-9282-7fb237e1ea49
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2911-706b-beff-8d7b3e4807d4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2912-73b8-9235-e41592bf87fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2912-77a5-9e25-c572a44dc199
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2912-7393-9c12-01aba7c565d7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2912-7daa-bc5b-fd9c7f425fbc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2913-7bdb-8517-2e03ab3148ba
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2913-72ef-95f7-eefe1fe2b9c2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2913-7d45-9a5d-36867ed33c39
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2913-7691-b334-c048d95502b9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2913-7196-8767-1d357d1d72f3
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2914-712f-a477-cb634f2bba3f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2914-7a41-aa30-b441d74c38d1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2914-7af4-a37f-39dece41935d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2915-74f6-803c-6ae522b27fd1
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2915-7a1e-89b2-f189734cf849
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2915-777b-86aa-394ead409655
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2915-7225-8e36-a6bd44f71bf9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2915-7068-ad5f-6ddedde375d6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2916-7e32-acfc-e46eeff6db76
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2916-7760-91d5-6ec763ab075a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2916-7651-8047-7f5865da5ce7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2916-7213-920d-caba21629388
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2916-7547-adbe-fb264d400bea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2917-71bd-aa0e-b50f5b70fbe9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2917-7a81-a920-86cb341f24b4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2917-79a5-a78b-9f5a35be4696
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2917-7fce-9885-9bd4d8d2c9d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2918-780a-a787-1198b5e74063
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2918-78fc-9bce-e89177018d75
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2918-743a-9334-2072f13d7ab5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2918-7845-b9ad-a43e374081d7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2918-7047-8c71-305aa8bbf980
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2918-7eb7-b1b2-adb2e3abd4b6
+🚀 targeted 증강 진행 중:  14%|████████▏                                                   | 15/110 [00:00<00:00, 142.72it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2918-7397-8dae-c647e03864d6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2918-731d-821f-f5ef884e2f35
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2919-73c9-8ab6-4dc41a71c279
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2919-7987-a671-11ff216a540a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2919-73e8-960f-188d85473757
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2919-7e29-b46b-2c8cd4d39666
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2919-758a-beba-0999e189458d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2919-795e-9666-35cfc8b92418
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2919-7a67-a57b-6f820cf90826
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-74d0-ab1a-3be214c856b1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-77a6-9668-a384301ee3a5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-79ab-8d59-c784c5e4d74c
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-7f10-9da9-07b1eaad9a24
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-785c-b540-6aaabb209406
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-7686-90da-34dc25dc5132
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-7c80-9b48-78a48a849485
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-748f-9b3c-ca31a487a1a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-7d20-9c4f-cd4c88ae85dc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-7d3f-9ac7-3c65331ea4bd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-751f-9be0-485ca3b8df70
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291a-7cf5-9289-8fbf57c81079
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-74f5-bf62-3cc0a382af50
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-7489-882e-26b0c9e9c922
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-7b6d-9c96-c5c3427e8965
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-75f9-ab4e-e3dc9dee4daa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-7aae-b61c-d3255407a97f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-7518-89ea-17299bd35503
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-74ac-9dfc-59a3d4c4f924
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-7f03-84ed-780adb9c10a3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-76f4-b8c1-05ae4f41d651
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-79ce-8f87-4849d6c9cd6a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-70e9-a85a-f75d5a4c3e3c
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-291b-7dbd-9d90-4b8f0f5bbc8b
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+🚀 targeted 증강 진행 중:  48%|████████████████████████████▉                               | 53/110 [00:00<00:00, 180.46it/s]
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:53 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 12:17:54 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 12:17:54 - INFO - [data_augmentor.py:133] - 📉 [Iteration 2] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                      | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4e-7004-9a15-1021847c7d9d
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4e-785f-91a6-d06321949bfd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4e-77e6-98fd-0030186f92e2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4e-73ea-b9cd-19817982017a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4e-743d-ab77-8febeac1acc5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4e-729d-95d7-ed35e82be4e6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4e-7678-8d3c-00c3bb279e45
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4e-7512-8565-07afdf538bc7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-761d-bfd9-353355245668
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-704d-86a5-f7411f3453b1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-7370-abbe-62fee253f8fa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-775a-b364-12636c93842d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-7549-a4e4-4e8bcac8d17b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-72ae-9645-def2fded9455
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-71b4-8445-6834936e608d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-780d-b4bb-efa44738a597
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-75b6-b9dc-aa8200edc38b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-7191-83db-8c7e586e1c97
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-754b-a4b0-3414419ded76
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b4f-7b95-83e9-fcbb41a23f09
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7a07-b81c-474ff2666ea0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7694-9570-622ceadc3977
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-72f9-9ea1-23e683ad401e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7e07-b403-4227f1cd1ab1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7843-b945-571a676fde53
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-79b4-b199-f4a470ac7f16
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7033-b2e2-3623fff08751
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7e03-a1cc-f3fe2255cca6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7ff1-b357-2963ef3dd078
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7deb-8c14-cfb7fa7c9af3
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7721-b69a-81cf0fbae891
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b50-7df0-9788-65adeb15748d
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b51-7899-bd59-25353b14b64a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b51-7e2b-8827-da029868517f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b51-7186-a2d3-6311086e6eed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b51-7787-b035-f4b4d54f8e69
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b51-7ff1-811e-20c916f9aca2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-763d-86ed-8c4c676f1967
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-7f88-8aa3-0755b8207f9a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-7431-ae54-6b16d1b68339
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-79a4-823f-a1b818a73d99
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-7892-80c7-0beb0be71006
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-79a3-9684-72766163dbaa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-7380-8981-686d254b025f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-7865-af79-7cb68df81154
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-73c8-8b8b-8605ee8b7bc8
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-79f4-8e0a-afc464c448cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-75af-b11c-a30d3c690170
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-793d-a14c-377bd18c216a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-7649-a0a1-7bc5de6fca32
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b52-7c80-8a44-9d7469d10775
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-7513-85b3-e4a1b4f45fb4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-7a0b-b2f7-73f7da6dcff3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-72e5-bc10-31fa6c3b6004
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-7726-8d60-24ceb3865fd9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-7b78-a93d-70e356df8997
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-7b54-8900-7e367a654e74
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-755d-ad0f-f88a37ba709e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-78af-ba81-a3554c80cfee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-76a2-847b-3d6e139b14b2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-7fde-9121-287649417fd6
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-7f0e-8dab-406476e2f16d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b53-77ac-b8ae-a3ff8935e6cd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7617-82da-9eec45e8ec67
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7896-95dc-a958e392d0f1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7565-b1ef-f60a84694374
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7902-b2cb-cb1c0244ac5f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-78a5-869c-0a3573e2a586
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-78d0-8026-908106ddd327
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-70fc-9e15-d5610a7007c6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7a0e-ad4e-8891b1c34480
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7678-aa62-bf790628b01a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7ac8-b27b-304041f6ae04
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7184-9789-31c2e4d3dd72
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7ba1-8c02-2066255be8f0
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7dcd-af40-17717a8ecc11
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b54-7da0-9177-b09891f498aa
+🚀 targeted 증강 진행 중:  16%|█████████▊                                                  | 18/110 [00:00<00:00, 171.13it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-79a5-aa24-806a90b02f92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-7a82-93b6-3a691268673f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-7b65-b9e6-0feaba470b49
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-7c43-ad6d-d9f893f4c6df
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-7023-87ff-8d3419fd1364
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-77d9-a852-9ac7508a2a3e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-7e31-92e7-e0bb44a2bcb4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-74ff-9791-a00d23ca64b6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-7832-bdc0-caab714c683f
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-70b9-b2dc-c0cbd7035424
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-7d9d-93a0-4628925ab0ee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-7b0b-9b46-e232996b87c5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b55-7717-b58b-d9496197755d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-7329-8063-48085056d279
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-7784-8060-51b714b8ae75
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-7e3b-a1dd-997c776f6709
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-700a-a72a-1b35c441e952
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-73ff-9673-e0ce71c2e4a4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-7871-a89e-431732930a27
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-7618-987c-dbc009e2994b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-7726-8e22-8c2d58df8316
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-74f2-be1d-36705eee9925
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-72bc-8d77-0bd4ea2cb6da
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-7294-a7e1-56ec86622fdd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-7a43-a2b9-8d9cb6ed16f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b56-7dd0-832b-499a2e82ffa7
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e34-2b57-7e3f-adf8-53e97a13ab04
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+🚀 targeted 증강 진행 중:  50%|██████████████████████████████                              | 55/110 [00:00<00:00, 170.03it/s]
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: Error executing tool generate_text: Unexpected keyword argument 'stop_tokens_ids'
+2026-02-21 12:17:54 - INFO - [data_augmentor.py:140] - ✅ 파이프라인 완료: ../data/json/augmented_data.jsonl

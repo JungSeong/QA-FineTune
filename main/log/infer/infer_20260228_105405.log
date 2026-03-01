@@ -1,0 +1,71 @@
+2026-02-28 10:54:07 - INFO - [main.py:22] - 🧐 전체 Inference 프로세스 시작
+2026-02-28 10:54:09 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-28 10:54:09 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/Exaone-3.5-32B-Instruct에서 로컬 모델을 발견했습니다
+2026-02-28 10:54:20 - INFO - [data_augmentor.py:363] - 🚀 [Iteration_1] 파이프라인 시작
+2026-02-28 10:54:20 - INFO - [data_augmentor.py:132] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 10:54:21 - INFO - [data_augmentor.py:153] - 
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 458개)
+--------------------------------------------------
+       count  percentage
+yes      112       24.45
+no       126       27.51
+info     110       24.02
+false    110       24.02
+--------------------------------------------------
+🧩 문장 간 다양성 지수 (Semantic Similarity): 0.442 (0에 가까울수록 다양한 문장 생성)
+⚖️ 라벨 간 비율 측정 (KL-Divergence): 0.002 (0에 가까울수록 라벨이 균등하게 생성)
+══════════════════════════════════════════════════
+2026-02-28 10:54:21 - INFO - [data_augmentor.py:402] - ✅ 모든 라벨이 충분합니다. 생성을 건너뜁니다.
+2026-02-28 10:54:21 - INFO - [data_augmentor.py:238] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 10:54:21 - INFO - [data_augmentor.py:419] - 📞 평가 서버 접속: http://localhost:8000/sse
+2026-02-28 10:54:21 - INFO - [data_augmentor.py:345] - ⏳ Qwen2.5-72B-Instruct-AWQ 로딩을 시작합니다. (최대 5~10분 소요될 수 있습니다...)
+2026-02-28 10:59:21 - ERROR - [data_augmentor.py:493] - ❌ 파이프라인 실행 중 오류 발생: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 421, in run_pipeline_async
+  |     async with self.get_mcp_session(self.config.EVAL_MCP_URL) as session:
+  |   File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 346, in get_mcp_session
+  |     async with sse_client(url) as (read, write):
+  |   File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/client/sse.py", line 63, in sse_client
+  |     async with anyio.create_task_group() as tg:
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/client/sse.py", line 159, in sse_client
+    |     yield read_stream, write_stream
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 347, in get_mcp_session
+    |     async with ClientSession(read, write) as session:
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 350, in get_mcp_session
+      |     yield session  # 여기서 호출자에게 세션을 빌려줌
+      |     ^^^^^^^^^^^^^
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 422, in run_pipeline_async
+      |     await session.call_tool("switch_model", {
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/weave/trace/op.py", line 1251, in wrapper
+      |     res, _ = await _call_async_func(
+      |              ^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/weave/trace/op.py", line 674, in _call_async_func
+      |     res = await func(*args, **kwargs)
+      |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/client/session.py", line 383, in call_tool
+      |     result = await self.send_request(
+      |              ^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/shared/session.py", line 306, in send_request
+      |     raise McpError(response_or_error.error)
+      | mcp.shared.exceptions.McpError: Connection closed
+      +------------------------------------
+2026-02-28 10:59:21 - INFO - [data_augmentor.py:499] - ✅ 파이프라인 프로세스 종료
+2026-02-28 10:59:21 - ERROR - [main.py:62] - ❌ 업로드할 최종 결과 파일이 생성되지 않았습니다. 파이프라인 로그를 확인하세요.

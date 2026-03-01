@@ -1,0 +1,12 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 18:04:40 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 18:04:40 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 37, in main
+    augmentor = AsyncDataAugmentor(config.MCP_URL, config.HF_MODEL_ID, config)
+                                                   ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Config' object has no attribute 'HF_MODEL_ID'. Did you mean: 'GEN_HF_MODEL_ID'?

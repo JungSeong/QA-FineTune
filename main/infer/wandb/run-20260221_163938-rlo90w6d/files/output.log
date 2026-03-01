@@ -1,0 +1,213 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 16:39:40 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 16:39:40 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+2026-02-21 16:39:42 - INFO - [data_augmentor.py:92] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data.jsonl
+2026-02-21 16:39:42 - INFO - [data_augmentor.py:113] -
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 460개)
+--------------------------------------------------
+       count  percentage
+yes      177       38.48
+no       109       23.70
+info     123       26.74
+false     51       11.09
+--------------------------------------------------
+⚖️ 불균형 지수 (Gini): 0.213 (0에 가까울수록 좋음)
+🧩 다양성 지수 (Self-BLEU): 0.200 (낮을수록 좋음)
+══════════════════════════════════════════════════
+2026-02-21 16:39:42 - INFO - [data_augmentor.py:240] - 📉 [Iteration 1] 부족분 81건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                          | 0/81 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dade-75ca-94c1-d0924770aece
+2026-02-21 16:39:42 - INFO - [data_augmentor.py:151] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dad9-77c3-b126-70bda773b697
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae2-77d2-b778-81208ba11475
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae4-7d29-b990-192b9b188fce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae4-7740-840c-0ebbb126dc67
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae5-7a37-89d0-27f613eb0e2c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae5-7e09-9512-e54893cc3426
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae5-72a5-958d-39e3321aa3b9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae5-7805-98da-e3d6dd2edaa6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-7a45-94cf-95de8e4a3419
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-731f-b619-6917eebdfd85
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-7522-870d-7d89c14ed6b9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-7d52-a1e9-f68fdd679dce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-70ea-87c5-ad8cf72880d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-7574-aaef-62bbb27b593a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-7208-9a6c-e791db5b9e13
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-779b-a28f-4ef4f71b81be
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-7985-86df-b3af0868f037
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae6-71f9-8116-bea4105fa7fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae7-70ed-8299-05521e8fbf87
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae7-704f-8dc3-ec14fe3aa5d6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae7-7647-83bc-9420dff5b609
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae7-7047-b58b-43e1efda04a5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae7-7c98-b309-e2044db35e04
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae7-7afe-b0e0-10c4d005df26
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae7-70c0-9e44-c2a77d74c3c7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae7-7f24-979a-cafe595f94d0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae7-714d-a9b2-1eaa0a4e4c1c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7dca-ba30-b15f7fff70ac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7bac-8fee-586c20298130
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7caa-a4b3-3aa05305ca83
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-79e4-a02f-7129a3bdafd1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7537-9e73-3f1abe196417
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7436-a309-2429e9a9ddaa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7b9c-be6f-2aff0c05367d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7eb6-8ec7-7d32945c6e1d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7986-8899-4ffa93cb98c6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7a13-b7c0-81b71f2bbf3c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-7b82-b3c0-7efae63b8b25
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae8-723f-a2b5-9a29c8c44d9a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-7903-be1c-9e70dd4658aa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-7aac-b6c3-62d003c5d3ca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-7274-850f-bd973594ed08
+🚀 targeted 증강 진행 중:  17%|███████████                                                     | 14/81 [00:00<00:00, 138.36it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-7884-b010-0a12874190bf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-75ef-988b-e334da56eb17
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-7563-9210-ed6d0c78aa1a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-7ca7-9b56-11be0f4aa799
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-77c6-a892-f09aed69f017
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-790b-a533-bfe1c0a5d9f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-7d4d-96e7-2644f9c2ee31
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-775e-a007-8d9d75b0f277
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dae9-7ef3-a06d-e577142573dc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-7fc7-80ed-e75058f55199
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-72e9-a9ec-c7c00066ec18
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-7321-a783-98170592fbe9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-72f3-96c2-2511658cdfc9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-7ff6-b423-4a0f9103afcc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-7a5a-8f6e-87a2cae957d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-756d-b546-e67236aa33ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-73e8-8110-a5e217a32ab6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-7f4c-8ae6-50d35facdea6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-7eb2-8de8-655207cf2073
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-788b-88a6-a33627982156
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daea-74df-ad3d-a82e18b33f40
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daeb-7da4-9405-6dfa5062da87
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daeb-7657-a325-233779ee054e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daeb-7fc0-9041-f889623f8bed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daeb-77ad-bdf0-ca0f1305efcf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daeb-7ff1-8721-b4450434b25f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daeb-7fcb-ad8a-f138f0f53662
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daeb-7c0f-b2f9-39776e514704
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daeb-7976-805e-ab6b68ef73e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daec-7208-ac24-0190c9ff1889
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daec-740f-b251-4d66ba9b6a1c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daec-7bdf-9a3c-6b6d60c0320f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daec-79f5-8084-5e4a5f41e140
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daec-7061-9794-82906a34aa56
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daec-79c3-a903-834387299e3b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daec-7046-8822-506538ffd00c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-daec-7b25-9a95-0694df8e249e
+🚀 targeted 증강 진행 중: 100%|████████████████████████████████████████████████████████████████| 81/81 [00:00<00:00, 244.42it/s]
+2026-02-21 16:39:42 - INFO - [data_augmentor.py:92] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data.jsonl
+2026-02-21 16:39:42 - INFO - [data_augmentor.py:113] -
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 460개)
+--------------------------------------------------
+       count  percentage
+yes      177       38.48
+no       109       23.70
+info     123       26.74
+false     51       11.09
+--------------------------------------------------
+⚖️ 불균형 지수 (Gini): 0.213 (0에 가까울수록 좋음)
+🧩 다양성 지수 (Self-BLEU): 0.249 (낮을수록 좋음)
+══════════════════════════════════════════════════
+2026-02-21 16:39:42 - INFO - [data_augmentor.py:240] - 📉 [Iteration 2] 부족분 81건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                          | 0/81 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcba-794d-b5c2-c3cd22a6789f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbb-7bf5-8b07-99a2b447452a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbb-74b8-903a-ed5bcd57b655
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbc-7acb-829e-7e5142ba5aa1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbc-7979-a458-8a4e619919da
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbc-741a-bfcd-0ade1c6dd3f9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbd-71dd-a5d5-92fc1914163d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbd-7218-a7bd-79a86ec671a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbd-7127-8f67-190b6dc85ddc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbd-7124-b566-085062c001a2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbd-776d-802c-57376627b9b4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-7cdb-a95c-d36af4d720e5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-7058-805c-8dd319c36ae5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbc-727e-abbc-02fa601e2d41
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbd-7350-a008-2a1d95bf0780
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-7562-9a95-e50934eb2e76
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-79cc-bacd-b4127879a5d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-78b4-9f2e-60db4593650b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-7845-8d8a-842a93b285f1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-72e4-9be5-6b20baa77f31
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-7c95-9f7b-7af306ce19f2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-7b9f-9681-caac628275e2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-7710-b9c8-3cc1f8d89c4a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-763f-ba2c-3fa91bfff5e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-79a9-b1b8-63cb5ff3a886
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbe-7f67-9ab9-d4536498164a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbf-700b-9f35-f6b2159f4260
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbf-74dc-9d2e-7b49b95ff526
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbf-78d6-a4ae-2f5aed693822
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbf-7143-b9e4-9f9c7e958bb2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbf-79a4-9659-38352b83e409
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbf-7828-a4d4-57619bddd1cc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbf-7aae-9548-84628849dba0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbf-7af4-a7ee-c22ff729d9a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc0-7518-9d5f-0d6129e7a9e9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcbf-7a7e-b9fd-6deb0a1662fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc0-7678-8442-f1cb8f26ebe6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc0-7025-ae11-78e296294c34
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc0-74eb-8959-f24148de7681
+🚀 targeted 증강 진행 중:  32%|████████████████████▌                                           | 26/81 [00:00<00:00, 259.13it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc0-73cb-a81d-6ff8d8f3d048
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc0-7b1b-8e2e-9c00589d163b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc0-7e80-8192-bb8a344191b9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc0-74da-8a52-f861a01324fa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc0-7022-b4fc-b514e423042b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-7477-9d47-f818f5f7010e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-7356-b130-dc7f355efba4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-7095-b4f4-ebc0f1139176
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-7fbf-936b-2d4fafdb3068
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-75c5-9b87-67f1c87eeacd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-7342-8bd9-aff54f9c6b42
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-73cc-bd24-d7b251806b20
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-72a6-b91a-eb828e08d394
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-73e4-9c6f-8ac4e7594fc9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc1-74a2-9392-8eeb7dad903e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-75e7-a76b-a48df6e99ad2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-70ae-84ad-b7f0eea5e628
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-7af2-bcbe-ec17ec00f018
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-7a0b-a76e-bd2503ee9e6a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-70ae-aa73-058c48881b3b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-7b2b-9007-847dbcd13297
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-7dbe-9dfb-96956d08d3dc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-7a0c-892b-9b87150175f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-7070-995c-391f81ec808f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-7bc6-bc1b-3b212f4c9469
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-78bc-a055-ce210fe863f7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-7d45-8fb1-e579cc7a4229
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc2-7d2c-9ec5-326dafcafafd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-7db6-81a2-7ea533f9af13
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-746d-8ee2-aa2eac4b6f50
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-728b-bd8f-674bcd63892a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-7248-8e70-c5361deb4f9a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-73b7-9acf-8426eb043063
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-79df-8d1f-403bc4d9b255
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-77d5-894e-a127d70ec454
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-74e6-bbb1-e0ab886c3aba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-7970-9c3a-b9491ba3a9d9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-7be9-b400-f74d458e24e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-7905-a694-52629099e7f1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-7500-b221-1d4d3f3b9499
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc3-791a-9415-1d920bf08add
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f23-dcc4-7ddb-9a3a-e6be02a6d8bd
+🚀 targeted 증강 진행 중: 100%|████████████████████████████████████████████████████████████████| 81/81 [00:00<00:00, 246.56it/s]
+2026-02-21 16:39:42 - INFO - [data_augmentor.py:247] - ✅ 파이프라인 완료
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 41, in main
+    artifact.add_file(final_file)
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/wandb/sdk/artifacts/_validators.py", line 272, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/wandb/sdk/artifacts/artifact.py", line 1476, in add_file
+    if not os.path.isfile(local_path):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 30, in isfile
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType

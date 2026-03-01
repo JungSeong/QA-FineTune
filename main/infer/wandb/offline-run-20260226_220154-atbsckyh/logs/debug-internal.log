@@ -1,0 +1,12 @@
+{"time":"2026-02-26T22:01:54.820713125+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T22:01:54.92491763+09:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2026-02-26T22:01:54.924963598+09:00","level":"INFO","msg":"stream: created new stream","id":"atbsckyh"}
+{"time":"2026-02-26T22:01:54.925012142+09:00","level":"INFO","msg":"handler: started","stream_id":"atbsckyh"}
+{"time":"2026-02-26T22:01:54.925068558+09:00","level":"INFO","msg":"stream: started","id":"atbsckyh"}
+{"time":"2026-02-26T22:01:54.925077582+09:00","level":"INFO","msg":"writer: started","stream_id":"atbsckyh"}
+{"time":"2026-02-26T22:01:54.925086254+09:00","level":"INFO","msg":"sender: started","stream_id":"atbsckyh"}
+{"time":"2026-02-26T22:01:54.925549438+09:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2026-02-26T22:08:34.949664438+09:00","level":"INFO","msg":"stream: closing","id":"atbsckyh"}
+{"time":"2026-02-26T22:08:34.95002935+09:00","level":"INFO","msg":"handler: closed","stream_id":"atbsckyh"}
+{"time":"2026-02-26T22:08:34.950139318+09:00","level":"INFO","msg":"sender: closed","stream_id":"atbsckyh"}
+{"time":"2026-02-26T22:08:34.95015623+09:00","level":"INFO","msg":"stream: closed","id":"atbsckyh"}

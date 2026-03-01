@@ -1,0 +1,58 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-15 20:02:54 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct
+2026-02-15 20:02:54 - INFO - [model_utils.py:32] - 🚀 모델 로딩 중...
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 272/272 [00:00<00:00, 597.28it/s, Materializing param=transformer.wte.weight]
+2026-02-15 20:02:59 - INFO - [main.py:34] - ExaoneForCausalLM(
+  (transformer): ExaoneModel(
+    (wte): Embedding(102400, 2560, padding_idx=0)
+    (drop): Dropout(p=0.0, inplace=False)
+    (h): ModuleList(
+      (0-29): 30 x ExaoneDecoderLayer(
+        (ln_1): ExaoneRMSNorm((2560,), eps=1e-05)
+        (attn): ExaoneAttentionBlock(
+          (attention): ExaoneAttention(
+            (q_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+            (k_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (v_proj): Linear4bit(in_features=2560, out_features=640, bias=False)
+            (out_proj): Linear4bit(in_features=2560, out_features=2560, bias=False)
+          )
+        )
+        (ln_2): ExaoneRMSNorm((2560,), eps=1e-05)
+        (mlp): ExaoneMLP(
+          (c_fc_0): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_fc_1): Linear4bit(in_features=2560, out_features=7168, bias=False)
+          (c_proj): Linear4bit(in_features=7168, out_features=2560, bias=False)
+          (act): SiLUActivation()
+        )
+      )
+    )
+    (ln_f): ExaoneRMSNorm((2560,), eps=1e-05)
+    (rotary): ExaoneRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=2560, out_features=102400, bias=False)
+)
+2026-02-15 20:02:59 - INFO - [data_augmentor.py:320] - 📂 기존 파일이 이미 존재합니다. 데이터를 검수합니다.
+2026-02-15 20:02:59 - INFO - [data_augmentor.py:289] - 📦 분산된 데이터 파일 병합 중...
+2026-02-15 20:02:59 - INFO - [data_augmentor.py:304] - ✅ 병합 완료: ../data/json/augmented_data.jsonl
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 47, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 37, in main
+    output_file = augmentor.run_pipeline(dataset)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 332, in run_pipeline
+    missing_tasks = self.find_imbalanced_tasks(dataset, output_file)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 126, in find_imbalanced_tasks
+    cleaned_data = preprocess_data(file_path)
+                   ^^^^^^^^^^^^^^^
+NameError: name 'preprocess_data' is not defined. Did you mean: 'self.preprocess_data'?

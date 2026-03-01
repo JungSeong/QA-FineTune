@@ -1,0 +1,1 @@
+{"perf/tps":6.814800858824202,"eval/avg_total_score":15,"_step":1,"_runtime":2065,"eval/avg_faithfulness":8,"eval/avg_persona":2,"perf/sec_per_sample":7.600769024036344,"eval/total_samples":20,"_wandb":{"runtime":2065},"_timestamp":1.7722900013619864e+09,"eval/avg_relevancy":5}

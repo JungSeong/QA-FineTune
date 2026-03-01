@@ -1,0 +1,85 @@
+2026-02-28 03:32:22 - INFO - [main.py:22] - 🧐 전체 Inference 프로세스 시작
+2026-02-28 03:32:29 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-28 03:32:29 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/Exaone-3.5-32B-Instruct에서 로컬 모델을 발견했습니다
+2026-02-28 03:32:39 - INFO - [data_augmentor.py:363] - 🚀 [Iteration_1] 파이프라인 시작
+2026-02-28 03:32:39 - INFO - [data_augmentor.py:132] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 03:32:39 - INFO - [data_augmentor.py:153] - 
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 0개)
+--------------------------------------------------
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+--------------------------------------------------
+🧩 문장 간 다양성 지수 (Semantic Similarity): 0.000 (0에 가까울수록 다양한 문장 생성)
+⚖️ 라벨 간 비율 측정 (KL-Divergence): 0.000 (0에 가까울수록 라벨이 균등하게 생성)
+══════════════════════════════════════════════════
+2026-02-28 03:32:39 - INFO - [data_augmentor.py:378] - 📞 생성 서버 접속: http://localhost:8001/sse
+2026-02-28 03:32:39 - INFO - [data_augmentor.py:345] - ⏳ Qwen2.5-72B-Instruct-AWQ 로딩을 시작합니다. (최대 5~10분 소요될 수 있습니다...)
+2026-02-28 03:32:39 - INFO - [data_augmentor.py:238] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 03:32:39 - ERROR - [data_augmentor.py:490] - ❌ 파이프라인 실행 중 오류 발생: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 379, in run_pipeline_async
+  |     async with self.get_mcp_session(self.config.GEN_MCP_URL) as session:
+  |   File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 346, in get_mcp_session
+  |     async with sse_client(url) as (read, write):
+  |   File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/client/sse.py", line 63, in sse_client
+  |     async with anyio.create_task_group() as tg:
+  |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/client/sse.py", line 159, in sse_client
+    |     yield read_stream, write_stream
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 347, in get_mcp_session
+    |     async with ClientSession(read, write) as session:
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/weave/trace/op.py", line 272, in _default_on_input_handler
+      |     inputs = sig.bind(*args, **kwargs).arguments
+      |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/usr/lib/python3.12/inspect.py", line 3242, in bind
+      |     return self._bind(args, kwargs)
+      |            ^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/usr/lib/python3.12/inspect.py", line 3231, in _bind
+      |     raise TypeError(
+      | TypeError: got an unexpected keyword argument 'timeout'
+      | 
+      | The above exception was the direct cause of the following exception:
+      | 
+      | Traceback (most recent call last):
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 350, in get_mcp_session
+      |     yield session  # 여기서 호출자에게 세션을 빌려줌
+      |     ^^^^^^^^^^^^^
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 380, in run_pipeline_async
+      |     await session.call_tool("switch_model", {
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/weave/trace/op.py", line 1251, in wrapper
+      |     res, _ = await _call_async_func(
+      |              ^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/weave/trace/op.py", line 602, in _call_async_func
+      |     raise e
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/weave/trace/op.py", line 600, in _call_async_func
+      |     call = _create_call(op, *args, __weave=__weave, **kwargs)
+      |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/weave/trace/op.py", line 341, in _create_call
+      |     pargs = _default_on_input_handler(func, args, kwargs)
+      |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/weave/trace/op.py", line 274, in _default_on_input_handler
+      |     raise OpCallError(f"Error calling {func.name}: {e}") from e
+      | weave.trace.op.OpCallError: Error calling mcp.client.session.ClientSession.call_tool.switch_model: got an unexpected keyword argument 'timeout'
+      +------------------------------------
+2026-02-28 03:32:39 - INFO - [data_augmentor.py:496] - ✅ 파이프라인 프로세스 종료
+2026-02-28 03:32:39 - ERROR - [main.py:62] - ❌ 업로드할 최종 결과 파일이 생성되지 않았습니다. 파이프라인 로그를 확인하세요.

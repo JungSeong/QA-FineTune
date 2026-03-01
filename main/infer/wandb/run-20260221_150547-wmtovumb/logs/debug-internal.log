@@ -1,0 +1,11 @@
+{"time":"2026-02-21T15:05:47.616286591+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-21T15:05:47.969571698+09:00","level":"INFO","msg":"stream: created new stream","id":"wmtovumb"}
+{"time":"2026-02-21T15:05:47.969688127+09:00","level":"INFO","msg":"handler: started","stream_id":"wmtovumb"}
+{"time":"2026-02-21T15:05:47.969767869+09:00","level":"INFO","msg":"stream: started","id":"wmtovumb"}
+{"time":"2026-02-21T15:05:47.969780621+09:00","level":"INFO","msg":"writer: started","stream_id":"wmtovumb"}
+{"time":"2026-02-21T15:05:47.96982982+09:00","level":"INFO","msg":"sender: started","stream_id":"wmtovumb"}
+{"time":"2026-02-21T15:05:53.484024145+09:00","level":"INFO","msg":"stream: closing","id":"wmtovumb"}
+{"time":"2026-02-21T15:05:54.220430776+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-21T15:05:54.540373376+09:00","level":"INFO","msg":"handler: closed","stream_id":"wmtovumb"}
+{"time":"2026-02-21T15:05:54.540441566+09:00","level":"INFO","msg":"sender: closed","stream_id":"wmtovumb"}
+{"time":"2026-02-21T15:05:54.540445662+09:00","level":"INFO","msg":"stream: closed","id":"wmtovumb"}

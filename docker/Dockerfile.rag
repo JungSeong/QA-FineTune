@@ -1,0 +1,29 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# 1. 필수 시스템 빌드 도구 설치 (slim 이미지 필수 과정)
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libpq-dev \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# 2. pip 업그레이드 및 필수 도구 설치
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel
+RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# 4. 나머지 패키지 설치 (의존성 충돌 방지를 위해 분리 설치)
+RUN pip install --no-cache-dir \
+    mcp \
+    langchain-postgres \
+    langchain-huggingface \
+    sentence-transformers \
+    psycopg[binary] \
+    python-dotenv \
+    transformers>=4.48.0 \
+    bitsandbytes>=0.43.0
+
+COPY . .
+
+CMD ["python3", "main/eval/RAG/search_contents.py"]

@@ -1,0 +1,24 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: weave version 0.52.29 is available!  To upgrade, please run:
+[36m[1mweave[0m:  $ pip install weave --upgrade
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/eval/main.py", line 58, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/eval/main.py", line 31, in main
+    df = pd.read_excel(file_path[0])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/pandas/io/excel/_base.py", line 481, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/pandas/io/excel/_base.py", line 1604, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/pandas/io/excel/_base.py", line 1452, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone/lib/python3.12/site-packages/pandas/io/common.py", line 935, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] 디렉터리입니다: '.'

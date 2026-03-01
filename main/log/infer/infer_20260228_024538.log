@@ -1,0 +1,54 @@
+2026-02-28 02:45:39 - INFO - [main.py:22] - 🧐 전체 Inference 프로세스 시작
+2026-02-28 02:45:42 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+2026-02-28 02:45:42 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/Exaone-3.5-32B-Instruct에서 로컬 모델을 발견했습니다
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:362] - 🚀 [Iteration_1] 파이프라인 시작
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:132] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:153] - 
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 457개)
+--------------------------------------------------
+       count  percentage
+yes      110       24.07
+no       127       27.79
+info     110       24.07
+false    110       24.07
+--------------------------------------------------
+🧩 문장 간 다양성 지수 (Semantic Similarity): 0.425 (0에 가까울수록 다양한 문장 생성)
+⚖️ 라벨 간 비율 측정 (KL-Divergence): 0.002 (0에 가까울수록 라벨이 균등하게 생성)
+══════════════════════════════════════════════════
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:398] - ✅ 모든 라벨이 충분합니다. 생성을 건너뜁니다.
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:238] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:414] - 📞 평가 서버 접속: http://localhost:8000/sse
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:423] - ⚖️ 데이터 품질 검수 시작
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:447] - 📊 서버 응답 수집 완료: 총 1건의 데이터를 확인했습니다.
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:451] - 🔍 [Sample Evaluation Result Detail]
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:452] - 📝 질문: ...
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:453] - 🌍 상황: ...
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:454] - 👉 답변: ...
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:455] - 💡 점수: 0 / 15
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:456] - 📑 근거: 정보 없음
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:457] - 🤔 추론 과정: ...
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:463] - 💾 [완료] 원본 및 평가 결과 1건 저장 완료: /home/vsc/LLM_TUNE/QA-FineTune/main/data/json/evaluation_result.jsonl
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:476] - 🧹 평가 모델 VRAM 언로드...
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:132] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data_targeted_big.jsonl
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:153] - 
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 457개)
+--------------------------------------------------
+       count  percentage
+yes      110       24.07
+no       127       27.79
+info     110       24.07
+false    110       24.07
+--------------------------------------------------
+🧩 문장 간 다양성 지수 (Semantic Similarity): 0.425 (0에 가까울수록 다양한 문장 생성)
+⚖️ 라벨 간 비율 측정 (KL-Divergence): 0.002 (0에 가까울수록 라벨이 균등하게 생성)
+══════════════════════════════════════════════════
+2026-02-28 02:45:53 - ERROR - [data_augmentor.py:488] - ❌ 파이프라인 실행 중 오류 발생: cannot access local variable 'perf_stats' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/infer/data_augmentor.py", line 482, in run_pipeline_async
+    self.log_epoch_report(iter_name, final_quality_stats, perf_stats)
+                                                          ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'perf_stats' where it is not associated with a value
+2026-02-28 02:45:53 - INFO - [data_augmentor.py:494] - ✅ 파이프라인 프로세스 종료
+2026-02-28 02:45:53 - ERROR - [main.py:62] - ❌ 업로드할 최종 결과 파일이 생성되지 않았습니다. 파이프라인 로그를 확인하세요.

@@ -1,0 +1,14 @@
+2026-02-15 21:04:13 - INFO - [main.py:33] - Loading Dataset...
+2026-02-15 21:04:13 - INFO - [preprocess_dataset.py:22] - Loading Dataset...
+2026-02-15 21:04:13 - INFO - [main.py:36] - Dataset loaded successfully
+2026-02-15 21:04:13 - INFO - [main.py:37] - train_dataset size: 716
+2026-02-15 21:04:13 - INFO - [main.py:38] - val_dataset size: 308
+2026-02-15 21:04:13 - INFO - [main.py:39] - test_dataset size: 257
+2026-02-15 21:04:13 - INFO - [main.py:41] - Loading Model with LoRA and Tokenizer...
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 64, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 42, in main
+    model, tokenizer = load_or_download_model_tokenizer(config.MODEL_NAME)
+                                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'Config' object has no attribute 'MODEL_NAME'

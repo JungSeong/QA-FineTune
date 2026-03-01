@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            2r0dazq8j9dq6uo61jbx0xpnd2iw4fc4:
+                codePath: 도서관_QA_Finetune/final/infer/main.py
+                codePathLocal: main.py
+                cpu_count: 20
+                cpu_count_logical: 20
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "4031871553536"
+                        used: "549386657792"
+                email: jungseonglian@sju.ac.kr
+                executable: /home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/.venv/bin/python3
+                git:
+                    commit: 265ec6fb51a5185b5e3f38eb643c835fd7da769a
+                    remote: https://github.com/JungSeong/QA-FineTune.git
+                gpu: NVIDIA GB10
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 6144
+                      name: NVIDIA GB10
+                      uuid: GPU-f940b7ff-fb81-022d-8b75-718301052e80
+                host: spark-aecc
+                memory:
+                    total: "128519340032"
+                os: Linux-6.17.0-1008-nvidia-aarch64-with-glibc2.39
+                program: /home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py
+                python: CPython 3.12.3
+                root: /home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer
+                startedAt: "2026-02-15T06:29:16.258929Z"
+                writerId: 2r0dazq8j9dq6uo61jbx0xpnd2iw4fc4
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 51
+                - 53
+                - 71
+                - 98
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 51
+                - 53
+                - 71
+                - 98
+            "3":
+                - 13
+                - 16
+            "4": 3.12.3
+            "5": 0.25.0
+            "6": 5.1.0
+            "12": 0.25.0
+            "13": linux-aarch64

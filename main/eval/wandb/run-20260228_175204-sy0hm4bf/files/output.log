@@ -1,0 +1,12 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: weave version 0.52.29 is available!  To upgrade, please run:
+[36m[1mweave[0m:  $ pip install weave --upgrade
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/eval/main.py", line 53, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/eval/main.py", line 29, in main
+    CoTaugmentor = QAPipeline(config.GEN_HF_MODEL_ID, config)
+                              ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Config' object has no attribute 'GEN_HF_MODEL_ID'. Did you mean: 'EVAL_HF_MODEL_ID'?

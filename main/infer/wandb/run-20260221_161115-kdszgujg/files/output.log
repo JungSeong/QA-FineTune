@@ -1,0 +1,179 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 16:11:17 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 16:11:17 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+2026-02-21 16:11:19 - INFO - [data_augmentor.py:151] - 🔄 skt/A.X-4.0-Light 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df48-7d7a-a44d-9d7a01e2bd5e
+2026-02-21 16:11:19 - INFO - [data_augmentor.py:185] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 16:11:19 - INFO - [data_augmentor.py:202] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 444개)
+       count  percentage
+yes      175       39.41
+no        99       22.30
+info     119       26.80
+false     51       11.49
+════════════════════════════════════════
+2026-02-21 16:11:19 - INFO - [data_augmentor.py:172] - Missing Task : [{'idx': 0, 'context': '회원증 대리발급은 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부만 가능하며 아래 구비서류를 지참하여 대리인이 방문 시 대리발급이 가능합니다.\n\n· 대상 : 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부\n· 구비서류\n\xa0 - 공통 : ①위임자 신분증, ②피위임자(대리인) 신분증\n\xa0 - 장애인 : 장애인 복지카드 또는 장애인 증명서\n\xa0 - 임신부 : 산모수첩 / 산모 : 주민등록등본(출산 후 12개월까지)\n· 방법 : 홈페이지 회원가입 후 위 항목의 해당하는 구비서류를 지참하여 피위임자(대리인)이 도서관 방문', 'targets': ['false'], 'meta_title': '회원증을 대리발급 할 수 있나요?'}, {'idx': 1, 'context': '가족회원이란, 고양시 도서관 정회원으로 가입 후 가족회원으로 등록 시 가족명의로 도서대출·도서예약·상호대차 동일하게 이용가능한 서비스입니다.\n※ 가족명의 이용 시 자료실 안내데스크에 반드시 본인 회원증을 제시하여야 함(가족 회원증으로 대출 불가)\n가족회원 등록방법\n가족구성원 모두 정회원 가입 후 가족임을 증명할 수 있는 서류(주민등록등본 또는 가족관계증명서) 지참하여 도서관 방문', 'targets': ['false'], 'meta_title': '가족회원이 무엇인가요?'}, {'idx': 2, 'context': '본인명의 휴대폰 인증이 불가한 만14세 미만 어린이의\xa0경우 아이핀(I-PIN) 본인인증 과정을 거쳐 홈페이지 가입이 가능합니다.\n\n홈페이지 회원가입 - 만14세 미만 회원가입(어린이회원 가입하기) - 보호자 휴대폰 인증 후 가입자(어린이)의 아이핀을 통해 홈페이지에 가입하실 수 있습니다.\n\n회원가입 바로가기\nhttps://www.goyanglib.or.kr/center/program/memberJoinType.do', 'targets': ['false'], 'meta_title': '핸드폰이 없는 어린이가 홈페이지 회원가입을 하려면 어떻게 해야 하나요?'}, {'idx': 3, 'context': '고양시 도서관의 회원증으로 고양시 관내 시립도서관과 공립작은도서관을 모두 이용하실 수 있습니다.\u200b_x000D_\n회원증을 분실하였을 경우 신분증을 지참하여 관내 어느 시립, 공립작은도서관에 가셔도 재발급 받으실 수 있습니다._x000D_\n ', 'targets': ['info'], 'meta_title': '회원증은 도서관마다 각각 만들어야 하나요? 또, 회원증을 분실한 경우에는 어떻게 해야 하나요?'}, {'idx': 4, 'context': '고양시 도서관 회원은 준회원(홈페이지 가입 회원) / 정회원(관외대출회원)으로 구분되며 정회원 가입대상 및 방법은 다음과 같습니다.\n\n· 정회원 가입대상\n주민등록상 경기도 거주자, 경기도소재 직장인 및 재학생\n\n정회원 가입방법\n1. 온라인 발급\n\xa0· 대상 : 주민등록상\xa0경기도 거주자\n\xa0· 홈페이지 회원가입 후 [온라인 정회원 신청] 클릭 - 인증절차 후 온라인 회원증 발급\n2. 방문 발급\n\xa0· 대상 : 경기도 소재 직장인, 재학생을 포함한 고양시 도서관 정회원 신청 대상\n\xa0· 홈페이지 회원가입 후 구비서류를 지참하여 도서관 방문\n\n구비서류\n이용안내 - 회원가입 - 회원증 방문발급 - 구비서류 안내 참고', 'targets': ['yes'], 'meta_title': '도서관 회원가입은 어떻게 하나요? '}, {'idx': 5, 'context': '사립 작은도서관을 등록,변경,폐관 절차에 대한 자세한 내용은_x000D_\n도서관센터 홈페이지- 작은도서관- 사립작은도서관 등록신청메뉴에서 확인 가능합니다._x000D_\n관련 서류 작성 후 메일로 보내주시면 확인 후 연락드리겠습니다.(도서관센터 독서진흥팀)_x000D_\n ', 'targets': ['false'], 'meta_title': '사립 작은도서관 등록·변경·폐관 절차에 대해 궁금합니다. '}, {'idx': 6, 'context': '도서관법(시행령 제3조 1항)상 건물면적은 33㎡이상(현관,휴게실,복도,화장실,식당 면적 불포함). 자료는 1,000점 이상을 갖춘 작은도서관 이면서,_x000D_\n건축법상(시행령 제5조의 5) 제 1종 근린생활시설, 교육연구시설, 단독주택 1층, 공동주택에 위치한 작은도서관만 등록이 가능합니다._x000D_\n_x000D_\n자세한 내용은 고양시 도서관센터 홈페이지-작은도서관-사립작은도서관 등록신청의 [서식5 체크리스트]를 참고해 주시기 바랍니다._x000D_\n_x000D_\n_x000D_\n ', 'targets': ['no', 'false'], 'meta_title': '사립 작은도서관의 등록 기준에 대해 알려주세요.'}, {'idx': 7, 'context': '사립작은도서관은 다양한 주체가 다양한 방법으로 설립,운영하는 민간분야의 작은도서관 입니다._x000D_\n고양시에는 현재 기준(2025. 6.) 총 87개의 사립 작은도서관이 있습니다._x000D_', 'targets': ['false'], 'meta_title': '사립 작은도서관은 무엇인가요 ?'}, {'idx': 10, 'context': '관산, 내유, 대덕, 사리현, 화전, 마상공원, 모당공원 작은도서관이 있습니다.', 'targets': ['no'], 'meta_title': '공립작은도서관을 알려주세요.'}, {'idx': 12, 'context': '스마트도서관 도서 반납은 반드시 대출한 기기에 해야 합니다. _x000D_\n(상호대차, 책누리 반납 불가) ', 'targets': ['yes'], 'meta_title': '스마트 도서관 책은 어디에 반납해야하나요?'}, {'idx': 13, 'context': '고양시도서관센터 회원증 소지자는 누구나 이용 가능 합니다. _x000D_\n(회원증 발급은 도서관센터 홈페이지 회원가입 후 가까운 시립도서관 방문하여 회원증 발급(신분증 지참)_x000D_\n_x000D_\n1인 2권까지 가능하며 일반도서 대출과 동일하게 대출기간은 14일 1회 반납연기가 가능합니다._x000D_\n(지축역, 삼송역, 원당역, 화정역, 고양시청 스마트도서관은 화정도서관 대출권수에 포함, 마두역, 백마역 스마트도서관은 아람누리도서관 대출권수에 포함, 주엽역, 대화역, 일산역 스마트도서관은 대화도서관 대출권수에 포함) ', 'targets': ['no', 'false'], 'meta_title': '스마트 도서관은 어떻게 이용하나요?'}, {'idx': 15, 'context': '고양시도서관 회원이면 누구나 365일 이용가능한 무인도서 대출반납기입니다.(400~600여권 비치)', 'targets': ['false'], 'meta_title': '스마트도서관이란 무엇인가요?'}, {'idx': 16, 'context': '책바다 서비스란?_x000D_\n고양시 도서관에 구비되어 있지 않은 자료를 전국 책바다 서비스에 가입되어 있는 도서관 소장자료 중에서 대출하여 드리는 서비스_x000D_(공공도서관, 대학도서관 등)_x000D_\n_x000D_\n1. 국립중앙도서관 책바다 가입 후 이용가능_x000D_\n(홈페이지주소 : https://books.nl.go.kr)_x000D_\n2. 비용있음_x000D_\n_x000D_\n책나래 서비스란?_x000D_\n도서관방문이 어려운 장애인과 거동불편자 등이 필요로 하는 도서관 자료를 우체국택배를 이용하여 집까지 무료로 배달해주는 서비스_x000D_\n대상 :\u3000보건복지부 등록 장애인, 국가보훈처 등록 국가유공상이자, 거동불편자（국가건강보험공단 인정 장기요양 대상자)_x000D_\n_x000D_\n1. 고양시 도서관 회원가입(도서관 대출증 발급) _x000D_\n※ 증명서류 제출(직접방문, 대리방문, 팩스, 이메일 가능) _x000D_\n보건복지부 등록 장애인의 경우 책나래 홈페이지 가입 시 [장애인정보 사실 여부] 조회 및 인증으로 증명서류 확인절차 생략_x000D_\n국가보훈처 등록 국가유공상이자, 거동불편자의 경우 증명서류를 도서관에 제시(최초 1회
+2026-02-21 16:11:19 - INFO - [data_augmentor.py:173] - 📉 [Iteration 1] 부족분 보완 중...
+🚀 targeted 증강 진행 중:   0%|                                                            | 0/83 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df78-77fb-8312-1a5ba96c792a
+2026-02-21 16:11:19 - INFO - [data_augmentor.py:59] - 💾 실시간 저장 워커 시작 (대상: ../data/json/augmented_data.jsonl)
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df6f-719f-b031-ef891e345ee5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df79-76be-884f-7dcb810b64e9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df78-73c8-8f31-e671c984c6bd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df72-7cce-b2e8-0f21a67243a4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df78-718c-b896-25237495c918
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df79-7a6d-a52b-933a1bac3f58
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7a-7dc2-9dd2-4476bfcd0f8a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7a-7f85-b578-3b13f3b590f4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7a-776b-8378-1b5818c9092b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7a-7b82-8cb9-7a068a784370
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df79-7e1b-b90c-5debddc26d2c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7a-7481-b0f7-fef53dc6b481
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7a-771c-8d6a-5c385308f66f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-7d13-b529-a6e78589a5ad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-7ab4-8dac-874a3e357548
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-7124-ad99-bbe0a3c04230
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-757c-9631-3e0e5c0513c3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-7df3-ab9a-3a2387f70080
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-7f64-a3aa-ef80da2ae398
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-72d4-aa77-e8283e68a79a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-7569-8ed5-b2cb3294b89c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-7362-ac0e-b974943b33f9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-7697-8fa9-a9370ff71d75
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-76af-badd-b7428bbbfa9c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-77fd-a066-1b9e75df4829
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7b-7377-80cd-e000f22c88f0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-721d-b618-cc55e2d78d50
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-7a85-afee-9936080315de
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-7e88-bb8e-f132e33bf15e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-79e3-81cb-8f1a659a8cad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-70e1-add7-f6d0ce2eef97
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-735d-82d1-7dad613c4179
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-7738-a11a-11f93b5dac56
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-712b-a784-b3b9d85af337
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-7626-86dd-228ce8316fc4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-71f3-8665-a87029ccf557
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-71ef-8e5f-21f9048076a2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7c-77c9-98d4-e0225810b562
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7b84-b0d5-5e0d834c9b29
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7253-9962-fc5b5a587b7e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7423-9790-2396737a8b3a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7835-b664-c3e41b7e5cda
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-70c9-9237-c046ce40a1da
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7928-b5c1-b0a563ec2b91
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7c22-b992-2093f4f273e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-79cd-9e92-c7840c10e1a3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7868-b4e1-d253aac89384
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7371-9de0-a75465bdf946
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7739-98aa-48dd9ba29af9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-7f58-accb-1d0925954ab6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7d-778f-9d24-840b28f4f75a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-7fd3-9548-334ddb14efdc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-77a7-ab83-8997771541b5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-7102-9521-ca211eca9667
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-7322-9290-adbc833912ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-7d7c-8281-3fea42894884
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-72d2-a1e5-d1c2b9ff53f1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-7d5c-a830-f0df0beabe44
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-7f64-8da8-b6c3a73e8ac9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-76a7-bf37-46528c0a82c1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-7f4a-bf0e-fc0387ba42e7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-705f-aef8-8fff53588b43
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7e-79ef-abaf-6e1eb2223e02
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-7647-802c-bb7439236842
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-7dbd-8a29-d7216c7144ee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-7f1b-a7ce-736ff52838e0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-75c0-8ba7-464ffb757db8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-7ee5-9256-aa88fc97e30a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-7665-8bac-157b03b369c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-7c6f-ad82-6b749128e20f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-72f3-b297-cc7f51ae52fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-7e3a-ad7c-e432cc8814c9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df80-78f9-abf5-e535f1f14cae
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df7f-73b0-b346-45ddbde48373
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df80-7d95-912b-223af4b43508
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df80-7466-8a63-3071a30fb353
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df80-716b-9d30-e4bf689e6896
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df80-7d0c-a367-286c96492f6e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df80-723a-8d2f-e902e57b2c36
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df80-77a8-90c4-e47319e0321b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df80-71e5-85a9-da6e53971575
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f09-df80-7b86-9a60-25164c6fe075
+2026-02-21 16:11:39 - INFO - [data_augmentor.py:67] - result : [{'question': '고양시 도서관에서 회원증 없이 이용할 수 있는 서비스가 있나요?', 'answer': '회원증이 없으시더라도 일부 서비스는 이용 가능합니다. 그러나 회원 전용 서비스나 대출은 회원증이 필요하니 방문 전에 확인하시기 바랍니다.', 'label': 'info', 'difficulty': '보통', 'faq_id': 3, 'original_title': '회원증은 도서관마다 각각 만들어야 하나요? 또, 회원증을 분실한 경우에는 어떻게 해야 하나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406073', 'iteration': 'targeted'}, {'question': '회원증을 분실했을 때 어떻게 해야 하나요?', 'answer': '회원증을 분실하셨다면, 신분증을 지참하시고 가까운 시립도서관이나 공립작은도서관에 방문하셔서 재발급을 신청하시면 됩니다.', 'label': 'info', 'difficulty': '쉬움', 'faq_id': 3, 'original_title': '회원증은 도서관마다 각각 만들어야 하나요? 또, 회원증을 분실한 경우에는 어떻게 해야 하나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406073', 'iteration': 'targeted'}, {'question': '고양시 회원증으로 다른 지역의 도서관도 이용할 수 있나요?', 'answer': '아니요, 고양시 회원증은 고양시 관내 시립도서관과 공립작은도서관에서만 사용 가능합니다. 다른 지역 도서관 이용을 원하시면 해당 지역의 회원증을 발급받으셔야 합니다.', 'label': 'info', 'difficulty': '어려운 경우', 'faq_id': 3, 'original_title': '회원증은 도서관마다 각각 만들어야 하나요? 또, 회원증을 분실한 경우에는 어떻게 해야 하나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406073', 'iteration': 'targeted'}, {'question': '회원증 재발급 시 필요한 절차는 무엇인가요?', 'answer': '회원증 재발급을 위해서는 신분증을 지참하시고, 가까운 시립도서관이나 공립작은도서관을 방문하시면 됩니다. 그곳에서 안내에 따라 재발급 절차를 진행하시면 됩니다.', 'label': 'info', 'difficulty': '보통', 'faq_id': 3, 'original_title': '회원증은 도서관마다 각각 만들어야 하나요? 또, 회원증을 분실한 경우에는 어떻게 해야 하나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406073', 'iteration': 'targeted'}]
+🚀 targeted 증강 진행 중:   5%|██▌                                                 | 4/83 [01:08<22:35, 17.16s/it]
+2026-02-21 16:11:52 - INFO - [data_augmentor.py:67] - result : [{'question': '도서관 주소는 어디인가요?', 'answer': '도서관은 경기도 고양시 일산동구 위시티2로 43-6(식사동)에 위치해 있습니다.', 'label': 'no', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406271', 'iteration': 'targeted'}, {'question': '도서관 연락처는 어떻게 되나요?', 'answer': '도서관의 전화번호는 031-8075-9190입니다.', 'label': 'no', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406271', 'iteration': 'targeted'}, {'question': '도서관 주소를 알려주실 수 있나요?', 'answer': '네, 도서관 주소는 경기도 고양시 일산동구 위시티2로 43-6(식사동)입니다.', 'label': 'no', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406271', 'iteration': 'targeted'}, {'question': '도서관에서 책 대출을 하려면 전화해야 하나요?', 'answer': '전화보다는 직접 방문하시거나 홈페이지를 통해 예약을 하시는 것이 더 편리합니다. 다만 궁금한 사항이 있으시면 저희 전화번호로 문의하셔도 됩니다.', 'label': 'no', 'faq_id': 91, 'original_title': '식사도서관 위치 및 전화번호가 어떻게 되나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406271', 'iteration': 'targeted'}]
+2026-02-21 16:12:07 - INFO - [data_augmentor.py:67] - result : [{'question': '메이커스페이스는 누구나 이용할 수 있나요?', 'answer': '네, 맞습니다. 메이커스페이스는 창의적인 아이디어를 가진 사람이라면 누구나 쉽게 접근할 수 있는 공간입니다.', 'label': 'yes', 'faq_id': 25, 'original_title': '메이커스페이스가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406132', 'iteration': 'targeted'}, {'question': '메이커스페이스에서 3D프린터를 사용하려면 어떻게 해야 하나요?', 'answer': '메이커스페이스에서는 3D프린터 사용을 위해 독서문화-메이커스페이스 탭에서 장비 예약을 신청하시면 됩니다. 예약 후에는 지정된 시간에 장비를 사용하실 수 있습니다.', 'label': 'no', 'faq_id': 25, 'original_title': '메이커스페이스가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406132', 'iteration': 'targeted'}, {'question': '메이커스페이스에서 사용할 수 있는 장비는 무엇인가요?', 'answer': '메이커스페이스에서는 3D프린터, 레이저커터 등 다양한 디지털 공작 기계를 활용할 수 있습니다.', 'label': 'yes', 'faq_id': 25, 'original_title': '메이커스페이스가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406132', 'iteration': 'targeted'}, {'question': '메이커스페이스에서 예약을 하지 않고 장비를 사용할 수 있나요?', 'answer': '죄송합니다. 메이커스페이스의 모든 장비는 사전 예약이 필요합니다. 예약은 독서문화-메이커스페이스 탭에서 하실 수 있습니다.', 'label': 'no', 'faq_id': 25, 'original_title': '메이커스페이스가 무엇인가요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406132', 'iteration': 'targeted'}]
+2026-02-21 16:12:23 - INFO - [data_augmentor.py:67] - result : [{'question': '장애인 회원증을 대리발급 받으려면 어떤 서류가 필요한가요?', 'answer': '장애인의 경우, 대리발급을 위해 위임자의 신분증과 피위임자의 신분증 외에도 장애인 복지카드나 장애인 증명서가 필요합니다.', 'label': 'no', 'faq_id': 0, 'original_title': '회원증을 대리발급 할 수 있나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406045', 'iteration': 'targeted'}, {'question': '임산부 회원증은 어떻게 발급받나요?', 'answer': '임신부의 경우, 산모수첩이나 주민등록등본을 지참하여 대리인이 방문하시면 됩니다. 출산 후 12개월까지는 유효합니다.', 'label': 'no', 'faq_id': 0, 'original_title': '회원증을 대리발급 할 수 있나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406045', 'iteration': 'targeted'}, {'question': '16세인 학생은 회원증 대리발급이 가능한가요?', 'answer': '16세인 학생은 만14세 이상이므로 대리발급 대상이 아닙니다. 본인이 직접 신청하셔야 합니다.', 'label': 'no', 'faq_id': 0, 'original_title': '회원증을 대리발급 할 수 있나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406045', 'iteration': 'targeted'}, {'question': '회원증 대리발급 시 필요한 서류는 무엇인가요?', 'answer': '대리발급 시에는 위임의사가 명시된 위임장, 위임자와 피위임자의 신분증, 그리고 대상에 따라 추가 서류(장애인 복지카드, 산모수첩 등)가 필요합니다.', 'label': 'no', 'faq_id': 0, 'original_title': '회원증을 대리발급 할 수 있나요?', 'model_id': 'skt/A.X-4.0-Light', 'created_at': '2026-02-21T16:11:19.406045', 'iteration': 'targeted'}]
+2026-02-21 16:12:28 - WARNING - [data_augmentor.py:100] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:12:28 - WARNING - [data_augmentor.py:100] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:12:28 - WARNING - [data_augmentor.py:100] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:12:28 - WARNING - [data_augmentor.py:100] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:12:28 - WARNING - [data_augmentor.py:100] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:12:28 - WARNING - [data_augmentor.py:100] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:12:28 - WARNING - [data_augmentor.py:100] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:12:28 - WARNING - [data_augmentor.py:100] - ⚠️ 추론 중 에러 발생:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 148, in run_pipeline_async
+    async with ClientSession(read, write) as session:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    raise exc_val
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 174, in run_pipeline_async
+    await self.run_generation_batch(session, missing_tasks, mode="targeted")
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 143, in run_generation_batch
+    results = await tqdm.gather(*async_tasks, desc=f"🚀 {mode} 증강 진행 중")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/tqdm/asyncio.py", line 79, in gather
+    res = [await f for f in cls.as_completed(ifs, loop=loop, timeout=timeout,
+           ^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 627, in _wait_for_one
+    f = await done.get()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+    final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf357f726acf0>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf357f726a840>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

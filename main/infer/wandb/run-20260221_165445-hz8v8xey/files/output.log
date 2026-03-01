@@ -1,0 +1,347 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 16:54:47 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 16:54:47 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b07d-7f0b-bceb-c6617e349cb7
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:92] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data.jsonl
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:113] -
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 440개)
+--------------------------------------------------
+       count  percentage
+yes      175       39.77
+no        99       22.50
+info     116       26.36
+false     50       11.36
+--------------------------------------------------
+⚖️ 불균형 지수 (Gini): 0.223 (0에 가까울수록 좋음)
+🧩 다양성 지수 (Self-BLEU): 0.159 (낮을수록 좋음)
+══════════════════════════════════════════════════
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:250] - 📉 [Iteration 1] 부족분 84건 보완 시작...
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['yes']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['yes']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['yes']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['yes']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['yes']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['yes']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['yes', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['yes', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['yes']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['yes']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['info', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:209] - ['no', 'false']
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:210] - 부족한 Task : ['no', 'false']
+🚀 targeted 증강 진행 중:   0%|                                                                               | 0/84 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12e-79b2-9597-3004e1e6c126
+2026-02-21 16:54:48 - INFO - [data_augmentor.py:151] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12e-7516-8c60-fa1a85014545
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12e-7498-bbb7-07f464c49681
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12d-707b-8777-5942cfde0a93
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b124-7640-980e-ef47ed57fdfe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12f-73ab-946b-14c961e303dd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b129-7798-b3a5-76786293a237
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12d-78d4-b0c3-4e7c963a8b2a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12d-7225-874c-9b0f19ec6297
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12e-7cd6-993d-3e3bb05972d3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12f-7c2b-9eb7-2a08f641370b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12f-7f97-ac93-0cf873973f61
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b12f-7dd5-8e36-216414f79f99
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-7ffd-a769-29d09f555f38
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-72ee-9374-35c2ed2c09eb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-7214-a6fa-d871ad607d4c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-7b16-bd20-44ee37320f16
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-7606-9d25-186b90cb2577
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-76b0-9ede-a610be6920c8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-7554-838b-82ea4657a8ab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-7eea-9bbf-1b765b4106fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-7f1f-b8ee-7837eccbb5cd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-7968-9585-1c8f5e613dfe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-75d0-9645-96979156f5fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b130-7bd1-8636-fe211c5190f4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-74b6-96f5-2c650030ce86
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-721c-a8c2-9ec46a709ccd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-7197-b70e-c31c84985b1f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-74c7-b47e-f2466b797aa5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-7a64-946b-5c62a58c6384
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-7238-b045-8b5220b9395f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-7a78-99ba-ef2e19e36955
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-765b-8205-5fcb9d4d5c8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-7749-92a9-ced6f45d78ad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-7772-a0af-ab75dc756deb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-7cf6-877f-1dcb3e25960e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-7379-a514-92636f16be14
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b131-7d93-9468-16033a2d8998
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7038-aa12-78bb50011671
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7751-85c8-f44892dd6654
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7e59-b867-e52bd25dc4b5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7d0d-92b5-97b691f90523
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7667-b9d0-f71d13f9aca7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7402-a66c-c69b033c7c16
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7e4e-93f3-be9e4fcb5c85
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-748a-89b7-2cb44ed938ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7b16-8fe9-c28b03db96a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7c19-bb41-9cc568287099
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7030-ab68-78a4c10defb1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-72bf-96ca-04ba569552f4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b132-7213-806e-f62d1713e80d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-7921-acec-2ebd6da1be3d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-72e1-9fea-bbdf41224fc1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-7984-bb42-84d79621784d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-7dd3-9cb4-1a7f96d3bd42
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-732d-b789-46bd606a2054
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-74e3-972c-e917a76b207c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-7629-b94d-1f633d92611c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-759e-9439-4dbfe4bda310
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-78e3-b57d-2f58775f6161
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-7b62-b2a2-cbb83bae37c0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-7325-b522-401acbb7db24
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-726a-90e5-864745d761ce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-7291-a76f-25bac23fc685
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b133-792b-ac49-6133fa7afaf3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-7e82-93e8-182b8cb9477e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-7c32-85e1-f516d202cfe8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-78b8-88bd-ec8aa8e2e7bb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-73fe-9dae-f93e82f4d0a9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-74d7-bd4f-60618d512a89
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-77f2-891c-4c44c758ea8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-7bf0-a316-335f262bb75e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-75bf-8d95-8a717fec1af5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-79f5-980d-2f2bb900555c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-7e76-ad30-a0f4ce24095b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-7b6d-a863-c5ae54054b70
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-737c-bfcc-8a8227f27e2b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b134-750b-8307-75a628061cd6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b135-7104-b6b0-b482b3477695
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b135-7c15-b6f5-4ccca7a3c19f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b135-743a-b3db-f7e17f5b8b0a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b135-7c0b-8518-ee2e2dc7566f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b135-76f5-825c-bfc1f42929a1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f31-b135-7875-8ccd-3156fa277e56
+2026-02-21 16:55:02 - INFO - [data_augmentor.py:178] - [{'question': '현재 도서관 리모델링 중인가요?', 'answer': '네, 현재 도서관은 리모델링 중입니다. 2026년 10월 이후에 재개관할 예정입니다.', 'label': 'no'}, {'question': '리모델링 끝나면 도서관 이용할 수 있나요?', 'answer': '네, 리모델링이 완료되면 도서관을 이용하실 수 있습니다. 정확한 재개관 일정은 2026년 10월 이후로 예정되어 있습니다.', 'label': 'no'}, {'question': '리모델링 기간 동안 자료실 이용 가능한가요?', 'answer': '아쉽게도 리모델링 기간 동안에는 자료실을 포함한 모든 도서관 서비스를 이용할 수 없습니다. 양해 부탁드립니다.', 'label': 'no'}, {'question': '리모델링 언제 끝날 예정인가요?', 'answer': '리모델링은 2026년 10월 이후에 완료될 예정입니다. 정확한 날짜는 추후 공지드리겠습니다.', 'label': 'no'}]
+🚀 targeted 증강 진행 중:   2%|█▋                                                                     | 2/84 [00:51<35:03, 25.65s/it]
+2026-02-21 16:55:30 - INFO - [data_augmentor.py:178] - [{'question': "임신 중인 저는 '내 생애 첫 도서관' 서비스를 이용할 수 있나요?", 'answer': "네, 임신 중인 고객님은 '내 생애 첫 도서관' 서비스를 이용하실 수 있습니다. 이 서비스는 임신 이후부터 자녀가 12개월 이하일 때까지 제공됩니다.", 'label': 'true'}, {'question': "내가 장애인이면 '두루두루 서비스'로 매달 몇 권의 책을 받을 수 있나요?", 'answer': "장애인으로 등록된 회원님께서는 '두루두루 서비스'를 통해 매달 최대 5회의 대출 기회를 가지며, 회당 5권까지 받으실 수 있습니다.", 'label': 'true'}, {'question': "'내 생애 첫 도서관' 서비스 이용 시 필요한 서류는 무엇인가요?", 'answer': '서비스 이용을 위해 산모수첩 사본 혹은 주민등록등본 1부와 회원가입신청서를 제출하셔야 합니다.', 'label': 'true'}, {'question': "어린 자녀를 둔 부모가 '내 생애 첫 도서관' 서비스를 신청할 수 있는 방법은 무엇인가요?", 'answer': '가까운 고양시도서관을 방문하여 회원가입을 하거나 경기도사이버도서관에서 『내 생애 첫 도서관』 회원신청을 하시면 됩니다.', 'label': 'true'}, {'question': "대출 정지 상태인 경우 '내 생애 첫 도서관' 서비스를 이용할 수 있나요?", 'answer': "죄송합니다. 대출 정지 상태에서는 '내 생애 첫 도서관' 서비스를 포함한 모든 도서 대출 서비스가 불가능합니다. 먼저 연체된 도서를 반납하시고 대출정지 기간이 해제된 후에 이용하시면 됩니다.", 'label': 'no'}, {'question': "나는 13개월 된 아이의 부모인데 '내 생애 첫 도서관' 서비스를 이용할 수 있나요?", 'answer': "아쉽지만, '내 생애 첫 도서관' 서비스는 자녀의 연령이 12개월 이하인 경우에만 이용 가능합니다. 현재 귀하님의 아이는 13개월이 되었으므로 이 서비스를 이용할 수 없습니다.", 'label': 'no'}]
+2026-02-21 16:55:40 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:55:40 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:55:40 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:55:40 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:55:40 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:55:40 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:55:40 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 16:55:40 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 228, in run_pipeline_async
+    await session.initialize()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    raise exc_val
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 251, in run_pipeline_async
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 223, in run_generation_batch
+    return [res for sublist in results for res in sublist]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/tqdm/asyncio.py", line 79, in gather
+    res = [await f for f in cls.as_completed(ifs, loop=loop, timeout=timeout,
+           ^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 627, in _wait_for_one
+    f = await done.get()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+    final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf138dd438050>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf138dd4380e0>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

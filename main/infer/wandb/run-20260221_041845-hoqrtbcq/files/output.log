@@ -1,0 +1,196 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 04:18:48 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+2026-02-21 04:18:50 - INFO - [data_augmentor.py:105] - 🔄 LGAI-EXAONE/EXAONE-3.5-32B-Instruct-AWQ 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c7d-92ad-76ab-ac88-a13239038ffd
+2026-02-21 04:23:11 - INFO - [data_augmentor.py:112] - 📡 서버 응답: ✅ Exaone-3.5-32B-Instruct-AWQ 로드 완료!
+🚀 initial 증강 진행 중:   0%|                                                                                                                             | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9005-737b-ac16-bb46b9584318
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9005-78da-8f42-73ebac29fd7b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9006-7135-8a46-bfe3d58bcd90
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-8fff-7536-b487-18c9a411c3b7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-8ffb-7b17-a5eb-20aff57dd6b5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9001-72ba-b8e1-2bc6ea1d5b19
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9006-7535-b21d-df60eee3c7a6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9006-7b77-b46e-f54ed77aade9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9006-7026-addc-ff1acab05afc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9007-7eb4-ae77-95dbfaeac75b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-7684-9b0c-5db1e1b74e20
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9004-706e-b10e-cedf063d2df0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-79c1-bd5f-aa22ccfe41ab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-76e2-b06b-d8a8dcc02c84
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9007-7b75-b0ee-cdb3998176a1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-7224-b570-1345abc6e7b9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-7d72-b741-d74fea83e083
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-73c0-a9bb-acec37eb8d5d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-7ecc-8cd2-2a1d705ac975
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-786a-ab0c-80492230ec5b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-7d8c-937e-22da1147e1e1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-77b1-b0a6-dbf0776c6fb4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9008-7359-8208-a57de291ad6e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-76bb-bb13-4dcf592de57d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-72e7-b893-230d8d5fb11f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-7172-95fc-58e2f2f168e9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-7a21-a51e-e2e2c4ca6cf9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-7470-99b6-59196b3490d4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-7ff9-9b66-dd4d190a3e11
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-77e2-b907-cef263ea3605
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-760f-9688-6cfa2fefc6b2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-7775-96af-e1f36d79c7a4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-7463-a1d2-069691ebecf9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-76dc-9632-87f4ef1a273d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-9009-7068-9be0-fa62326a3ab6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-7d25-932e-fad66ea4745a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-74f2-811d-8b1eb2d642a4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-700d-923a-d6d617166745
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-72f0-8384-ca3c449d1714
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-7159-897b-42ab12095b7d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-7f1a-a4fa-da86e412ed92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-708f-91d8-b7bbab753037
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-7d5b-bd7c-1e878d9912c2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-7c72-bc8c-05bfafc686cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-71a5-8a78-882e5ab848f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-7d51-9e3c-dbf2eb6dbc13
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-78bc-bc07-30dfa6f9f88d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900a-7e17-be7a-3cdca53bf1a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-71a6-be8d-c930fee879ec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-7d2e-b91c-7ccb889111f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-7a21-ac4e-de9ad4b47c6e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-75ba-a0c3-1fa9ee3f6aea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-72b0-a72b-ac8b7af72142
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-7b40-a58a-e8a9174d9b99
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-7ffa-8fea-c801e51f7800
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-7b5f-9e4f-23844289788c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-7b43-a9c3-baa9183fc9c7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-7147-bc08-83fd3182f2d6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-7f3a-8cf3-57d6bbc05f7a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-704c-849a-a0e9beac9472
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-71ed-bda4-59130d3843de
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900b-782c-9083-303060284102
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7b3a-b2b4-852c86839c43
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7516-b35c-baf0b1196e27
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7c76-acf6-d7e497345d1e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-73b0-8878-87622d15cec8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7c98-b201-bb7b52dc5fee
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7f4d-8d3b-130e40ab0f73
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7626-98ca-49c31771cf50
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7f91-9596-abbc14b114dd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-734b-9816-46648692398c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7468-9d94-d2c351728c71
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7a6d-9eae-72c339234ea3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7b5e-ae45-52519051db01
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900c-7cd6-92db-e2e6f7c2e4b9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-7f94-8e99-bc7aa40dccc2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-71ef-969b-d9805bf59eb8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-798d-b3e6-a7096ec550f2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-7063-9c9b-cd4a62e6b0fd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-744e-97d7-7187e178fd09
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-7c27-864a-2ec2960caefa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-757c-a9df-108bf6d194a5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-7a67-ad61-69ed494f77f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-7723-882e-fc59efb8f89d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-7620-8147-bd8bd05c7c46
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900d-78bc-9ab8-61bb3ca1b19c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-7ae7-8126-9ccc675ffddc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-71c1-8ca0-5d5a91fe37ab
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-7f01-8d12-b95f32eeb1e6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-7f01-9621-c5605c347eed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-7606-8adb-680c355d22fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-720d-93dc-bb941792ef89
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-7c6f-8446-f0848a2e9ebf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-7f87-a102-8f14452bb0b1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-7c92-99f8-6ab88e40225f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-7930-88b3-3cba49e3c944
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-7528-8e9e-c8b0c6e04669
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-7597-8ea7-2545c93c9048
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900e-709e-a7ab-d48748b9d6cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-7b0d-bb1f-e0dedbbf1b50
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-7642-9395-09fb4ef5c4ba
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-7f1b-a3a8-be50e12f417d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-7687-995c-d8d2368569f7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-7d6c-985e-2dd5340a4bd1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-7811-89ce-c681dbbc6089
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-7661-9902-c1f1595e7d92
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-788e-9187-450bd71a9df6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-71f7-89b3-38a3ca26663a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-70ad-8660-25aa87625651
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7c81-900f-7980-9aa4-427667b04d3b
+2026-02-21 04:24:19 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ]{}]{} \_{\\ \_{\\ \_{\\ medscimonit "}^ "}^ "}^ \*](# \*](# \*](# URLQ URLQ URLQ URLQ URLQ ">=</ ">=</ \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# 을께요 을께요 을께요 |>[ "}^ "}^ medscimonit medscimonit medscimonit medscimonit ="../../                                                                                                                                                                                 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 \^[ |>[ |>[ 을께요 을께요 coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe OnlineResponse ">=</ ">=</ ">=</ coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe    coloneqq coloneqq coloneqq coloneqq fefefe fefefe fefefe fefefe  coloneqq coloneqq coloneqq fefefe OnlineResponse ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ">=</ ">=</ coloneqq coloneqq fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</
+🚀 initial 증강 진행 중:   5%|██████▎                                                                                                            | 6/110 [04:51<1:24:12, 48.58s/it]
+2026-02-21 04:25:00 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ]{}]{}]{}]{} \_{\\ \_{\\ \_{\\ medscimonit 는진 는진 는진�장고�장고�장고 \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# 을께요 을께요 을께요 을께요 ">=</ 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 을게요 는겨 는겨 는겨 coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq \*](# \*](# \*](# \*](# \*](# \*](# \*](# 을께요 을께요 을께요   는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 을게요 계망 계망 계망 rVert 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 `](# medscimonit medscimonit medscimonit medscimonit medscimonit URLQ URLQ URLQ URLQ URLQ URLQ URLQ URLQ URLQ URLQ URLQ URLQ URLQ URLQ 는겨 는겨 ":[]," ":[]," ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ coloneqq coloneqq coloneqq coloneqq \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 coloneqq coloneqq 는겨 는겨 계망 계망 계망 계망 mathbbm 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 rVert rVert 는겨 는겨 는겨 는겨 ":[]," ">=</ ">=</ ">=</ ">=</ ^{\\�장고 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨
+2026-02-21 04:25:42 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ]{}]{}]{}]{} \_{\\ "}^ "}^ \*](# 는겨 \_{\\ |>[ |>[ 십쇼 OnlineResponse�장고�장고�장고 \*](# \*](# \*](# \*](# 는겨 는겨 는겨 는겨 textsf textsf textsf textsf textsf textsf textsf ">=</ ">=</ ">=</ ">=</ coloneqq coloneqq coloneqq coloneqq 는겨 textsf textsf \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# ^{\\ 는겨 textsf textsf textsf medscimonit medscimonit medscimonit coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq 는겨 는겨 는겨 는겨 는겨 는겨 는겨 ">=</ ">=</ notChosen notChosen notChosen ^{\\ coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq 는겨 는겨 }}\_{ }}\_{ medscimonit medscimonit 는겨 는겨 는겨 OnlineResponse OnlineResponse OnlineResponse OnlineResponse OnlineResponse OnlineResponse OnlineResponse OnlineResponse OnlineResponse OnlineResponse OnlineResponse \_{\\ ">=</ ">=</�장고�장고�장고 coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq ^](# 는겨 ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq c
+2026-02-21 04:26:23 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문:  으셨던 더랬다 \_{\\ \_{\\ \_{\\ medscimonit ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[],"�장고�장고 ">=</�장고 URLQ URLQ URLQ URLQ URLQ URLQ URLQ \*](# \*](# \*](# \*](# \*](# 는겨 는겨 ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ 로페이 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 을게요 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ^{\\ \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# ^{\\ 는겨 는겨 는겨 ">=</ $]{}; $]{}; }}{\\�장고 coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 ">=</ ">=</ ">=</ ">=</ ^{\\ coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq 는겨 는겨 mkern 계망 계망 계망 계망 rVert 는겨 는겨 는겨 mkern ">=</ ">=</ medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit 는겨 는겨 는겨 는겨 mkern mkern mkern mkern 는겨 는겨 mkern mkern mkern ">=</ ">=</ ">=</ 는겨 는겨 mkern mkern }}{\\ ">=</ ">=</ ">=</ ">=</ medscimonit 는겨 ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ 로페이 계망 계망 계망 mathbbm mathbbm mathbbm fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe                                                                           coloneqq coloneqq coloneqq coloneqq 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\ \_{\\
+2026-02-21 04:27:04 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문:  \_{\\ "}^ "}^ \*](# 는겨 \_{\\ \_{\\ \_{\\ ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ 로페이 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 ">=</ ^{\\ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ mkern mkern coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq \*](# 는겨 는겨 는겨 ">=</ ">=</ ">=</ ">=</ mkern 계망 계망 계망 계망 계망 "}^ "}^ "}^ "}^ "}^ \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# 을께요 을께요 을께요 을께요 을께요   는겨 는겨 ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ mkern mkern mkern mkern mkern 계망 계망 계망 계망 계망 계망 계망 rVert 는겨 는겨 ">=</ ">=</ ">=</ ">=</ ">=</ mkern mkern 계망 계망 계망 계망 계망 계망 ="../../../ 계망 textsf textsf medscimonit ">=</ ">=</ ">=</ ">=</ 으라며 으라며 으라며 \^[ \*](# \*](# \*](# \*](# 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 coloneqq coloneqq coloneqq coloneqq coloneqq \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 을께요 coloneqq coloneqq \*](# $]{} \*](# \*](# 을께요 을께요 을께요 을께요 을께요�장고�장고 ">=</ ">=</ ^{\\�장고�장고 ">=</ 로페이 로페이 로페이 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 ">=</ ">=</ ^{\\ ^{\\ coloneqq coloneqq coloneqq 을께요 을께요 을께요 을께요 coloneqq coloneqq \*](# $]{} medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 ">=</ ">=</ coloneqq coloneqq coloneqq ^{\\ ^{\\ \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# ^{\\ ^{\\ 는겨 는겨 는겨 는겨 fefefe fefefe fefefe fefefe 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨 는겨
+2026-02-21 04:27:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문:  gICAg \_{\\ \_{\\ \_{\\ medscimonit medscimonit 는겨 는겨 "}^ "}^ "}^ \*](# \*](# \*](# \*](# \*](# \*](# 는겨 는겨 는겨 는겨 는겨 는겨 ">=</  \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# \*](# 을께요 을께요 을께요 으실까 는겨 는겨 ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe 로페이    으실까 으실까 으실까 으실까 }}\_{ }}\_{ }}\_{ }}\_{ }}\_{ medscimonit ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ ">=</ coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq \*](# \*](# \*](# \*](# \*](# 을께요 을께요 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 으실까 \_{\\ 는겨 ">=</ ">=</ notChosen notChosen coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 "}^ "}^ "}^ "}^ "}^ \*](# \*](# \*](# ^{\\ "}^ "}^ endofsec endofsec endofsec endofsec 는겨 는겨 는겨 coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq coloneqq fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe }}\_{ }}\_{ }}\_{ }}\_{ rVert rVert 장보관 OnlineResponse 는겨 는겨 는겨 는겨 는겨 는겨 는겨 ":[]," ":[]," ":[]," ":[]," OnlineResponse ^{\\ \*](# \*](# \*](# \*](# \*](# \*](# \_{\\ medscimonit medscimonit medscimonit medscimonit medscimonit coloneqq coloneqq coloneqq coloneqq 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 계망 ">=</ ^{\\ 는겨 는겨 coloneqq coloneqq coloneqq coloneqq coloneqq fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe 는겨 는겨 는겨 는겨 는겨 ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," coloneqq coloneqq coloneqq coloneqq coloneqq fefefe fefefe fefefe fefefe fefefe fefefe fefefe medscimonit medscimonit medscimonit medscimonit 는겨 는겨 ":[]," ":[]," ":[]," ":[]," ":[],"   fefefe medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit medscimonit 는겨 는겨 는겨 는겨           는겨 ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," ":[]," fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe fefefe
+2026-02-21 04:28:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 04:28:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 04:28:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 04:28:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 04:28:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 04:28:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 04:28:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+2026-02-21 04:28:03 - WARNING - [data_augmentor.py:66] - ⚠️ 추론 중 에러 발생:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 102, in run_pipeline_async
+    async with ClientSession(read, write) as session:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    raise exc_val
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 117, in run_pipeline_async
+    initial_results = await self.run_generation_batch(session, indexed_dataset, mode="initial")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 97, in run_generation_batch
+    results = await tqdm.gather(*async_tasks, desc=f"🚀 {mode} 증강 진행 중")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/tqdm/asyncio.py", line 79, in gather
+    res = [await f for f in cls.as_completed(ifs, loop=loop, timeout=timeout,
+           ^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 627, in _wait_for_one
+    f = await done.get()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+    final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf7b3390b5220>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf7b3390b5250>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

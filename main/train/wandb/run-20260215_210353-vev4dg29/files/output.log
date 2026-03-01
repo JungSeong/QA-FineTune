@@ -1,0 +1,12 @@
+2026-02-15 21:03:54 - INFO - [main.py:33] - Loading Dataset...
+2026-02-15 21:03:54 - INFO - [preprocess_dataset.py:21] - Loading Dataset...
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 64, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 34, in main
+    dataset = preprocess_dataset()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/preprocess_dataset.py", line 29, in preprocess_dataset
+    ds_split = hf_dataset.train_test_split(test_size=0.2, seed=seed)
+                                                               ^^^^
+NameError: name 'seed' is not defined

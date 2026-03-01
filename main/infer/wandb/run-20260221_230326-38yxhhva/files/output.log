@@ -1,0 +1,20 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 23:03:28 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 23:03:28 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c8083-402e-7d1b-8ebb-04d43011cbb8
+2026-02-21 23:05:16 - INFO - [data_augmentor.py:166] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+2026-02-21 23:05:16 - INFO - [data_augmentor.py:317] - 🧹 [MCP] VRAM 확보를 위해 모델 언로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c8084-dc8d-788f-8f22-a6e764bd5b3f
+2026-02-21 23:05:18 - INFO - [evaluator.py:20] - ⚖️ [Eval] 로컬 평가 모델 로딩: /home/vsc/LLM/model/Exaone-3.5-32B-Instruct
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning:
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+
+  queued_call()
+Loading weights: 100%|████████| 579/579 [00:59<00:00,  9.73it/s, Materializing param=transformer.wte.weight]
+2026-02-21 23:06:21 - INFO - [data_augmentor.py:322] - ⚖️ [Eval] 로컬 모델 기반 품질 검증 실행
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

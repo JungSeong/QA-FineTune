@@ -1,0 +1,12 @@
+{"time":"2026-02-26T00:20:57.818385607+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T00:20:57.922648018+09:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2026-02-26T00:20:57.92271709+09:00","level":"INFO","msg":"stream: created new stream","id":"ajrtk30u"}
+{"time":"2026-02-26T00:20:57.922756034+09:00","level":"INFO","msg":"handler: started","stream_id":"ajrtk30u"}
+{"time":"2026-02-26T00:20:57.922932481+09:00","level":"INFO","msg":"stream: started","id":"ajrtk30u"}
+{"time":"2026-02-26T00:20:57.923048785+09:00","level":"INFO","msg":"writer: started","stream_id":"ajrtk30u"}
+{"time":"2026-02-26T00:20:57.923055297+09:00","level":"INFO","msg":"sender: started","stream_id":"ajrtk30u"}
+{"time":"2026-02-26T00:20:57.923332064+09:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2026-02-26T00:21:01.482291732+09:00","level":"INFO","msg":"stream: closing","id":"ajrtk30u"}
+{"time":"2026-02-26T00:21:01.482466148+09:00","level":"INFO","msg":"handler: closed","stream_id":"ajrtk30u"}
+{"time":"2026-02-26T00:21:01.482509812+09:00","level":"INFO","msg":"sender: closed","stream_id":"ajrtk30u"}
+{"time":"2026-02-26T00:21:01.482514452+09:00","level":"INFO","msg":"stream: closed","id":"ajrtk30u"}

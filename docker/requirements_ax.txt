@@ -1,0 +1,10 @@
+mcp>=1.2.0
+sse-starlette
+uvicorn
+fastapi
+pydantic>=2.0
+httpx<0.28.0
+torch
+transformers
+accelerate
+fastmcp

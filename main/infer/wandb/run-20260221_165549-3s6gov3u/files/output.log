@@ -1,0 +1,281 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 16:55:51 - INFO - [model_utils.py:21] - /home/vsc/LLM/model/A.X-4.0-Light
+2026-02-21 16:55:51 - INFO - [model_utils.py:31] - 📂 /home/vsc/LLM/model/A.X-4.0-Light에서 로컬 모델을 발견했습니다
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b07b-746c-a8f5-da125dff8d3f
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:92] - 📊 데이터 품질 및 분포 분석 시작: ../data/json/augmented_data.jsonl
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:113] -
+══════════════════════════════════════════════════
+📈 데이터셋 리포트 (총 450개)
+--------------------------------------------------
+       count  percentage
+yes      175       38.89
+no       105       23.33
+info     116       25.78
+false     50       11.11
+--------------------------------------------------
+⚖️ 불균형 지수 (Gini): 0.216 (0에 가까울수록 좋음)
+🧩 다양성 지수 (Self-BLEU): 0.206 (낮을수록 좋음)
+══════════════════════════════════════════════════
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:249] - 📉 [Iteration 1] 부족분 84건 보완 시작...
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['yes']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['yes']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['yes']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['yes', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no', 'info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['yes']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['info', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no', 'false']
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:209] - 부족한 Task : ['no', 'false']
+🚀 targeted 증강 진행 중:   0%|                                                                               | 0/84 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b13f-78b4-b4b8-06553ae84db5
+2026-02-21 16:55:54 - INFO - [data_augmentor.py:151] - 💾 실시간 저장 워커 시작: ../data/json/augmented_data.jsonl
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b144-7803-8596-035d46e386e7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b144-778a-8126-ad117f087d1a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b144-7bab-ab1d-b06022b64704
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b13d-7aa3-88d5-9006420aa9d6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b141-7bbe-993f-dc5675843305
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b145-7300-9865-db231ce42e44
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b145-73b4-a9d6-bf9e4fcda020
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b146-7706-bcab-8e655e6437d8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b145-7bc5-b9fc-981534ae4ad4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b145-738e-b124-a44a3ad0694a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b145-7fbd-a993-298abf848ce6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b146-72bb-b2ac-74072e243330
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b137-7653-855b-8ea1baf7bbdd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b146-7db3-a7cd-5a5c3d009951
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b146-7177-be07-258d10b9aab5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-7f60-9b78-c7c2e27a90ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-703f-823a-a634056684b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-71d1-85a2-9d6ddd028994
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-794e-8ace-42681cdb9947
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-7d83-b268-7422133248ec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-7922-8507-caa7fdbaa391
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-7f72-bb33-8b3ef52cfe93
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-749a-83f9-e02167431bea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-7405-91ff-bac57c63f5f6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-7ad2-a29c-09aca1f0f510
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-7891-be98-9d804a9ad773
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-79dc-b928-f07353841b94
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b147-7dc7-837a-881433abd75c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-76ad-8448-968c15370de4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-7aec-ac44-c68cc35ebe10
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-71fa-a4f6-1e0c9f5dd77a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-7d07-98fc-815be6d711ec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-7b4d-901c-634b15fa21cd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-7994-9e9f-e157dbe60864
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-738a-ae98-fd79a6d7e064
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-74c0-88c0-8c50ffaec2b8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-785a-909a-3ee85afbaf74
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-75fa-89c4-fbf2e99842f1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-7b9d-beb7-6183fcf4095b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-7f31-b08c-0210f2ed1aa2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-7673-ade7-db16592bbd39
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b148-7b64-83e4-0217a7d24082
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-799c-8f9c-3734e219c4c3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-7f52-b404-f912deda0405
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-7416-8d43-a1f25320b522
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-78ef-b03f-ccf3e4175d48
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-7a36-9078-3ca83837e3ac
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-74af-a8fc-10263205ba57
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-75d2-b6c8-098a857b68cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-7efb-ad79-aaa07be26327
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-7ef1-9caf-1064bf962738
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-7879-9804-eb5301183a03
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-712d-b43c-9f496e5f8b5b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-755e-8edf-3bd375f48b19
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b149-70d3-939b-56f1c4fc5466
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-75af-89b2-e1b02fe0dab9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-7efd-b1eb-6c91486b751f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-796e-bbeb-f1a5d26eccfe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-7c17-bbe7-40e1e45def9b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-7410-8cd8-3fdff02f5896
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-7655-8067-c8d11170021c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-7545-adbc-2dcb94648b54
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-76ce-a984-e06d208c6340
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-79df-9b68-b043b3ab6d8b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-7495-952c-e98e8f8f42cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-750a-945f-4b42b15843d9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-716b-ae31-87d3a98737d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14a-70b6-bdb5-0acfdace8af8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-70be-a7d4-6f17ce3a294e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-7dbc-82bd-7ea8f551648f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-7f92-a487-8bebf27baf19
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-776c-893a-a0adc05876ae
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-7be7-bd3d-8b568d69ffc6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-717d-9289-84aecf4d455d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-7273-bc5b-5889f12ac724
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-7c20-ad1c-7a8df0f3802b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-7935-977e-fd7a738331e9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-7646-9b13-12bf04bd9167
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-70c2-8914-934bc39f8e44
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-7047-b841-bc8064227d8c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14b-7374-b358-ce56b6334a23
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14c-778b-aa52-35529cfd5769
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7f32-b14c-7d23-9aff-378af33324d0
+2026-02-21 16:56:12 - INFO - [data_augmentor.py:178] - [{'question': '예약한 책이 있는데 현재 대출 중인 상태입니다. 이 책을 빌릴 수 있을까요?', 'answer': '죄송하지만 예약하신 도서는 대출 중이기 때문에 현재 대출이 불가능합니다.', 'label': 'info', 'difficulty': 'easy'}, {'question': '도서를 연체했는데, 상호대차를 신청할 수 있는지 궁금합니다.', 'answer': '도서가 연체된 상태에서는 상호대차 신청이 불가합니다. 연체 도서를 먼저 반납하셔야 합니다.', 'label': 'false', 'difficulty': 'normal'}, {'question': '시립도서관이 휴관일인 경우 상호대차 신청은 가능한가요?', 'answer': '시립도서관이 휴관인 경우에는 상호대차 신청을 할 수 없습니다. 휴관일은 공지에서 확인해 주시기 바랍니다.', 'label': 'false', 'difficulty': 'normal'}, {'question': '비도서 자료(DVD)는 대출 가능한지 알고 싶습니다.', 'answer': '비도서 자료인 DVD는 대출 가능합니다. 다만 대출 가능한 자료는 도서관 상황에 따라 다를 수 있으니 확인이 필요합니다.', 'label': 'info', 'difficulty': 'hard'}]
+🚀 targeted 증강 진행 중:  23%|███████████████▊                                                      | 19/84 [05:38<19:16, 17.79s/it]
+2026-02-21 16:56:25 - INFO - [data_augmentor.py:178] - [{'question': '리모델링 중인 도서관을 지금 이용할 수 있나요?', 'answer': '현재 도서관은 리모델링 중이며, 2026년 10월 이후에 재개관 예정입니다. 이용에 불편을 드려 죄송합니다.', 'label': 'no'}, {'question': '리모델링 끝나고 언제 다시 열 예정인가요?', 'answer': '도서관은 2026년 10월 이후에 재개관할 예정입니다. 그 이전에는 이용이 불가합니다.', 'label': 'no'}, {'question': '리모델링 기간 동안 도서 대출은 어떻게 되나요?', 'answer': '리모델링 기간 중에는 도서 대출이 불가능합니다. 재개관하면 정상 이용 가능합니다.', 'label': 'no'}, {'question': '리모델링 공사가 언제쯤 끝날지 알 수 있나요?', 'answer': '리모델링 공사는 2026년 10월까지 완료될 예정이며, 그 이후부터 도서관이 재개관됩니다.', 'label': 'no'}]
+2026-02-21 16:56:42 - INFO - [data_augmentor.py:178] - [{'question': '내 생애 첫 도서관 서비스는 어떻게 신청하나요?', 'answer': '『내 생애 첫 도서관』 서비스에 가입하시려면 경기도사이버도서관 웹사이트에서 회원신청을 하시고, 가까운 고양시도서관을 방문하여 회원가입 절차를 진행하셔야 합니다.', 'label': 'no'}, {'question': '내 생애 첫 도서관으로 몇 권의 책을 받을 수 있나요?', 'answer': '월 2회에 걸쳐 회당 최대 5권까지 받으실 수 있으며, 제공일로부터 14일간 이용하실 수 있습니다. 필요시 1회 7일 연장 가능합니다.', 'label': 'no'}, {'question': '장애인 두루두루 서비스는 임신부를 대상으로 하나요?', 'answer': "아니요, 장애인 두루두루 서비스는 대출회원 중 등록 장애인을 대상으로 하는 서비스입니다. 임신부는 '내 생애 첫 도서관' 서비스를 이용해야 합니다.", 'label': 'no'}, {'question': '내 생애 첫 도서관 서비스의 이용기간은 언제부터 언제까지인가요?', 'answer': '임신 이후부터 자녀가 생후 12개월까지 이용할 수 있습니다. 이 기간 동안 월 2회씩 최대 5권의 도서를 받으실 수 있습니다.', 'label': 'no'}]
+2026-02-21 16:56:57 - INFO - [data_augmentor.py:178] - [{'question': '이번 주 금요일에 도서관을 방문할 수 있나요?', 'answer': '죄송합니다. 이번 주 금요일은 정기휴관일입니다. 따라서 도서관에 방문하실 수 없습니다.', 'label': 'no'}, {'question': '토·일요일이 법정공휴일과 겹칠 때는 어떻게 되나요?', 'answer': '토·일요일과 법정공휴일이 겹치는 경우에는 도서관이 휴관됩니다.', 'label': 'no'}, {'question': '법정공휴일에는 항상 도서관이 쉬는 건가요?', 'answer': '네, 법정공휴일에는 도서관이 휴관됩니다. 다만 일요일과 겹치는 경우는 예외입니다.', 'label': 'no'}, {'question': '국가가 정한 임시 공휴일은 언제인지 알 수 있나요?', 'answer': '국가에서 정한 임시 공휴일은 관장이 필요하다고 인정하는 날에 휴관이 결정됩니다. 정확한 일정은 도서관 홈페이지나 안내문을 참고하시기 바랍니다.', 'label': 'no'}]
+2026-02-21 16:57:13 - INFO - [data_augmentor.py:178] - [{'question': '책바다 서비스는 어떤 경우에 이용할 수 없나요?', 'answer': '책바다 서비스는 국립중앙도서관에 가입된 상태에서만 이용 가능합니다. 만약 아직 가입하지 않으셨다면 먼저 국립중앙도서관 책바다 서비스를 통해 가입하셔야 합니다.', 'label': 'no'}, {'question': '책나래 서비스는 누가 이용할 수 있나요?', 'answer': '책나래 서비스는 보건복지부 등록 장애인, 국가보훈처 등록 국가유공상이자, 그리고 거동불편자(장기요양 대상자)가 이용할 수 있습니다. 이들은 고양시 도서관에서 회원가입 후 책나래 홈페이지를 통해 신청할 수 있습니다.', 'label': 'no'}, {'question': '책나래 서비스의 비용은 얼마인가요?', 'answer': '책나래 서비스는 무료입니다. 도서관 방문이 어려운 분들을 위해 우체국 택배를 이용하여 집까지 자료를 배달해 주는 서비스로 비용이 발생하지 않습니다.', 'label': 'no'}, {'question': '책바다 서비스로 대출한 책은 어떻게 반납하나요?', 'answer': '책바다 서비스로 대출한 책의 반납은 책나래 홈페이지를 통해 신청해야 합니다. 직접 반납은 불가능합니다.', 'label': 'no'}]
+2026-02-21 16:57:32 - INFO - [data_augmentor.py:178] - [{'question': '고양시도서관 회원은 무인도서 대출반납기를 이용할 수 있나요?', 'answer': '네, 맞습니다. 고양시도서관 회원이라면 365일 언제든지 무인도서 대출반납기를 이용하실 수 있습니다. 이 기계에는 약 400~600여 권의 도서가 비치되어 있으니 편리하게 이용하시기 바랍니다.', 'label': 'no'}, {'question': '무인도서 대출반납기는 몇 권 정도 구비되어 있나요?', 'answer': '무인도서 대출반납기에는 약 400~600권의 도서가 비치되어 있습니다. 다양한 장르의 책을 쉽게 찾으실 수 있을 거예요.', 'label': 'no'}, {'question': '비회원도 무인도서 대출반납기를 사용할 수 있나요?', 'answer': '아니요, 비회원께서는 무인도서 대출반납기를 이용하실 수 없습니다. 고양시도서관 회원가입이 필요합니다.', 'label': 'no'}, {'question': '무인도서 대출반납기에서 연체된 책도 대출할 수 있나요?', 'answer': '연체된 책이 있는 경우 무인도서 대출반납기를 통한 대출은 불가능합니다. 먼저 연체 도서를 반납하신 후에 대출 서비스를 이용하시면 됩니다.', 'label': 'no'}]
+2026-02-21 16:57:51 - INFO - [data_augmentor.py:178] - [{'question': '장기 사물함 이용 방법 알려주세요.', 'answer': '장기 사물함 사용은 위탁업체를 통해 가능합니다. 사물함에 부착된 전화로 관리자에게 문의하시면 사용대장과 사용료 관련 안내를 받으실 수 있습니다. 다만 아람누리, 풍동, 주엽어린이, 화정어린이, 행신어린이도서관에서는 사물함을 운영하지 않으니 이용에 참고해 주시기 바랍니다.', 'label': 'no'}, {'question': '우리 도서관에서 사물함을 사용할 수 있나요?', 'answer': '해당 도서관이 사물함을 운영하는지 확인해야 합니다. 아람누리, 풍동, 주엽어린이, 화정어린이, 행신어린이도서관에서는 사물함을 제공하지 않으므로, 다른 도서관을 방문해 주세요.', 'label': 'no'}, {'question': '사물함 이용료는 얼마인가요?', 'answer': '사물함 이용료는 위탁업체에 따라 다를 수 있으며, 구체적인 금액은 사물함에 부착된 안내문을 참고하시거나 직접 관리자에게 문의하시는 것이 좋습니다.', 'label': 'no'}, {'question': '물품 보관 기간 제한은 어떻게 되나요?', 'answer': '장기 사물함의 물품 보관 기간에 대한 정보는 제공된 문서에서 확인되지 않으나, 일반적으로 위탁업체의 규정에 따라 관리됩니다. 자세한 내용은 사물함 관리자에게 문의해 주세요.', 'label': 'no'}]
+2026-02-21 16:58:14 - INFO - [data_augmentor.py:178] - [{'question': '고양시도서관센터의 회원증은 어떻게 발급받나요?', 'answer': '고양시도서관센터 회원증을 발급받으시려면 먼저 도서관센터 홈페이지에서 회원가입을 하신 후, 가까운 시립도서관을 방문하셔서 회원증을 발급받으시면 됩니다. 이때 신분증을 꼭 지참하셔야 해요.', 'label': 'no'}, {'question': '스마트도서관에서 대출 가능한 책의 권수는 어떻게 되나요?', 'answer': '스마트도서관에서는 1인당 최대 2권의 책을 대출할 수 있으며, 이는 일반 도서관의 대출권수와 동일합니다. 단, 지축역, 삼송역, 원당역, 화정역, 고양시청 스마트도서관은 화정도서관의 대출권수에 포함되고, 마두역, 백마역 스마트도서관은 아람누리도서관의 대출권수에 포함됩니다. 주엽역, 대화역, 일산역 스마트도서관은 대화도서관의 대출권수에 포함되니 참고하세요.', 'label': 'false'}, {'question': '고양시도서관센터에서 대출한 책은 언제까지 빌릴 수 있나요?', 'answer': '고양시도서관센터에서 대출하신 일반도서는 기본적으로 14일간 대출 가능하며, 1회에 한해 반납 연기를 하실 수 있습니다.', 'label': 'no'}, {'question': '회원증이 없으면 도서 대출이 가능한가요?', 'answer': '회원증이 없는 경우에는 도서 대출이 불가능합니다. 도서관 이용에 앞서 회원증을 발급받으셔야 합니다.', 'label': 'no'}]
+2026-02-21 16:58:27 - INFO - [data_augmentor.py:178] - [{'question': '우리 도서관 주소는 어디인가요?', 'answer': "도서관 주소는 '도서관소개 > 찾아오는길' 페이지에서 확인하실 수 있습니다.", 'label': 'no'}, {'question': '도서관을 방문하려면 어떻게 가야 하나요?', 'answer': "도서관 오시는 방법은 '도서관소개 > 찾아오는길'에서 확인 가능합니다. 주소, 연락처, 대중교통편 등을 상세히 안내해드리고 있으니 참고해 주세요.", 'label': 'no'}, {'question': '도서관에 전화하고 싶은데 전화번호는 무엇인가요?', 'answer': "전화번호는 '도서관소개 > 찾아오는길'에서 확인하실 수 있습니다.", 'label': 'no'}, {'question': '도서관은 지하철역에서 가까운가요?', 'answer': "지하철역과의 거리 정보는 '도서관소개 > 찾아오는길'에서 확인할 수 있습니다. 대중교통편을 참고하시면 도움이 될 것입니다.", 'label': 'no'}]
+2026-02-21 16:58:43 - INFO - [data_augmentor.py:178] - [{'question': '스마트도서관에서 빌린 책은 어디에서 반납해야 하나요?', 'answer': '스마트도서관에서 대출하신 도서는 반드시 대출하신 기기에서만 반납하셔야 합니다. 상호대차 서비스나 책누리 서비스를 통한 반납은 불가능합니다.', 'label': 'yes'}, {'question': '다른 도서관에서 빌린 책을 스마트도서관에 반납할 수 있나요?', 'answer': '아니요, 다른 도서관에서 빌린 책은 스마트도서관에서 반납할 수 없습니다. 대출한 기기로 직접 반납해 주셔야 합니다.', 'label': 'yes'}, {'question': '스마트도서관에서 대출한 책을 다른 도서관에 반납해도 되나요?', 'answer': '죄송합니다. 스마트도서관에서 대출한 책은 해당 기기가 있는 스마트도서관에만 반납하셔야 합니다. 다른 도서관에서는 반납이 불가합니다.', 'label': 'yes'}, {'question': '책누리를 통해 대출한 책은 어디에 반납하나요?', 'answer': '책누리로 대출하신 책은 해당 도서관의 지정된 반납처에 반납하시면 됩니다. 스마트도서관 반납은 지원하지 않습니다.', 'label': 'no'}]
+2026-02-21 16:58:59 - INFO - [data_augmentor.py:178] - [{'question': '고양시의 전자책을 PC로 어떻게 이용할 수 있나요?', 'answer': "PC에서 전자책을 이용하시려면 고양시 전자책도서관 홈페이지에 접속하신 후, '이용안내' 탭을 통해 설치 및 이용 방법을 따라가시면 됩니다.", 'label': 'yes'}, {'question': '모바일 기기에서 고양시의 전자책을 어떻게 볼 수 있나요?', 'answer': "리브로피아 어플을 다운로드한 후, '모바일 전자책' 메뉴를 선택하여 원하는 책을 다운로드하여 이용하실 수 있습니다.", 'label': 'yes'}, {'question': '전자책 서비스는 모바일에서만 가능한가요?', 'answer': "아니요, 전자책은 PC에서도 이용 가능합니다. 고양시 전자책도서관 홈페이지에서 '이용안내'를 참고하시어 설치하시면 됩니다.", 'label': 'yes'}, {'question': '전자책 대출을 위해 특별한 소프트웨어가 필요한가요?', 'answer': '특별한 소프트웨어는 필요 없습니다. PC에서는 웹사이트를, 모바일에서는 리브로피아 앱을 통해 쉽게 접근하실 수 있습니다.', 'label': 'yes'}]
+2026-02-21 16:59:24 - INFO - [data_augmentor.py:178] - [{'question': '어린이자료실은 주말에 몇시까지 운영하나요?', 'answer': '어린이자료실은 주말에도 09:00부터 18:00까지 운영됩니다.', 'label': 'no'}, {'question': '종합자료실에서 연속간행물을 볼 수 있나요?', 'answer': '네, 종합자료실 1, 2에서 연속간행물을 이용할 수 있습니다.', 'label': 'true'}, {'question': '그라운드 10 공간은 평일 저녁 8시 이후 이용 가능한가요?', 'answer': '그라운드 10은 평일 19:00까지 운영되므로, 평일 저녁 8시 이후에는 이용이 불가능합니다.', 'label': 'no'}, {'question': '주말 종합자료실의 운영시간은 어떻게 되나요?', 'answer': '주말 종합자료실은 09:00부터 18:00까지 운영됩니다.', 'label': 'true'}, {'question': '어린이자료실과 종합자료실은 동일한 시간에 운영되나요?', 'answer': '어린이자료실은 평일과 주말 모두 09:00~18:00 운영하며, 종합자료실은 평일은 09:00~22:00, 주말은 09:00~18:00 운영됩니다. 따라서 일부 시간대에는 다릅니다.', 'label': 'false'}, {'question': '종합자료실에서 PC 사용은 언제부터 가능한가요?', 'answer': '종합자료실 내 PC코너는 평일 09:00부터 22:00, 주말 09:00부터 18:00까지 이용 가능합니다.', 'label': 'true'}]
+2026-02-21 17:00:03 - INFO - [data_augmentor.py:178] - [{'question': '우리 도서관 분점은 몇 곳인가요?', 'answer': '저희 도서관은 관산, 내유, 대덕, 사리현, 화전, 마상공원, 모당공원 이렇게 총 7개의 작은도서관을 운영하고 있습니다.', 'label': 'no'}, {'question': '마상공원 작은도서관에서 책 대출을 할 수 있나요?', 'answer': '네, 마상공원 작은도서관에서도 책 대출이 가능합니다. 운영 시간과 대출 규정을 확인하신 후 방문해 주세요.', 'label': 'no'}, {'question': '관산 도서관에서 자료실을 이용할 수 있는 시간은 언제인가요?', 'answer': '관산 도서관의 자료실 이용시간은 평일 오전 9시부터 오후 6시까지이며, 주말과 공휴일은 오전 10시부터 오후 5시까지입니다.', 'label': 'no'}, {'question': '모당공원 작은도서관의 위치는 어디인가요?', 'answer': '모당공원 작은도서관은 모당공원 내에 위치해 있으며, 공원 입구 표지판을 따라오시면 쉽게 찾으실 수 있습니다.', 'label': 'no'}, {'question': '내유 도서관의 대출 가능 권수는 어떻게 되나요?', 'answer': '내유 도서관에서는 1인당 최대 5권까지 대출하실 수 있습니다. 단, 연체된 도서가 있을 경우 대출 권수가 제한될 수 있으니 참고해 주세요.', 'label': 'no'}, {'question': '사리현 도서관의 휴관일은 언제인가요?', 'answer': '사리현 도서관은 매주 월요일과 법정 공휴일에 휴관합니다. 방문 전에 꼭 확인해 주세요.', 'label': 'no'}, {'question': '화전 도서관에서 자료 열람은 가능한가요?', 'answer': '화전 도서관에서는 자료 열람이 가능하며, 조용한 환경에서 독서를 즐기실 수 있습니다.', 'label': 'no'}, {'question': '마상공원 작은도서관의 운영시간은 어떻게 되나요?', 'answer': '마상공원 작은도서관은 평일에는 오전 10시부터 오후 8시까지, 주말에는 오전 10시부터 오후 6시까지 운영됩니다.', 'label': 'no'}, {'question': '대덕 도서관의 정기휴관일은 무엇인가요?', 'answer': '대덕 도서관은 매달 첫째 주 화요일에 정기휴관일입니다. 이 날은 휴관이니 이용에 참고해 주시기 바랍니다.', 'label': 'no'}]
+2026-02-21 17:00:18 - INFO - [data_augmentor.py:178] - [{'question': '행신도서관 열람실 이용 시간은 어떻게 되나요?', 'answer': '행신도서관 열람실은 하절기에는 오전 7시부터 오후 11시까지, 동절기에는 오전 8시부터 오후 11시까지 운영됩니다.', 'label': 'no'}, {'question': '열람실을 이용할 때 좌석 발급기가 필요한가요?', 'answer': '네, 열람실 이용을 위해서는 각 도서관에 설치된 좌석발급기를 통해 좌석을 배정받아야 합니다.', 'label': 'no'}, {'question': '겨울철에 신원도서관 열람실을 몇 시부터 이용할 수 있나요?', 'answer': '겨울철(11월~2월)에는 신원도서관 열람실을 오전 8시부터 이용하실 수 있습니다.', 'label': 'no'}, {'question': '웹회원으로 열람실 이용 가능한가?', 'answer': '네, 웹회원과 도서관 회원 모두 열람실 이용이 가능합니다.', 'label': 'no'}]
+2026-02-21 17:00:32 - INFO - [data_augmentor.py:178] - [{'question': '고양시에 있는 사립 작은도서관의 수는 몇 개인가요?', 'answer': '현재 고양시에는 총 87개의 사립 작은도서관이 있습니다.', 'label': 'no'}, {'question': '사립 작은도서관은 공공도서관과 같은가요?', 'answer': '아니요, 사립 작은도서관은 공공도서관과는 다르게 민간에서 운영하는 도서관입니다. 다양한 주체와 방법으로 설립되고 운영됩니다.', 'label': 'no'}, {'question': '고양시의 사립 작은도서관 수는 어떻게 되나요?', 'answer': '고양시에는 2025년 6월 기준으로 총 87개의 사립 작은도서관이 있습니다.', 'label': 'no'}, {'question': '사립 작은도서관을 이용하려면 예약이 필요한가요?', 'answer': '예약 여부는 도서관마다 다를 수 있지만, 일반적으로 회원 가입 후 이용이 가능합니다. 자세한 사항은 각 도서관의 규정을 확인해 보세요.', 'label': 'yes'}]
+2026-02-21 17:00:49 - INFO - [data_augmentor.py:178] - [{'question': '도서관 홈페이지에서 건의사항을 올리려면 어떻게 해야 하나요?', 'answer': "도서관 홈페이지에서 '도서관소식' 메뉴 아래의 '[건의사항]' 게시판에 등록하시면 됩니다. 담당자가 수시로 확인하여 조치 및 답변을 드릴 예정입니다.", 'label': 'no'}, {'question': '고양시에서 도서관 관련 민원을 제기하려면 국민신문고를 이용해야 하나요?', 'answer': '네, 맞습니다. 고양시 정식 민원창구로서 국민신문고 사이트를 통해 민원신청 또는 제안신청을 하실 수 있습니다. 법령에 정해진 기한 내에 정식 처리절차를 거쳐 답변 드리겠습니다.', 'label': 'no'}, {'question': '도서관에서 제공하는 서비스는 어디에 문의해야 하나요?', 'answer': "도서관 서비스에 관한 문의는 도서관 홈페이지의 '[건의사항]' 게시판을 이용하시면 됩니다. 담당자에게 직접 확인 후 조치가 이루어집니다.", 'label': 'no'}, {'question': '도서관 이용 중 불편한 점이 있는데, 바로 신고할 수 있는 방법이 있나요?', 'answer': "즉시 답변이나 조치가 필요한 불편신고는 도서관 홈페이지의 '[건의사항]' 게시판에 등록해 주시면 됩니다. 담당자가 신속히 확인하고 조치하겠습니다.", 'label': 'no'}]
+2026-02-21 17:01:04 - INFO - [data_augmentor.py:178] - [{'question': '월요일에 도서관을 갈 수 있을까요?', 'answer': '죄송합니다. 저희 도서관은 매주 월요일이 정기휴관일입니다. 따라서 월요일에 방문하시면 이용할 수 없습니다.', 'label': 'no'}, {'question': '법정공휴일에는 도서관이 열려있나요?', 'answer': '아니요, 법정공휴일에는 도서관이 휴관됩니다. 다만 일요일과 겹치는 법정공휴일은 예외입니다.', 'label': 'no'}, {'question': '토·일요일에 도서관이 열리나?', 'answer': '토요일과 일요일은 정상적으로 운영됩니다. 그러나 법정공휴일이 겹칠 경우에는 휴관하니 참고하시기 바랍니다.', 'label': 'yes'}, {'question': '임시 공휴일에 도서관을 이용할 수 있나요?', 'answer': '임시 공휴일에도 도서관은 휴관됩니다. 국가의 공식 휴일로 지정된 날은 모두 휴관되니 이용에 참고해 주시기 바랍니다.', 'label': 'no'}]
+2026-02-21 17:01:21 - INFO - [data_augmentor.py:178] - [{'question': '우리 집 2층에 있는 작은도서관은 등록 가능한가요?', 'answer': '아니요, 2층은 도서관 등록이 불가능합니다. 건축법상 작은도서관은 제1종 근린생활시설, 교육연구시설, 단독주택 1층, 공동주택에만 위치해야 합니다.', 'label': 'no'}, {'question': '도서관 자료 1,000점 미만이면 등록이 가능한가요?', 'answer': '아니요, 자료 수는 1,000점 이상이어야 합니다. 도서관법에 따라 1,000점 미만의 자료는 등록 대상이 아닙니다.', 'label': 'no'}, {'question': '도서관 면적이 32㎡인 경우에도 등록이 가능한가요?', 'answer': '아니요, 면적은 33㎡ 이상이어야 합니다. 도서관법에 따르면 건물면적은 33㎡ 이상이 요구됩니다.', 'label': 'no'}, {'question': '사립작은도서관을 등록하려면 어떤 서류를 준비해야 하나요?', 'answer': '등록 신청 시 필요한 서류는 고양시 도서관센터 홈페이지에서 확인할 수 있으며, 특히 [서식5 체크리스트]를 참고하시면 됩니다. 자세한 사항은 홈페이지를 확인해주세요.', 'label': 'false'}]
+2026-02-21 17:01:26 - INFO - [data_augmentor.py:178] - [{'question': '고양시도서관센터의 전자책 서비스를 이용하려면 어떻게 해야 하나요?', 'answer': '고양시도서관센터의 전자책 서비스를 이용하시려면 먼저 교보문고 전자도서관 어플을 설치하고, 도서관 검색에서 고양시도서관센터를 선택한 후 우측 상단의 종 모양 아이콘을 클릭하여 로그인하시면 됩니다.', 'label': 'no'}]
+2026-02-21 17:01:32 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 17:01:32 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 17:01:32 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 17:01:32 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 17:01:32 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 17:01:32 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 17:01:32 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+2026-02-21 17:01:32 - WARNING - [data_augmentor.py:187] - ⚠️ 추론 중 에러 발생:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 227, in run_pipeline_async
+    async with ClientSession(read, write) as session:
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    raise exc_val
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 250, in run_pipeline_async
+    await self.run_generation_batch(session, missing_tasks, mode="targeted")
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/data_augmentor.py", line 222, in run_generation_batch
+    results = await tqdm.gather(*async_tasks, desc=f"🚀 {mode} 증강 진행 중")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/tqdm/asyncio.py", line 79, in gather
+    res = [await f for f in cls.as_completed(ifs, loop=loop, timeout=timeout,
+           ^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 627, in _wait_for_one
+    f = await done.get()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 48, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/infer/main.py", line 38, in main
+    final_file = asyncio.run(augmentor.run_pipeline_async(dataset, f"{config.AUGMENTED_DATA_PATH}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf6f36f6bcfe0>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method AsyncBatchProcessor.stop_accepting_new_work_and_flush_queue of <weave.trace_server_bindings.async_batch_processor.AsyncBatchProcessor object at 0xf6f36f1d3b90>>
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/lib-QA/lib/python3.12/site-packages/weave/trace_server_bindings/async_batch_processor.py", line 146, in stop_accepting_new_work_and_flush_queue
+    self.processing_thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

@@ -1,0 +1,11 @@
+{"time":"2026-02-15T22:05:43.844338323+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-15T22:05:44.223862667+09:00","level":"INFO","msg":"stream: created new stream","id":"iapprlki"}
+{"time":"2026-02-15T22:05:44.224016842+09:00","level":"INFO","msg":"stream: started","id":"iapprlki"}
+{"time":"2026-02-15T22:05:44.224193977+09:00","level":"INFO","msg":"writer: started","stream_id":"iapprlki"}
+{"time":"2026-02-15T22:05:44.224224233+09:00","level":"INFO","msg":"handler: started","stream_id":"iapprlki"}
+{"time":"2026-02-15T22:05:44.224232201+09:00","level":"INFO","msg":"sender: started","stream_id":"iapprlki"}
+{"time":"2026-02-15T22:07:04.030336143+09:00","level":"INFO","msg":"stream: closing","id":"iapprlki"}
+{"time":"2026-02-15T22:07:04.622889152+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-15T22:07:04.981058692+09:00","level":"INFO","msg":"handler: closed","stream_id":"iapprlki"}
+{"time":"2026-02-15T22:07:04.981176739+09:00","level":"INFO","msg":"sender: closed","stream_id":"iapprlki"}
+{"time":"2026-02-15T22:07:04.981191667+09:00","level":"INFO","msg":"stream: closed","id":"iapprlki"}

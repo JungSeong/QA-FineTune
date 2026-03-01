@@ -1,0 +1,7 @@
+{"time":"2026-02-21T11:12:53.11121234+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-21T11:12:53.463050031+09:00","level":"INFO","msg":"stream: created new stream","id":"buoewctl"}
+{"time":"2026-02-21T11:12:53.463146879+09:00","level":"INFO","msg":"handler: started","stream_id":"buoewctl"}
+{"time":"2026-02-21T11:12:53.463216271+09:00","level":"INFO","msg":"stream: started","id":"buoewctl"}
+{"time":"2026-02-21T11:12:53.463249551+09:00","level":"INFO","msg":"writer: started","stream_id":"buoewctl"}
+{"time":"2026-02-21T11:12:53.463276767+09:00","level":"INFO","msg":"sender: started","stream_id":"buoewctl"}
+{"time":"2026-02-21T11:16:00.066226471+09:00","level":"INFO","msg":"stream: closing","id":"buoewctl"}

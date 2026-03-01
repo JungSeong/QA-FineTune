@@ -1,0 +1,661 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-21 14:13:39 - INFO - [model_utils.py:29] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model
+config.json: 100%|████████████████████████████████████████████████████████████████████████| 674/674 [00:00<00:00, 5.60MB/s]
+tokenizer_config.json: 12.5kB [00:00, 58.8MB/s]
+tokenizer.json: 8.50MB [00:00, 25.9MB/s]
+special_tokens_map.json: 1.75kB [00:00, 10.6MB/s]
+2026-02-21 14:13:44 - INFO - [data_augmentor.py:105] - 🔄 skt/A.X-4.0-Light 모델 로드 요청...
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3890-7bd7-842e-dd3f5fc78840
+2026-02-21 14:13:44 - INFO - [data_augmentor.py:112] - 📡 서버 응답: ❌ 모델 로드 실패: A.X-4.0-Lite is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+🚀 initial 증강 진행 중:   0%|                                                                     | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-7415-a93c-4eb9e5baef44
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-7a51-89cd-9d9a982e67dc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d7-7568-9211-14f43a4e30a1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d8-7168-8066-730495eafd07
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-7d44-a698-e4714d487279
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d8-72ca-b898-7daed7eb666b
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-7172-8125-218c48ad8e48
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-742a-a6b7-bf48dd6e878c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-7717-904a-4069eab3db6e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d3-76ab-9153-0c9b7979e69a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-7940-8e9b-8156e3fa63f7
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-755a-ac22-bcab26de75ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d8-7c8a-86a1-155cfac85b11
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-7f18-98be-a6ea358e764e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-72e8-8d2a-65dbe1933a9a
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-77ef-8ca4-f00efcf9c532
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39d9-711d-9f84-62a91e107f17
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-7133-b9ab-b65e5fea09a2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-7619-b6f3-4fbd7901a58f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-7d95-af30-cae911141e46
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-72b6-82a5-755cbf27ca22
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-763c-b0d6-d2b00cf6e7b9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-7064-be0f-eb40c73d1e83
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-7d3f-84a8-ae928b19d50c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-7021-9cae-b3d75115bb97
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-7bc8-bc17-9fe9249201d8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39da-744c-a90a-7a757f9fbe4a
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39db-78f2-aaf9-f95c3aa160e3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39db-7f93-8fd3-73f41ca264f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39db-76ce-aa95-228f8ea9038e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39db-7baf-b888-56b71bb134c5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-74ab-8909-d01fce154b53
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39db-7ade-ad19-f809c4b38d9a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-73da-9d03-1f17bf58273c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-7c50-be0a-7bc361c7498a
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-7d5c-8939-10694aabc9f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-78f0-bc84-2e61dade4131
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-743e-a985-30708dbde064
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-7d9b-9d50-0f030337210c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-785c-bfd9-593305918ea0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-79c1-90c2-645b5f1e3a22
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-7dc7-90dd-03a7dcff92f6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-7e33-9d48-b7f58f935a1c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-7b75-be7a-f98f6ce78007
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-75c4-bc6f-f67fd91c52aa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dc-771b-8bed-fda6864c4b73
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-7aab-a735-8c9b8479e6dd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-78b8-8aef-4fe21dd1f05d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-7bb8-a575-8830fa6eb4de
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-75b8-8d49-02a29ebc75d6
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-7757-9936-639350d3f87b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-7852-809c-4ba2e339961f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-785b-ba91-ebd6588af318
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-73ac-902d-ea640cfc5ee7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-72e0-96de-7253cd1c9715
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-7176-a819-f14ce6e89658
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-7396-96a7-af50777ec977
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-7865-8347-d1423747779a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39dd-7e85-abe0-d77634d34b34
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-74eb-a066-53adc0b76fb8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-73fd-a8cb-1825fee9b722
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-7314-bfd3-9d08b9e6bdcb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-7990-bbde-7a2c0da93221
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-707a-a466-cddba1cc4374
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-7078-ab7c-19c3c505e095
+🚀 initial 증강 진행 중:  11%|██████▍                                                    | 12/110 [00:00<00:00, 115.43it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-7e18-a188-4005f5ef34c5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-7745-83fe-eb5bf036528d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-70cc-b2e5-f67bcfd4062f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-70f3-b0a8-68bc0d4e16aa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-7ac2-a1d7-56212da8f35c
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-7e16-92c4-8595d94bedc4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39de-7941-9c34-902cc0b0d35d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7571-a63b-54f0d8672809
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7464-b8ef-f856e5cf7568
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-778a-b3de-f70ba02ec2b6
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7599-be03-2b0ca9325919
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7fe3-9656-d777efab055a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7d64-ae58-c133bda11a27
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-766f-894b-5721efb55e86
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7d58-b949-aa6d6c7cb40d
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-759f-88bd-6a1f784cd9ca
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7597-8e53-2e507946fd1b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7eab-84d5-0b348004dd82
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7719-bb94-5b249cdd7bad
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39df-7f92-bdfd-58fa5abf9155
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-716c-a131-1458ad99c475
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-7011-bcd6-482fc39ecc95
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-7bc7-b013-4f0c28ae7250
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-762d-b6b5-abcadd436037
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-7410-b101-4331a913471c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-749a-a3d9-0d07614b45c7
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-7af4-97f1-eeb823d009bc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-7d06-870e-caeb983e6ef2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-7734-ba57-316b7c897823
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-722c-a022-3fa1e0dda3e7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-7b4d-b0be-a516cadbf347
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e0-7c95-a6b8-989029097cc2
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e1-7364-9b9b-97beac9e545b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e1-7e07-92ee-d90a48e8f7ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-39e1-7b2a-a855-ad7baea13b37
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+🚀 initial 증강 진행 중:  40%|███████████████████████▌                                   | 44/110 [00:00<00:00, 146.66it/s]
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:44 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 14:13:45 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 14:13:45 - INFO - [data_augmentor.py:133] - 📉 [Iteration 1] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                    | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c70-7df7-a9e9-d3c545668d01
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c70-73ff-a46f-c0aef7fb10a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c70-777a-9645-ede10efd2074
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-725b-a973-23fb1817a11e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-7020-a9ae-35e78d8bf130
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c70-7753-9035-c01d144ca90b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-726a-a219-1ba36b48a218
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-7f7e-aaeb-cc34edfef2e1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-75a7-aea0-8efab1671d22
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-751f-a02b-2e35c57784d5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-7f49-871d-430db81c8718
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-72ce-babe-5d94eb4a2f59
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-7312-9f84-420fe027a5b4
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-7aab-8ae4-7263ca1ad494
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-7f64-a47e-a7dbe8eb6023
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c71-762b-af15-e2a4c829e9fc
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-7153-bb6c-9c6f2eafc60f
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-766b-b9da-87919efac999
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-7fc4-9b86-615d2242375a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-7aca-993b-602e591d441b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-7800-a607-fdcf6dcdec0a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-7f60-b9bf-4cd6de46a84d
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-7ceb-99fd-cc18f6884228
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-7969-9a0a-55a56a1f65e8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-76e0-bb71-b217a76367da
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-7c88-ac61-7e5e226eaeff
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-75f7-8027-5870e66b505f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-7548-b392-7fff697ef3b4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c72-782b-b9f9-1f3703e544cb
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7276-8431-1c45b9dbcbc2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7559-96dc-7db74f202db4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7622-b789-37e0177dcc57
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7987-9dc7-8e1818b39537
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7cf7-8051-9bf56bdb75bd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7a53-8ee8-cfb795741400
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7d81-9303-401d6fb53d5c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7573-a4ca-141e102aa84c
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-776a-af54-123f08ddc4e4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7faa-bff1-39cdbcf55ac0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-76b6-b997-6246633d388f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c73-7089-9989-b5b591228d27
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-731d-b840-bd134df768ec
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-79e3-9c3f-ff2eb2a56ee1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-7de7-9726-fbc411c755d9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-7636-a3e4-0c3e276e0311
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-7792-9d41-90cd4b94fd16
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-7082-a895-e4d5543f8d9c
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-755d-877a-868f33350818
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-7782-9468-b73c88d0daa2
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-77e2-90b3-43985a8d86bd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-7da4-96fb-18fbcc225ee8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-7905-ac64-683936a089c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-79a4-a290-4fe195915f69
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-7617-b609-08da87c0fd05
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c74-78fe-9d10-7dc9f39fd1d1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-7221-8bec-a230df71d4b2
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-79ce-93a4-81c3b9fcfed9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-7b63-8d83-39f575a99f95
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-763a-8ba4-af24790360c4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-7dd8-be9d-a72c9aeb6e6d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-7718-a46b-eb27485addce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-768b-90d5-698bb5007d49
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-7a3c-8587-d57144ef7262
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-7df8-b093-e164f046b040
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c75-722d-9e26-79a2922bacd5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-7958-b3bb-af818f084c00
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-7865-a0ca-b104be7cad77
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-7464-bd91-1be9065caa71
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-7709-8ec9-3dd6f3b4ba18
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-790c-afa2-0ca781169492
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-713a-a2c2-a91fa51eabc1
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-7fda-b4e4-4029636eaad0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-7fe8-b4fd-969ca67b4d5a
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-76bd-aea1-d0945d4b7154
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c76-7ff5-9b97-5663358a349e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-73da-98a4-6bb67ef67e9d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-78d7-bf10-29cc05ec673c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-7a6a-bc02-ecdcaac0afd8
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-7f18-9bbc-43eb9495ad51
+🚀 targeted 증강 진행 중:  14%|███████▉                                                  | 15/110 [00:00<00:00, 146.02it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-755b-9d0a-f017b7fdd834
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-77cf-a601-64635b023ab9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-762b-8db7-7b5cc224cb7b
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-793b-8aea-1359e5d6fc5f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-7437-a783-64effd5da354
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-70f9-8aea-c98d8e771b9d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c77-7b7d-a550-b78859dd82db
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-75cc-82e6-f9a931a9e168
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-7d96-a7ad-d14f8ff912b9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-7d47-b858-94a3979f92af
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-7ab5-9c9e-5cbaeeeac3cd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-766a-b63d-622f97e3bba4
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-79d5-bdad-13f464aa7515
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-733f-94e9-5be964b779fe
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-738e-b8a7-13eaf6716e43
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-799b-bde2-58e825cee538
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-72c0-b83e-6135804e8077
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-7517-9298-666665f84a45
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c78-7e86-b2ab-e74f3659c7a5
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c79-7226-8106-8c0b80075c55
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3c79-7550-bd1a-bfd77e1ab866
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+🚀 targeted 증강 진행 중:  46%|██████████████████████████▉                               | 51/110 [00:00<00:00, 167.90it/s]
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:45 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - INFO - [data_augmentor.py:144] - 📊 분포 분석: ../data/json/augmented_data.jsonl
+2026-02-21 14:13:46 - INFO - [data_augmentor.py:161] -
+════════════════════════════════════════
+📈 전체 데이터 통계 (총 0개)
+       count  percentage
+yes        0         0.0
+no         0         0.0
+info       0         0.0
+false      0         0.0
+════════════════════════════════════════
+2026-02-21 14:13:46 - INFO - [data_augmentor.py:133] - 📉 [Iteration 2] 부족분 110건 보완 시작...
+🚀 targeted 증강 진행 중:   0%|                                                                    | 0/110 [00:00<?, ?it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f4f-7328-95f6-84c9d425309c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-7930-918a-60aa4aaff4bb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-7b5e-8818-ae3ef12e9611
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-78d1-8c09-57fbde5e4740
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-78e0-814e-335c145c62b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-78ba-b0c9-b2c321a0df0c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f4f-76f1-b7ca-973ddf0a2a28
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-71a5-94b8-2963a38e67df
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-77cf-befa-6a27f5149261
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-7830-9a4c-0a6eb6c81086
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-7105-adea-85fca3d23c72
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-77f1-8e74-45ed134a8d78
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f4f-7d4e-a08f-c7fa604e5eff
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-7d83-82e9-a5c0eb8d384a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-70db-9ecb-c997877c9f36
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-7e04-8742-d1de7e2ff352
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-7a69-afc1-7092f4e27307
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-7c07-960e-feda4adb10a7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-727a-ba0d-b6a1d184d3fb
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f50-709f-b598-d6df1ff56845
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-79c6-bc89-b7745d9b019f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-7836-a1a5-c4816316169b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-7d22-9abc-94346fed2702
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-7f6c-ae00-fb748359954e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-7ba4-85a6-cc7ee59e4130
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-776f-aa78-db0380c009f8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-7e1e-a133-4946fcfad08c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-75cd-8ae7-0abd765c9020
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f51-7ff2-aaf7-ddae0b36ee0c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-741a-9302-62c457deb61f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-7b41-a0b8-66aa860038c1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-7421-ad96-cc21e2ae47ed
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-7dbf-a759-e2375cc595fc
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-7826-bade-6604c9f4d7b1
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-7e74-ad05-932db80f450d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-742b-9a37-e2933192c597
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-71eb-875a-3c1fe2f580d8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-7891-931d-26f98b5d0ef7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f52-72e2-982e-7fd7e39c0199
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f53-72e4-a884-79257e336bea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f53-7ea9-9087-9a8337bf2c7f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f53-7c1e-8e8c-7ab6cd0269cb
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f53-7640-ac9a-1e4bf0449c79
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f53-7b07-a55f-b3c019387030
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f53-7871-9bf7-64029d7d7769
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f53-7490-8b22-efc3445a8791
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f53-78f8-981f-035e0e28d79d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-738f-ae46-0cb7231a8097
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7c3a-ba08-cdb81a21a52a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7d90-ad59-fd7769a9a306
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7e80-afdd-468d9794d34b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7d93-9696-59a52fae2255
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7048-9a1a-6aa2b05d97d8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7485-9b90-e9581d2c8ee7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7a3c-8bdb-e671ea4d37c9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-704f-9b08-64c88ec7aaaf
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7307-abcb-0d94eda1fb54
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7392-91fe-8e765b032efa
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-7f52-b2ba-ef3b8e10dfe6
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-720d-a8cd-ebfba38c4cce
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f54-731f-8497-2133e677d52f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-7f93-ad18-a64f769c15ac
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-7180-856b-a5d5a72ac37a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-72ce-b88d-4e40633297b3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-7edd-b2da-24b71576aa9b
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-7f2c-a9cf-ad75203af8cd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-798a-9ffe-9a29132c7f63
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-727b-afa7-cb5f5c7d0989
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-76f6-bf0f-cd07190e6761
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-7dc3-8dbc-0f7100f07b4f
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-7839-8602-e4e0802fa71c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-77d7-8e22-fc2b8cd9dfea
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f55-719c-ad7a-fdff7dd7e535
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-7bdf-8184-4dc012385fb3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-76b6-9935-259d6f2c41ef
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-73b8-a467-367c5715f6cc
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-7330-a3ce-2fa1ee2313ae
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-7a36-bdc4-a151901916f5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-7a1b-a9c2-13795982840c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-789b-bb74-d101027ed3b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-73d3-aae0-b671feda92c6
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-7096-baf1-ffa73e26bcf8
+🚀 targeted 증강 진행 중:  13%|███████▍                                                  | 14/110 [00:00<00:00, 136.76it/s][36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f56-7077-873d-f1b7b1fdfe7e
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-7e43-80d7-4965ac0d28a8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-79e3-9364-dea3cc70dea0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-7bad-a4f5-ac51274e5dbd
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-730e-8135-66d69c54931d
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-7ea3-82a9-2637455f9310
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-7499-bb31-a911af9e6686
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-797b-83bf-96379b09dff0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-729b-96d8-75da8981d0c8
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-7c92-ae43-2af307202210
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-7494-8c4b-a9b3f488115a
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f57-7fdb-9ab7-09b64d4b6139
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-722f-9adf-28828f9e79a5
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-771c-a1f3-50bde2fabfa9
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-772a-b81b-79acd5d865b4
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-7e78-8048-fa591f752879
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-73b4-8d86-4745efe1abe7
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-789c-9bb2-76a088433196
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-73e3-9c75-f6d21a67b32c
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-70a9-b1fc-58c98b6eb7b3
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-738b-a033-56a5a202ad24
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-7b38-92ca-7ff0542ad9b0
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-72da-b143-a2b375358758
+[36m[1mweave[0m: 🍩 https://wandb.ai/uailab-unist_/library-qa-finetune/r/call/019c7e9e-3f58-7523-8ee5-54efb1f44d4d
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+🚀 targeted 증강 진행 중:  43%|████████████████████████▊                                 | 47/110 [00:00<00:00, 155.22it/s]
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - ERROR - [data_augmentor.py:46] - ❌ JSON 파싱 실패! 서버 응답 원문: ❌ 먼저 switch_model을 실행하여 모델과 토크나이저를 로드하세요.
+2026-02-21 14:13:46 - INFO - [data_augmentor.py:140] - ✅ 파이프라인 완료: ../data/json/augmented_data.jsonl
