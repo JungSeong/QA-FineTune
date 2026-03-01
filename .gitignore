@@ -1,3 +1,5 @@
 .venv
 .notebook
+.env
+.env.local
 main/train/SFT/
