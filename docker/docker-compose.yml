@@ -37,6 +37,7 @@ services:
     image: exaone-vllm:latest
     ports:
       - "8001:4200" # 도커 컨테이너의 경우 독립된 네트워크 환경을 가져 동일 포트여도 괜찮다
+      - "8002:8000" # for vLLM (외부 8002 -> 내부 8000)
     deploy:
       resources:
         reservations:
