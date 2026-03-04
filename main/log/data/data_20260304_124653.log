@@ -1,0 +1,78 @@
+2026-03-04 12:46:53 - INFO - [faq_synthesizer.py:68] - 컬럼: ['FAQ', 'TITLE', 'DES']
+2026-03-04 12:46:53 - INFO - [faq_synthesizer.py:69] - 행 수: 110
+2026-03-04 12:46:53 - INFO - [faq_synthesizer.py:105] - 저장 완료: /home/vsc/LLM_TUNE/QA-FineTune/main/data/고양시도서관_FAQ1.txt (20561 글자)
+2026-03-04 12:46:53 - INFO - [faq_synthesizer.py:106] - 미리보기:
+Q: 회원증을 대리발급 할 수 있나요?
+A: 회원증 대리발급은 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부만 가능하며 아래 구비서류를 지참하여 대리인이 방문 시 대리발급이 가능합니다.
+
+· 대상 : 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부
+· 구비서류
+  - 공통 : ①위임자 신분증, ②피위임자(대리인) 신분증
+  - 장애인 : 장애인 복지카드 또는 장애인 증명서
+  - 임신부 : 산모수첩 / 산모 : 주민등록등본(출산 후 12개월까지)
+· 방법 : 홈페이지 회원가입 후 위 항목의 해당하는 구비서류를 지참하여 피위임자(대리인)이 도서관 방문
+
+Q: 가족회원이 무엇인가요?
+A: 가족회원이란, 고양시 도서관 정회원으로 가입 후 가족회원으로 등록 시 가족명의로 도서대출·도서예약
+2026-03-04 12:46:53 - INFO - [faq_synthesizer.py:410] - 단일 임베딩 길이: 1024 | 첫 5개 값: [0.015615975484251976, -0.06612725555896759, -0.003962401766330004, -0.010326542891561985, -0.03276457637548447]
+2026-03-04 12:46:53 - INFO - [faq_synthesizer.py:413] - 배치 결과 개수: 3 | 각 길이: [1024, 1024, 1024]
+2026-03-04 12:46:53 - INFO - [faq_synthesizer.py:394] - 유효 컨텍스트 수: 126
+2026-03-04 12:46:53 - INFO - [faq_synthesizer.py:465] - 총 컨텍스트 126개를 26개 청크로 처리합니다 (청크 크기: 5)
+2026-03-04 12:46:53 - INFO - [faq_synthesizer.py:468] - [청크 1/26] 컨텍스트 5개 처리 시작
+2026-03-04 12:49:47 - INFO - [faq_synthesizer.py:493] - [청크 1/26] 15개 저장 완료 (누적: 15개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 12:49:47 - INFO - [faq_synthesizer.py:501] - 
+=== 첫 번째 Golden 미리보기 ===
+Input: 누가 만14세 미만 아동, 만65세 이상 노인, 장애인, 임산부의 회원증을 대리로 발급받을 수 있나요? 필요한 서류는 무엇인가요?
+Expected Output: 대리로 발급받을 수 있는 사람은 해당 개인의 법정대리인입니다. 필요한 서류는 구체적으로 명시되지 않았지만, 일반적으로 신분증, 관계증명서류 등이 요구될 것입니다. 정확한 구비서류는 해당 기관에 문의하시는 것이 좋습니다.
+Context: ['Q: 회원증을 대리발급 할 수 있나요?\nA: 회원증 대리발급은 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부만 가능하며 아래 구비서류를 지참하여 대리인이 방문 시 대리발급이 가능합니다.']
+2026-03-04 12:49:47 - INFO - [faq_synthesizer.py:468] - [청크 2/26] 컨텍스트 5개 처리 시작
+2026-03-04 12:52:51 - INFO - [faq_synthesizer.py:493] - [청크 2/26] 15개 저장 완료 (누적: 30개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 12:52:51 - INFO - [faq_synthesizer.py:468] - [청크 3/26] 컨텍스트 5개 처리 시작
+2026-03-04 12:56:25 - INFO - [faq_synthesizer.py:493] - [청크 3/26] 15개 저장 완료 (누적: 45개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 12:56:25 - INFO - [faq_synthesizer.py:468] - [청크 4/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:00:16 - INFO - [faq_synthesizer.py:493] - [청크 4/26] 15개 저장 완료 (누적: 60개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:00:16 - INFO - [faq_synthesizer.py:468] - [청크 5/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:04:23 - INFO - [faq_synthesizer.py:493] - [청크 5/26] 15개 저장 완료 (누적: 75개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:04:23 - INFO - [faq_synthesizer.py:468] - [청크 6/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:07:57 - INFO - [faq_synthesizer.py:493] - [청크 6/26] 15개 저장 완료 (누적: 90개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:07:57 - INFO - [faq_synthesizer.py:468] - [청크 7/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:10:52 - INFO - [faq_synthesizer.py:493] - [청크 7/26] 15개 저장 완료 (누적: 105개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:10:52 - INFO - [faq_synthesizer.py:468] - [청크 8/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:15:06 - INFO - [faq_synthesizer.py:493] - [청크 8/26] 15개 저장 완료 (누적: 120개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:15:06 - INFO - [faq_synthesizer.py:468] - [청크 9/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:18:34 - INFO - [faq_synthesizer.py:493] - [청크 9/26] 15개 저장 완료 (누적: 135개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:18:34 - INFO - [faq_synthesizer.py:468] - [청크 10/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:21:44 - INFO - [faq_synthesizer.py:493] - [청크 10/26] 15개 저장 완료 (누적: 150개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:21:44 - INFO - [faq_synthesizer.py:468] - [청크 11/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:24:58 - INFO - [faq_synthesizer.py:493] - [청크 11/26] 15개 저장 완료 (누적: 165개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:24:58 - INFO - [faq_synthesizer.py:468] - [청크 12/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:30:43 - INFO - [faq_synthesizer.py:493] - [청크 12/26] 15개 저장 완료 (누적: 180개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:30:43 - INFO - [faq_synthesizer.py:468] - [청크 13/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:34:07 - INFO - [faq_synthesizer.py:493] - [청크 13/26] 15개 저장 완료 (누적: 195개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:34:07 - INFO - [faq_synthesizer.py:468] - [청크 14/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:37:11 - INFO - [faq_synthesizer.py:493] - [청크 14/26] 15개 저장 완료 (누적: 210개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:37:11 - INFO - [faq_synthesizer.py:468] - [청크 15/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:40:24 - INFO - [faq_synthesizer.py:493] - [청크 15/26] 15개 저장 완료 (누적: 225개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:40:24 - INFO - [faq_synthesizer.py:468] - [청크 16/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:44:27 - INFO - [faq_synthesizer.py:493] - [청크 16/26] 15개 저장 완료 (누적: 240개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:44:27 - INFO - [faq_synthesizer.py:468] - [청크 17/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:47:39 - INFO - [faq_synthesizer.py:493] - [청크 17/26] 15개 저장 완료 (누적: 255개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:47:39 - INFO - [faq_synthesizer.py:468] - [청크 18/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:50:34 - INFO - [faq_synthesizer.py:493] - [청크 18/26] 15개 저장 완료 (누적: 270개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:50:34 - INFO - [faq_synthesizer.py:468] - [청크 19/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:53:22 - INFO - [faq_synthesizer.py:493] - [청크 19/26] 15개 저장 완료 (누적: 285개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:53:22 - INFO - [faq_synthesizer.py:468] - [청크 20/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:56:43 - INFO - [faq_synthesizer.py:493] - [청크 20/26] 15개 저장 완료 (누적: 300개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:56:43 - INFO - [faq_synthesizer.py:468] - [청크 21/26] 컨텍스트 5개 처리 시작
+2026-03-04 13:59:35 - INFO - [faq_synthesizer.py:493] - [청크 21/26] 15개 저장 완료 (누적: 315개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 13:59:35 - INFO - [faq_synthesizer.py:468] - [청크 22/26] 컨텍스트 5개 처리 시작
+2026-03-04 14:02:31 - INFO - [faq_synthesizer.py:493] - [청크 22/26] 15개 저장 완료 (누적: 330개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 14:02:31 - INFO - [faq_synthesizer.py:468] - [청크 23/26] 컨텍스트 5개 처리 시작
+2026-03-04 14:05:27 - INFO - [faq_synthesizer.py:493] - [청크 23/26] 15개 저장 완료 (누적: 345개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 14:05:27 - INFO - [faq_synthesizer.py:468] - [청크 24/26] 컨텍스트 5개 처리 시작
+2026-03-04 14:08:27 - INFO - [faq_synthesizer.py:493] - [청크 24/26] 15개 저장 완료 (누적: 360개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 14:08:27 - INFO - [faq_synthesizer.py:468] - [청크 25/26] 컨텍스트 5개 처리 시작
+2026-03-04 14:11:43 - INFO - [faq_synthesizer.py:493] - [청크 25/26] 15개 저장 완료 (누적: 375개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 14:11:43 - INFO - [faq_synthesizer.py:468] - [청크 26/26] 컨텍스트 1개 처리 시작
+2026-03-04 14:14:21 - INFO - [faq_synthesizer.py:493] - [청크 26/26] 3개 저장 완료 (누적: 378개) → synthetic_data/synthetic_goldens.jsonl
+2026-03-04 14:14:21 - INFO - [faq_synthesizer.py:507] - 파이프라인 완료 — 총 378개 저장, 실패 청크: 없음

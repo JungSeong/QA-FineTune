@@ -80,3 +80,11 @@ def get_eval_logger(base_dir='../log/eval', days_to_keep=7):
         log_file=os.path.join(base_dir, f'eval_{timestamp}.log'),
         days_to_keep=days_to_keep
     )
+
+def get_data_logger(base_dir='../log/data', days_to_keep=7):
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    return setup_logger(
+        name='data_logger',
+        log_file=os.path.join(base_dir, f'data_{timestamp}.log'),
+        days_to_keep=days_to_keep
+    )

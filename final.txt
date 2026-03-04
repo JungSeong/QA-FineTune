@@ -24,6 +24,7 @@ ipykernel : 주피터 노트북 상에 내 가상환경 커널을 등록할 수 
 
 myenv 가상 환경 내에서
 python -m ipykernel install --user --name myenv --display-name QA2
+python -m ipykernel install --user --name venv-RAG --display-name venv-DeepEval
 을 통해 myenv라는 내 가상환경을 QA라는 이름으로 커널을 등록할 수 있음
 한 번 등록해두면 내가 pip install로 추가적으로 설치한 것들이 계속 반영됨
 
@@ -39,4 +40,13 @@ docker pull pgvector/pgvector:0.8.1-pg18-trixie
 docker run --name rag-postgres -e POSTGRES_PASSWORD='<PASSWORD>' -p 5432:5432 -d pgve
 ctor/pgvector:0.8.1-pg18-trixie
 
+
+[[venv-RAG]]
 uv venv venv-RAG
+uv pip install langchain-community
+uv pip install unstructured
+uv pip install sentence-transformers
+uv pip install langchain-huggingface
+uv pip install ipykernel
+uv pip install deepeval
+uv pip install langchain langchain-community pypdf

@@ -155,14 +155,13 @@ async def generate_text(
         )
 
         # 2. 샘플링 파라미터 설정
-        # 32B 모델의 경우 정지 토큰(stop_token_ids)을 확실히 지정해주는 것이 좋습니다.
         sampling_params = SamplingParams(
             max_tokens=max_tokens,
             temperature=temperature,
             top_p=top_p,
             top_k=top_k,
             seed=42,
-            stop_token_ids=get_stop_token_ids() # 기존에 정의한 헬퍼 함수 사용
+            stop_token_ids=get_stop_token_ids() 
         )
 
         request_id = str(uuid.uuid4())
