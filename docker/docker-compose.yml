@@ -28,55 +28,24 @@ services:
       - MCP_PORT=4200
       - VLLM_USE_V1=0
     ipc: host
-  exaone:
-    build:
-      context: .
-      dockerfile: Dockerfile.Exaone
-    container_name: exaone
-    # entrypoint: [ "python3", "mcp_vllm.py" ]  <-- 주석 처리하거나 삭제하세요!
-    image: exaone-vllm:latest
-
-    # bash -c를 통해 3개의 명령어를 백그라운드(&)로 차례대로 실행합니다.
-    command: >
-      bash -c "
-        python3 -m vllm.entrypoints.openai.api_server --model /models/Exaone-3.5-32B-Instruct --dtype auto --max-model-len 16384 --gpu-memory-utilization 0.7 --max-num-seqs 256 --trust-remote-code --port 8000 &
-        python3 -m vllm.entrypoints.openai.api_server --model /embeddings/dragonkue/snowflake-arctic-embed-l-v2.0-ko --gpu-memory-utilization 0.1 --port 8001
-      "
-    ports:
-      # - "8001:4200" # MCP Server
-      - "8002:8000" # vLLM LLM
-      - "8003:8001" # vLLM Embeddings
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [ gpu ]
-    volumes:
-      - /home/vsc/LLM/model:/models
-      - /home/vsc/LLM/embedding:/embeddings
-      - /home/vsc/LLM_TUNE/QA-FineTune/log:/app/log
-      - /home/vsc/LLM_TUNE/QA-FineTune/main:/app
-      - /home/vsc/LLM_TUNE/QA-FineTune/docker/mcp_vllm.py:/app/mcp_vllm.py
-    environment:
-      - MODEL_BASE_DIR=/models
-      - PYTHONUNBUFFERED=1
-      - PYTHONIOENCODING=UTF-8
-      - MCP_PORT=4200
-      - VLLM_USE_V1=0
-    ipc: host
   # exaone:
   #   build:
   #     context: .
   #     dockerfile: Dockerfile.Exaone
   #   container_name: exaone
-  #   entrypoint: [ "python3", "mcp_vllm.py" ]
+  #   # entrypoint: [ "python3", "mcp_vllm.py" ]  <-- 주석 처리하거나 삭제하세요!
   #   image: exaone-vllm:latest
+
+  #   # bash -c를 통해 3개의 명령어를 백그라운드(&)로 차례대로 실행합니다.
+  #   command: >
+  #     bash -c "
+  #       python3 -m vllm.entrypoints.openai.api_server --model /models/Exaone-3.5-32B-Instruct --dtype auto --max-model-len 16384 --gpu-memory-utilization 0.7 --max-num-seqs 256 --trust-remote-code --port 8000 &
+  #       python3 -m vllm.entrypoints.openai.api_server --model /embeddings/dragonkue/snowflake-arctic-embed-l-v2.0-ko --gpu-memory-utilization 0.1 --port 8001
+  #     "
   #   ports:
-  #     - "8001:4200" # 도커 컨테이너의 경우 독립된 네트워크 환경을 가져 동일 포트여도 괜찮다
-  #     - "8002:8000" # for vLLM (외부 8002 -> 내부 8000)
-  #     - "8003:8001" # for Embeddings
+  #     # - "8001:4200" # MCP Server
+  #     - "8002:8000" # vLLM LLM
+  #     - "8003:8001" # vLLM Embeddings
   #   deploy:
   #     resources:
   #       reservations:
@@ -86,6 +55,7 @@ services:
   #             capabilities: [ gpu ]
   #   volumes:
   #     - /home/vsc/LLM/model:/models
+  #     - /home/vsc/LLM/embedding:/embeddings
   #     - /home/vsc/LLM_TUNE/QA-FineTune/log:/app/log
   #     - /home/vsc/LLM_TUNE/QA-FineTune/main:/app
   #     - /home/vsc/LLM_TUNE/QA-FineTune/docker/mcp_vllm.py:/app/mcp_vllm.py
@@ -96,6 +66,36 @@ services:
   #     - MCP_PORT=4200
   #     - VLLM_USE_V1=0
   #   ipc: host
+  exaone:
+    build:
+      context: .
+      dockerfile: Dockerfile.Exaone
+    container_name: exaone
+    entrypoint: [ "python3", "mcp_vllm.py" ]
+    image: exaone-vllm:latest
+    ports:
+      - "8001:4200" # 도커 컨테이너의 경우 독립된 네트워크 환경을 가져 동일 포트여도 괜찮다
+      - "8002:8000" # for vLLM (외부 8002 -> 내부 8000)
+      - "8003:8001" # for Embeddings
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    volumes:
+      - /home/vsc/LLM/model:/models
+      - /home/vsc/LLM_TUNE/QA-FineTune/log:/app/log
+      - /home/vsc/LLM_TUNE/QA-FineTune/main:/app
+      - /home/vsc/LLM_TUNE/QA-FineTune/docker/mcp_vllm.py:/app/mcp_vllm.py
+    environment:
+      - MODEL_BASE_DIR=/models
+      - PYTHONUNBUFFERED=1
+      - PYTHONIOENCODING=UTF-8
+      - MCP_PORT=4200
+      - VLLM_USE_V1=0
+    ipc: host
   postgres:
     # 서비스 이름 (왼쪽 공백 2칸)
     image: pgvector/pgvector:0.8.1-pg18-trixie

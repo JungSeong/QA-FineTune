@@ -9,7 +9,7 @@ from trl import SFTTrainer, SFTConfig
 from config import Config
 from datasets import Dataset
 from model_utils import load_or_download_model_tokenizer
-from preprocess_dataset import preprocess_dataset
+from preprocess_dataset import preprocess_dataset, preprocess_golden_dataset
 from accelerate import Accelerator
 from prompts import generate_prompts
 from functools import partial
@@ -33,7 +33,8 @@ def main() :
     )
 
     logger.info("Loading Dataset...")
-    dataset = preprocess_dataset()
+    #dataset = preprocess_dataset()
+    dataset = preprocess_golden_dataset()
     train_dataset, val_dataset, test_dataset = dataset['train'], dataset['val'], dataset['test']
     logger.info("Dataset loaded successfully")
     logger.info(f"train_dataset size: {len(train_dataset)}")

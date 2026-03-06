@@ -1,0 +1,147 @@
+2026-03-04 19:01:10 - INFO - [main.py:35] - Loading Dataset...
+2026-03-04 19:01:10 - INFO - [preprocess_dataset.py:22] - Loading Dataset...
+2026-03-04 19:01:10 - INFO - [main.py:38] - Dataset loaded successfully
+2026-03-04 19:01:10 - INFO - [main.py:39] - train_dataset size: 248
+2026-03-04 19:01:10 - INFO - [main.py:40] - val_dataset size: 107
+2026-03-04 19:01:10 - INFO - [main.py:41] - test_dataset size: 89
+2026-03-04 19:01:10 - INFO - [main.py:43] - 🪙 Loading Model with LoRA and Tokenizer...
+2026-03-04 19:01:10 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-7.8B-Instruct
+2026-03-04 19:01:10 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Loading weights: 100%|█| 291/291 [03:20<00:00,  1.45it/s, Materializing p
+2026-03-04 19:04:34 - INFO - [model_utils.py:46] - ✍🏿 Applying PEFT...
+2026-03-04 19:04:34 - INFO - [main.py:45] - PeftModelForCausalLM(
+  (base_model): LoraModel(
+    (model): ExaoneForCausalLM(
+      (transformer): ExaoneModel(
+        (wte): Embedding(102400, 4096, padding_idx=0)
+        (drop): Dropout(p=0.0, inplace=False)
+        (h): ModuleList(
+          (0-31): 32 x ExaoneDecoderLayer(
+            (ln_1): ExaoneRMSNorm((4096,), eps=1e-05)
+            (attn): ExaoneAttentionBlock(
+              (attention): ExaoneAttention(
+                (q_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=4096, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (k_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=1024, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (v_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=1024, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (out_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=4096, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+              )
+            )
+            (ln_2): ExaoneRMSNorm((4096,), eps=1e-05)
+            (mlp): ExaoneMLP(
+              (c_fc_0): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              (c_fc_1): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              (c_proj): Linear4bit(in_features=14336, out_features=4096, bias=False)
+              (act): SiLUActivation()
+            )
+          )
+        )
+        (ln_f): ExaoneRMSNorm((4096,), eps=1e-05)
+        (rotary): ExaoneRotaryEmbedding()
+      )
+      (lm_head): Linear(in_features=4096, out_features=102400, bias=False)
+    )
+  )
+)
+Applying formatting function to train dataset: 100%|█| 248/248 [01:12<00:
+Adding EOS to train dataset: 100%|█| 248/248 [00:00<00:00, 36233.36 examp
+Tokenizing train dataset: 100%|█| 248/248 [00:00<00:00, 3771.86 examples/
+Truncating train dataset: 100%|█| 248/248 [00:00<00:00, 180933.62 example
+Applying formatting function to eval dataset: 100%|█| 107/107 [00:30<00:0
+Adding EOS to eval dataset: 100%|█| 107/107 [00:00<00:00, 31872.06 exampl
+Tokenizing eval dataset: 100%|█| 107/107 [00:00<00:00, 3776.39 examples/s
+Truncating eval dataset: 100%|█| 107/107 [00:00<00:00, 108403.51 examples
+2026-03-04 19:06:18 - INFO - [main.py:70] - 🚀 Starting training...
+                                                                                                                        
+{'loss': '3.72', 'grad_norm': '3.094', 'learning_rate': '5.806e-06', 'entropy': '1.213', 'num_tokens': '1.848e+04', 'mean_token_accuracy': '0.4423', 'epoch': '0.3226'}
+{'loss': '3.665', 'grad_norm': '2.672', 'learning_rate': '1.226e-05', 'entropy': '1.232', 'num_tokens': '3.704e+04', 'mean_token_accuracy': '0.4504', 'epoch': '0.6452'}
+{'loss': '3.457', 'grad_norm': '1.914', 'learning_rate': '1.871e-05', 'entropy': '1.243', 'num_tokens': '5.566e+04', 'mean_token_accuracy': '0.4747', 'epoch': '0.9677'}
+{'loss': '3.021', 'grad_norm': '1.805', 'learning_rate': '1.996e-05', 'entropy': '1.281', 'num_tokens': '7.478e+04', 'mean_token_accuracy': '0.5047', 'epoch': '1.29'}
+{'loss': '2.601', 'grad_norm': '1.562', 'learning_rate': '1.98e-05', 'entropy': '1.364', 'num_tokens': '9.305e+04', 'mean_token_accuracy': '0.544', 'epoch': '1.613'}
+{'loss': '2.296', 'grad_norm': '1.289', 'learning_rate': '1.951e-05', 'entropy': '1.441', 'num_tokens': '1.114e+05', 'mean_token_accuracy': '0.5641', 'epoch': '1.935'}
+{'loss': '1.926', 'grad_norm': '1.094', 'learning_rate': '1.91e-05', 'entropy': '1.478', 'num_tokens': '1.298e+05', 'mean_token_accuracy': '0.6111', 'epoch': '2.258'}
+{'loss': '1.661', 'grad_norm': '0.9414', 'learning_rate': '1.857e-05', 'entropy': '1.496', 'num_tokens': '1.483e+05', 'mean_token_accuracy': '0.6425', 'epoch': '2.581'}
+{'loss': '1.42', 'grad_norm': '0.9531', 'learning_rate': '1.794e-05', 'entropy': '1.468', 'num_tokens': '1.671e+05', 'mean_token_accuracy': '0.6825', 'epoch': '2.903'}
+{'loss': '1.211', 'grad_norm': '0.918', 'learning_rate': '1.721e-05', 'entropy': '1.332', 'num_tokens': '1.859e+05', 'mean_token_accuracy': '0.7434', 'epoch': '3.226'}
+                                                                                                                        
+{'eval_loss': '1.138', 'eval_runtime': '18.66', 'eval_samples_per_second': '5.733', 'eval_steps_per_second': '0.75', 'eval_entropy': '1.239', 'eval_num_tokens': '1.859e+05', 'eval_mean_token_accuracy': '0.7602', 'epoch': '3.226'}
+{'loss': '0.9883', 'grad_norm': '0.8672', 'learning_rate': '1.638e-05', 'entropy': '1.12', 'num_tokens': '2.041e+05', 'mean_token_accuracy': '0.7874', 'epoch': '3.548'}
+{'loss': '0.8933', 'grad_norm': '0.6484', 'learning_rate': '1.548e-05', 'entropy': '0.9601', 'num_tokens': '2.228e+05', 'mean_token_accuracy': '0.8113', 'epoch': '3.871'}
+{'loss': '0.7917', 'grad_norm': '0.5977', 'learning_rate': '1.45e-05', 'entropy': '0.8334', 'num_tokens': '2.413e+05', 'mean_token_accuracy': '0.8289', 'epoch': '4.194'}
+{'loss': '0.7282', 'grad_norm': '0.5586', 'learning_rate': '1.347e-05', 'entropy': '0.786', 'num_tokens': '2.6e+05', 'mean_token_accuracy': '0.8445', 'epoch': '4.516'}
+{'loss': '0.6737', 'grad_norm': '0.4902', 'learning_rate': '1.24e-05', 'entropy': '0.731', 'num_tokens': '2.785e+05', 'mean_token_accuracy': '0.8571', 'epoch': '4.839'}
+{'loss': '0.724', 'grad_norm': '0.4766', 'learning_rate': '1.129e-05', 'entropy': '0.7389', 'num_tokens': '2.974e+05', 'mean_token_accuracy': '0.8446', 'epoch': '5.161'}
+{'loss': '0.6572', 'grad_norm': '0.4668', 'learning_rate': '1.017e-05', 'entropy': '0.7141', 'num_tokens': '3.162e+05', 'mean_token_accuracy': '0.8547', 'epoch': '5.484'}
+{'loss': '0.6223', 'grad_norm': '0.4688', 'learning_rate': '9.044e-06', 'entropy': '0.675', 'num_tokens': '3.344e+05', 'mean_token_accuracy': '0.8674', 'epoch': '5.806'}
+{'loss': '0.6758', 'grad_norm': '0.4648', 'learning_rate': '7.932e-06', 'entropy': '0.711', 'num_tokens': '3.531e+05', 'mean_token_accuracy': '0.851', 'epoch': '6.129'}
+{'loss': '0.6331', 'grad_norm': '0.4219', 'learning_rate': '6.846e-06', 'entropy': '0.6945', 'num_tokens': '3.715e+05', 'mean_token_accuracy': '0.8602', 'epoch': '6.452'}
+{'eval_loss': '0.6965', 'eval_runtime': '18.62', 'eval_samples_per_second': '5.746', 'eval_steps_per_second': '0.752', 'eval_entropy': '0.7255', 'eval_num_tokens': '3.715e+05', 'eval_mean_token_accuracy': '0.8465', 'epoch': '6.452'}
+{'loss': '0.6352', 'grad_norm': '0.4336', 'learning_rate': '5.799e-06', 'entropy': '0.6786', 'num_tokens': '3.9e+05', 'mean_token_accuracy': '0.8624', 'epoch': '6.774'}
+{'loss': '0.6571', 'grad_norm': '0.4609', 'learning_rate': '4.806e-06', 'entropy': '0.6996', 'num_tokens': '4.088e+05', 'mean_token_accuracy': '0.855', 'epoch': '7.097'}
+{'loss': '0.6208', 'grad_norm': '0.4316', 'learning_rate': '3.879e-06', 'entropy': '0.6815', 'num_tokens': '4.273e+05', 'mean_token_accuracy': '0.8635', 'epoch': '7.419'}
+{'loss': '0.6482', 'grad_norm': '0.4707', 'learning_rate': '3.029e-06', 'entropy': '0.6854', 'num_tokens': '4.458e+05', 'mean_token_accuracy': '0.8586', 'epoch': '7.742'}
+{'loss': '0.6306', 'grad_norm': '0.498', 'learning_rate': '2.268e-06', 'entropy': '0.6747', 'num_tokens': '4.644e+05', 'mean_token_accuracy': '0.8616', 'epoch': '8.065'}
+{'loss': '0.6404', 'grad_norm': '0.4062', 'learning_rate': '1.604e-06', 'entropy': '0.6871', 'num_tokens': '4.831e+05', 'mean_token_accuracy': '0.8582', 'epoch': '8.387'}
+{'loss': '0.6367', 'grad_norm': '0.4512', 'learning_rate': '1.047e-06', 'entropy': '0.6912', 'num_tokens': '5.018e+05', 'mean_token_accuracy': '0.8562', 'epoch': '8.71'}
+{'loss': '0.6367', 'grad_norm': '0.4219', 'learning_rate': '6.031e-07', 'entropy': '0.6711', 'num_tokens': '5.202e+05', 'mean_token_accuracy': '0.8632', 'epoch': '9.032'}
+{'loss': '0.6227', 'grad_norm': '0.4844', 'learning_rate': '2.783e-07', 'entropy': '0.6733', 'num_tokens': '5.386e+05', 'mean_token_accuracy': '0.8637', 'epoch': '9.355'}
+{'loss': '0.6278', 'grad_norm': '0.4355', 'learning_rate': '7.661e-08', 'entropy': '0.6802', 'num_tokens': '5.569e+05', 'mean_token_accuracy': '0.8631', 'epoch': '9.677'}
+{'eval_loss': '0.6902', 'eval_runtime': '18.69', 'eval_samples_per_second': '5.724', 'eval_steps_per_second': '0.749', 'eval_entropy': '0.7176', 'eval_num_tokens': '5.569e+05', 'eval_mean_token_accuracy': '0.8473', 'epoch': '9.677'}
+{'loss': '0.6575', 'grad_norm': '0.4609', 'learning_rate': '6.34e-10', 'entropy': '0.6974', 'num_tokens': '5.759e+05', 'mean_token_accuracy': '0.8532', 'epoch': '10'}
+{'train_runtime': '3410', 'train_samples_per_second': '0.727', 'train_steps_per_second': '0.091', 'train_loss': '1.27', 'epoch': '10'}
+2026-03-04 20:03:08 - INFO - [main.py:79] - 🎓 Trained finished! Model saved to ./SFT/SFT_with_Golden_Dataset_v1

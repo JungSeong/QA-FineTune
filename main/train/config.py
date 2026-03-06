@@ -22,13 +22,18 @@ class Config :
         target_modules=["q_proj", "k_proj", "v_proj", "out_proj"]
     )
     DATASET_PATH = "/home/vsc/LLM_TUNE/QA-FineTune/main/data/json/augmented_cot_data_targeted_big.jsonl"
-    OUTPUT_DIR = "./SFT/Targeted_CoT_Big"
+    TRAIN_GOLDEN_DATASET_PATH = "/home/vsc/LLM_TUNE/QA-FineTune/main/DEEPEVAL/golden_data/train_goldens.jsonl"
+    VAL_GOLDEN_DATASET_PATH = "/home/vsc/LLM_TUNE/QA-FineTune/main/DEEPEVAL/golden_data/val_goldens.jsonl"
+    TEST_GOLDEN_DATASET_PATH = "/home/vsc/LLM_TUNE/QA-FineTune/main/DEEPEVAL/golden_data/test_goldens.jsonl"
+    # OUTPUT_DIR = "./SFT/Targeted_CoT_Big"
+    OUTPUT_DIR = "./SFT/SFT_with_Golden_Dataset_v1"
     TRAINING_ARGS = SFTConfig(
-        output_dir="./SFT/Targeted_CoT_Big",
+        # output_dir="./SFT/Targeted_CoT_Big",
+        output_dir="./SFT/SFT_with_Golden_Dataset_v1",
         num_train_epochs=10,
         per_device_train_batch_size=1,
         gradient_accumulation_steps=8,
-        learning_rate=2e-4,
+        learning_rate=2e-5,
         lr_scheduler_type="cosine",
         warmup_ratio=0.1,
         max_grad_norm=1.0,

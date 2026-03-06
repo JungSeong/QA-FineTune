@@ -1,0 +1,124 @@
+2026-03-06 17:35:57 - INFO - [main.py:35] - Loading Dataset...
+2026-03-06 17:35:57 - INFO - [preprocess_dataset.py:52] - 👑 train 로드 완료: 300개 → /home/vsc/LLM_TUNE/QA-FineTune/main/DEEPEVAL/golden_data/train_goldens.jsonl
+2026-03-06 17:35:57 - INFO - [preprocess_dataset.py:52] - 👑 val 로드 완료: 100개 → /home/vsc/LLM_TUNE/QA-FineTune/main/DEEPEVAL/golden_data/val_goldens.jsonl
+2026-03-06 17:35:57 - INFO - [preprocess_dataset.py:52] - 👑 test 로드 완료: 104개 → /home/vsc/LLM_TUNE/QA-FineTune/main/DEEPEVAL/golden_data/test_goldens.jsonl
+2026-03-06 17:35:57 - INFO - [main.py:39] - Dataset loaded successfully
+2026-03-06 17:35:57 - INFO - [main.py:40] - train_dataset size: 300
+2026-03-06 17:35:57 - INFO - [main.py:41] - val_dataset size: 100
+2026-03-06 17:35:57 - INFO - [main.py:42] - test_dataset size: 104
+2026-03-06 17:35:57 - INFO - [main.py:44] - 🪙 Loading Model with LoRA and Tokenizer...
+2026-03-06 17:35:57 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-7.8B-Instruct
+2026-03-06 17:35:57 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 291/291 [03:26<00:00,  1.41it/s, Materializing param=transformer.wte.weight]
+2026-03-06 17:39:26 - INFO - [model_utils.py:46] - ✍🏿 Applying PEFT...
+2026-03-06 17:39:26 - INFO - [main.py:46] - PeftModelForCausalLM(
+  (base_model): LoraModel(
+    (model): ExaoneForCausalLM(
+      (transformer): ExaoneModel(
+        (wte): Embedding(102400, 4096, padding_idx=0)
+        (drop): Dropout(p=0.0, inplace=False)
+        (h): ModuleList(
+          (0-31): 32 x ExaoneDecoderLayer(
+            (ln_1): ExaoneRMSNorm((4096,), eps=1e-05)
+            (attn): ExaoneAttentionBlock(
+              (attention): ExaoneAttention(
+                (q_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=4096, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (k_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=1024, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (v_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=1024, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (out_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=4096, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+              )
+            )
+            (ln_2): ExaoneRMSNorm((4096,), eps=1e-05)
+            (mlp): ExaoneMLP(
+              (c_fc_0): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              (c_fc_1): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              (c_proj): Linear4bit(in_features=14336, out_features=4096, bias=False)
+              (act): SiLUActivation()
+            )
+          )
+        )
+        (ln_f): ExaoneRMSNorm((4096,), eps=1e-05)
+        (rotary): ExaoneRotaryEmbedding()
+      )
+      (lm_head): Linear(in_features=4096, out_features=102400, bias=False)
+    )
+  )
+)
+Applying formatting function to train dataset: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 300/300 [01:40<00:00,  2.98 examples/s]
+Adding EOS to train dataset: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 300/300 [00:00<00:00, 29720.14 examples/s]
+Tokenizing train dataset: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 300/300 [00:00<00:00, 2292.48 examples/s]
+Truncating train dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 300/300 [00:00<00:00, 121140.96 examples/s]
+Applying formatting function to eval dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:32<00:00,  3.09 examples/s]
+Adding EOS to eval dataset: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 18669.56 examples/s]
+Tokenizing eval dataset: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 2583.67 examples/s]
+Truncating eval dataset: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 89794.56 examples/s]
+2026-03-06 17:41:39 - INFO - [main.py:71] - 🚀 Starting training...
+ 28%|████████████████████████████████████████████▉                                                                                                                 | 108/380 [21:21<56:33, 12.48s/it]                                                       
+{'loss': '3.195', 'grad_norm': '2.141', 'learning_rate': '4.737e-06', 'entropy': '1.139', 'num_tokens': '2.756e+04', 'mean_token_accuracy': '0.4964', 'epoch': '0.2667'}
+{'loss': '3.156', 'grad_norm': '1.898', 'learning_rate': '1e-05', 'entropy': '1.133', 'num_tokens': '5.45e+04', 'mean_token_accuracy': '0.5036', 'epoch': '0.5333'}
+{'loss': '3.012', 'grad_norm': '1.656', 'learning_rate': '1.526e-05', 'entropy': '1.137', 'num_tokens': '8.238e+04', 'mean_token_accuracy': '0.5106', 'epoch': '0.8'}
+{'loss': '2.705', 'grad_norm': '1.523', 'learning_rate': '2e-05', 'entropy': '1.152', 'num_tokens': '1.095e+05', 'mean_token_accuracy': '0.5417', 'epoch': '1.053'}
+{'loss': '2.452', 'grad_norm': '1.406', 'learning_rate': '1.995e-05', 'entropy': '1.246', 'num_tokens': '1.361e+05', 'mean_token_accuracy': '0.5569', 'epoch': '1.32'}
+{'loss': '2.135', 'grad_norm': '1.141', 'learning_rate': '1.981e-05', 'entropy': '1.33', 'num_tokens': '1.638e+05', 'mean_token_accuracy': '0.5839', 'epoch': '1.587'}
+{'loss': '1.783', 'grad_norm': '0.8398', 'learning_rate': '1.96e-05', 'entropy': '1.394', 'num_tokens': '1.923e+05', 'mean_token_accuracy': '0.6235', 'epoch': '1.853'}
+{'loss': '1.648', 'grad_norm': '0.75', 'learning_rate': '1.93e-05', 'entropy': '1.499', 'num_tokens': '2.179e+05', 'mean_token_accuracy': '0.6431', 'epoch': '2.107'}
+{'loss': '1.437', 'grad_norm': '0.6367', 'learning_rate': '1.892e-05', 'entropy': '1.495', 'num_tokens': '2.455e+05', 'mean_token_accuracy': '0.6699', 'epoch': '2.373'}
+{'loss': '1.35', 'grad_norm': '0.7031', 'learning_rate': '1.847e-05', 'entropy': '1.485', 'num_tokens': '2.735e+05', 'mean_token_accuracy': '0.6897', 'epoch': '2.64'}
+                                                                                                                                                                                                            
+{'eval_loss': '1.273', 'eval_runtime': '25.44', 'eval_samples_per_second': '3.93', 'eval_steps_per_second': '0.511', 'eval_entropy': '1.415', 'eval_num_tokens': '2.735e+05', 'eval_mean_token_accuracy': '0.7173', 'epoch': '2.64'}

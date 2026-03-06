@@ -1,0 +1,12 @@
+{"time":"2026-03-04T19:01:08.785869978+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-04T19:01:09.161325097+09:00","level":"INFO","msg":"stream: created new stream","id":"zzloqi32"}
+{"time":"2026-03-04T19:01:09.161474791+09:00","level":"INFO","msg":"handler: started","stream_id":"zzloqi32"}
+{"time":"2026-03-04T19:01:09.161511398+09:00","level":"INFO","msg":"stream: started","id":"zzloqi32"}
+{"time":"2026-03-04T19:01:09.161523878+09:00","level":"INFO","msg":"writer: started","stream_id":"zzloqi32"}
+{"time":"2026-03-04T19:01:09.161539926+09:00","level":"INFO","msg":"sender: started","stream_id":"zzloqi32"}
+{"time":"2026-03-04T20:03:09.467996338+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-04T20:03:10.065835302+09:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-04T20:03:10.069699836+09:00","level":"INFO","msg":"stream: closing","id":"zzloqi32"}
+{"time":"2026-03-04T20:03:10.069718556+09:00","level":"INFO","msg":"handler: closed","stream_id":"zzloqi32"}
+{"time":"2026-03-04T20:03:10.069778828+09:00","level":"INFO","msg":"sender: closed","stream_id":"zzloqi32"}
+{"time":"2026-03-04T20:03:10.0697891+09:00","level":"INFO","msg":"stream: closed","id":"zzloqi32"}

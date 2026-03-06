@@ -1,0 +1,11 @@
+2026-03-06 17:35:22 - INFO - [main.py:35] - Loading Dataset...
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 84, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 37, in main
+    dataset = preprocess_golden_dataset()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/preprocess_dataset.py", line 26, in preprocess_golden_dataset
+    "val":   config.VAL_GOLDEN_DATASET_PATH,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Config' object has no attribute 'VAL_GOLDEN_DATASET_PATH'. Did you mean: 'TEST_GOLDEN_DATASET_PATH'?

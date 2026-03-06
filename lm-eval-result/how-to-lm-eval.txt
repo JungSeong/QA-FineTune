@@ -1,0 +1,9 @@
+[예시]
+lm_eval --model vllm \
+    --model_args pretrained=upstage/SOLAR-10.7B-Instruct-v1.0,dtype=auto,gpu_memory_utilization=0.8,trust_remote_code=True \
+    --tasks arc_challenge,hellaswag,mmlu,truthfulqa_mc2,winogrande,gsm8k \
+    --num_fewshot 5 \
+    --batch_size auto \
+    --device cuda:0 \
+    --limit 50 \
+    --output_path ./h6_eval_results.json

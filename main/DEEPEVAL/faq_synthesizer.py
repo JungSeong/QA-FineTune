@@ -1,5 +1,5 @@
 """
-고양시 도서관 FAQ 합성 데이터 생성기
+고양시 도서관 FAQ 합성 데이터 생성기 (Base)
 - Excel FAQ → TXT 변환
 - vLLM 기반 LLM/Embedding 래퍼
 - DeepEval Synthesizer를 이용한 Golden 데이터셋 생성 및 저장

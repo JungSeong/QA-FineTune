@@ -26,7 +26,7 @@ from deepeval.synthesizer.config import EvolutionConfig
 XLSX_PATH   = "/home/vsc/LLM_TUNE/QA-FineTune/main/data/고양시도서관 FAQ1.xlsx"
 TXT_PATH    = "/home/vsc/LLM_TUNE/QA-FineTune/main/data/고양시도서관_FAQ1.txt"
 SAVE_DIR    = "./synthetic_data"
-FILE_NAME   = "goyang_library_qa_evolution"
+FILE_NAME   = "synthetic_goldens_evolution.jsonl"
 
 LLM_MODEL_NAME   = "/models/Exaone-3.5-32B-Instruct"
 LLM_BASE_URL     = "http://localhost:8002/v1"

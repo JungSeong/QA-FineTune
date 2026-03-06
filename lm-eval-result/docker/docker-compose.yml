@@ -1,0 +1,29 @@
+services:
+  lm_eval_harness:
+    build:
+      context: .
+      dockerfile: Dockerfile.lm_eval
+    container_name: lm_eval_harness
+    image: lm_eval_harness:latest
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    volumes:
+      - /home/vsc/LLM/model:/models
+      - .:/app
+      - ./result:/app/result
+      - ./log:/app/log
+      - ./run_eval.sh:/app/run_eval.sh
+    environment:
+      - MODEL_BASE_DIR=/models
+      - MODEL_NAME=SOLAR-10.7B-Instruct-v1.0 # <--- 모델 폴더명만 변경하면 됨
+      - TASKS=arc_challenge,hellaswag,mmlu,truthfulqa_mc2,winogrande,gsm8k # 주요 h6 Benchmarks
+      - GPU_UTIL=0.8
+      - FEWSHOT=2
+      - LIMIT=10
+      - PYTHONUNBUFFERED=1
+    ipc: host

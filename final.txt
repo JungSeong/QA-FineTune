@@ -50,3 +50,7 @@ uv pip install langchain-huggingface
 uv pip install ipykernel
 uv pip install deepeval
 uv pip install langchain langchain-community pypdf
+
+[lmeval-harness]
+uv venv lmeval-harness
+uv pip install lm-eval[vllm]

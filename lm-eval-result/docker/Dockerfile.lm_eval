@@ -1,0 +1,8 @@
+FROM vllm/vllm-openai:cu130-nightly-f91808ae0ddf750acfdeb351fa072c91d4d678fc
+RUN pip install lm-eval[vllm] vllm
+
+WORKDIR /app
+COPY . /app
+RUN chmod +x /app/run_eval.sh
+
+ENTRYPOINT ["/app/run_eval.sh"]
