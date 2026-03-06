@@ -101,3 +101,4 @@
   )
 )
 2026-03-06 17:41:39 - INFO - [main.py:71] - 🚀 Starting training...
+2026-03-06 18:56:15 - INFO - [main.py:80] - 🎓 Trained finished! Model saved to ./SFT/SFT_with_Golden_Dataset_v1
