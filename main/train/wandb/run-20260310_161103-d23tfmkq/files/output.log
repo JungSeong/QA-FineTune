@@ -1,0 +1,52 @@
+2026-03-10 16:11:04 - INFO - [main.py:35] - Loading Dataset...
+2026-03-10 16:11:04 - INFO - [preprocess_dataset.py:52] - 👑 train 로드 완료: 150개 → ../data/golden_data/train_goldens.jsonl
+2026-03-10 16:11:04 - INFO - [preprocess_dataset.py:52] - 👑 val 로드 완료: 50개 → ../data/golden_data/val_goldens.jsonl
+2026-03-10 16:11:04 - INFO - [preprocess_dataset.py:52] - 👑 test 로드 완료: 52개 → ../data/golden_data/test_goldens.jsonl
+2026-03-10 16:11:04 - INFO - [main.py:39] - Dataset loaded successfully
+2026-03-10 16:11:04 - INFO - [main.py:40] - train_dataset size: 150
+2026-03-10 16:11:04 - INFO - [main.py:41] - val_dataset size: 50
+2026-03-10 16:11:04 - INFO - [main.py:42] - test_dataset size: 52
+2026-03-10 16:11:04 - INFO - [main.py:44] - 🪙 Loading Model with LoRA and Tokenizer...
+2026-03-10 16:11:04 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: ../../../../LLM/model/Exaone-3.5-7.8B-Instruct
+2026-03-10 16:11:04 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Loading weights:   4%|█▌                                 | 13/291 [02:16<48:36, 10.49s/it, Materializing param=transformer.h.1.attn.attention.q_proj.weight]
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 84, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 45, in main
+    model, tokenizer = load_or_download_model_tokenizer()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/model_utils.py", line 36, in load_or_download_model_tokenizer
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 367, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4063, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4182, in _load_pretrained_model
+    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/core_model_loading.py", line 1192, in convert_and_load_state_dict_in_model
+    realized_value = mapping.convert(
+                     ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/core_model_loading.py", line 676, in convert
+    collected_tensors = self.quantization_operation.convert(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/integrations/bitsandbytes.py", line 56, in convert
+    new_value = bnb.nn.Params4bit(value, requires_grad=False, **old_value.__dict__).to(value.device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/bitsandbytes/nn/modules.py", line 345, in to
+    return self._quantize(device)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/bitsandbytes/nn/modules.py", line 300, in _quantize
+    w_4bit, quant_state = bnb.functional.quantize_4bit(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/bitsandbytes/functional.py", line 931, in quantize_4bit
+    code = get_4bit_type(quant_type, device=A.device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/bitsandbytes/functional.py", line 856, in get_4bit_type
+    data = torch.tensor(data, device=device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

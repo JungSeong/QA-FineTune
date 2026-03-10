@@ -1,0 +1,13 @@
+{
+  "os":  "Linux-6.17.0-1008-nvidia-aarch64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-02-28T06:01:42.350894Z",
+  "program":  "/app/train/main.py",
+  "codePath":  "main.py",
+  "codePathLocal":  "main.py",
+  "email":  "jungseonglian@sju.ac.kr",
+  "root":  "/app/train",
+  "host":  "c26eecb20867",
+  "executable":  "/usr/bin/python3",
+  "writerId":  "fdtvgd541x3po5ozs5h4w1tnafvnsgx4"
+}

@@ -1,0 +1,3 @@
+[submodule "submodule/ASC"]
+	path = submodule/ASC
+	url = https://github.com/ArminAzizi98/ASC.git

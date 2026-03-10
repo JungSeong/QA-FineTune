@@ -1,0 +1,12 @@
+2026-03-10 16:10:23 - INFO - [main.py:26] - 💪 훈련 프로세스 시작
+2026-03-10 16:10:25 - INFO - [main.py:35] - Loading Dataset...
+2026-03-10 16:10:25 - INFO - [preprocess_dataset.py:52] - 👑 train 로드 완료: 150개 → ../data/golden_data/train_goldens.jsonl
+2026-03-10 16:10:25 - INFO - [preprocess_dataset.py:52] - 👑 val 로드 완료: 50개 → ../data/golden_data/val_goldens.jsonl
+2026-03-10 16:10:25 - INFO - [preprocess_dataset.py:52] - 👑 test 로드 완료: 52개 → ../data/golden_data/test_goldens.jsonl
+2026-03-10 16:10:25 - INFO - [main.py:39] - Dataset loaded successfully
+2026-03-10 16:10:25 - INFO - [main.py:40] - train_dataset size: 150
+2026-03-10 16:10:25 - INFO - [main.py:41] - val_dataset size: 50
+2026-03-10 16:10:25 - INFO - [main.py:42] - test_dataset size: 52
+2026-03-10 16:10:25 - INFO - [main.py:44] - 🪙 Loading Model with LoRA and Tokenizer...
+2026-03-10 16:10:25 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: ../../../../LLM/model/Exaone-3.5-7.8B-Instruct
+2026-03-10 16:10:25 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...

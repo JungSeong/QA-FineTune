@@ -1,0 +1,13 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: weave version 0.52.29 is available!  To upgrade, please run:
+[36m[1mweave[0m:  $ pip install weave --upgrade
+[36m[1mweave[0m: Logged in as Weights & Biases user: jungseonglian.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/uailab-unist_/library-qa-finetune/weave
+2026-02-28 17:50:59 - INFO - [main.py:29] - 🚀 모델 및 토크나이저 로딩 시작: LGAI-EXAONE/Exaone-3.5-7.8B-Instruct
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/eval/main.py", line 63, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/eval/main.py", line 30, in main
+    tokenizer = AutoTokenizer.from_pretrained(config.MODEL_ID)
+                ^^^^^^^^^^^^^
+NameError: name 'AutoTokenizer' is not defined

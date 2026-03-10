@@ -1,0 +1,56 @@
+2026-03-10 14:02:14 - INFO - [main.py:35] - Loading Dataset...
+2026-03-10 14:02:14 - INFO - [preprocess_dataset.py:52] - 👑 train 로드 완료: 9개 → ../data/golden_data/train_goldens.jsonl
+2026-03-10 14:02:14 - INFO - [preprocess_dataset.py:52] - 👑 val 로드 완료: 3개 → ../data/golden_data/val_goldens.jsonl
+2026-03-10 14:02:14 - INFO - [preprocess_dataset.py:52] - 👑 test 로드 완료: 3개 → ../data/golden_data/test_goldens.jsonl
+2026-03-10 14:02:14 - INFO - [main.py:39] - Dataset loaded successfully
+2026-03-10 14:02:14 - INFO - [main.py:40] - train_dataset size: 9
+2026-03-10 14:02:14 - INFO - [main.py:41] - val_dataset size: 3
+2026-03-10 14:02:14 - INFO - [main.py:42] - test_dataset size: 3
+2026-03-10 14:02:14 - INFO - [main.py:44] - 🪙 Loading Model with LoRA and Tokenizer...
+2026-03-10 14:02:14 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: ../../../../LLM/model/Exaone-3.5-7.8B-Instruct
+2026-03-10 14:02:14 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Loading weights:   0%|▏                                                            | 1/291 [00:05<27:14,  5.64s/it, Materializing param=lm_head.weight]
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 84, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 45, in main
+    model, tokenizer = load_or_download_model_tokenizer()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/model_utils.py", line 36, in load_or_download_model_tokenizer
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 367, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4063, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4182, in _load_pretrained_model
+    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/core_model_loading.py", line 1192, in convert_and_load_state_dict_in_model
+    realized_value = mapping.convert(
+                     ^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/core_model_loading.py", line 665, in convert
+    collected_tensors = self.materialize_tensors()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/core_model_loading.py", line 641, in materialize_tensors
+    tensors = [future.result() for future in tensors if future.result() is not None]
+                                                        ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/usr/lib/python3.12/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1592, in _shutdown
+    atexit_call()
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

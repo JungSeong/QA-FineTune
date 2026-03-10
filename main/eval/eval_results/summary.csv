@@ -1,0 +1,5 @@
+﻿experiment,answer_correctness,faithfulness,answer_relevancy
+exp1_baseline,0.4609,0.1583,0.1931
+exp2_rag,0.5889,0.4859,0.3111
+exp3_cot,0.6447,0.5255,0.3922
+exp4_sft,0.7284,0.5398,0.4274

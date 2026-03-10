@@ -1,0 +1,31 @@
+2026-02-28 15:04:33 - INFO - [main.py:35] - Loading Dataset...
+2026-02-28 15:04:33 - INFO - [preprocess_dataset.py:22] - Loading Dataset...
+2026-02-28 15:04:33 - INFO - [main.py:38] - Dataset loaded successfully
+2026-02-28 15:04:33 - INFO - [main.py:39] - train_dataset size: 248
+2026-02-28 15:04:33 - INFO - [main.py:40] - val_dataset size: 107
+2026-02-28 15:04:33 - INFO - [main.py:41] - test_dataset size: 89
+2026-02-28 15:04:33 - INFO - [main.py:43] - 🪙 Loading Model with LoRA and Tokenizer...
+2026-02-28 15:04:33 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-7.8B-Instruct
+2026-02-28 15:04:33 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 83, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 44, in main
+    model, tokenizer = load_or_download_model_tokenizer()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/model_utils.py", line 36, in load_or_download_model_tokenizer
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 356, in from_pretrained
+    model_class = get_class_from_dynamic_module(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/dynamic_module_utils.py", line 583, in get_class_from_dynamic_module
+    return get_class_in_module(class_name, final_module, force_reload=force_download)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/dynamic_module_utils.py", line 309, in get_class_in_module
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/vsc/.cache/huggingface/modules/transformers_modules/Exaone_hyphen_3_dot_5_hyphen_7_dot_8B_hyphen_Instruct/modeling_exaone.py", line 40, in <module>
+    from transformers.utils.generic import check_model_inputs, maybe_autocast
+ImportError: cannot import name 'check_model_inputs' from 'transformers.utils.generic' (/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/lib/python3.12/site-packages/transformers/utils/generic.py)

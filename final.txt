@@ -1,0 +1,56 @@
+1. 가상환경 생성 & 관련 라이브러리 설치
+라이브러리 변화에 따라 코드를 계속 바꾸어야 해서 한 번 세팅해 둔 라이브러리 버전을 계속 사용하는 것이 좋음
+
+가상환경 생성(Python 3.12 + CUDA 13.0)
+
+[[EXAONE]] -> infer
+uv venv venv-Exaone # 각 모델 별로 가상환경 이름을 다르게
+source venv-Exaone/bin/activate
+uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+uv pip install trl accelerate peft bitsandbytes datasets scikit-learn wandb rich tqdm ipykernel jupyter notebook seaborn evaluate openpyxl absl-py nltk rouge_score transformers
+uv pip install "numpy<2.2"
+uv pip install openai hf_transfer weave aiofiles kiwipiepy mcp
+
+[[EXAONE]] -> train
+uv venv venv-Exaone # 각 모델 별로 가상환경 이름을 다르게
+source venv-Exaone/bin/activate
+uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+uv pip install trl accelerate peft bitsandbytes datasets scikit-learn wandb rich tqdm ipykernel jupyter notebook seaborn evaluate openpyxl absl-py nltk rouge_score transformers
+uv pip install "numpy<2.2"
+uv pip install openai hf_transfer weave aiofiles kiwipiepy
+uv pip install transformers==5.1.0 # 중요!!!
+
+ipykernel : 주피터 노트북 상에 내 가상환경 커널을 등록할 수 있음
+
+myenv 가상 환경 내에서
+python -m ipykernel install --user --name myenv --display-name QA2
+python -m ipykernel install --user --name venv-RAG --display-name venv-DeepEval
+을 통해 myenv라는 내 가상환경을 QA라는 이름으로 커널을 등록할 수 있음
+한 번 등록해두면 내가 pip install로 추가적으로 설치한 것들이 계속 반영됨
+
+원치 않는 주피터 커널 삭제 :
+jupyter kernelspec uninstall <커널 이름>
+
+2. postgresql + pgvector + RAG
+
+# 도커 컨테이너 pull
+docker pull pgvector/pgvector:0.8.1-pg18-trixie
+
+# 도커 이미지 run
+docker run --name rag-postgres -e POSTGRES_PASSWORD='<PASSWORD>' -p 5432:5432 -d pgve
+ctor/pgvector:0.8.1-pg18-trixie
+
+
+[[venv-RAG]]
+uv venv venv-RAG
+uv pip install langchain-community
+uv pip install unstructured
+uv pip install sentence-transformers
+uv pip install langchain-huggingface
+uv pip install ipykernel
+uv pip install deepeval
+uv pip install langchain langchain-community pypdf
+
+[lmeval-harness]
+uv venv lmeval-harness
+uv pip install lm-eval[vllm]

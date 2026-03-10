@@ -1,0 +1,118 @@
+2026-02-15 23:02:11 - INFO - [main.py:35] - Loading Dataset...
+2026-02-15 23:02:11 - INFO - [preprocess_dataset.py:22] - Loading Dataset...
+2026-02-15 23:02:11 - INFO - [main.py:38] - Dataset loaded successfully
+2026-02-15 23:02:11 - INFO - [main.py:39] - train_dataset size: 716
+2026-02-15 23:02:11 - INFO - [main.py:40] - val_dataset size: 308
+2026-02-15 23:02:11 - INFO - [main.py:41] - test_dataset size: 257
+2026-02-15 23:02:11 - INFO - [main.py:43] - Loading Model with LoRA and Tokenizer...
+2026-02-15 23:02:11 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: /home/vsc/LLM/model/Exaone-3.5-2.4B-Instruct
+2026-02-15 23:02:11 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Loading weights: 100%|███████████████████████| 272/272 [00:59<00:00,  4.58it/s, Materializing param=transformer.wte.weight]
+2026-02-15 23:03:12 - INFO - [model_utils.py:46] - ✍🏿 Applying PEFT...
+2026-02-15 23:03:12 - INFO - [main.py:45] - PeftModelForCausalLM(
+  (base_model): LoraModel(
+    (model): ExaoneForCausalLM(
+      (transformer): ExaoneModel(
+        (wte): Embedding(102400, 2560, padding_idx=0)
+        (drop): Dropout(p=0.0, inplace=False)
+        (h): ModuleList(
+          (0-29): 30 x ExaoneDecoderLayer(
+            (ln_1): ExaoneRMSNorm((2560,), eps=1e-05)
+            (attn): ExaoneAttentionBlock(
+              (attention): ExaoneAttention(
+                (q_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=2560, out_features=2560, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=2560, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=2560, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (k_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=2560, out_features=640, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=2560, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=640, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (v_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=2560, out_features=640, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=2560, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=640, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (out_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=2560, out_features=2560, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=2560, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=2560, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+              )
+            )
+            (ln_2): ExaoneRMSNorm((2560,), eps=1e-05)
+            (mlp): ExaoneMLP(
+              (c_fc_0): Linear4bit(in_features=2560, out_features=7168, bias=False)
+              (c_fc_1): Linear4bit(in_features=2560, out_features=7168, bias=False)
+              (c_proj): Linear4bit(in_features=7168, out_features=2560, bias=False)
+              (act): SiLUActivation()
+            )
+          )
+        )
+        (ln_f): ExaoneRMSNorm((2560,), eps=1e-05)
+        (rotary): ExaoneRotaryEmbedding()
+      )
+      (lm_head): Linear(in_features=2560, out_features=102400, bias=False)
+    )
+  )
+)
+Applying formatting function to train dataset: 100%|██████████████████████████████| 716/716 [03:57<00:00,  3.02 examples/s]
+Adding EOS to train dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 716/716 [00:00<00:00, 42544.97 examples/s]
+Tokenizing train dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 716/716 [00:00<00:00, 3765.25 examples/s]
+Truncating train dataset: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 716/716 [00:00<00:00, 463087.38 examples/s]
+Applying formatting function to eval dataset: 100%|██████████████████████████████████████████████████████████████████████████████████| 308/308 [01:42<00:00,  3.00 examples/s]
+Adding EOS to eval dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 308/308 [00:00<00:00, 40576.86 examples/s]
+Tokenizing eval dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 308/308 [00:00<00:00, 3783.44 examples/s]
+Truncating eval dataset: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 308/308 [00:00<00:00, 251136.40 examples/s]
+2026-02-15 23:08:52 - INFO - [main.py:65] - ✅ 마지막 체크포인트 발견: ./SFT/checkpoint-270. 학습을 재개합니다.
+  0%|                                                                                                                                                 | 0/270 [00:00<?, ?it/s]
+{'train_runtime': '0.0068', 'train_samples_per_second': '3.144e+05', 'train_steps_per_second': '3.952e+04', 'train_loss': '0', 'epoch': '3'}
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 81, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/도서관_QA_Finetune/final/train/main.py", line 73, in main
+    accelerator.wait_for_everyone()
+    ^^^^^^^^^^^
+NameError: name 'accelerator' is not defined. Did you mean: 'Accelerator'?

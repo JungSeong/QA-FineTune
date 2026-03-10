@@ -1,0 +1,62 @@
+2026-03-10 17:20:53 - INFO - [infer.py:167] - 📡 Retriever 연결: http://localhost:8080
+2026-03-10 17:20:53 - INFO - [infer.py:113] - 📁 테스트 데이터 로드 완료: 52개
+2026-03-10 17:20:53 - INFO - [infer.py:338] - =======================================================
+2026-03-10 17:20:53 - INFO - [infer.py:339] - ▶ Exp1: Baseline 비동기 추론 시작 (질문만 입력)
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - ERROR - [infer.py:206] - ❌ 호출 오류 (model=/models/Exaone-3.5-7.8B-Instruct): Connection error.
+2026-03-10 17:20:54 - INFO - [infer.py:155] - ✅ exp1_baseline 저장 완료 (52개) | wall time: 1.67s (0.032s/sample)
+2026-03-10 17:20:54 - INFO - [infer.py:350] - =======================================================
+2026-03-10 17:20:54 - INFO - [infer.py:351] - ▶ Exp2: RAG 비동기 추론 시작 (retrieved context 입력)
+2026-03-10 17:20:56 - INFO - [infer.py:389] - =======================================================
+2026-03-10 17:20:56 - INFO - [infer.py:390] - ✅ 모든 추론 완료 → ./infer_results
+2026-03-10 17:20:56 - INFO - [infer.py:391] - 다음 단계: exaone 컨테이너 내리고 qwen 컨테이너 올린 뒤 2_evaluate.py 실행

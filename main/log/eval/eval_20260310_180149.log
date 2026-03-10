@@ -1,0 +1,8 @@
+2026-03-10 18:01:49 - INFO - [evaluate.py:142] - 🔗 Judge LLM 연결 중: /models/Qwen2.5-32B-Instruct-AWQ
+2026-03-10 18:01:49 - INFO - [evaluate.py:153] - 🤗 로컬 임베딩 모델 로드 중: /home/vsc/LLM/embedding/dragonkue/snowflake-arctic-embed-l-v2.0-ko
+2026-03-10 18:01:49 - INFO - [evaluate.py:249] - =======================================================
+2026-03-10 18:01:49 - INFO - [evaluate.py:250] - ▶ exp1_baseline 평가 시작
+2026-03-10 18:01:49 - INFO - [evaluate.py:114] - exp1_baseline 로드 완료: 52개
+2026-03-10 18:01:49 - INFO - [evaluate.py:192] - [exp1_baseline] 배치 1~10 평가 중...
+2026-03-10 18:07:17 - INFO - [evaluate.py:206] - ✅ 배치 완료: {'answer_correctness': 0.5225, 'faithfulness': 0.1395, 'answer_relevancy': 0.0522}
+2026-03-10 18:07:17 - INFO - [evaluate.py:192] - [exp1_baseline] 배치 11~20 평가 중...
