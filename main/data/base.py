@@ -16,6 +16,7 @@ from typing import List
 from openai import OpenAI, AsyncOpenAI, APIConnectionError, APIStatusError, APITimeoutError
 from deepeval.models import DeepEvalBaseLLM, DeepEvalBaseEmbeddingModel
 from deepeval.synthesizer import Synthesizer
+from deepeval.synthesizer.config import StylingConfig
 from config import Config
 
 # ─────────────────────────────────────────────────────────
@@ -37,6 +38,7 @@ MIN_CONTEXT_LENGTH  = config.MIN_CONTEXT_LENGTH
 MAX_RETRIES         = config.MAX_RETRIES
 TIMEOUT_SECONDS     = config.TIMEOUT_SECONDS
 CHUNK_SIZE          = config.CHUNK_SIZE
+styling_config = config.STYLING_CONFIG
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir  = os.path.dirname(current_dir)
@@ -155,12 +157,21 @@ class VLLMModel(DeepEvalBaseLLM):
             return False
 
     def _get_system_prompt(self, schema) -> str:
+        persona = (
+            "당신은 고양시 도서관의 친절한 AI 사서입니다. "
+            "4~5문장으로 간결하되 반드시핵심 내용을 담아 답변. "
+            "말투는 '~에요!', '~입니다!'등 밝고 명량한 말투로 답변. "
+            "답변 앞에 '친절하고 공손한' 같은 문구는 절대 붙이지 마세요."
+        )
         base = "모든 답변은 반드시 한국어로 작성하세요. "
+
         if self._is_response_schema(schema):
-            return base + "간결하고 직접적으로 답변하세요."
+            # expected_output 생성 시 → 사서 페르소나 적용
+            return persona + base
         if schema is not None:
-            return base + "반드시 유효한 JSON 형식으로만 응답하세요. 설명이나 마크다운을 포함하지 마세요."
-        return base + "도움이 되는 어시스턴트입니다."
+            # 질문 생성 시 → 일반 이용자 말투
+            return base + "반드시 유효한 JSON 형식으로만 응답하세요."
+        return base
 
     def _safe_json_parse(self, content: str, schema=None):
         """응답 문자열을 안전하게 파싱합니다."""
@@ -445,7 +456,6 @@ def generate_and_save_goldens(
     """
     컨텍스트를 chunk_size 단위로 나눠 처리하고,
     각 청크 완료 즉시 JSONL 파일에 저장합니다.
-    중간에 오류가 발생해도 이전 청크 결과는 보존됩니다.
     """
     try:
         Path(save_dir).mkdir(parents=True, exist_ok=True)
@@ -541,7 +551,10 @@ def generate_and_save_goldens_base() :
         contexts = load_contexts(TXT_PATH)
 
         # Step 5: Synthesizer 생성 및 Golden 생성 + 저장
-        synthesizer = Synthesizer(model=local_llm)
+        synthesizer = Synthesizer(
+            model=local_llm,
+            styling_config=styling_config,
+        )
         generate_and_save_goldens(
             synthesizer=synthesizer,
             contexts=contexts,

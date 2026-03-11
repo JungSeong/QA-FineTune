@@ -1,3 +1,11 @@
+"""
+고양시 도서관 FAQ 합성 데이터 생성기 (Base + Evolution)
+
+[사용 방법]
+1. QA-FineTune/docker에서 docker compose up -d
+2. python3 main.py
+"""
+
 import sys
 import os
 import subprocess

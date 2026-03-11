@@ -1,6 +1,6 @@
 """
 고양시 도서관 FAQ 합성 데이터 생성기
-- EvolutionConfig 기반 다양한 질문 유형 생성 (CONCRETIZING / REASONING / HYPOTHETICAL)
+- EvolutionConfig 기반 다양한 질문 유형 생성
 - 청크 단위 처리 + 즉시 JSONL 저장
 """
 
@@ -38,6 +38,7 @@ MAX_RETRIES         = config.MAX_RETRIES
 TIMEOUT_SECONDS     = config.TIMEOUT_SECONDS
 CHUNK_SIZE          = config.CHUNK_SIZE
 EVOLUTION_CONFIG = config.EVOLUTION_CONFIG
+styling_config = config.STYLING_CONFIG
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir  = os.path.dirname(current_dir)
@@ -142,9 +143,15 @@ class VLLMModel(DeepEvalBaseLLM):
             return False
 
     def _get_system_prompt(self, schema) -> str:
+        persona = (
+            "당신은 고양시 도서관의 친절한 AI 사서입니다. "
+            "4~5문장으로 간결하되 반드시핵심 내용을 담아 답변. "
+            "말투는 '~에요!', '~입니다!'등 밝고 명량한 말투로 답변. "
+            "답변 앞에 '친절하고 공손한' 같은 문구는 절대 붙이지 마세요."
+        )
         base = "모든 답변은 반드시 한국어로 작성하세요. "
         if self._is_response_schema(schema):
-            return base + "간결하고 직접적으로 답변하세요."
+            return persona + base
         if schema is not None:
             return base + "반드시 유효한 JSON 형식으로만 응답하세요. 설명이나 마크다운을 포함하지 마세요."
         return base + "도움이 되는 어시스턴트입니다."
@@ -501,6 +508,7 @@ def generate_and_save_goldens_evolution() :
         synthesizer = Synthesizer(
             model=local_llm,
             evolution_config=EVOLUTION_CONFIG,
+            styling_config=styling_config
         )
 
         # Step 6: 청크 단위 생성 + 즉시 JSONL 저장
