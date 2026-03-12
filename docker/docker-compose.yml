@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile.Exaone
     container_name: exaone
     image: exaone-vllm:latest
-    entrypoint: [ "python3", "/app/vllm_launcher.py", "vllm" ]
+    entrypoint: [ "python3", "/app/vllm_launcher.py", "vllm", "infer" ]
     ports:
       - "8002:8000" # vLLM LLM (외부 -> 내부)
       - "8003:8001" # vLLM Embeddings
