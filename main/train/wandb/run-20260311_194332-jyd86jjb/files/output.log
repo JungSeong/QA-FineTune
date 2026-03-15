@@ -1,0 +1,10 @@
+2026-03-11 19:43:34 - INFO - [main.py:35] - Loading Dataset...
+2026-03-11 19:43:34 - INFO - [main.py:40] - Dataset loaded successfully
+2026-03-11 19:43:34 - INFO - [main.py:41] - train_dataset size: 110
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 86, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 42, in main
+    logger.info(f"val_dataset size: {len(val_dataset)}")
+                                     ^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()

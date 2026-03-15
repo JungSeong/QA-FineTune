@@ -1,0 +1,17 @@
+{
+  "os":  "Linux-6.17.0-1008-nvidia-aarch64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2026-03-10T16:56:21.993574Z",
+  "program":  "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py",
+  "codePath":  "main/train/main.py",
+  "codePathLocal":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/JungSeong/QA-FineTune.git",
+    "commit":  "ff8f05eb35805fdd85c954b1452c17e51997e2d0"
+  },
+  "email":  "jungseonglian@sju.ac.kr",
+  "root":  "/home/vsc/LLM_TUNE/QA-FineTune/main/train",
+  "host":  "spark-aecc",
+  "executable":  "/home/vsc/LLM_TUNE/QA-FineTune/venv/venv-Exaone-Train/bin/python3",
+  "writerId":  "f78jnzjbvisvey7p21bfs14qny5oi3ay"
+}

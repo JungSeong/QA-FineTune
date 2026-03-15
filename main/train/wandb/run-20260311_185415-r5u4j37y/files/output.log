@@ -1,0 +1,261 @@
+2026-03-11 18:54:23 - INFO - [main.py:35] - Loading Dataset...
+2026-03-11 18:54:24 - INFO - [main.py:40] - Dataset loaded successfully
+2026-03-11 18:54:24 - INFO - [main.py:41] - train_dataset size: 88
+2026-03-11 18:54:24 - INFO - [main.py:42] - val_dataset size: 15
+2026-03-11 18:54:24 - INFO - [main.py:43] - test_dataset size: 7
+2026-03-11 18:54:24 - INFO - [main.py:45] - 🪙 Loading Model with LoRA and Tokenizer...
+2026-03-11 18:54:24 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: ../../../../LLM/model/Exaone-3.5-7.8B-Instruct
+2026-03-11 18:54:24 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 291/291 [03:15<00:00,  1.49it/s, Materializing param=transformer.wte.weight]
+2026-03-11 18:57:42 - INFO - [model_utils.py:46] - ✍🏿 Applying PEFT...
+2026-03-11 18:57:42 - INFO - [main.py:47] - PeftModelForCausalLM(
+  (base_model): LoraModel(
+    (model): ExaoneForCausalLM(
+      (transformer): ExaoneModel(
+        (wte): Embedding(102400, 4096, padding_idx=0)
+        (drop): Dropout(p=0.0, inplace=False)
+        (h): ModuleList(
+          (0-31): 32 x ExaoneDecoderLayer(
+            (ln_1): ExaoneRMSNorm((4096,), eps=1e-05)
+            (attn): ExaoneAttentionBlock(
+              (attention): ExaoneAttention(
+                (q_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=4096, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (k_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=1024, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (v_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=1024, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (out_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=4096, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+              )
+            )
+            (ln_2): ExaoneRMSNorm((4096,), eps=1e-05)
+            (mlp): ExaoneMLP(
+              (c_fc_0): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              (c_fc_1): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              (c_proj): Linear4bit(in_features=14336, out_features=4096, bias=False)
+              (act): SiLUActivation()
+            )
+          )
+        )
+        (ln_f): ExaoneRMSNorm((4096,), eps=1e-05)
+        (rotary): ExaoneRotaryEmbedding()
+      )
+      (lm_head): Linear(in_features=4096, out_features=102400, bias=False)
+    )
+  )
+)
+Applying formatting function to train dataset: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 88/88 [00:25<00:00,  3.50 examples/s]
+Adding EOS to train dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 88/88 [00:00<00:00, 30605.20 examples/s]
+Tokenizing train dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 88/88 [00:00<00:00, 2930.77 examples/s]
+Truncating train dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 88/88 [00:00<00:00, 79547.14 examples/s]
+Applying formatting function to eval dataset: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:04<00:00,  3.52 examples/s]
+Adding EOS to eval dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:00<00:00, 11270.97 examples/s]
+Tokenizing eval dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:00<00:00, 2375.48 examples/s]
+Truncating eval dataset: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:00<00:00, 17063.89 examples/s]
+2026-03-11 18:58:11 - INFO - [main.py:58] - 🏋️ Training_arguments : SFTConfig(
+accelerator_config={'split_batches': False, 'dispatch_batches': None, 'even_batches': True, 'use_seedable_sampler': True, 'non_blocking': False, 'gradient_accumulation_kwargs': None, 'use_configured_state': False},
+activation_offloading=False,
+adam_beta1=0.9,
+adam_beta2=0.999,
+adam_epsilon=1e-08,
+assistant_only_loss=False,
+auto_find_batch_size=False,
+average_tokens_across_devices=True,
+batch_eval_metrics=False,
+bf16=True,
+bf16_full_eval=False,
+chat_template_path=None,
+completion_only_loss=None,
+data_seed=None,
+dataloader_drop_last=False,
+dataloader_num_workers=0,
+dataloader_persistent_workers=False,
+dataloader_pin_memory=True,
+dataloader_prefetch_factor=None,
+dataset_kwargs=None,
+dataset_num_proc=None,
+dataset_text_field=text,
+ddp_backend=None,
+ddp_broadcast_buffers=None,
+ddp_bucket_cap_mb=None,
+ddp_find_unused_parameters=None,
+ddp_timeout=1800,
+debug=[],
+deepspeed=None,
+disable_tqdm=False,
+do_eval=True,
+do_predict=False,
+do_train=False,
+enable_jit_checkpoint=False,
+eos_token=<EOS_TOKEN>,
+eval_accumulation_steps=None,
+eval_delay=0,
+eval_do_concat_batches=True,
+eval_on_start=False,
+eval_packing=None,
+eval_steps=None,
+eval_strategy=IntervalStrategy.EPOCH,
+eval_use_gather_object=False,
+fp16=False,
+fp16_full_eval=False,
+fsdp=[],
+fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_v2': False, 'xla_fsdp_grad_ckpt': False},
+full_determinism=False,
+gradient_accumulation_steps=8,
+gradient_checkpointing=True,
+gradient_checkpointing_kwargs={'use_reentrant': False},
+greater_is_better=None,
+group_by_length=False,
+hub_always_push=False,
+hub_model_id=None,
+hub_private_repo=None,
+hub_revision=None,
+hub_strategy=HubStrategy.EVERY_SAVE,
+hub_token=<HUB_TOKEN>,
+ignore_data_skip=False,
+include_for_metrics=[],
+include_num_input_tokens_seen=no,
+label_names=None,
+label_smoothing_factor=0.0,
+learning_rate=2e-05,
+length_column_name=length,
+liger_kernel_config=None,
+load_best_model_at_end=False,
+local_rank=-1,
+log_level=passive,
+log_level_replica=warning,
+log_on_each_node=True,
+logging_dir=None,
+logging_first_step=False,
+logging_nan_inf_filter=True,
+logging_steps=10,
+logging_strategy=IntervalStrategy.EPOCH,
+loss_type=nll,
+lr_scheduler_kwargs=None,
+lr_scheduler_type=SchedulerType.COSINE,
+max_grad_norm=1.0,
+max_length=1024,
+max_steps=-1,
+metric_for_best_model=None,
+model_init_kwargs=None,
+neftune_noise_alpha=None,
+num_train_epochs=10,
+optim=OptimizerNames.ADAMW_TORCH_FUSED,
+optim_args=None,
+optim_target_modules=None,
+output_dir=../SFT/20260311_185408_SFT_with_RAW,
+packing=False,
+packing_strategy=bfd,
+pad_to_multiple_of=None,
+pad_token=<PAD_TOKEN>,
+padding_free=False,
+parallelism_config=None,
+per_device_eval_batch_size=8,
+per_device_train_batch_size=1,
+prediction_loss_only=False,
+project=huggingface,
+push_to_hub=False,
+remove_unused_columns=True,
+report_to=['wandb'],
+restore_callback_states_from_checkpoint=False,
+resume_from_checkpoint=None,
+run_name=None,
+save_on_each_node=False,
+save_only_model=False,
+save_steps=500,
+save_strategy=SaveStrategy.EPOCH,
+save_total_limit=2,
+seed=42,
+shuffle_dataset=False,
+skip_memory_metrics=True,
+tf32=None,
+torch_compile=False,
+torch_compile_backend=None,
+torch_compile_mode=None,
+torch_empty_cache_steps=None,
+trackio_space_id=trackio,
+use_cache=False,
+use_cpu=False,
+use_liger_kernel=False,
+warmup_ratio=0.1,
+warmup_steps=0.1,
+weight_decay=0.0,
+)
+2026-03-11 18:58:11 - INFO - [main.py:73] - 🚀 Starting training...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 110/110 [21:07<00:00, 11.53s/it]                          
+{'loss': '3.596', 'grad_norm': '2.078', 'learning_rate': '1.818e-05', 'entropy': '1.229', 'num_tokens': '2.346e+04', 'mean_token_accuracy': '0.4631', 'epoch': '1'}
+                                                                                                                                                                                                   
+{'eval_loss': '3.625', 'eval_runtime': '4.463', 'eval_samples_per_second': '3.361', 'eval_steps_per_second': '0.448', 'eval_entropy': '1.257', 'eval_num_tokens': '2.346e+04', 'eval_mean_token_accuracy': '0.4681', 'epoch': '1'}
+{'loss': '3.359', 'grad_norm': '1.789', 'learning_rate': '1.95e-05', 'entropy': '1.244', 'num_tokens': '4.692e+04', 'mean_token_accuracy': '0.492', 'epoch': '2'}
+{'eval_loss': '3.259', 'eval_runtime': '4.396', 'eval_samples_per_second': '3.412', 'eval_steps_per_second': '0.455', 'eval_entropy': '1.286', 'eval_num_tokens': '4.692e+04', 'eval_mean_token_accuracy': '0.4975', 'epoch': '2'}
+{'loss': '2.94', 'grad_norm': '1.648', 'learning_rate': '1.786e-05', 'entropy': '1.297', 'num_tokens': '7.038e+04', 'mean_token_accuracy': '0.5205', 'epoch': '3'}
+{'eval_loss': '2.876', 'eval_runtime': '4.407', 'eval_samples_per_second': '3.403', 'eval_steps_per_second': '0.454', 'eval_entropy': '1.352', 'eval_num_tokens': '7.038e+04', 'eval_mean_token_accuracy': '0.5253', 'epoch': '3'}
+{'loss': '2.592', 'grad_norm': '1.258', 'learning_rate': '1.527e-05', 'entropy': '1.364', 'num_tokens': '9.384e+04', 'mean_token_accuracy': '0.5469', 'epoch': '4'}
+{'eval_loss': '2.566', 'eval_runtime': '4.434', 'eval_samples_per_second': '3.383', 'eval_steps_per_second': '0.451', 'eval_entropy': '1.411', 'eval_num_tokens': '9.384e+04', 'eval_mean_token_accuracy': '0.5474', 'epoch': '4'}
+{'loss': '2.304', 'grad_norm': '1.297', 'learning_rate': '1.205e-05', 'entropy': '1.42', 'num_tokens': '1.173e+05', 'mean_token_accuracy': '0.5716', 'epoch': '5'}
+{'eval_loss': '2.321', 'eval_runtime': '4.407', 'eval_samples_per_second': '3.404', 'eval_steps_per_second': '0.454', 'eval_entropy': '1.456', 'eval_num_tokens': '1.173e+05', 'eval_mean_token_accuracy': '0.5744', 'epoch': '5'}
+{'loss': '2.097', 'grad_norm': '1.227', 'learning_rate': '8.577e-06', 'entropy': '1.448', 'num_tokens': '1.408e+05', 'mean_token_accuracy': '0.5957', 'epoch': '6'}
+{'eval_loss': '2.17', 'eval_runtime': '4.42', 'eval_samples_per_second': '3.393', 'eval_steps_per_second': '0.452', 'eval_entropy': '1.468', 'eval_num_tokens': '1.408e+05', 'eval_mean_token_accuracy': '0.5885', 'epoch': '6'}
+{'loss': '1.978', 'grad_norm': '1.031', 'learning_rate': '5.277e-06', 'entropy': '1.461', 'num_tokens': '1.642e+05', 'mean_token_accuracy': '0.612', 'epoch': '7'}
+{'eval_loss': '2.079', 'eval_runtime': '4.415', 'eval_samples_per_second': '3.398', 'eval_steps_per_second': '0.453', 'eval_entropy': '1.484', 'eval_num_tokens': '1.642e+05', 'eval_mean_token_accuracy': '0.6013', 'epoch': '7'}
+{'loss': '1.902', 'grad_norm': '1.07', 'learning_rate': '2.547e-06', 'entropy': '1.472', 'num_tokens': '1.877e+05', 'mean_token_accuracy': '0.625', 'epoch': '8'}
+{'eval_loss': '2.036', 'eval_runtime': '4.439', 'eval_samples_per_second': '3.379', 'eval_steps_per_second': '0.451', 'eval_entropy': '1.491', 'eval_num_tokens': '1.877e+05', 'eval_mean_token_accuracy': '0.6096', 'epoch': '8'}
+{'loss': '1.88', 'grad_norm': '1.203', 'learning_rate': '7.163e-07', 'entropy': '1.475', 'num_tokens': '2.111e+05', 'mean_token_accuracy': '0.6276', 'epoch': '9'}
+{'eval_loss': '2.03', 'eval_runtime': '4.403', 'eval_samples_per_second': '3.407', 'eval_steps_per_second': '0.454', 'eval_entropy': '1.49', 'eval_num_tokens': '2.111e+05', 'eval_mean_token_accuracy': '0.6101', 'epoch': '9'}
+{'loss': '1.881', 'grad_norm': '1.047', 'learning_rate': '5.035e-09', 'entropy': '1.475', 'num_tokens': '2.346e+05', 'mean_token_accuracy': '0.6277', 'epoch': '10'}
+{'eval_loss': '2.03', 'eval_runtime': '4.413', 'eval_samples_per_second': '3.399', 'eval_steps_per_second': '0.453', 'eval_entropy': '1.492', 'eval_num_tokens': '2.346e+05', 'eval_mean_token_accuracy': '0.6071', 'epoch': '10'}
+{'train_runtime': '1268', 'train_samples_per_second': '0.694', 'train_steps_per_second': '0.087', 'train_loss': '2.453', 'epoch': '10'}
+2026-03-11 19:19:20 - INFO - [main.py:82] - 🎓 Trained finished! Model saved to ../SFT/20260311_185408_SFT_with_RAW

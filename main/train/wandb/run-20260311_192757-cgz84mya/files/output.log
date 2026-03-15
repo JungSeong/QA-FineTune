@@ -1,0 +1,11 @@
+2026-03-11 19:27:59 - INFO - [main.py:35] - Loading Dataset...
+2026-03-11 19:27:59 - INFO - [main.py:41] - Dataset loaded successfully
+2026-03-11 19:27:59 - INFO - [main.py:42] - train_dataset size: 88
+2026-03-11 19:27:59 - INFO - [main.py:43] - val_dataset size: 22
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 87, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 44, in main
+    logger.info(f"test_dataset size: {len(test_dataset)}")
+                                          ^^^^^^^^^^^^
+NameError: name 'test_dataset' is not defined. Did you mean: 'train_dataset'?

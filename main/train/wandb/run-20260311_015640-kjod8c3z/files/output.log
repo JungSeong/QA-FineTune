@@ -1,0 +1,11 @@
+2026-03-11 01:56:41 - INFO - [main.py:35] - Loading Dataset...
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 85, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 37, in main
+    dataset = preprocess_raw_dataset()
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/preprocess_dataset.py", line 88, in preprocess_raw_dataset
+    df = pd.read_excel(comfig.RAW_DATASET_PATH)
+                       ^^^^^^
+NameError: name 'comfig' is not defined. Did you mean: 'Config'?

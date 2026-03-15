@@ -1,0 +1,11 @@
+2026-03-11 19:43:05 - INFO - [main.py:35] - Loading Dataset...
+Traceback (most recent call last):
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 86, in <module>
+    main()
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/main.py", line 37, in main
+    dataset = preprocess_raw_dataset()
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vsc/LLM_TUNE/QA-FineTune/main/train/preprocess_dataset.py", line 102, in preprocess_raw_dataset
+    "train": train_test["train"],
+             ^^^^^^^^^^
+NameError: name 'train_test' is not defined

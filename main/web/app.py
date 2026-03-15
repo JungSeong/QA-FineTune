@@ -18,7 +18,7 @@ SERVER_URL = "http://localhost:9000"
 
 MODEL_MODES = {
     "📚 Baseline  (파인튜닝 없음)":            "baseline",
-    "🧠 CoT-LoRA  (CoT 데이터 파인튜닝)":      "cot",
+    "📁 Just Excel  (엑셀 그대로 파인튜닝)":    "excel",
     "✨ SFT-LoRA  (DeepEval 데이터 파인튜닝)": "sft",
 }
 
@@ -34,11 +34,11 @@ def get_status() -> dict:
         return {"vllm": False, "rag": False, "current_model": "unknown"}
 
 
-def query_model(mode: str, question: str, context: str, use_rag: bool) -> dict:
+def query_model(mode: str, question: str, context: str, use_rag: bool, top_k: int) -> dict:
     try:
         resp = requests.post(
             f"{SERVER_URL}/query",
-            json={"mode": mode, "question": question, "context": context, "use_rag": use_rag},
+            json={"mode": mode, "question": question, "context": context, "use_rag": use_rag, "top_k": top_k},
             timeout=120,
         )
         return resp.json()
@@ -179,7 +179,7 @@ html, body, [data-testid="stAppViewContainer"] {
     margin-right: 4px;
 }
 .b-base   { background:#374151;    color:#9ca3af; }
-.b-cot    { background:#1e3a5f;    color:var(--accent); }
+.b-excel    { background:#1e3a5f;    color:var(--accent); }
 .b-sft    { background:#14532d55;  color:var(--green); }
 .b-rag    { background:#2e1a4a;    color:var(--purple); }
 
@@ -218,7 +218,7 @@ hr { border-color: var(--border) !important; }
 st.markdown("""
 <div class="main-header">
     <h1>📖 고양시 도서관 AI 사서</h1>
-    <p>Baseline · CoT-LoRA · SFT-LoRA 모델을 선택하여 도서관 FAQ를 질문해보세요</p>
+    <p>Baseline · Excel · SFT-LoRA 모델을 선택하여 도서관 FAQ를 질문해보세요</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -254,8 +254,8 @@ with st.sidebar:
 
     st.divider()
 
-    # context 입력 (CoT/SFT 전용)
-    if selected_mode in ("cot", "sft"):
+    # context 입력 (Excel/SFT 전용)
+    if selected_mode in ("excel", "sft"):
         st.markdown("### 📄 도서관 정보")
         context_input = st.text_area(
             "",
@@ -272,11 +272,15 @@ with st.sidebar:
     # 심층적 사고 (RAG)
     st.markdown("### 🔎 심층적 사고")
     use_rag = st.toggle(
-        "pgvector 문서 검색 활용",
+        "TOP_K 결정",
         value=False,
-        disabled=not rag_ok,
-        help="활성화 시 질문과 관련된 도서관 문서를 pgvector에서 검색하여 답변에 활용합니다.",
+        disabled=bool(not rag_ok),  # ← bool()로 명시적 변환
     )
+
+    if use_rag:
+        top_k = st.slider("검색 문서 수", min_value=1, max_value=20, value=5, step=1)
+    else:
+        top_k = 5
 
     if use_rag and rag_ok:
         st.markdown("""
@@ -322,7 +326,7 @@ if "messages" not in st.session_state:
 def get_badges(mode: str, used_rag: bool) -> str:
     mode_badge = {
         "baseline": '<span class="badge b-base">Baseline</span>',
-        "cot":      '<span class="badge b-cot">CoT-LoRA</span>',
+        "excel":      '<span class="badge b-excel">Excel</span>',
         "sft":      '<span class="badge b-sft">SFT-LoRA</span>',
     }.get(mode, "")
     rag_badge = '<span class="badge b-rag">+ RAG</span>' if used_rag else ""
@@ -399,6 +403,7 @@ if send and question.strip():
                 question.strip(),
                 context_input,
                 use_rag,
+                top_k
             )
             if "error" in result:
                 st.error(f"오류: {result['error']}")

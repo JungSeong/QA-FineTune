@@ -1,5 +1,0 @@
-2026-03-10 13:46:32 - ERROR - [split_golden_dataset.py:73] - 파일을 찾을 수 없습니다 — 건너뜁니다: ../synthetic_data/synthetic_goldens_evolution.jsonl
-2026-03-10 13:46:32 - INFO - [split_golden_dataset.py:76] - 읽기 시작: ../synthetic_data/synthetic_goldens.jsonl
-2026-03-10 13:46:32 - INFO - [split_golden_dataset.py:107] - synthetic_goldens.jsonl → 15개 로드 완료
-2026-03-10 13:46:32 - INFO - [split_golden_dataset.py:111] - 전체 로드 완료 — 고유 context: 5개 / QA쌍: 15개 (스킵: 0개)
-2026-03-10 13:46:32 - INFO - [split_golden_dataset.py:173] - 분리 완료 (seed=42, ratio=60%:20%:20%) — train: context 3개 / QA 9개 → ../golden_data/train_goldens.jsonl | val:   context 1개 / QA 3개 → ../golden_data/val_goldens.jsonl | test:  context 1개 / QA 3개 → ../golden_data/test_goldens.jsonl

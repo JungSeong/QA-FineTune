@@ -5,7 +5,7 @@
 역할:
   - exaone 컨테이너 vLLM OpenAI API 프록시
   - RAG 검색 서버 연동
-  - 모드별 프롬프트 처리 (Baseline / CoT-LoRA / SFT-LoRA + RAG 옵션)
+  - 모드별 프롬프트 처리 (Baseline / EXCEL / SFT-LoRA + RAG 옵션)
 
 실행 방법 (호스트에서):
   pip install fastapi uvicorn
@@ -36,10 +36,9 @@ from openai import OpenAI
 VLLM_BASE_URL  = "http://localhost:8002/v1"
 SEARCH_API_URL = "http://localhost:8080"
 VLLM_API_KEY   = "vllm-dummy"
-TOP_K          = 3
 MAX_NEW_TOKENS = 1024
 
-MODEL_COT = "cot-lora"
+MODEL_EXCEL = "excel"
 MODEL_SFT = "sft-lora"
 
 SYSTEM_BASELINE = (
@@ -94,17 +93,17 @@ def _get_current_model() -> str:
     try:
         resp  = requests.get(f"{VLLM_BASE_URL}/models", timeout=3).json()
         models = [m["id"] for m in resp.get("data", [])]
-        base   = [m for m in models if m not in (MODEL_COT, MODEL_SFT)]
+        base   = [m for m in models if m not in (MODEL_EXCEL, MODEL_SFT)]
         return base[0] if base else "unknown"
     except Exception:
         return "unknown"
 
 
-def _retrieve(question: str) -> list[str]:
+def _retrieve(question: str, top_k: int = 5) -> list[str]:
     try:
         resp = requests.get(
             f"{SEARCH_API_URL}/search",
-            params={"query": question, "k": TOP_K},
+            params={"query": question, "k": top_k},
             timeout=15,
         )
         return resp.json().get("results", []) if resp.status_code == 200 else []
@@ -153,11 +152,11 @@ app.add_middleware(
 # ─────────────────────────────────────────────────────────
 
 class QueryRequest(BaseModel):
-    mode:     str              # baseline | cot | sft
+    mode:     str              # baseline | excel | sft
     question: str
     context:  Optional[str] = ""
     use_rag:  bool           = False
-
+    top_k :   int            = 5
 
 # ─────────────────────────────────────────────────────────
 # 엔드포인트
@@ -185,7 +184,7 @@ def query(req: QueryRequest):
     if req.use_rag:
         if not _is_rag_alive():
             raise HTTPException(status_code=503, detail="RAG 검색 서버가 준비되지 않았습니다.")
-        retrieved_docs = _retrieve(req.question)
+        retrieved_docs = _retrieve(req.question, req.top_k)
 
     # ── 모드별 메시지 / model_id 구성 ─────────────────────
     if req.mode == "baseline":
@@ -202,7 +201,7 @@ def query(req: QueryRequest):
             ]
         model_id = _get_current_model()
 
-    elif req.mode in ("cot", "sft"):
+    elif req.mode in ("excel", "sft"):
         if req.use_rag:
             # RAG 검색 결과 + 수동 입력 context 병합
             rag_text     = "\n\n".join(retrieved_docs) if retrieved_docs else ""
@@ -215,7 +214,7 @@ def query(req: QueryRequest):
             {"role": "system", "content": SYSTEM_LIBRARY},
             {"role": "user",   "content": _build_user_content(req.question, context_text)},
         ]
-        model_id = MODEL_COT if req.mode == "cot" else MODEL_SFT
+        model_id = MODEL_EXCEL if req.mode == "excel" else MODEL_SFT
 
     else:
         raise HTTPException(status_code=400, detail=f"알 수 없는 mode: {req.mode}")

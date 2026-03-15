@@ -9,7 +9,7 @@ from trl import SFTTrainer, SFTConfig
 from config import Config
 from datasets import Dataset
 from model_utils import load_or_download_model_tokenizer
-from preprocess_dataset import preprocess_dataset, preprocess_golden_dataset
+from preprocess_dataset import preprocess_dataset, preprocess_golden_dataset, preprocess_raw_dataset
 from accelerate import Accelerator
 from prompts import generate_prompts
 from functools import partial
@@ -34,6 +34,7 @@ def main() :
 
     logger.info("Loading Dataset...")
     #dataset = preprocess_dataset()
+    # dataset = preprocess_raw_dataset()
     dataset = preprocess_golden_dataset()
     train_dataset, val_dataset, test_dataset = dataset['train'], dataset['val'], dataset['test']
     logger.info("Dataset loaded successfully")
@@ -54,7 +55,8 @@ def main() :
         processing_class=tokenizer,
         formatting_func=generate_prompts
     )
-
+    logger.info(f"🏋️ Training_arguments : {training_args}")
+ 
     torch.load = partial(torch.load, weights_only=False)
     last_checkpoint = None
     if os.path.isdir(config.OUTPUT_DIR):

@@ -1,0 +1,4 @@
+2026-03-11 19:43:31 - INFO - [main.py:26] - 💪 훈련 프로세스 시작
+2026-03-11 19:43:34 - INFO - [main.py:35] - Loading Dataset...
+2026-03-11 19:43:34 - INFO - [main.py:40] - Dataset loaded successfully
+2026-03-11 19:43:34 - INFO - [main.py:41] - train_dataset size: 110

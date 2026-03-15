@@ -1,0 +1,112 @@
+2026-03-11 01:57:50 - INFO - [main.py:35] - Loading Dataset...
+2026-03-11 01:57:50 - INFO - [main.py:40] - Dataset loaded successfully
+2026-03-11 01:57:50 - INFO - [main.py:41] - train_dataset size: 88
+2026-03-11 01:57:50 - INFO - [main.py:42] - val_dataset size: 15
+2026-03-11 01:57:50 - INFO - [main.py:43] - test_dataset size: 7
+2026-03-11 01:57:50 - INFO - [main.py:45] - 🪙 Loading Model with LoRA and Tokenizer...
+2026-03-11 01:57:50 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: ../../../../LLM/model/Exaone-3.5-7.8B-Instruct
+2026-03-11 01:57:50 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...
+Loading weights: 100%|█████████████| 291/291 [03:07<00:00,  1.55it/s, Materializing param=transformer.wte.weight]
+2026-03-11 02:01:01 - INFO - [model_utils.py:46] - ✍🏿 Applying PEFT...
+2026-03-11 02:01:01 - INFO - [main.py:47] - PeftModelForCausalLM(
+  (base_model): LoraModel(
+    (model): ExaoneForCausalLM(
+      (transformer): ExaoneModel(
+        (wte): Embedding(102400, 4096, padding_idx=0)
+        (drop): Dropout(p=0.0, inplace=False)
+        (h): ModuleList(
+          (0-31): 32 x ExaoneDecoderLayer(
+            (ln_1): ExaoneRMSNorm((4096,), eps=1e-05)
+            (attn): ExaoneAttentionBlock(
+              (attention): ExaoneAttention(
+                (q_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=4096, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (k_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=1024, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (v_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=1024, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+                (out_proj): lora.Linear4bit(
+                  (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=4096, out_features=16, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=16, out_features=4096, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                  (lora_magnitude_vector): ModuleDict()
+                )
+              )
+            )
+            (ln_2): ExaoneRMSNorm((4096,), eps=1e-05)
+            (mlp): ExaoneMLP(
+              (c_fc_0): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              (c_fc_1): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              (c_proj): Linear4bit(in_features=14336, out_features=4096, bias=False)
+              (act): SiLUActivation()
+            )
+          )
+        )
+        (ln_f): ExaoneRMSNorm((4096,), eps=1e-05)
+        (rotary): ExaoneRotaryEmbedding()
+      )
+      (lm_head): Linear(in_features=4096, out_features=102400, bias=False)
+    )
+  )
+)
+Applying formatting function to train dataset: 100%
+Adding EOS to train dataset: 100%|█| 88/88 [00:00<0
+Tokenizing train dataset: 100%|█| 88/88 [00:00<00:0
+Truncating train dataset: 100%|█| 88/88 [00:00<00:0
+Applying formatting function to eval dataset: 100%|
+Adding EOS to eval dataset: 100%|█| 15/15 [00:00<00
+Tokenizing eval dataset: 100%|█| 15/15 [00:00<00:00
+Truncating eval dataset: 100%|█| 15/15 [00:00<00:00
+2026-03-11 02:01:32 - INFO - [main.py:72] - 🚀 Starting training...
+100%|██████████████| 11/11 [02:03<00:00, 11.20s/it]
+{'loss': '3.595', 'grad_norm': '2.812', 'learning_rate': '2.34e-06', 'entropy': '1.242', 'num_tokens': '2.136e+04', 'mean_token_accuracy': '0.4638', 'epoch': '0.9091'}
+{'train_runtime': '123.2', 'train_samples_per_second': '0.714', 'train_steps_per_second': '0.089', 'train_loss': '3.557', 'entropy': '1.132', 'num_tokens': '2.346e+04', 'mean_token_accuracy': '0.5192', 'epoch': '1'}
+2026-03-11 02:03:36 - INFO - [main.py:81] - 🎓 Trained finished! Model saved to ../SFT/20260311_015747_SFT_with_Golden_Dataset

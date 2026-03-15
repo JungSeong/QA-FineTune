@@ -2,22 +2,24 @@ import subprocess
 import time
 import sys
 
-def run_vllm_servers():
+def run_vllm_servers(model):
     # 1. Exaone LLM + LoRA 서버
     # --model 뒤의 경로와 --lora-modules의 경로를 컨테이너 내부 절대경로로 명시
     exaone_cmd = [
         "python3", "-m", "vllm.entrypoints.openai.api_server",
-        "--model", "/models/Exaone-3.5-7.8B-Instruct",
+        "--model", f"/models/{model}",
         "--dtype", "bfloat16",
         "--max-model-len", "8192",
-        "--gpu-memory-utilization", "0.7",
+        "--gpu-memory-utilization", "0.8",
         "--trust-remote-code",
         "--port", "8000",
         "--enable-lora",
         "--max-loras", "2",
         "--lora-modules", 
-        "cot-lora=/models/Exaone-3.5-7.8B-Instruct-SFT-CoT/final_10",
-        "sft-lora=/models/Exaone-3.5-7.8B-Instruct-SFT-Golden/final_10"
+        "excel=/models/Exaone-3.5-7.8B-Instruct-Basic/final_10",
+        # "sft-lora=/models/Exaone-3.5-7.8B-Instruct-SFT-Golden/final_10"
+        # "sft-lora=/models/20260312_132127_SFT_with_Golden/final_10"
+        "sft-lora=/models/20260312_172429_SFT_with_Golden/final_10"
     ]
 
     # 2. Embedding 서버
@@ -86,8 +88,11 @@ def run_judgement_servers():
         p2.terminate()
 
 if __name__ == "__main__":
-    func_name = sys.argv[1]
+    func_name, situation = sys.argv[1], sys.argv[2]
     if func_name == "vllm" :
-        run_vllm_servers()
+        if situation == "gen" :
+            run_vllm_servers("Exaone-3.5-7.8B-Instruct")
+        elif situation == "infer" :
+            run_vllm_servers("Exaone-3.5-7.8B-Instruct")
     elif func_name == "judgement" :
         run_judgement_servers()

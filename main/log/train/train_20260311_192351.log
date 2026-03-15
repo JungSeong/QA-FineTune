@@ -1,0 +1,9 @@
+2026-03-11 19:23:51 - INFO - [main.py:26] - 💪 훈련 프로세스 시작
+2026-03-11 19:23:54 - INFO - [main.py:35] - Loading Dataset...
+2026-03-11 19:23:54 - INFO - [main.py:40] - Dataset loaded successfully
+2026-03-11 19:23:54 - INFO - [main.py:41] - train_dataset size: 88
+2026-03-11 19:23:54 - INFO - [main.py:42] - val_dataset size: 15
+2026-03-11 19:23:54 - INFO - [main.py:43] - test_dataset size: 7
+2026-03-11 19:23:54 - INFO - [main.py:45] - 🪙 Loading Model with LoRA and Tokenizer...
+2026-03-11 19:23:54 - INFO - [model_utils.py:31] - 📂 로컬 모델을 발견했습니다: ../../../../LLM/model/Exaone-3.5-7.8B-Instruct
+2026-03-11 19:23:54 - INFO - [model_utils.py:34] - 🚀 모델 로딩 중...

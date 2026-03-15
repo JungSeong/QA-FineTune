@@ -1,0 +1,9 @@
+{"time":"2026-03-11T12:04:47.020914715+09:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-11T12:04:47.412721756+09:00","level":"INFO","msg":"stream: created new stream","id":"v5rj0oxa"}
+{"time":"2026-03-11T12:04:47.412799162+09:00","level":"INFO","msg":"handler: started","stream_id":"v5rj0oxa"}
+{"time":"2026-03-11T12:04:47.412897095+09:00","level":"INFO","msg":"stream: started","id":"v5rj0oxa"}
+{"time":"2026-03-11T12:04:47.412912742+09:00","level":"INFO","msg":"writer: started","stream_id":"v5rj0oxa"}
+{"time":"2026-03-11T12:04:47.412932502+09:00","level":"INFO","msg":"sender: started","stream_id":"v5rj0oxa"}
+{"time":"2026-03-11T12:26:26.204534561+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/uailab-unist_/library-qa-finetune-train/v5rj0oxa/file_stream\": POST \"https://api.wandb.ai/files/uailab-unist_/library-qa-finetune-train/v5rj0oxa/file_stream\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-03-11T12:26:54.411206476+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/uailab-unist_/library-qa-finetune-train/v5rj0oxa/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:42112->127.0.0.53:53: i/o timeout"}
+{"time":"2026-03-11T13:21:04.71674186+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/uailab-unist_/library-qa-finetune-train/v5rj0oxa/file_stream\": POST \"https://api.wandb.ai/files/uailab-unist_/library-qa-finetune-train/v5rj0oxa/file_stream\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}

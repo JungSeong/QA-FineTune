@@ -1,7 +1,0 @@
-2026-03-10 16:00:54 - INFO - [main.py:20] - ✨ Golden train/val/test 데이터 생성 프로세스 시작
-2026-03-10 16:00:54 - INFO - [split_golden_dataset.py:65] - 읽기 시작: ./synthetic_data/synthetic_goldens.jsonl
-2026-03-10 16:00:54 - INFO - [split_golden_dataset.py:96] - synthetic_goldens.jsonl → 126개 로드 완료
-2026-03-10 16:00:54 - INFO - [split_golden_dataset.py:65] - 읽기 시작: ./synthetic_data/synthetic_goldens_evolution.jsonl
-2026-03-10 16:00:54 - INFO - [split_golden_dataset.py:96] - synthetic_goldens_evolution.jsonl → 126개 로드 완료
-2026-03-10 16:00:54 - INFO - [split_golden_dataset.py:100] - 전체 로드 완료 — 고유 context: 126개 / QA쌍: 252개 (스킵: 0개)
-2026-03-10 16:00:54 - INFO - [split_golden_dataset.py:162] - 분리 완료 (seed=42, ratio=60%:20%:20%) — train: context 75개 / QA 150개 → golden_data/train_goldens.jsonl | val:   context 25개 / QA 50개 → golden_data/val_goldens.jsonl | test:  context 26개 / QA 52개 → golden_data/test_goldens.jsonl

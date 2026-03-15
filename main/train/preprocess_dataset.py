@@ -82,3 +82,24 @@ def preprocess_dataset() :
         })
 
         return final_dataset
+
+def preprocess_raw_dataset():
+    """원본 xlsx Q&A를 직접 학습 포맷으로 변환"""
+    config = Config()
+    df = pd.read_excel(config.RAW_DATASET_PATH)
+    
+    records = []
+    for _, row in df.iterrows():
+        records.append({
+            "question":       str(row["TITLE"]).strip(),
+            "answer":         str(row["DES"]).strip(),
+            "original_title": str(row["TITLE"]).strip(),
+        })
+    
+    dataset = Dataset.from_list(records)
+    
+    return {
+        "train": dataset,
+        "val":   None,
+        "test":  None,
+    }
