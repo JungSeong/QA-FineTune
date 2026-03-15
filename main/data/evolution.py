@@ -328,26 +328,41 @@ class VLLMEmbedding(DeepEvalBaseEmbeddingModel):
 # ─────────────────────────────────────────────────────────
 
 def load_contexts(txt_path: str, min_length: int = MIN_CONTEXT_LENGTH) -> List[List[str]]:
-    """TXT 파일에서 FAQ 블록을 읽어 컨텍스트 리스트로 반환합니다."""
+    """단일 블록 컨텍스트 — CONCRETIZING, CONSTRAINED, REASONING용"""
     try:
         with open(txt_path, encoding="utf-8") as f:
             full_text = f.read().strip()
     except FileNotFoundError:
         logger.error("TXT 파일을 찾을 수 없습니다: %s", txt_path)
         raise
-    except OSError as e:
-        logger.error("TXT 파일 읽기 실패: %s", e, exc_info=True)
-        raise
 
     contexts = [[b.strip()] for b in full_text.split("\n\n") if len(b.strip()) >= min_length]
 
     if not contexts:
-        logger.error("유효한 컨텍스트가 없습니다. min_length(%d) 기준을 확인하세요.", min_length)
         raise ValueError("컨텍스트가 비어 있습니다.")
 
-    logger.info("유효 컨텍스트 수: %d", len(contexts))
+    logger.info("단일 컨텍스트 수: %d", len(contexts))
     return contexts
 
+
+def load_multi_contexts(txt_path: str, min_length: int = MIN_CONTEXT_LENGTH,
+                        multi_size: int = 2) -> List[List[str]]:
+    """다중 블록 컨텍스트 — MULTICONTEXT용"""
+    try:
+        with open(txt_path, encoding="utf-8") as f:
+            full_text = f.read().strip()
+    except FileNotFoundError:
+        logger.error("TXT 파일을 찾을 수 없습니다: %s", txt_path)
+        raise
+
+    blocks   = [b.strip() for b in full_text.split("\n\n") if len(b.strip()) >= min_length]
+    contexts = [blocks[i:i + multi_size] for i in range(0, len(blocks), multi_size)]
+
+    if not contexts:
+        raise ValueError("컨텍스트가 비어 있습니다.")
+
+    logger.info("다중 컨텍스트 수: %d (블록 %d개씩 묶음)", len(contexts), multi_size)
+    return contexts
 
 # ─────────────────────────────────────────────────────────
 # 5. 임베딩 동작 확인
@@ -502,19 +517,33 @@ def generate_and_save_goldens_evolution() :
         verify_embedder(local_embedder)
 
         # Step 4: 컨텍스트 로드
-        contexts = load_contexts(TXT_PATH)
+        single_contexts = load_contexts(TXT_PATH)
+        multi_contexts  = load_multi_contexts(TXT_PATH, multi_size=2)
 
         # Step 5: Synthesizer 생성 (EvolutionConfig 적용)
-        synthesizer = Synthesizer(
+        synthesizer_single = Synthesizer(
             model=local_llm,
-            evolution_config=EVOLUTION_CONFIG,
+            evolution_config=EVOLUTION_SINGLE_CONFIG,
+            styling_config=styling_config
+        )
+
+        synthesizer_multiple = Synthesizer(
+            model=local_llm,
+            evolution_config=EVOLUTION_MULTIPLE_CONFIG,
             styling_config=styling_config
         )
 
         # Step 6: 청크 단위 생성 + 즉시 JSONL 저장
         generate_and_save_goldens(
-            synthesizer=synthesizer,
-            contexts=contexts,
+            synthesizer=synthesizer_single,
+            contexts=single_contexts,
+            save_dir=SAVE_DIR,
+            file_name=EVOLUTION_FILE_NAME,
+        )
+
+        generate_and_save_goldens(
+            synthesizer=synthesizer_multiple,
+            contexts=multi_contexts,
             save_dir=SAVE_DIR,
             file_name=EVOLUTION_FILE_NAME,
         )

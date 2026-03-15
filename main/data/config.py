@@ -32,13 +32,19 @@ class Config :
         task="고양시 도서관 FAQ 기반 질의응답",
         scenario="도서관 이용 시민이 사서에게 이용 방법, 대출, 반납, 프로그램 등을 문의하는 상황",
     )
-    EVOLUTION_CONFIG = EvolutionConfig(
+    EVOLUTION_SINGLE_CONFIG = EvolutionConfig(
         evolutions={
-            Evolution.CONCRETIZING: 0.3,   # 구체적인 개념 질문
+            Evolution.CONCRETIZING: 0.4,   # 구체적인 개념 질문
             Evolution.REASONING:    0.3,   # 논리 추론 질문
-            Evolution.CONSTRAINED:  0.2,   # 특정 조건 / 제약 포함 질문
-            Evolution.HYPOTHETICAL: 0.1,   # 가상 시나리오 질문
-            Evolution.CONCRETIZING: 0.1    # 추상 개념 -> 구체적 사례 질문
+            Evolution.CONSTRAINED:  0.3,   # 특정 조건 / 제약 포함 질문
+            # Evolution.HYPOTHETICAL: 0.1,   # 가상 시나리오 질문
+            # Evolution.CONCRETIZING: 0.1    # 추상 개념 -> 구체적 사례 질문
+        },
+        num_evolutions=2,
+    )
+    EVOLUTION_MULTIPLE_CONFIG = EvolutionConfig(
+        evolutions={
+            Evolution.MULTICONTEXT: 1.0,
         },
         num_evolutions=2,
     )
