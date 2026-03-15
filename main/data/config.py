@@ -9,7 +9,7 @@ class Config :
     SAVE_DIR    = "./synthetic_data"
     BASE_FILE_NAME = "synthetic_goldens.jsonl"
     EVOLUTION_FILE_NAME   = "synthetic_goldens_evolution.jsonl"
-    LLM_MODEL_NAME   = "/models/Exaone-3.5-32B-Instruct"
+    LLM_MODEL_NAME   = "/models/Exaone-3.5-7.8B-Instruct"
     LLM_BASE_URL     = "http://localhost:8002/v1"
     EMBED_MODEL_NAME = "snowflake-arctic-embed-l-v2.0-ko"
     EMBED_BASE_URL   = "http://localhost:8003/v1"

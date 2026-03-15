@@ -145,8 +145,7 @@ class VLLMModel(DeepEvalBaseLLM):
         return self.model_name
 
     # ── 내부 헬퍼 ──────────────────────────────────────────
-
-    @staticmethod
+    @staticmethod # self를 안 쓰는데 클래스 안에 묶어 두고 싶을 때 사용
     def _is_response_schema(schema) -> bool:
         if schema is None:
             return False
@@ -156,21 +155,35 @@ class VLLMModel(DeepEvalBaseLLM):
         except Exception:
             return False
 
+    @staticmethod 
+    def _get_schema_name(schema) -> str:
+        return getattr(schema, "__name__", "")
+
     def _get_system_prompt(self, schema) -> str:
         persona = (
             "당신은 고양시 도서관의 친절한 AI 사서입니다. "
-            "4~5문장으로 간결하되 반드시핵심 내용을 담아 답변. "
-            "말투는 '~에요!', '~입니다!'등 밝고 명량한 말투로 답변. "
-            "답변 앞에 '친절하고 공손한' 같은 문구는 절대 붙이지 마세요."
+            "4~5문장으로 간결하되 반드시 핵심 내용을 담아 답변. "
+            "말투는 '~에요', '~입니다' 등 밝고 친근한 말투로 답변. "
+            "답변 앞에 어떠한 설명이나 제목도 절대 붙이지 마세요. "
         )
         base = "모든 답변은 반드시 한국어로 작성하세요. "
 
         if self._is_response_schema(schema):
             # expected_output 생성 시 → 사서 페르소나 적용
             return persona + base
+
         if schema is not None:
-            # 질문 생성 시 → 일반 이용자 말투
-            return base + "반드시 유효한 JSON 형식으로만 응답하세요."
+            schema_name = self._get_schema_name(schema)
+            if schema_name == "InputFeedback":
+                # InputFeedback 전용 → JSON 포맷 엄격히 지시
+                return (
+                    base +
+                    '반드시 {"score": <0~10 정수>, "feedback": "<한국어 문자열>"} '
+                    "형식의 JSON으로만 응답하세요. 다른 텍스트는 절대 포함하지 마세요."
+                )
+            # 그 외 JSON 스키마
+            return base + "반드시 유효한 JSON 형식으로만 응답하세요. 설명이나 마크다운을 포함하지 마세요."
+
         return base
 
     def _safe_json_parse(self, content: str, schema=None):
