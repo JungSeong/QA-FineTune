@@ -52,6 +52,12 @@ SYSTEM_LIBRARY = (
     "정보에 없는 내용은 함부로 추측하지 말고 정중히 확인이 어렵다고 답하세요."
 )
 
+# Prompt Injection 회피를 위한 키워드들
+INJECTION_KEYWORDS = [
+    "system prompt", "ignore previous", "이전 지시 무시", "이전 지시를 무시해"
+    "역할을 바꿔", "jailbreak", "당신은 이제"
+]
+
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir  = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
@@ -122,6 +128,15 @@ def _build_user_content(question: str, context: str) -> str:
         f"3. 답변 끝에 지시 사항을 반복하지 말 것."
     )
 
+def _sanitize_question(question: str) -> str:
+    if len(question) > 500:
+        raise HTTPException(status_code=400, detail="질문이 너무 깁니다. 500자 이내로 입력해주세요.")
+    q_lower = question.lower()
+    for kw in INJECTION_KEYWORDS:
+        if kw.lower() in q_lower:
+            logger.warning("⚠️ 프롬프트 인젝션 시도 감지: %s", question[:50])
+            raise HTTPException(status_code=400, detail="허용되지 않는 입력입니다.")
+    return question.strip()
 
 # ─────────────────────────────────────────────────────────
 # FastAPI 앱
@@ -177,6 +192,7 @@ def query(req: QueryRequest):
     if not _is_vllm_alive():
         raise HTTPException(status_code=503, detail="vLLM 서버가 준비되지 않았습니다. exaone 컨테이너를 확인하세요.")
 
+    req.question = _sanitize_question(req.question)
     client         = OpenAI(base_url=VLLM_BASE_URL, api_key=VLLM_API_KEY)
     retrieved_docs = []
 

@@ -407,6 +407,8 @@ if send and question.strip():
             )
             if "error" in result:
                 st.error(f"오류: {result['error']}")
+            elif result.get("status_code") == 400:
+                st.warning("입력을 다시 확인해주세요.")
             else:
                 st.session_state.messages.append({
                     "role":          "assistant",
