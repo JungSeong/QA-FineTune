@@ -19,8 +19,8 @@ services:
               capabilities: [ gpu ]
     volumes:
       # 추후에 정확한 경로로 바꿀 필요가 있음
-      - ../../../LLM/model:/models
-      - ../../../LLM/embedding:/embeddings
+      - ../../LLM/model:/models
+      - ../../LLM/embedding:/embeddings
       - ../main:/app
       - ../main/log:/app/log
     environment:
@@ -28,7 +28,8 @@ services:
       - PYTHONUNBUFFERED=1
       - PYTHONIOENCODING=UTF-8
       - MCP_PORT=4200
-      - VLLM_USE_V1=0
+      - VLLM_USE_V1=0  
+      - VLLM_ENABLE_V1_MULTIPROCESSING=0
     ipc: host
   # qwen:
   #   # Exaone의 도커 환경을 띄워주는 컨테이너

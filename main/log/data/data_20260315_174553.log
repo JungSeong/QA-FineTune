@@ -1,0 +1,165 @@
+2026-03-15 17:45:55 - INFO - [main.py:28] - ⚒️ Base 데이터 생성 프로세스 시작
+2026-03-15 17:45:56 - INFO - [base.py:71] - 컬럼: ['FAQ', 'TITLE', 'DES']
+2026-03-15 17:45:56 - INFO - [base.py:72] - 행 수: 110
+2026-03-15 17:45:56 - INFO - [base.py:108] - 저장 완료: ./raw/고양시도서관_FAQ1.txt (20561 글자)
+2026-03-15 17:45:56 - INFO - [base.py:109] - 미리보기:
+Q: 회원증을 대리발급 할 수 있나요?
+A: 회원증 대리발급은 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부만 가능하며 아래 구비서류를 지참하여 대리인이 방문 시 대리발급이 가능합니다.
+
+· 대상 : 만14세 미만 아동, 만65세 이상 어르신, 장애인, 임산부
+· 구비서류
+  - 공통 : ①위임자 신분증, ②피위임자(대리인) 신분증
+  - 장애인 : 장애인 복지카드 또는 장애인 증명서
+  - 임신부 : 산모수첩 / 산모 : 주민등록등본(출산 후 12개월까지)
+· 방법 : 홈페이지 회원가입 후 위 항목의 해당하는 구비서류를 지참하여 피위임자(대리인)이 도서관 방문
+
+Q: 가족회원이 무엇인가요?
+A: 가족회원이란, 고양시 도서관 정회원으로 가입 후 가족회원으로 등록 시 가족명의로 도서대출·도서예약
+2026-03-15 17:45:58 - INFO - [base.py:435] - 단일 임베딩 길이: 1024 | 첫 5개 값: [0.01563403382897377, -0.06608496606349945, -0.004012925550341606, -0.010335930623114109, -0.032752446830272675]
+2026-03-15 17:45:58 - INFO - [base.py:438] - 배치 결과 개수: 3 | 각 길이: [1024, 1024, 1024]
+2026-03-15 17:45:58 - INFO - [base.py:419] - 유효 컨텍스트 수: 126
+2026-03-15 17:45:58 - WARNING - [base.py:486] - 기존 JSONL 파일을 초기화합니다: synthetic_data\synthetic_goldens.jsonl
+2026-03-15 17:45:58 - INFO - [base.py:490] - 총 컨텍스트 126개를 13개 청크로 처리합니다 (청크 크기: 10)
+2026-03-15 17:45:58 - INFO - [base.py:493] - [청크 1/13] 컨텍스트 10개 처리 시작
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:501] - [청크 1/13] Golden 생성 실패 — 건너뜁니다: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+Traceback (most recent call last):
+  File "C:\Users\sw\Desktop\QA-FineTune\main\data\base.py", line 495, in generate_and_save_goldens
+    goldens = synthesizer.generate_goldens_from_contexts(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 382, in generate_goldens_from_contexts
+    loop.run_until_complete(
+  File "C:\Users\sw\AppData\Roaming\uv\python\cpython-3.12.3-windows-x86_64-none\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 609, in a_generate_goldens_from_contexts
+    await asyncio.gather(*tasks)
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 1384, in task_wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 672, in _a_generate_from_context
+    synthetic_inputs: List[SyntheticData] = await self._a_generate_inputs(
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 1115, in _a_generate_inputs
+    res: SyntheticDataList = await self._a_generate_schema(
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 1335, in _a_generate_schema
+    res = await model.a_generate(prompt, schema=schema)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\main\data\base.py", line 279, in a_generate
+    res = await self.async_client.chat.completions.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\openai\_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\openai\_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - INFO - [base.py:493] - [청크 2/13] 컨텍스트 10개 처리 시작
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - ERROR - [base.py:501] - [청크 2/13] Golden 생성 실패 — 건너뜁니다: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+Traceback (most recent call last):
+  File "C:\Users\sw\Desktop\QA-FineTune\main\data\base.py", line 495, in generate_and_save_goldens
+    goldens = synthesizer.generate_goldens_from_contexts(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 382, in generate_goldens_from_contexts
+    loop.run_until_complete(
+  File "C:\Users\sw\AppData\Roaming\uv\python\cpython-3.12.3-windows-x86_64-none\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 609, in a_generate_goldens_from_contexts
+    await asyncio.gather(*tasks)
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 1384, in task_wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 672, in _a_generate_from_context
+    synthetic_inputs: List[SyntheticData] = await self._a_generate_inputs(
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 1115, in _a_generate_inputs
+    res: SyntheticDataList = await self._a_generate_schema(
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 1335, in _a_generate_schema
+    res = await model.a_generate(prompt, schema=schema)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\main\data\base.py", line 279, in a_generate
+    res = await self.async_client.chat.completions.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\openai\_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\openai\_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:45:59 - INFO - [base.py:493] - [청크 3/13] 컨텍스트 10개 처리 시작
+2026-03-15 17:46:00 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:00 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:00 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:00 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:00 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:00 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:00 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:00 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:00 - ERROR - [base.py:501] - [청크 3/13] Golden 생성 실패 — 건너뜁니다: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+Traceback (most recent call last):
+  File "C:\Users\sw\Desktop\QA-FineTune\main\data\base.py", line 495, in generate_and_save_goldens
+    goldens = synthesizer.generate_goldens_from_contexts(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 382, in generate_goldens_from_contexts
+    loop.run_until_complete(
+  File "C:\Users\sw\AppData\Roaming\uv\python\cpython-3.12.3-windows-x86_64-none\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 609, in a_generate_goldens_from_contexts
+    await asyncio.gather(*tasks)
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 1384, in task_wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 672, in _a_generate_from_context
+    synthetic_inputs: List[SyntheticData] = await self._a_generate_inputs(
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 1115, in _a_generate_inputs
+    res: SyntheticDataList = await self._a_generate_schema(
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\deepeval\synthesizer\synthesizer.py", line 1335, in _a_generate_schema
+    res = await model.a_generate(prompt, schema=schema)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\main\data\base.py", line 279, in a_generate
+    res = await self.async_client.chat.completions.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\openai\_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sw\Desktop\QA-FineTune\venv\venv-RAG\Lib\site-packages\openai\_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:00 - INFO - [base.py:493] - [청크 4/13] 컨텍스트 10개 처리 시작
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}
+2026-03-15 17:46:01 - ERROR - [base.py:312] - LLM 비동기 API 오류 [HTTP 400]: Error code: 400 - {'error': {'message': 'max_tokens=3000cannot be greater than max_model_len=max_total_tokens=2048. Please request fewer output tokens. (parameter=max_tokens, value=3000)', 'type': 'BadRequestError', 'param': 'max_tokens', 'code': 400}}

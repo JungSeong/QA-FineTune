@@ -1,6 +1,11 @@
 import subprocess
 import time
 import sys
+import os
+
+embed_env = os.environ.copy()
+embed_env["VLLM_USE_V1"] = "0"
+embed_env["VLLM_ENABLE_V1_MULTIPROCESSING"] = "0"
 
 def run_vllm_servers(model):
     # 1. Exaone LLM + LoRA 서버
@@ -8,27 +13,27 @@ def run_vllm_servers(model):
     exaone_cmd = [
         "python3", "-m", "vllm.entrypoints.openai.api_server",
         "--model", f"/models/{model}",
-        "--dtype", "bfloat16",
-        "--max-model-len", "8192",
+        "--quantization", "bitsandbytes",
+        "--dtype", "auto",
+        "--max-model-len", "4096",
         "--gpu-memory-utilization", "0.8",
         "--trust-remote-code",
         "--port", "8000",
-        "--enable-lora",
-        "--max-loras", "2",
-        "--lora-modules", 
-        "excel=/models/Exaone-3.5-7.8B-Instruct-Basic/final_10",
+        # "--enable-lora",
+        # "--max-loras", "2",
+        # "--lora-modules", 
+        # "excel=/models/Exaone-3.5-7.8B-Instruct-Basic/final_10",
         # "sft-lora=/models/Exaone-3.5-7.8B-Instruct-SFT-Golden/final_10"
         # "sft-lora=/models/20260312_132127_SFT_with_Golden/final_10"
-        "sft-lora=/models/20260312_172429_SFT_with_Golden/final_10"
+        # "sft-lora=/models/20260312_172429_SFT_with_Golden/final_10"
     ]
 
     # 2. Embedding 서버
     embed_cmd = [
-        "python3", "-m", "vllm.entrypoints.openai.api_server",
+        "python3", "/app/embedding_server.py",
         "--model", "/embeddings/dragonkue/snowflake-arctic-embed-l-v2.0-ko",
-        "--served-model-name", "snowflake-arctic-embed-l-v2.0-ko",
-        "--gpu-memory-utilization", "0.1",
-        "--port", "8001"
+        "--port", "8001",
+        "--device", "cuda",
     ]
 
     print("🚀 Starting Exaone LLM Server (Port 8000)...")
@@ -78,7 +83,7 @@ def run_judgement_servers():
     time.sleep(60)
 
     print("🚀 Starting Embedding Server (Port 8001)...")
-    p2 = subprocess.Popen(embed_cmd)
+    p2 = subprocess.Popen(embed_cmd, env=embed_env)
 
     try:
         p1.wait()

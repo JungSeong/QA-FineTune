@@ -50,7 +50,12 @@ uv pip install langchain-huggingface
 uv pip install ipykernel
 uv pip install deepeval
 uv pip install langchain langchain-community pypdf
+uv pip install pandas
 
 [lmeval-harness]
 uv venv lmeval-harness
 uv pip install lm-eval[vllm]
+
+RTX-3060의 경우 Docker-Exaone에서
+vllm/vllm-openai:v0.8.3
+로 대체하여 다운로드 받을 것

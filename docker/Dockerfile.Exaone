@@ -1,4 +1,4 @@
-FROM vllm/vllm-openai:cu130-nightly-f91808ae0ddf750acfdeb351fa072c91d4d678fc
+FROM vllm/vllm-openai:cu130-nightly-x86_64
 ENTRYPOINT []
 WORKDIR /app
 COPY requirements_exaone.txt .

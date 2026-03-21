@@ -240,7 +240,7 @@ class VLLMModel(DeepEvalBaseLLM):
                 model=self.model_name,
                 messages=self._build_messages(prompt, schema),
                 temperature=0,
-                max_tokens=3000,
+                max_tokens=1024,
             )
             choice = res.choices[0]
 
@@ -280,7 +280,7 @@ class VLLMModel(DeepEvalBaseLLM):
                 model=self.model_name,
                 messages=self._build_messages(prompt, schema),
                 temperature=0,
-                max_tokens=3000,
+                max_tokens=1024,
             )
             choice = res.choices[0]
 

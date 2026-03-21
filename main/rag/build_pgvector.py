@@ -25,6 +25,24 @@ from langchain_community.document_loaders import DataFrameLoader
 from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 from pathlib import Path
+from langchain_core.embeddings import Embeddings
+import requests
+
+class LocalEmbeddings(Embeddings):
+    def __init__(self, base_url: str, model: str):
+        self.base_url = base_url
+        self.model    = model
+
+    def embed_documents(self, texts: list[str]) -> list[list[float]]:
+        resp = requests.post(
+            f"{self.base_url}/embeddings",
+            json={"input": texts, "model": self.model},
+            headers={"Authorization": "Bearer none"},
+        )
+        return [d["embedding"] for d in resp.json()["data"]]
+
+    def embed_query(self, text: str) -> list[float]:
+        return self.embed_documents([text])[0]
 
 load_dotenv(Path(__file__).parent.parent.parent / "docker" / ".env")
 
@@ -35,18 +53,17 @@ DB_HOST        = "localhost"
 EMBEDDING_API_URL = "http://localhost:8003/v1"
 
 print("🚀 데이터 로딩 시작...")
-# df = pd.read_excel("../data/raw/고양시도서관 FAQ1.xlsx")
-df = pd.read_excel("../data/raw/강원도교육청도서관 FAQ1.xlsx")
+df = pd.read_excel("../data/raw/고양시도서관 FAQ1.xlsx")
+# df = pd.read_excel("../data/raw/강원도교육청도서관 FAQ1.xlsx")
 df["content"] = df["TITLE"].str.strip() + "\n" + df["DES"].str.strip()
 
 loader = DataFrameLoader(df, page_content_column="content")
 docs   = loader.load()
 print(f"✅ {len(docs)}개 문서 로드 완료")
 
-embeddings = OpenAIEmbeddings(
+embeddings = LocalEmbeddings(
+    base_url=EMBEDDING_API_URL,
     model="snowflake-arctic-embed-l-v2.0-ko",
-    openai_api_base=EMBEDDING_API_URL,
-    openai_api_key="none",
 )
 
 connection_uri = f"postgresql+psycopg://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_NAME}"

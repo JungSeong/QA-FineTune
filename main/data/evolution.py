@@ -226,7 +226,7 @@ class VLLMModel(DeepEvalBaseLLM):
             res = self.client.chat.completions.create(
                 model=self.model_name,
                 messages=self._build_messages(prompt, schema),
-                temperature=0, max_tokens=3000,
+                temperature=0, max_tokens=1024,
             )
             return self._check_response(res, prompt, schema)
         except APITimeoutError:
@@ -244,7 +244,7 @@ class VLLMModel(DeepEvalBaseLLM):
             res = await self.async_client.chat.completions.create(
                 model=self.model_name,
                 messages=self._build_messages(prompt, schema),
-                temperature=0, max_tokens=3000,
+                temperature=0, max_tokens=1024,
             )
             return self._check_response(res, prompt, schema)
         except APITimeoutError:

@@ -12,3 +12,4 @@ python-dotenv
 huggingface_hub>=0.26.0
 bitsandbytes>=0.43.0
 orjson
+sentence-transformers
